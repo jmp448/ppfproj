@@ -4,20 +4,20 @@ function status = readTranscript()
     curr = 'A1';
     tag = xlrd('transcript',curr);
     
-    while tag ~= ""
-        if tag == "Effdt Primary Name"
+    while tag ~= ''
+        if tag == 'Effdt Primary Name'
             tmp = char(curr);
             NAME_COL = tmp(1);
-        elseif tag == "Subject"
+        elseif tag == 'Subject'
             tmp = char(curr);
             DEPT_COL = tmp(1);
-        elseif tag == "Catalog Nbr"
+        elseif tag == 'Catalog Nbr'
             tmp = char(curr);
             NUM_COL = tmp(1);
-        elseif tag == "Official Grade"
+        elseif tag == 'Official Grade'
             tmp = char(curr);
             GRADE_COL = tmp(1);
-        elseif tag == "Unt Taken"
+        elseif tag == 'Unt Taken'
             tmp = char(curr);
             CREDS_COL = tmp(1);
         end
@@ -33,7 +33,7 @@ function status = readTranscript()
     % Read off classes from transcript
     currRow = 2;
     class = getClass('transcript',currRow,labels);
-    while (class.name~="empty row")
+    while (class.name~='empty row')
         % Record which course requirements are satisfied by the classes
         % taken
         if isKey(cm,class.name) %TODO add conditional for getting the minimum required grade
