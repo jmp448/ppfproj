@@ -1,0 +1,44 @@
+from openpyxl import load_workbook
+import numpy as np
+import hop
+import class_structs
+
+wb = load_workbook(filename='transcript.xlsx',data_only=True)
+
+transcript = wb.active
+
+# Figure out what columns contain what info
+pos = 'A1'
+curr = transcript[pos].value
+while curr != None:
+	if curr == 'Academic Term Sdescr':
+		semester_col = pos[0]
+	elif curr == 'Effdt Primary Name':
+		name_col = pos[0]
+	elif curr == 'Netid':
+		netid_col = pos[0]
+	elif curr == 'Employee Id':
+		emplid_col = pos[0]
+	elif curr == 'Advisor':
+		advisor_col = pos[0]
+	elif curr == 'Exp Grad Term Sdescr':
+		grad_col = pos[0]
+	elif curr == 'Class Descr':
+		desc_col = pos[0]
+	elif curr == 'Subject':
+		subj_col = pos[0]
+	elif curr == 'Catalog Nbr':
+		cat_col = pos[0]
+	elif curr == 'Official Grade':
+		grade_col = pos[0]
+	elif curr == 'Unt Taken':
+		creds_col = pos[0]
+
+	pos = hop.colhop(pos)
+	curr = transcript[pos].value
+
+colhop(pos)
+
+newbie = class_structs.Class()
+
+course_map = {}
