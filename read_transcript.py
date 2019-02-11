@@ -1,76 +1,95 @@
 from openpyxl import load_workbook
-import numpy as np
-import hop
-import class_structs as cs
-import course_map
+from helper_tools import *
+from helper_structs import *
 import os
 
-def read_transcript():
 
-	wb = load_workbook(filename='transcript.xlsx',data_only=True)
+PPF_COLS = {
+    'Course': 'G',
+    'Grade': 'I',
+    'Credits': 'K',
+    'Totals': 'M'
+}
 
-	transcript = wb.active
 
-	# Figure out what columns contain what info
-	pos = 'A1'
-	curr = transcript[pos].value
-	cols={}
+def read_class_from_transcript(transcript, cols, row):
 
-	while curr != None:
-		if curr == 'Academic Term Sdescr':
-			cols['semester'] = pos[0]
-		elif curr == 'Effdt Primary Name':
-			cols['name'] = pos[0]
-		elif curr == 'Netid':
-			cols['netid'] = pos[0]
-		elif curr == 'Employee Id':
-			cols['emplid'] = pos[0]
-		elif curr == 'Advisor':
-			cols['advisor'] = pos[0]
-		elif curr == 'Exp Grad Term Sdescr':
-			cols['grad'] = pos[0]
-		elif curr == 'Class Descr':
-			cols['desc'] = pos[0]
-		elif curr == 'Subject':
-			cols['subj'] = pos[0]
-		elif curr == 'Catalog Nbr':
-			cols['num'] = pos[0]
-		elif curr == 'Official Grade':
-			cols['grade'] = pos[0]
-		elif curr == 'Unt Taken':
-			cols['creds'] = pos[0]
+    dept_loc = cols['dept'] + row
+    dept = transcript[dept_loc].value
 
-		pos = hop.colhop(pos)
-		curr = transcript[pos].value
+    num_loc = cols['num'] + row
+    num = transcript[num_loc].value
 
-	# Create the list of course requirements and corresponding options
-	cm = course_map.create()
+    course_num = dept + str(num)
 
-	# Create class objects
-	class Class(object):
-		def __init__(self,file=transcript,row=None,cols=None):
+    creds_loc = cols['creds'] + row
+    creds = transcript[creds_loc].value
 
-			dept_loc = cols['subj']+row
-			num_loc = cols['num']+row
-			self.course_num = file[dept_loc].value + str(file[num_loc].value)
+    grade_loc = cols['grade'] + row
+    grade = transcript[grade_loc].value
 
-			creds_loc = cols['creds']+row
-			self.creds = file[creds_loc].value
+    desc_loc = cols['desc'] + row
+    desc = transcript[desc_loc].value
 
-			grade_loc = cols['grade']+row
-			self.grade = file[grade_loc].value
+    term_loc = cols['semester'] + row
+    term = transcript[term_loc].value
 
-	# Read class objects off of transcript and update course map accordingly
-	curr_row = 2
-	name_loc = cols['name'] + str(curr_row)
-	curr_stud = transcript[name_loc].value
+    c = Course(course_num, grade, creds, term=term, desc=desc)
 
-	# 
-	while transcript[name_loc].value == curr_stud:
-		curr_class = Class(row=str(curr_row),cols=cols)
-		if curr_class.course_num in cm:
-			cm[curr_class.course_num].fillby(curr_class)
-		curr_row += 1
-		name_loc = cols['name'] + str(curr_row)
+    if c.desc == 'AP':
+        c.grade = 'AP'
+    if c.desc == 'LEC':
+        c.grade = c.term
 
-	return cm
+    return c
+
+
+def test_read_class_ppf():
+    parent = os.getcwd()
+    os.chdir(parent + "/Students_test")
+
+    ppf = open_excel_file("poppj-jmp448.xlsx")
+    c = read_class_from_ppf(ppf, 12)
+    assert(c.num == 'MATH 1910')
+    assert(c.creds == 4)
+    assert(c.grade == 'A+')
+
+    os.chdir(parent)
+
+    print('read_class_from_ppf is working')
+
+
+
+def main():
+    # test_read_class_ppf()
+    _, _, transcript = open_excel_file("transcript_test.xlsx")
+
+    cols = designate_columns(transcript)
+    row = '2'
+
+    students_remain = True
+    on_current_student = True
+
+    while students_remain:
+        curr = Student(transcript, row, cols)
+        while on_current_student:
+            c = read_class_from_transcript(transcript, cols, row)
+            curr.courses_unused.append(c)
+            curr.courses_taken.append(c)
+            row = str(int(row) + 1)
+            if transcript[cols['student name'] + row].value is None:
+                students_remain = False
+                break
+            elif transcript[cols['student name'] + row].value != curr.name:
+                break
+
+        curr.update_ppf()
+        # curr.check_1200()
+        # curr.check_pe()
+        # curr.check_capstone()
+
+
+
+
+if __name__ == "__main__":
+    main()
