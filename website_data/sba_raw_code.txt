@@ -1,0 +1,6096 @@
+<!DOCTYPE HTML><html><head><script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/masks.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Liberal Studies Category: SBA</title> <script src="/liberalstudies/js/ls_course_ajax.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/app_header/appheader_main.css" />
+
+
+
+<link rel="stylesheet" type="text/css" href="/app_header/appheader_mobile.css" />
+
+
+
+<!--[if lt IE 9]>
+
+<link rel="stylesheet" href="/app_header/appheader_IE.css" type="text/css" media="screen, projection"><![endif]-->
+
+<script type="text/javascript">
+<!--
+    _CF_checkCFForm_1 = function(_CF_this)
+    {
+        //reset on submit
+        _CF_error_exists = false;
+        _CF_error_messages = new Array();
+        _CF_error_fields = new Object();
+        _CF_FirstErrorField = null;
+
+
+        //display error messages and return success
+        if( _CF_error_exists )
+        {
+            if( _CF_error_messages.length > 0 )
+            {
+                // show alert() message
+                _CF_onErrorAlert(_CF_error_messages);
+                // set focus to first form error, if the field supports js focus().
+                if( _CF_this[_CF_FirstErrorField].type == "text" )
+                { _CF_this[_CF_FirstErrorField].focus(); }
+
+            }
+            return false;
+        }else {
+            return true;
+        }
+    }
+//-->
+</script>
+</head> <body style="margin: 0px 0px 0px 0px;"> 
+
+
+
+
+
+<!-- The following div contains the Cornell University logo with unit signature -->
+
+
+
+
+
+<div id="cu-identity">
+
+
+
+	<div id="cu-logo">
+
+
+
+		<img src="/app_header/images/stilllogo_3.jpg" alt="Cornell University" width="260" height="75" border="0" usemap="#linksmap"/></a>
+
+				<map name="linksmap">
+
+				<area shape="rect" coords="50,22,175,40" href="http://www.cornell.edu/" alt="Cornell University">
+
+				<area shape="rect" coords="55,41,200,60" href="http://www.engineering.cornell.edu/" alt="College of Engineering">
+
+					<area shape="circle" coords="28,36,23" href="http://www.cornell.edu/" alt="Cornell University">
+
+				</map>
+
+  	</div>
+
+
+
+	<div id="search_form">
+
+	<form name="CFForm_1" id="CFForm_1" action="https://apps.engineering.cornell.edu/liberalstudies/search.cfm" method="post" onsubmit="return _CF_checkCFForm_1(this)">
+
+				<label id="search_text">SEARCH:</label>
+
+		<input name="q" type="text" maxlength="256"  size="20"  id="search_query"  /> <input name="enter" type="submit" value="go" id="search_submit"  /> </form>
+
+
+	</div>
+
+</div>
+
+
+
+
+
+	
+
+
+
+	<!-- The header div contains the main identity and main navigation for the site -->
+
+<div id="header">
+
+	<!--
+
+		The navigation div contains the site's main navigation. These
+
+		links will be displayed in a horizontal, gray navigation bar
+
+		under the unit signature banner.
+
+	-->
+
+	
+
+	<div id="navigation">
+
+		<ul>
+
+			<li><a href="index.cfm" >Liberal Studies Policy</a></li>
+
+	
+            <li><a href="CA.cfm" >CA</a></li>
+
+            <li><a href="HA.cfm" >HA</a></li>
+
+            <li><a href="KCM.cfm" >KCM</a></li>
+
+            <li><a href="LA.cfm" >LA</a></li>
+
+            <li><a href="SBA.cfm" class="current">SBA</a></li>
+
+			<li><a href="CE.cfm" >CE</a></li>
+
+            <li><a href="policy.cfm" >Petitions</a></li>
+
+
+
+            <li><a href="ApprovedLiberalStudies.pdf">Other Yes</a></li>
+
+
+
+          <li><a href="DeniedLiberalStudies.pdf">Other No</a></li>
+
+		  
+
+		  
+
+
+
+		</ul>
+
+	</div>
+
+
+
+  </div>
+
+  <div id="identity">
+
+  Liberal Studies Category: SBA
+
+  </div>
+
+
+
+
+
+</div>
+
+<div id="wrapper"> <div id="center"> 
+
+<!-- The content div contains the main content of the page -->
+<div id="content">
+<br>
+
+<table>
+<tr><th><b>Department</b></th><th><b>Course Number</b></th><th><b>Title</b></th><th><b>Distribution</b></th></tr>
+ 
+  <tr>
+	<td>AAS</td><td>2800</td>
+	<td><div id="520776par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520776',520776,'Cultural Psychology',3)">
+	
+	Cultural Psychology</a></div>
+	<div id="5207763"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AAS</td><td>4550</td>
+	<td><div id="518817par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','518817',518817,'Race and the University',3)">
+	
+	Race and the University</a></div>
+	<div id="5188173"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AAS</td><td>4790</td>
+	<td><div id="521287par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521287',521287,'Ethnicity and Identity Politics: An Anthropological Perspective',3)">
+	
+	Ethnicity and Identity Politics: An Anthropological Perspective</a></div>
+	<div id="5212873"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AEM</td><td>1300</td>
+	<td><div id="529729par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529729',529729,'Introduction to Macroeconomic Theory and Policy',3)">
+	
+	Introduction to Macroeconomic Theory and Policy</a></div>
+	<div id="5297293"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AEM</td><td>1500</td>
+	<td><div id="528591par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528591',528591,'An Introduction to the Economics of Environmental and Natural Resources',3)">
+	
+	An Introduction to the Economics of Environmental and Natural Resources</a></div>
+	<div id="5285913"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AEM</td><td>2050</td>
+	<td><div id="528877par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528877',528877,'Agriculture and Agribusiness Finance',3)">
+	
+	Agriculture and Agribusiness Finance</a></div>
+	<div id="5288773"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AEM</td><td>2300</td>
+	<td><div id="521297par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521297',521297,'International Trade and Finance',3)">
+	
+	International Trade and Finance</a></div>
+	<div id="5212973"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AEM</td><td>2350</td>
+	<td><div id="529234par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529234',529234,'Introduction To The Economics Of Development',3)">
+	
+	Introduction To The Economics Of Development</a></div>
+	<div id="5292343"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AEM</td><td>2500</td>
+	<td><div id="521299par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521299',521299,'Environmental and Resource Economics',3)">
+	
+	Environmental and Resource Economics</a></div>
+	<div id="5212993"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AEM</td><td>2770</td>
+	<td><div id="528160par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528160',528160,'Excursions in Computational Sustainability',3)">
+	
+	Excursions in Computational Sustainability</a></div>
+	<div id="5281603"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AEM</td><td>2800</td>
+	<td><div id="529955par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529955',529955,'Hot Economic Issues in the News Today',3)">
+	
+	Hot Economic Issues in the News Today</a></div>
+	<div id="5299553"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AEM</td><td>3380</td>
+	<td><div id="521313par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521313',521313,'Social Entrepreneurs, Innovators, and Problem Solvers',3)">
+	
+	Social Entrepreneurs, Innovators, and Problem Solvers</a></div>
+	<div id="5213133"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AEM</td><td>4421</td>
+	<td><div id="526959par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526959',526959,'Research and Strategy in Emerging Markets',3)">
+	
+	Research and Strategy in Emerging Markets</a></div>
+	<div id="5269593"> </div></td>
+	 <td>(CA-AG, D-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AEM</td><td>4450</td>
+	<td><div id="521336par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521336',521336,'Toward a Sustainable Global Food System: Food Policy for Developing Countries',3)">
+	
+	Toward a Sustainable Global Food System: Food Policy for Developing Countries</a></div>
+	<div id="5213363"> </div></td>
+	 <td>(SBA-AG, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>AEM</td><td>4485</td>
+	<td><div id="529935par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529935',529935,'Economics of Food and Malnutrition',3)">
+	
+	Economics of Food and Malnutrition</a></div>
+	<div id="5299353"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>AEM</td><td>4500</td>
+	<td><div id="521339par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521339',521339,'Resource Economics',3)">
+	
+	Resource Economics</a></div>
+	<div id="5213393"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AEM</td><td>4510</td>
+	<td><div id="521340par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521340',521340,'Environmental Economics',3)">
+	
+	Environmental Economics</a></div>
+	<div id="5213403"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AEM</td><td>4640</td>
+	<td><div id="521345par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521345',521345,'Economics of Agricultural Development',3)">
+	
+	Economics of Agricultural Development</a></div>
+	<div id="5213453"> </div></td>
+	 <td>(D-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AEM</td><td>6485</td>
+	<td><div id="529936par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529936',529936,'Economics of Food and Malnutrition',3)">
+	
+	Economics of Food and Malnutrition</a></div>
+	<div id="5299363"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>AIIS</td><td>2240</td>
+	<td><div id="528744par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528744',528744,'Native American Languages',3)">
+	
+	Native American Languages</a></div>
+	<div id="5287443"> </div></td>
+	 <td>(CA-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AIIS</td><td>3330</td>
+	<td><div id="521430par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521430',521430,'Ways of Knowing: Indigenous and Place-Based Ecological Knowledge',3)">
+	
+	Ways of Knowing: Indigenous and Place-Based Ecological Knowledge</a></div>
+	<div id="5214303"> </div></td>
+	 <td>(CA-AG, D-AG, KCM-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AIIS</td><td>6240</td>
+	<td><div id="528745par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528745',528745,'Native American Languages',3)">
+	
+	Native American Languages</a></div>
+	<div id="5287453"> </div></td>
+	 <td>(CA-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>1104</td>
+	<td><div id="531004par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531004',531004,'Race and Ethnicity in the United States: Social Constructs, Real World Consequences',3)">
+	
+	Race and Ethnicity in the United States: Social Constructs, Real World Consequences</a></div>
+	<div id="5310043"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>1115</td>
+	<td><div id="529033par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529033',529033,'Introduction to American Government and Politics',3)">
+	
+	Introduction to American Government and Politics</a></div>
+	<div id="5290333"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>1290</td>
+	<td><div id="531408par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531408',531408,'American Society through Film',3)">
+	
+	American Society through Film</a></div>
+	<div id="5314083"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2152</td>
+	<td><div id="531308par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531308',531308,'(Im)migration and (Im)migrants: Then and Now',3)">
+	
+	(Im)migration and (Im)migrants: Then and Now</a></div>
+	<div id="5313083"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2225</td>
+	<td><div id="529891par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529891',529891,'Controversies About Inequality',3)">
+	
+	Controversies About Inequality</a></div>
+	<div id="5298913"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2560</td>
+	<td><div id="530186par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530186',530186,'Waiting for Superman: Perspectives on the Crisis in American Education',3)">
+	
+	Waiting for Superman: Perspectives on the Crisis in American Education</a></div>
+	<div id="5301863"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2615</td>
+	<td><div id="530191par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530191',530191,'Incarceration Nation',3)">
+	
+	Incarceration Nation</a></div>
+	<div id="5301913"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2655</td>
+	<td><div id="526491par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526491',526491,'Latinos in the United States',3)">
+	
+	Latinos in the United States</a></div>
+	<div id="5264913"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2710</td>
+	<td><div id="521472par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521472',521472,'America\'s Promise: Social and Political Context of American Education',3)">
+	
+	America's Promise: Social and Political Context of American Education</a></div>
+	<div id="5214723"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2817</td>
+	<td><div id="531236par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531236',531236,'America Confronts the World',3)">
+	
+	America Confronts the World</a></div>
+	<div id="5312363"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3002</td>
+	<td><div id="529220par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529220',529220,'Civil Rights and Civil Liberties',3)">
+	
+	Civil Rights and Civil Liberties</a></div>
+	<div id="5292203"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3012</td>
+	<td><div id="529213par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529213',529213,'The Politics of Poverty in the U.S.',3)">
+	
+	The Politics of Poverty in the U.S.</a></div>
+	<div id="5292133"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3065</td>
+	<td><div id="528022par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528022',528022,'Immigrant America: Race and Citizenship in Modern Working-Class History',3)">
+	
+	Immigrant America: Race and Citizenship in Modern Working-Class History</a></div>
+	<div id="5280223"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3071</td>
+	<td><div id="552255par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552255',552255,'Enduring Global and American Issues',3)">
+	
+	Enduring Global and American Issues</a></div>
+	<div id="5522553"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3082</td>
+	<td><div id="527381par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527381',527381,'American Political Campaigns',3)">
+	
+	American Political Campaigns</a></div>
+	<div id="5273813"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3141</td>
+	<td><div id="521478par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521478',521478,'Prisons',3)">
+	
+	Prisons</a></div>
+	<div id="5214783"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3161</td>
+	<td><div id="521479par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521479',521479,'The American Presidency',3)">
+	
+	The American Presidency</a></div>
+	<div id="5214793"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3230</td>
+	<td><div id="521481par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521481',521481,'American Economic History I',3)">
+	
+	American Economic History I</a></div>
+	<div id="5214813"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3241</td>
+	<td><div id="521482par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521482',521482,'Inequality and American Democracy',3)">
+	
+	Inequality and American Democracy</a></div>
+	<div id="5214823"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3380</td>
+	<td><div id="529452par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529452',529452,'Urban Inequality',3)">
+	
+	Urban Inequality</a></div>
+	<div id="5294523"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3549</td>
+	<td><div id="527296par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527296',527296,'Capitalism, Competition, and Conflict in the Global Economy',3)">
+	
+	Capitalism, Competition, and Conflict in the Global Economy</a></div>
+	<div id="5272963"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3809</td>
+	<td><div id="521504par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521504',521504,'Politics of \'70s Films',3)">
+	
+	Politics of '70s Films</a></div>
+	<div id="5215043"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3850</td>
+	<td><div id="529892par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529892',529892,'Mass Incarceration and Family Life Course',3)">
+	
+	Mass Incarceration and Family Life Course</a></div>
+	<div id="5298923"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3911</td>
+	<td><div id="521113par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521113',521113,'Science in the American Polity, 1960 to Now',3)">
+	
+	Science in the American Polity, 1960 to Now</a></div>
+	<div id="5211133"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3988</td>
+	<td><div id="529204par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529204',529204,'Democracy, Dictatorships & US Foreign Policy',3)">
+	
+	Democracy, Dictatorships & US Foreign Policy</a></div>
+	<div id="5292043"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4031</td>
+	<td><div id="531529par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531529',531529,'Social Movements in American Politics: Then and Now',3)">
+	
+	Social Movements in American Politics: Then and Now</a></div>
+	<div id="5315293"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4032</td>
+	<td><div id="521496par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521496',521496,'Immigration and Politics Research Seminar',3)">
+	
+	Immigration and Politics Research Seminar</a></div>
+	<div id="5214963"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4066</td>
+	<td><div id="535348par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535348',535348,'Technological Change at Work',3)">
+	
+	Technological Change at Work</a></div>
+	<div id="5353483"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4102</td>
+	<td><div id="528145par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528145',528145,'Governing Green Cities',3)">
+	
+	Governing Green Cities</a></div>
+	<div id="5281453"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4142</td>
+	<td><div id="521499par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521499',521499,'Causes and Consequences of U.S. Foreign Policy',3)">
+	
+	Causes and Consequences of U.S. Foreign Policy</a></div>
+	<div id="5214993"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4283</td>
+	<td><div id="531309par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531309',531309,'Latino Politics as Racial Politics',3)">
+	
+	Latino Politics as Racial Politics</a></div>
+	<div id="5313093"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4550</td>
+	<td><div id="518819par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','518819',518819,'Race and the University',3)">
+	
+	Race and the University</a></div>
+	<div id="5188193"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4998</td>
+	<td><div id="521511par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521511',521511,'Inquiry in Politics and Policy',3)">
+	
+	Inquiry in Politics and Policy</a></div>
+	<div id="5215113"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>2400</td>
+	<td><div id="521576par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521576',521576,'Cultural Diversity and Contemporary Issues',3)">
+	
+	Cultural Diversity and Contemporary Issues</a></div>
+	<div id="5215763"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>2421</td>
+	<td><div id="521592par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521592',521592,'Sex and Gender in Cross-Cultural Perspective',3)">
+	
+	Sex and Gender in Cross-Cultural Perspective</a></div>
+	<div id="5215923"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>2472</td>
+	<td><div id="526841par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526841',526841,'Engaging Other Cultures: Learning How to Learn About Cultural Differences',3)">
+	
+	Engaging Other Cultures: Learning How to Learn About Cultural Differences</a></div>
+	<div id="5268413"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>3269</td>
+	<td><div id="521588par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521588',521588,'Gender and Age in Archaeology',3)">
+	
+	Gender and Age in Archaeology</a></div>
+	<div id="5215883"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>3305</td>
+	<td><div id="520963par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520963',520963,'Anthropology of Parenting',3)">
+	
+	Anthropology of Parenting</a></div>
+	<div id="5209633"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>3406</td>
+	<td><div id="521590par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521590',521590,'Gifts and Exchange',3)">
+	
+	Gifts and Exchange</a></div>
+	<div id="5215903"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>3416</td>
+	<td><div id="534903par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','534903',534903,'The Barbarians',3)">
+	
+	The Barbarians</a></div>
+	<div id="5349033"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>3428</td>
+	<td><div id="521594par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521594',521594,'Conflict, Dispute Resolution, and Law in Cultural Context',3)">
+	
+	Conflict, Dispute Resolution, and Law in Cultural Context</a></div>
+	<div id="5215943"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>3437</td>
+	<td><div id="530754par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530754',530754,'Global Fantasies, Global Realities, Global Nightmares',3)">
+	
+	Global Fantasies, Global Realities, Global Nightmares</a></div>
+	<div id="5307543"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>3520</td>
+	<td><div id="520918par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520918',520918,'Kingship and State-Making in Asia',3)">
+	
+	Kingship and State-Making in Asia</a></div>
+	<div id="5209183"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>3620</td>
+	<td><div id="527924par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527924',527924,'A Global Controversy: How to Study a Human Rights Violation',3)">
+	
+	A Global Controversy: How to Study a Human Rights Violation</a></div>
+	<div id="5279243"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>4041</td>
+	<td><div id="531490par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531490',531490,'What is (an) Epidemic? (Infectious Diseases in Historical, Social, and Political Perspective)',3)">
+	
+	What is (an) Epidemic? (Infectious Diseases in Historical, Social, and Political Perspective)</a></div>
+	<div id="5314903"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>4209</td>
+	<td><div id="521600par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521600',521600,'Approaches to Archaeology',3)">
+	
+	Approaches to Archaeology</a></div>
+	<div id="5216003"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>4403</td>
+	<td><div id="521607par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521607',521607,'Ethnographic Field Methods',3)">
+	
+	Ethnographic Field Methods</a></div>
+	<div id="5216073"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>4419</td>
+	<td><div id="521609par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521609',521609,'Anthropology of Corporations',3)">
+	
+	Anthropology of Corporations</a></div>
+	<div id="5216093"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>4425</td>
+	<td><div id="526842par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526842',526842,'Hope and Futurity',3)">
+	
+	Hope and Futurity</a></div>
+	<div id="5268423"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>4453</td>
+	<td><div id="526843par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526843',526843,'Political Anthropology',3)">
+	
+	Political Anthropology</a></div>
+	<div id="5268433"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>4462</td>
+	<td><div id="528559par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528559',528559,'Politics Beyond the State: Activism, Advocacy, and NGOs',3)">
+	
+	Politics Beyond the State: Activism, Advocacy, and NGOs</a></div>
+	<div id="5285593"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>4479</td>
+	<td><div id="521614par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521614',521614,'Ethnicity and Identity Politics: An Anthropological Perspective',3)">
+	
+	Ethnicity and Identity Politics: An Anthropological Perspective</a></div>
+	<div id="5216143"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>3269</td>
+	<td><div id="521750par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521750',521750,'Gender and Age in Archaeology',3)">
+	
+	Gender and Age in Archaeology</a></div>
+	<div id="5217503"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>3520</td>
+	<td><div id="520919par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520919',520919,'Kingship and State-Making in Asia',3)">
+	
+	Kingship and State-Making in Asia</a></div>
+	<div id="5209193"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>4209</td>
+	<td><div id="526846par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526846',526846,'Approaches to Archaeology',3)">
+	
+	Approaches to Archaeology</a></div>
+	<div id="5268463"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>2284</td>
+	<td><div id="528484par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528484',528484,'Capitalism in China',3)">
+	
+	Capitalism in China</a></div>
+	<div id="5284843"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3304</td>
+	<td><div id="530217par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530217',530217,'China\'s Next Economy',3)">
+	
+	China's Next Economy</a></div>
+	<div id="5302173"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3321</td>
+	<td><div id="526719par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526719',526719,'China Under Revolution and Reform',3)">
+	
+	China Under Revolution and Reform</a></div>
+	<div id="5267193"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3362</td>
+	<td><div id="520922par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520922',520922,'Kingship and State-Making in Asia',3)">
+	
+	Kingship and State-Making in Asia</a></div>
+	<div id="5209223"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3393</td>
+	<td><div id="521907par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521907',521907,'China\'s Economy Under Mao and Deng',3)">
+	
+	China's Economy Under Mao and Deng</a></div>
+	<div id="5219073"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4443</td>
+	<td><div id="521169par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521169',521169,'Work and Labor in China',3)">
+	
+	Work and Labor in China</a></div>
+	<div id="5211693"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4475</td>
+	<td><div id="527178par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527178',527178,'China and Asian Security',3)">
+	
+	China and Asian Security</a></div>
+	<div id="5271783"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4498</td>
+	<td><div id="526718par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526718',526718,'Asian Political Economy',3)">
+	
+	Asian Political Economy</a></div>
+	<div id="5267183"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>2020</td>
+	<td><div id="519895par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','519895',519895,'Introduction to African Philosophy',3)">
+	
+	Introduction to African Philosophy</a></div>
+	<div id="5198953"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>3330</td>
+	<td><div id="520673par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520673',520673,'China-Africa Relations',3)">
+	
+	China-Africa Relations</a></div>
+	<div id="5206733"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>3333</td>
+	<td><div id="520674par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520674',520674,'Ethics and Society: Aid and Its Consequences',3)">
+	
+	Ethics and Society: Aid and Its Consequences</a></div>
+	<div id="5206743"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>3620</td>
+	<td><div id="527925par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527925',527925,'A Global Controversy: How to Study a Human Rights Violation',3)">
+	
+	A Global Controversy: How to Study a Human Rights Violation</a></div>
+	<div id="5279253"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>4304</td>
+	<td><div id="519896par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','519896',519896,'Critical Race Theory: What Is It? What Does It Do? Why Should It Matter?',3)">
+	
+	Critical Race Theory: What Is It? What Does It Do? Why Should It Matter?</a></div>
+	<div id="5198963"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>4601</td>
+	<td><div id="519603par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','519603',519603,'Educational Innovations in Africa and the Diaspora',3)">
+	
+	Educational Innovations in Africa and the Diaspora</a></div>
+	<div id="5196033"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>4602</td>
+	<td><div id="521942par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521942',521942,'Women and Gender Issues in Africa',3)">
+	
+	Women and Gender Issues in Africa</a></div>
+	<div id="5219423"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>4606</td>
+	<td><div id="520892par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520892',520892,'The Family and Society in Africa and the African Diaspora',3)">
+	
+	The Family and Society in Africa and the African Diaspora</a></div>
+	<div id="5208923"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>2201</td>
+	<td><div id="522318par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522318',522318,'Society and Natural Resources',3)">
+	
+	Society and Natural Resources</a></div>
+	<div id="5223183"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>3011</td>
+	<td><div id="522320par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522320',522320,'Life Sciences and Society',3)">
+	
+	Life Sciences and Society</a></div>
+	<div id="5223203"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>3111</td>
+	<td><div id="526696par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526696',526696,'Sociology of Medicine',3)">
+	
+	Sociology of Medicine</a></div>
+	<div id="5266963"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>3231</td>
+	<td><div id="535330par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535330',535330,'Global Health Security and Diplomacy',3)">
+	
+	Global Health Security and Diplomacy</a></div>
+	<div id="5353303"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>3311</td>
+	<td><div id="522322par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522322',522322,'Environmental Governance',3)">
+	
+	Environmental Governance</a></div>
+	<div id="5223223"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>3620</td>
+	<td><div id="527994par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527994',527994,'A Global Controversy: How to Study a Human Rights Violation',3)">
+	
+	A Global Controversy: How to Study a Human Rights Violation</a></div>
+	<div id="5279943"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>4841</td>
+	<td><div id="531556par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531556',531556,'What is (an) Epidemic? (Infectious Diseases in Historical, Social, and Political Perspective)',3)">
+	
+	What is (an) Epidemic? (Infectious Diseases in Historical, Social, and Political Perspective)</a></div>
+	<div id="5315563"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>2840</td>
+	<td><div id="528486par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528486',528486,'Capitalism in China',3)">
+	
+	Capitalism in China</a></div>
+	<div id="5284863"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>3049</td>
+	<td><div id="529793par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529793',529793,'China\'s Next Economy',3)">
+	
+	China's Next Economy</a></div>
+	<div id="5297933"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>3380</td>
+	<td><div id="522382par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522382',522382,'China\'s Economy Under Mao and Deng',3)">
+	
+	China's Economy Under Mao and Deng</a></div>
+	<div id="5223823"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>3403</td>
+	<td><div id="522375par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522375',522375,'China Under Revolution and Reform',3)">
+	
+	China Under Revolution and Reform</a></div>
+	<div id="5223753"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>3907</td>
+	<td><div id="535366par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535366',535366,'Crises in Asia',3)">
+	
+	Crises in Asia</a></div>
+	<div id="5353663"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>4002</td>
+	<td><div id="522377par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522377',522377,'Chinese Perspectives on International and Global Affairs',3)">
+	
+	Chinese Perspectives on International and Global Affairs</a></div>
+	<div id="5223773"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>4355</td>
+	<td><div id="521190par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521190',521190,'Work and Labor in China',3)">
+	
+	Work and Labor in China</a></div>
+	<div id="5211903"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>4870</td>
+	<td><div id="522384par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522384',522384,'China and Asian Security',3)">
+	
+	China and Asian Security</a></div>
+	<div id="5223843"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>4998</td>
+	<td><div id="522386par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522386',522386,'Inquiry in Politics and Policy',3)">
+	
+	Inquiry in Politics and Policy</a></div>
+	<div id="5223863"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COGST</td><td>1500</td>
+	<td><div id="522651par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522651',522651,'Introduction to Environmental Psychology',3)">
+	
+	Introduction to Environmental Psychology</a></div>
+	<div id="5226513"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COGST</td><td>1501</td>
+	<td><div id="527603par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527603',527603,'Introduction to Environmental Psychology - Writing in the Major',3)">
+	
+	Introduction to Environmental Psychology - Writing in the Major</a></div>
+	<div id="5276033"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COGST</td><td>3801</td>
+	<td><div id="535174par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535174',535174,'Introduction to Game Theory and Strategic Thinking',3)">
+	
+	Introduction to Game Theory and Strategic Thinking</a></div>
+	<div id="5351743"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COGST</td><td>4050</td>
+	<td><div id="534925par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','534925',534925,'Judgment and Decision Making',3)">
+	
+	Judgment and Decision Making</a></div>
+	<div id="5349253"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COGST</td><td>4230</td>
+	<td><div id="529986par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529986',529986,'Navigation, Memory, and Context: What Does the Hippocampus Do?',3)">
+	
+	Navigation, Memory, and Context: What Does the Hippocampus Do?</a></div>
+	<div id="5299863"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>4575</td>
+	<td><div id="531158par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531158',531158,'Migration in the Americas: Engaged Research Methods and Practice',3)">
+	
+	Migration in the Americas: Engaged Research Methods and Practice</a></div>
+	<div id="5311583"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>1101</td>
+	<td><div id="522695par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522695',522695,'Cases in Communication',3)">
+	
+	Cases in Communication</a></div>
+	<div id="5226953"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>1300</td>
+	<td><div id="522696par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522696',522696,'Visual Communication',3)">
+	
+	Visual Communication</a></div>
+	<div id="5226963"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>2200</td>
+	<td><div id="522698par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522698',522698,'Media Communication',3)">
+	
+	Media Communication</a></div>
+	<div id="5226983"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>2450</td>
+	<td><div id="522700par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522700',522700,'Communication and Technology',3)">
+	
+	Communication and Technology</a></div>
+	<div id="5227003"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>2580</td>
+	<td><div id="521070par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521070',521070,'Six Pretty Good Books: Explorations in Social Science',3)">
+	
+	Six Pretty Good Books: Explorations in Social Science</a></div>
+	<div id="5210703"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>2760</td>
+	<td><div id="522702par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522702',522702,'Persuasion and Social Influence',3)">
+	
+	Persuasion and Social Influence</a></div>
+	<div id="5227023"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>2820</td>
+	<td><div id="522703par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522703',522703,'Research Methods in Communication Studies',3)">
+	
+	Research Methods in Communication Studies</a></div>
+	<div id="5227033"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>2850</td>
+	<td><div id="522705par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522705',522705,'Communication, Environment, Science, and Health',3)">
+	
+	Communication, Environment, Science, and Health</a></div>
+	<div id="5227053"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>3080</td>
+	<td><div id="530616par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530616',530616,'Capstone Course in Environmental & Sustainability Communication: From the Lab to the World',3)">
+	
+	Capstone Course in Environmental & Sustainability Communication: From the Lab to the World</a></div>
+	<div id="5306163"> </div></td>
+	 <td>(KCM-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>3100</td>
+	<td><div id="522706par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522706',522706,'Communication and Decision Making in Groups',3)">
+	
+	Communication and Decision Making in Groups</a></div>
+	<div id="5227063"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>3189</td>
+	<td><div id="528232par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528232',528232,'Taking America\'s Pulse: Creating and Conducting a National Opinion Poll',3)">
+	
+	Taking America's Pulse: Creating and Conducting a National Opinion Poll</a></div>
+	<div id="5282323"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>3210</td>
+	<td><div id="522718par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522718',522718,'Communication and the Environment',3)">
+	
+	Communication and the Environment</a></div>
+	<div id="5227183"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>3400</td>
+	<td><div id="522709par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522709',522709,'Personal Relationships and Technology',3)">
+	
+	Personal Relationships and Technology</a></div>
+	<div id="5227093"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>3760</td>
+	<td><div id="522715par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522715',522715,'Planning Communication Campaigns',3)">
+	
+	Planning Communication Campaigns</a></div>
+	<div id="5227153"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>4200</td>
+	<td><div id="522717par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522717',522717,'Public Opinion and Social Processes',3)">
+	
+	Public Opinion and Social Processes</a></div>
+	<div id="5227173"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>4220</td>
+	<td><div id="522719par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522719',522719,'Psychology of Entertainment Media',3)">
+	
+	Psychology of Entertainment Media</a></div>
+	<div id="5227193"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>4250</td>
+	<td><div id="529770par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529770',529770,'Sports and the Media',3)">
+	
+	Sports and the Media</a></div>
+	<div id="5297703"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>4350</td>
+	<td><div id="535389par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535389',535389,'Communicating Leadership and Ethics',3)">
+	
+	Communicating Leadership and Ethics</a></div>
+	<div id="5353893"> </div></td>
+	 <td>(KCM-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>4360</td>
+	<td><div id="528803par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528803',528803,'Communication Networks and Social Capital',3)">
+	
+	Communication Networks and Social Capital</a></div>
+	<div id="5288033"> </div></td>
+	 <td>(CA-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>4380</td>
+	<td><div id="531301par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531301',531301,'Communication in Virtual Worlds',3)">
+	
+	Communication in Virtual Worlds</a></div>
+	<div id="5313013"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>4450</td>
+	<td><div id="522722par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522722',522722,'Computer-Mediated Communication',3)">
+	
+	Computer-Mediated Communication</a></div>
+	<div id="5227223"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>4580</td>
+	<td><div id="521071par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521071',521071,'The Science of Social Behavior',3)">
+	
+	The Science of Social Behavior</a></div>
+	<div id="5210713"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>4660</td>
+	<td><div id="522726par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522726',522726,'Public Communication of Science and Technology',3)">
+	
+	Public Communication of Science and Technology</a></div>
+	<div id="5227263"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>4760</td>
+	<td><div id="529771par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529771',529771,'Population Health Communication',3)">
+	
+	Population Health Communication</a></div>
+	<div id="5297713"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>4860</td>
+	<td><div id="522727par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522727',522727,'Risk Communication',3)">
+	
+	Risk Communication</a></div>
+	<div id="5227273"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>CS</td><td>2770</td>
+	<td><div id="528161par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528161',528161,'Excursions in Computational Sustainability',3)">
+	
+	Excursions in Computational Sustainability</a></div>
+	<div id="5281613"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>CS</td><td>2850</td>
+	<td><div id="522865par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522865',522865,'Networks',3)">
+	
+	Networks</a></div>
+	<div id="5228653"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>1500</td>
+	<td><div id="523021par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523021',523021,'Introduction to Environmental Psychology',3)">
+	
+	Introduction to Environmental Psychology</a></div>
+	<div id="5230213"> </div></td>
+	 <td>(D-HE, LAD-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>1501</td>
+	<td><div id="526759par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526759',526759,'Introduction to Environmental Psychology - Writing in the Major',3)">
+	
+	Introduction to Environmental Psychology - Writing in the Major</a></div>
+	<div id="5267593"> </div></td>
+	 <td>(D-HE, LAD-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>2700</td>
+	<td><div id="527803par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527803',527803,'Healthy Places: Design, Planning and Public Health',3)">
+	
+	Healthy Places: Design, Planning and Public Health</a></div>
+	<div id="5278033"> </div></td>
+	 <td>(LAD-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>3055</td>
+	<td><div id="529764par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529764',529764,'Hospitality, Health and Design Industry Immersion Seminar',3)">
+	
+	Hospitality, Health and Design Industry Immersion Seminar</a></div>
+	<div id="5297643"> </div></td>
+	 <td>(LAD-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>3590</td>
+	<td><div id="523045par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523045',523045,'Problem-Seeking through Programming',3)">
+	
+	Problem-Seeking through Programming</a></div>
+	<div id="5230453"> </div></td>
+	 <td>(LAD-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>6055</td>
+	<td><div id="529765par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529765',529765,'Hospitality, Health and Design Industry Immersion Seminar',3)">
+	
+	Hospitality, Health and Design Industry Immersion Seminar</a></div>
+	<div id="5297653"> </div></td>
+	 <td>(LAD-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>6200</td>
+	<td><div id="526990par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526990',526990,'Studies in Human-Environment Relations',3)">
+	
+	Studies in Human-Environment Relations</a></div>
+	<div id="5269903"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>6210</td>
+	<td><div id="535303par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535303',535303,'Architectural Robotics',3)">
+	
+	Architectural Robotics</a></div>
+	<div id="5353033"> </div></td>
+	 <td>(HA-HE, D-HE, KCM-HE, LAD-HE, </td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>6500</td>
+	<td><div id="523053par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523053',523053,'Problem-Seeking through Programming',3)">
+	
+	Problem-Seeking through Programming</a></div>
+	<div id="5230533"> </div></td>
+	 <td>(LAD-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>6560</td>
+	<td><div id="523056par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523056',523056,'Research Methods in Social Sciences',3)">
+	
+	Research Methods in Social Sciences</a></div>
+	<div id="5230563"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>6610</td>
+	<td><div id="520247par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520247',520247,'Environments and Health',3)">
+	
+	Environments and Health</a></div>
+	<div id="5202473"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>1101</td>
+	<td><div id="523060par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523060',523060,'Introduction to Sociology',3)">
+	
+	Introduction to Sociology</a></div>
+	<div id="5230603"> </div></td>
+	 <td>(D-AG, KCM-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>2010</td>
+	<td><div id="523061par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523061',523061,'Population Dynamics',3)">
+	
+	Population Dynamics</a></div>
+	<div id="5230613"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>2050</td>
+	<td><div id="523062par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523062',523062,'International Development',3)">
+	
+	International Development</a></div>
+	<div id="5230623"> </div></td>
+	 <td>(D-AG, HA-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>2090</td>
+	<td><div id="523063par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523063',523063,'Social Inequality',3)">
+	
+	Social Inequality</a></div>
+	<div id="5230633"> </div></td>
+	 <td>(D-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>2130</td>
+	<td><div id="552316par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552316',552316,'Mother Nature Fights Back? The Promises and Paradoxes of Sustainable Development',3)">
+	
+	Mother Nature Fights Back? The Promises and Paradoxes of Sustainable Development</a></div>
+	<div id="5523163"> </div></td>
+	 <td>(HA-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>2140</td>
+	<td><div id="552312par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552312',552312,'Introduction to Sociology: Tools for a Changing World',3)">
+	
+	Introduction to Sociology: Tools for a Changing World</a></div>
+	<div id="5523123"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>2200</td>
+	<td><div id="523064par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523064',523064,'Sociology of Health and Ethnic Minorities',3)">
+	
+	Sociology of Health and Ethnic Minorities</a></div>
+	<div id="5230643"> </div></td>
+	 <td>(D-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>2201</td>
+	<td><div id="523065par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523065',523065,'Society and Natural Resources',3)">
+	
+	Society and Natural Resources</a></div>
+	<div id="5230653"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>2220</td>
+	<td><div id="523066par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523066',523066,'Controversies About Inequality',3)">
+	
+	Controversies About Inequality</a></div>
+	<div id="5230663"> </div></td>
+	 <td>(D-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>2650</td>
+	<td><div id="523067par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523067',523067,'Latinos in the United States',3)">
+	
+	Latinos in the United States</a></div>
+	<div id="5230673"> </div></td>
+	 <td>(CA-AG, D-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>2710</td>
+	<td><div id="526708par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526708',526708,'America\'s Promise: Social and Political Context of American Education',3)">
+	
+	America's Promise: Social and Political Context of American Education</a></div>
+	<div id="5267083"> </div></td>
+	 <td>(D-AG, HA-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>3010</td>
+	<td><div id="523068par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523068',523068,'Theories of Society and Development',3)">
+	
+	Theories of Society and Development</a></div>
+	<div id="5230683"> </div></td>
+	 <td>(KCM-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>3050</td>
+	<td><div id="523069par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523069',523069,'Education, Inequality, and Development',3)">
+	
+	Education, Inequality, and Development</a></div>
+	<div id="5230693"> </div></td>
+	 <td>(D-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>3060</td>
+	<td><div id="523070par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523070',523070,'Farmworkers: Contemporary Issues and Their Implications',3)">
+	
+	Farmworkers: Contemporary Issues and Their Implications</a></div>
+	<div id="5230703"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>3111</td>
+	<td><div id="526458par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526458',526458,'Sociology of Medicine',3)">
+	
+	Sociology of Medicine</a></div>
+	<div id="5264583"> </div></td>
+	 <td>(D-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>3130</td>
+	<td><div id="523071par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523071',523071,'Social Indicators and Introduction to Social Science Research',3)">
+	
+	Social Indicators and Introduction to Social Science Research</a></div>
+	<div id="5230713"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>3140</td>
+	<td><div id="519641par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','519641',519641,'Spatial Thinking, GIS, and Related Methods',3)">
+	
+	Spatial Thinking, GIS, and Related Methods</a></div>
+	<div id="5196413"> </div></td>
+	 <td>(KCM-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>3240</td>
+	<td><div id="523072par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523072',523072,'Environmental Sociology',3)">
+	
+	Environmental Sociology</a></div>
+	<div id="5230723"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>3290</td>
+	<td><div id="523073par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523073',523073,'Comparative Politics of Latin America',3)">
+	
+	Comparative Politics of Latin America</a></div>
+	<div id="5230733"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>3311</td>
+	<td><div id="523074par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523074',523074,'Environmental Governance',3)">
+	
+	Environmental Governance</a></div>
+	<div id="5230743"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>3400</td>
+	<td><div id="523075par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523075',523075,'Agriculture, Food, Sustainability and Social Justice',3)">
+	
+	Agriculture, Food, Sustainability and Social Justice</a></div>
+	<div id="5230753"> </div></td>
+	 <td>(D-AG, KCM-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>3547</td>
+	<td><div id="529043par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529043',529043,'America, Business and International Political Economy',3)">
+	
+	America, Business and International Political Economy</a></div>
+	<div id="5290433"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>3700</td>
+	<td><div id="523076par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523076',523076,'Comparative Social Inequalities',3)">
+	
+	Comparative Social Inequalities</a></div>
+	<div id="5230763"> </div></td>
+	 <td>(D-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>4300</td>
+	<td><div id="523077par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523077',523077,'Human Migration: Internal and International',3)">
+	
+	Human Migration: Internal and International</a></div>
+	<div id="5230773"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>4700</td>
+	<td><div id="527946par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527946',527946,'Senior Capstone Course',3)">
+	
+	Senior Capstone Course</a></div>
+	<div id="5279463"> </div></td>
+	 <td>(KCM-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>4940</td>
+	<td><div id="523080par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523080',523080,'Special Topics in Development Sociology',3)">
+	
+	Special Topics in Development Sociology</a></div>
+	<div id="5230803"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>6001</td>
+	<td><div id="523082par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523082',523082,'The Empirics of Development and Social Change',3)">
+	
+	The Empirics of Development and Social Change</a></div>
+	<div id="5230823"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>6200</td>
+	<td><div id="521224par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521224',521224,'Community, Place, and Environment',3)">
+	
+	Community, Place, and Environment</a></div>
+	<div id="5212243"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>6210</td>
+	<td><div id="523088par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523088',523088,'Foundations of Environmental Sociology',3)">
+	
+	Foundations of Environmental Sociology</a></div>
+	<div id="5230883"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>6250</td>
+	<td><div id="521225par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521225',521225,'State, Economy, and Society',3)">
+	
+	State, Economy, and Society</a></div>
+	<div id="5212253"> </div></td>
+	 <td>(HA-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>1110</td>
+	<td><div id="523270par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523270',523270,'Introductory Microeconomics',3)">
+	
+	Introductory Microeconomics</a></div>
+	<div id="5232703"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>1120</td>
+	<td><div id="523271par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523271',523271,'Introductory Macroeconomics',3)">
+	
+	Introductory Macroeconomics</a></div>
+	<div id="5232713"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>2040</td>
+	<td><div id="523272par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523272',523272,'Networks',3)">
+	
+	Networks</a></div>
+	<div id="5232723"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>2300</td>
+	<td><div id="523273par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523273',523273,'International Trade and Finance',3)">
+	
+	International Trade and Finance</a></div>
+	<div id="5232733"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3030</td>
+	<td><div id="523274par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523274',523274,'Intermediate Microeconomic Theory',3)">
+	
+	Intermediate Microeconomic Theory</a></div>
+	<div id="5232743"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3040</td>
+	<td><div id="523275par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523275',523275,'Intermediate Macroeconomic Theory',3)">
+	
+	Intermediate Macroeconomic Theory</a></div>
+	<div id="5232753"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3250</td>
+	<td><div id="531260par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531260',531260,'Economics of the U.S. Social Safety Net',3)">
+	
+	Economics of the U.S. Social Safety Net</a></div>
+	<div id="5312603"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3310</td>
+	<td><div id="523278par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523278',523278,'American Economic History I',3)">
+	
+	American Economic History I</a></div>
+	<div id="5232783"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3320</td>
+	<td><div id="523279par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523279',523279,'American Economic History II',3)">
+	
+	American Economic History II</a></div>
+	<div id="5232793"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3330</td>
+	<td><div id="519655par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','519655',519655,'Topics in Twentieth Century Economic History',3)">
+	
+	Topics in Twentieth Century Economic History</a></div>
+	<div id="5196553"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3340</td>
+	<td><div id="523303par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523303',523303,'The Evolution of Social Policy in Britain and America',3)">
+	
+	The Evolution of Social Policy in Britain and America</a></div>
+	<div id="5233033"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3380</td>
+	<td><div id="523308par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523308',523308,'China\'s Economy Under Mao and Deng',3)">
+	
+	China's Economy Under Mao and Deng</a></div>
+	<div id="5233083"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3430</td>
+	<td><div id="523302par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523302',523302,'Compensation, Incentives, and Productivity',3)">
+	
+	Compensation, Incentives, and Productivity</a></div>
+	<div id="5233023"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3440</td>
+	<td><div id="523306par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523306',523306,'Women in the Economy',3)">
+	
+	Women in the Economy</a></div>
+	<div id="5233063"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3450</td>
+	<td><div id="523307par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523307',523307,'Economic Analysis of the Welfare State',3)">
+	
+	Economic Analysis of the Welfare State</a></div>
+	<div id="5233073"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3460</td>
+	<td><div id="528680par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528680',528680,'The Economics of Collective Bargaining in Sports',3)">
+	
+	The Economics of Collective Bargaining in Sports</a></div>
+	<div id="5286803"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3545</td>
+	<td><div id="527771par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527771',527771,'International Finance and Macroeconomics',3)">
+	
+	International Finance and Macroeconomics</a></div>
+	<div id="5277713"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3610</td>
+	<td><div id="530429par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530429',530429,'The Economics of Consumer Policy',3)">
+	
+	The Economics of Consumer Policy</a></div>
+	<div id="5304293"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3670</td>
+	<td><div id="531263par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531263',531263,'Behavioral Economics and Public Policy',3)">
+	
+	Behavioral Economics and Public Policy</a></div>
+	<div id="5312633"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3710</td>
+	<td><div id="526617par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526617',526617,'The Economics of Risky Health Behaviors',3)">
+	
+	The Economics of Risky Health Behaviors</a></div>
+	<div id="5266173"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3725</td>
+	<td><div id="528779par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528779',528779,'Early Childhood Policy and Economics',3)">
+	
+	Early Childhood Policy and Economics</a></div>
+	<div id="5287793"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3740</td>
+	<td><div id="530428par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530428',530428,'Global Health Economics and Policy',3)">
+	
+	Global Health Economics and Policy</a></div>
+	<div id="5304283"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3760</td>
+	<td><div id="527914par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527914',527914,'Economics of Education',3)">
+	
+	Economics of Education</a></div>
+	<div id="5279143"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3770</td>
+	<td><div id="534977par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','534977',534977,'Inequality in U.S. Higher Education',3)">
+	
+	Inequality in U.S. Higher Education</a></div>
+	<div id="5349773"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3800</td>
+	<td><div id="523294par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523294',523294,'Economics and the Law',3)">
+	
+	Economics and the Law</a></div>
+	<div id="5232943"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3801</td>
+	<td><div id="523291par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523291',523291,'Introduction to Game Theory and Strategic Thinking',3)">
+	
+	Introduction to Game Theory and Strategic Thinking</a></div>
+	<div id="5232913"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3805</td>
+	<td><div id="529785par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529785',529785,'Competition Law and Policy',3)">
+	
+	Competition Law and Policy</a></div>
+	<div id="5297853"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3850</td>
+	<td><div id="530597par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530597',530597,'Economics and Environmental Policy',3)">
+	
+	Economics and Environmental Policy</a></div>
+	<div id="5305973"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3855</td>
+	<td><div id="531640par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531640',531640,'Urban Economics',3)">
+	
+	Urban Economics</a></div>
+	<div id="5316403"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4050</td>
+	<td><div id="523297par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523297',523297,'Intertemporal Economics',3)">
+	
+	Intertemporal Economics</a></div>
+	<div id="5232973"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4070</td>
+	<td><div id="526453par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526453',526453,'Equilibrium and Welfare Economics',3)">
+	
+	Equilibrium and Welfare Economics</a></div>
+	<div id="5264533"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4210</td>
+	<td><div id="523280par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523280',523280,'Money and Credit',3)">
+	
+	Money and Credit</a></div>
+	<div id="5232803"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4220</td>
+	<td><div id="523281par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523281',523281,'Financial Economics',3)">
+	
+	Financial Economics</a></div>
+	<div id="5232813"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4240</td>
+	<td><div id="523300par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523300',523300,'Financial Economics, Derivatives, and Risk Management',3)">
+	
+	Financial Economics, Derivatives, and Risk Management</a></div>
+	<div id="5233003"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4250</td>
+	<td><div id="552226par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552226',552226,'Economics of Crime and Corruption',3)">
+	
+	Economics of Crime and Corruption</a></div>
+	<div id="5522263"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4260</td>
+	<td><div id="523283par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523283',523283,'Public Finance: The Microeconomics of Government',3)">
+	
+	Public Finance: The Microeconomics of Government</a></div>
+	<div id="5232833"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4290</td>
+	<td><div id="526454par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526454',526454,'Economic Analysis of Politics',3)">
+	
+	Economic Analysis of Politics</a></div>
+	<div id="5264543"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4510</td>
+	<td><div id="523289par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523289',523289,'International Trade Theory and Policy',3)">
+	
+	International Trade Theory and Policy</a></div>
+	<div id="5232893"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4520</td>
+	<td><div id="523290par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523290',523290,'International Monetary Theory and Policy',3)">
+	
+	International Monetary Theory and Policy</a></div>
+	<div id="5232903"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4560</td>
+	<td><div id="523293par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523293',523293,'Development Economics',3)">
+	
+	Development Economics</a></div>
+	<div id="5232933"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4590</td>
+	<td><div id="523309par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523309',523309,'Economics of Export-Led Development',3)">
+	
+	Economics of Export-Led Development</a></div>
+	<div id="5233093"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4610</td>
+	<td><div id="523286par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523286',523286,'Industrial Organization I',3)">
+	
+	Industrial Organization I</a></div>
+	<div id="5232863"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4620</td>
+	<td><div id="523287par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523287',523287,'Industrial Organization II',3)">
+	
+	Industrial Organization II</a></div>
+	<div id="5232873"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4630</td>
+	<td><div id="523304par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523304',523304,'Industrial Policy',3)">
+	
+	Industrial Policy</a></div>
+	<div id="5233043"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4660</td>
+	<td><div id="523288par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523288',523288,'Behavioral Economics',3)">
+	
+	Behavioral Economics</a></div>
+	<div id="5232883"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4810</td>
+	<td><div id="523305par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523305',523305,'Resource Economics',3)">
+	
+	Resource Economics</a></div>
+	<div id="5233053"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4820</td>
+	<td><div id="523296par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523296',523296,'Environmental Economics',3)">
+	
+	Environmental Economics</a></div>
+	<div id="5232963"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4830</td>
+	<td><div id="523295par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523295',523295,'Production Economics',3)">
+	
+	Production Economics</a></div>
+	<div id="5232953"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4840</td>
+	<td><div id="523299par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523299',523299,'Policy Analysis: Welfare Theory, Agriculture, and Trade',3)">
+	
+	Policy Analysis: Welfare Theory, Agriculture, and Trade</a></div>
+	<div id="5232993"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4901</td>
+	<td><div id="528899par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528899',528899,'Sustainable Development: Theoretical Issues in Dynamic Economics',3)">
+	
+	Sustainable Development: Theoretical Issues in Dynamic Economics</a></div>
+	<div id="5288993"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4902</td>
+	<td><div id="523282par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523282',523282,'Banks',3)">
+	
+	Banks</a></div>
+	<div id="5232823"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4903</td>
+	<td><div id="529319par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529319',529319,'Quantitative Analysis of Economic Data',3)">
+	
+	Quantitative Analysis of Economic Data</a></div>
+	<div id="5293193"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4904</td>
+	<td><div id="523284par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523284',523284,'Public Finance: Resource Allocation and Fiscal Policy',3)">
+	
+	Public Finance: Resource Allocation and Fiscal Policy</a></div>
+	<div id="5232843"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4905</td>
+	<td><div id="529320par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529320',529320,'Financial Fragility and the Macroeconomy',3)">
+	
+	Financial Fragility and the Macroeconomy</a></div>
+	<div id="5293203"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4906</td>
+	<td><div id="529322par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529322',529322,'Industrial Organization and Competitive Strategy',3)">
+	
+	Industrial Organization and Competitive Strategy</a></div>
+	<div id="5293223"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4908</td>
+	<td><div id="531240par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531240',531240,'Applied Monetary Policy',3)">
+	
+	Applied Monetary Policy</a></div>
+	<div id="5312403"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>EDUC</td><td>2610</td>
+	<td><div id="527155par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527155',527155,'The Intergroup Dialogue Project',3)">
+	
+	The Intergroup Dialogue Project</a></div>
+	<div id="5271553"> </div></td>
+	 <td>(CA-AG, D-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>EDUC</td><td>2710</td>
+	<td><div id="523357par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523357',523357,'America\'s Promise: Social and Political Context of American Education',3)">
+	
+	America's Promise: Social and Political Context of American Education</a></div>
+	<div id="5233573"> </div></td>
+	 <td>(D-AG, HA-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>EDUC</td><td>3320</td>
+	<td><div id="521280par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521280',521280,'Program Planning in Agriculture and Education',3)">
+	
+	Program Planning in Agriculture and Education</a></div>
+	<div id="5212803"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>EDUC</td><td>3350</td>
+	<td><div id="523359par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523359',523359,'Youth Organizations and Leadership Development',3)">
+	
+	Youth Organizations and Leadership Development</a></div>
+	<div id="5233593"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>EDUC</td><td>3610</td>
+	<td><div id="528035par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528035',528035,'Advanced Intergroup Dialogue',3)">
+	
+	Advanced Intergroup Dialogue</a></div>
+	<div id="5280353"> </div></td>
+	 <td>(HA-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>EDUC</td><td>4050</td>
+	<td><div id="521130par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521130',521130,'Perspectives in Collegiate Teaching and Learning',3)">
+	
+	Perspectives in Collegiate Teaching and Learning</a></div>
+	<div id="5211303"> </div></td>
+	 <td>(KCM-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>EDUC</td><td>4826</td>
+	<td><div id="535507par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535507',535507,'Leading Dialogue Across Difference: Practicum in Intergroup Relations',3)">
+	
+	Leading Dialogue Across Difference: Practicum in Intergroup Relations</a></div>
+	<div id="5355073"> </div></td>
+	 <td>(CA-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>EDUC</td><td>5320</td>
+	<td><div id="523368par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523368',523368,'Program Planning in Agriculture and Education',3)">
+	
+	Program Planning in Agriculture and Education</a></div>
+	<div id="5233683"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>EDUC</td><td>5350</td>
+	<td><div id="523369par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523369',523369,'Youth Organizations and Leadership Development',3)">
+	
+	Youth Organizations and Leadership Development</a></div>
+	<div id="5233693"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>EDUC</td><td>5710</td>
+	<td><div id="523372par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523372',523372,'America\'s Promise: Social and Political Context of American Education',3)">
+	
+	America's Promise: Social and Political Context of American Education</a></div>
+	<div id="5233723"> </div></td>
+	 <td>(HA-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4961</td>
+	<td><div id="518820par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','518820',518820,'Race and the University',3)">
+	
+	Race and the University</a></div>
+	<div id="5188203"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>2421</td>
+	<td><div id="523603par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523603',523603,'Sex and Gender in Cross-Cultural Perspective',3)">
+	
+	Sex and Gender in Cross-Cultural Perspective</a></div>
+	<div id="5236033"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>3320</td>
+	<td><div id="552234par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552234',552234,'Gender and Psychopathology',3)">
+	
+	Gender and Psychopathology</a></div>
+	<div id="5522343"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>3621</td>
+	<td><div id="527926par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527926',527926,'A Global Controversy: How to Study a Human Rights Violation',3)">
+	
+	A Global Controversy: How to Study a Human Rights Violation</a></div>
+	<div id="5279263"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>3700</td>
+	<td><div id="526791par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526791',526791,'Gender and Age in Archaeology',3)">
+	
+	Gender and Age in Archaeology</a></div>
+	<div id="5267913"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>4460</td>
+	<td><div id="523620par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523620',523620,'Women in the Economy',3)">
+	
+	Women in the Economy</a></div>
+	<div id="5236203"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>4841</td>
+	<td><div id="531491par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531491',531491,'What is (an) Epidemic? (Infectious Diseases in Historical, Social, and Political Perspective)',3)">
+	
+	What is (an) Epidemic? (Infectious Diseases in Historical, Social, and Political Perspective)</a></div>
+	<div id="5314913"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>1111</td>
+	<td><div id="523738par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523738',523738,'Introduction to American Government and Politics',3)">
+	
+	Introduction to American Government and Politics</a></div>
+	<div id="5237383"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>1313</td>
+	<td><div id="523739par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523739',523739,'Introduction to Comparative Government and Politics',3)">
+	
+	Introduction to Comparative Government and Politics</a></div>
+	<div id="5237393"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>1817</td>
+	<td><div id="523741par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523741',523741,'Making Sense of World Politics',3)">
+	
+	Making Sense of World Politics</a></div>
+	<div id="5237413"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>2041</td>
+	<td><div id="529893par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529893',529893,'Electoral (mal)practice',3)">
+	
+	Electoral (mal)practice</a></div>
+	<div id="5298933"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>2152</td>
+	<td><div id="530734par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530734',530734,'(Im)migration and (Im)migrants: Then and Now',3)">
+	
+	(Im)migration and (Im)migrants: Then and Now</a></div>
+	<div id="5307343"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>2225</td>
+	<td><div id="523742par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523742',523742,'Controversies About Inequality',3)">
+	
+	Controversies About Inequality</a></div>
+	<div id="5237423"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>2264</td>
+	<td><div id="530776par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530776',530776,'Political Violence',3)">
+	
+	Political Violence</a></div>
+	<div id="5307763"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>2284</td>
+	<td><div id="528485par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528485',528485,'Capitalism in China',3)">
+	
+	Capitalism in China</a></div>
+	<div id="5284853"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>2293</td>
+	<td><div id="530704par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530704',530704,'Politics and Music',3)">
+	
+	Politics and Music</a></div>
+	<div id="5307043"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>2553</td>
+	<td><div id="529865par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529865',529865,'Inside Europe',3)">
+	
+	Inside Europe</a></div>
+	<div id="5298653"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>2817</td>
+	<td><div id="530689par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530689',530689,'America Confronts the World',3)">
+	
+	America Confronts the World</a></div>
+	<div id="5306893"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3002</td>
+	<td><div id="528606par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528606',528606,'Civil Rights and Civil Liberties',3)">
+	
+	Civil Rights and Civil Liberties</a></div>
+	<div id="5286063"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3012</td>
+	<td><div id="528399par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528399',528399,'The Politics of Poverty in the U.S.',3)">
+	
+	The Politics of Poverty in the U.S.</a></div>
+	<div id="5283993"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3032</td>
+	<td><div id="529063par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529063',529063,'Politics of Public Policy in the U.S.',3)">
+	
+	Politics of Public Policy in the U.S.</a></div>
+	<div id="5290633"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3044</td>
+	<td><div id="529796par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529796',529796,'China\'s Next Economy',3)">
+	
+	China's Next Economy</a></div>
+	<div id="5297963"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3071</td>
+	<td><div id="523747par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523747',523747,'Enduring Global and American Issues',3)">
+	
+	Enduring Global and American Issues</a></div>
+	<div id="5237473"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3082</td>
+	<td><div id="526666par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526666',526666,'American Political Campaigns',3)">
+	
+	American Political Campaigns</a></div>
+	<div id="5266663"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3091</td>
+	<td><div id="521140par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521140',521140,'Science in the American Polity, 1960 to Now',3)">
+	
+	Science in the American Polity, 1960 to Now</a></div>
+	<div id="5211403"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3112</td>
+	<td><div id="528607par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528607',528607,'Congress and the Legislative Process',3)">
+	
+	Congress and the Legislative Process</a></div>
+	<div id="5286073"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3141</td>
+	<td><div id="523750par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523750',523750,'Prisons',3)">
+	
+	Prisons</a></div>
+	<div id="5237503"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3152</td>
+	<td><div id="529941par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529941',529941,'Prisons, Politics & Policy',3)">
+	
+	Prisons, Politics & Policy</a></div>
+	<div id="5299413"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3161</td>
+	<td><div id="523752par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523752',523752,'The American Presidency',3)">
+	
+	The American Presidency</a></div>
+	<div id="5237523"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3189</td>
+	<td><div id="527760par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527760',527760,'Taking America\'s Pulse: Creating and Conducting a National Opinion Poll',3)">
+	
+	Taking America's Pulse: Creating and Conducting a National Opinion Poll</a></div>
+	<div id="5277603"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3212</td>
+	<td><div id="523754par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523754',523754,'Public Opinion and Representation',3)">
+	
+	Public Opinion and Representation</a></div>
+	<div id="5237543"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3241</td>
+	<td><div id="523755par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523755',523755,'Inequality and American Democracy',3)">
+	
+	Inequality and American Democracy</a></div>
+	<div id="5237553"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3262</td>
+	<td><div id="526667par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526667',526667,'Authoritarian Regimes',3)">
+	
+	Authoritarian Regimes</a></div>
+	<div id="5266673"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3273</td>
+	<td><div id="527717par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527717',527717,'Politics and Markets',3)">
+	
+	Politics and Markets</a></div>
+	<div id="5277173"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3274</td>
+	<td><div id="529062par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529062',529062,'Game Theory and Politics',3)">
+	
+	Game Theory and Politics</a></div>
+	<div id="5290623"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3283</td>
+	<td><div id="529792par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529792',529792,'Russian Politics',3)">
+	
+	Russian Politics</a></div>
+	<div id="5297923"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3284</td>
+	<td><div id="530695par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530695',530695,'Populism, Democracy & Authoritarianism',3)">
+	
+	Populism, Democracy & Authoritarianism</a></div>
+	<div id="5306953"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3323</td>
+	<td><div id="523759par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523759',523759,'Modern European Politics',3)">
+	
+	Modern European Politics</a></div>
+	<div id="5237593"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3333</td>
+	<td><div id="520711par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520711',520711,'China-Africa Relations',3)">
+	
+	China-Africa Relations</a></div>
+	<div id="5207113"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3353</td>
+	<td><div id="534990par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','534990',534990,'African Politics',3)">
+	
+	African Politics</a></div>
+	<div id="5349903"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3354</td>
+	<td><div id="552134par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552134',552134,'Transformation of Socialist Societies',3)">
+	
+	Transformation of Socialist Societies</a></div>
+	<div id="5521343"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3403</td>
+	<td><div id="523760par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523760',523760,'China Under Revolution and Reform',3)">
+	
+	China Under Revolution and Reform</a></div>
+	<div id="5237603"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3547</td>
+	<td><div id="529041par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529041',529041,'America, Business and International Political Economy',3)">
+	
+	America, Business and International Political Economy</a></div>
+	<div id="5290413"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3549</td>
+	<td><div id="523763par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523763',523763,'Capitalism, Competition, and Conflict in the Global Economy',3)">
+	
+	Capitalism, Competition, and Conflict in the Global Economy</a></div>
+	<div id="5237633"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3557</td>
+	<td><div id="529817par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529817',529817,'U.S. Exceptionalism Questioned: Comparative Political Economy',3)">
+	
+	U.S. Exceptionalism Questioned: Comparative Political Economy</a></div>
+	<div id="5298173"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3809</td>
+	<td><div id="523786par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523786',523786,'Politics of \'70s Films',3)">
+	
+	Politics of '70s Films</a></div>
+	<div id="5237863"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3867</td>
+	<td><div id="523771par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523771',523771,'War: Causes and Conduct',3)">
+	
+	War: Causes and Conduct</a></div>
+	<div id="5237713"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3877</td>
+	<td><div id="528400par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528400',528400,'Nuclear Security in a Changing World',3)">
+	
+	Nuclear Security in a Changing World</a></div>
+	<div id="5284003"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3887</td>
+	<td><div id="530684par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530684',530684,'Int\'l Human Rights in Theory & Practice',3)">
+	
+	Int'l Human Rights in Theory & Practice</a></div>
+	<div id="5306843"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3897</td>
+	<td><div id="528406par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528406',528406,'Human Rights at War',3)">
+	
+	Human Rights at War</a></div>
+	<div id="5284063"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3988</td>
+	<td><div id="528142par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528142',528142,'Democracy, Dictatorships & US Foreign Policy',3)">
+	
+	Democracy, Dictatorships & US Foreign Policy</a></div>
+	<div id="5281423"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3990</td>
+	<td><div id="529622par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529622',529622,'Puzzle Solving with Data',3)">
+	
+	Puzzle Solving with Data</a></div>
+	<div id="5296223"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3999</td>
+	<td><div id="527153par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527153',527153,'How Do You Know That?',3)">
+	
+	How Do You Know That?</a></div>
+	<div id="5271533"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4019</td>
+	<td><div id="528408par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528408',528408,'Introductory Probability and Applied Statistics',3)">
+	
+	Introductory Probability and Applied Statistics</a></div>
+	<div id="5284083"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4031</td>
+	<td><div id="531372par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531372',531372,'Social Movements in American Politics: Then and Now',3)">
+	
+	Social Movements in American Politics: Then and Now</a></div>
+	<div id="5313723"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4032</td>
+	<td><div id="523774par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523774',523774,'Immigration and Politics Research Seminar',3)">
+	
+	Immigration and Politics Research Seminar</a></div>
+	<div id="5237743"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4092</td>
+	<td><div id="526683par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526683',526683,'Persuasive Politics',3)">
+	
+	Persuasive Politics</a></div>
+	<div id="5266833"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4102</td>
+	<td><div id="528143par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528143',528143,'Governing Green Cities',3)">
+	
+	Governing Green Cities</a></div>
+	<div id="5281433"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4142</td>
+	<td><div id="523777par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523777',523777,'Causes and Consequences of U.S. Foreign Policy',3)">
+	
+	Causes and Consequences of U.S. Foreign Policy</a></div>
+	<div id="5237773"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4194</td>
+	<td><div id="526684par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526684',526684,'Asian Political Economy',3)">
+	
+	Asian Political Economy</a></div>
+	<div id="5266843"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4232</td>
+	<td><div id="528417par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528417',528417,'The Politics of the Inner City',3)">
+	
+	The Politics of the Inner City</a></div>
+	<div id="5284173"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4264</td>
+	<td><div id="527119par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527119',527119,'Social Movements in Latin America',3)">
+	
+	Social Movements in Latin America</a></div>
+	<div id="5271193"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4283</td>
+	<td><div id="529431par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529431',529431,'Latino Politics as Racial Politics',3)">
+	
+	Latino Politics as Racial Politics</a></div>
+	<div id="5294313"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4293</td>
+	<td><div id="529237par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529237',529237,'Comparative Urbanization',3)">
+	
+	Comparative Urbanization</a></div>
+	<div id="5292373"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4403</td>
+	<td><div id="523780par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523780',523780,'War and the State in Comparative Perspective',3)">
+	
+	War and the State in Comparative Perspective</a></div>
+	<div id="5237803"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4424</td>
+	<td><div id="527382par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527382',527382,'The Theory & Practice of Democratic Politics in Africa',3)">
+	
+	The Theory & Practice of Democratic Politics in Africa</a></div>
+	<div id="5273823"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4451</td>
+	<td><div id="552165par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552165',552165,'Making Science Policy: The Real World',3)">
+	
+	Making Science Policy: The Real World</a></div>
+	<div id="5521653"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4543</td>
+	<td><div id="531361par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531361',531361,'Fascism, Nationalism and Populism',3)">
+	
+	Fascism, Nationalism and Populism</a></div>
+	<div id="5313613"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4847</td>
+	<td><div id="523788par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523788',523788,'Realist Theories of International Relations',3)">
+	
+	Realist Theories of International Relations</a></div>
+	<div id="5237883"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4877</td>
+	<td><div id="523789par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523789',523789,'China and Asian Security',3)">
+	
+	China and Asian Security</a></div>
+	<div id="5237893"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4987</td>
+	<td><div id="527162par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527162',527162,'Domestic Politics and International Relations',3)">
+	
+	Domestic Politics and International Relations</a></div>
+	<div id="5271623"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4998</td>
+	<td><div id="523792par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523792',523792,'Inquiry in Politics and Policy',3)">
+	
+	Inquiry in Politics and Policy</a></div>
+	<div id="5237923"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>1150</td>
+	<td><div id="523956par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523956',523956,'Human Development: Infancy and Childhood',3)">
+	
+	Human Development: Infancy and Childhood</a></div>
+	<div id="5239563"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>1170</td>
+	<td><div id="523958par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523958',523958,'Adolescence and Emerging Adulthood',3)">
+	
+	Adolescence and Emerging Adulthood</a></div>
+	<div id="5239583"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>2180</td>
+	<td><div id="523960par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523960',523960,'Human Development: Adulthood and Aging',3)">
+	
+	Human Development: Adulthood and Aging</a></div>
+	<div id="5239603"> </div></td>
+	 <td>(D-HE, KCM-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>2200</td>
+	<td><div id="523961par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523961',523961,'The Human Brain and Mind: An Introduction to Cognitive Neuroscience',3)">
+	
+	The Human Brain and Mind: An Introduction to Cognitive Neuroscience</a></div>
+	<div id="5239613"> </div></td>
+	 <td>(KCM-HE, PBS-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>2510</td>
+	<td><div id="523962par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523962',523962,'Social Gerontology: Aging and the Life Course',3)">
+	
+	Social Gerontology: Aging and the Life Course</a></div>
+	<div id="5239623"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>2580</td>
+	<td><div id="521072par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521072',521072,'Six Pretty Good Books: Explorations in Social Science',3)">
+	
+	Six Pretty Good Books: Explorations in Social Science</a></div>
+	<div id="5210723"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>2610</td>
+	<td><div id="521142par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521142',521142,'Development of Social Behavior',3)">
+	
+	Development of Social Behavior</a></div>
+	<div id="5211423"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>2800</td>
+	<td><div id="520545par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520545',520545,'Cultural Psychology',3)">
+	
+	Cultural Psychology</a></div>
+	<div id="5205453"> </div></td>
+	 <td>(CA-HE, D-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>2830</td>
+	<td><div id="526566par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526566',526566,'Research Methods in Human Development',3)">
+	
+	Research Methods in Human Development</a></div>
+	<div id="5265663"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>3290</td>
+	<td><div id="529659par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529659',529659,'Self-regulation Across the Life Span',3)">
+	
+	Self-regulation Across the Life Span</a></div>
+	<div id="5296593"> </div></td>
+	 <td>(D-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>3300</td>
+	<td><div id="520117par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520117',520117,'Developmental Psychopathology',3)">
+	
+	Developmental Psychopathology</a></div>
+	<div id="5201173"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>3490</td>
+	<td><div id="520284par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520284',520284,'Positive Psychology',3)">
+	
+	Positive Psychology</a></div>
+	<div id="5202843"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>3510</td>
+	<td><div id="526916par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526916',526916,'Racial and Ethnic Identity Development',3)">
+	
+	Racial and Ethnic Identity Development</a></div>
+	<div id="5269163"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>3620</td>
+	<td><div id="523969par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523969',523969,'Human Bonding',3)">
+	
+	Human Bonding</a></div>
+	<div id="5239693"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>3660</td>
+	<td><div id="523970par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523970',523970,'Affective and Social Neuroscience',3)">
+	
+	Affective and Social Neuroscience</a></div>
+	<div id="5239703"> </div></td>
+	 <td>(PBS-HE, KCM-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>4150</td>
+	<td><div id="518823par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','518823',518823,'Seminar on Emerging Adulthood',3)">
+	
+	Seminar on Emerging Adulthood</a></div>
+	<div id="5188233"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>4200</td>
+	<td><div id="518655par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','518655',518655,'Risk and Rational Decision Making',3)">
+	
+	Risk and Rational Decision Making</a></div>
+	<div id="5186553"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>4230</td>
+	<td><div id="519173par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','519173',519173,'Research in Children\'s Testimony: Exploring Social and Cognitive Mechanisms',3)">
+	
+	Research in Children's Testimony: Exploring Social and Cognitive Mechanisms</a></div>
+	<div id="5191733"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>4240</td>
+	<td><div id="520900par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520900',520900,'Stress, Emotion, and Health',3)">
+	
+	Stress, Emotion, and Health</a></div>
+	<div id="5209003"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>4250</td>
+	<td><div id="523976par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523976',523976,'Translational Research on Decision Making',3)">
+	
+	Translational Research on Decision Making</a></div>
+	<div id="5239763"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>4280</td>
+	<td><div id="519174par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','519174',519174,'Research on Healthy Aging',3)">
+	
+	Research on Healthy Aging</a></div>
+	<div id="5191743"> </div></td>
+	 <td>(SBA-HE, KCM-HE, D-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>4490</td>
+	<td><div id="520989par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520989',520989,'Children\'s Learning in Social Context',3)">
+	
+	Children's Learning in Social Context</a></div>
+	<div id="5209893"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>4500</td>
+	<td><div id="552149par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552149',552149,'Social Networks',3)">
+	
+	Social Networks</a></div>
+	<div id="5521493"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>4540</td>
+	<td><div id="534881par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','534881',534881,'Creativity and Its Development',3)">
+	
+	Creativity and Its Development</a></div>
+	<div id="5348813"> </div></td>
+	 <td>(D-HE, KCM-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>4570</td>
+	<td><div id="520111par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520111',520111,'Health and Social Behavior',3)">
+	
+	Health and Social Behavior</a></div>
+	<div id="5201113"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>4580</td>
+	<td><div id="521073par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521073',521073,'The Science of Social Behavior',3)">
+	
+	The Science of Social Behavior</a></div>
+	<div id="5210733"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>4590</td>
+	<td><div id="520901par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520901',520901,'Transitions Across the Life Span',3)">
+	
+	Transitions Across the Life Span</a></div>
+	<div id="5209013"> </div></td>
+	 <td>(D-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>4630</td>
+	<td><div id="520445par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520445',520445,'Introduction to Functional MRI Analysis for Human Neuroimaging',3)">
+	
+	Introduction to Functional MRI Analysis for Human Neuroimaging</a></div>
+	<div id="5204453"> </div></td>
+	 <td>(PBS-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>4690</td>
+	<td><div id="520449par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520449',520449,'Lab Research on Adult Attachment Phenomena',3)">
+	
+	Lab Research on Adult Attachment Phenomena</a></div>
+	<div id="5204493"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>4720</td>
+	<td><div id="528825par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528825',528825,'Current Research in Emotion, Cognition, and Brain',3)">
+	
+	Current Research in Emotion, Cognition, and Brain</a></div>
+	<div id="5288253"> </div></td>
+	 <td>(PBS-HE, KCM-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>4750</td>
+	<td><div id="527411par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527411',527411,'Quantitative Methods 1',3)">
+	
+	Quantitative Methods 1</a></div>
+	<div id="5274113"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>4760</td>
+	<td><div id="527414par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527414',527414,'Quantitative Methods 2',3)">
+	
+	Quantitative Methods 2</a></div>
+	<div id="5274143"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>4770</td>
+	<td><div id="520116par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520116',520116,'Psychopathology in Great Works of Literature',3)">
+	
+	Psychopathology in Great Works of Literature</a></div>
+	<div id="5201163"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>4790</td>
+	<td><div id="520057par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520057',520057,'Contemporary Perspectives on Human Bonding',3)">
+	
+	Contemporary Perspectives on Human Bonding</a></div>
+	<div id="5200573"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>4980</td>
+	<td><div id="523979par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523979',523979,'Senior Honors Seminar',3)">
+	
+	Senior Honors Seminar</a></div>
+	<div id="5239793"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>6240</td>
+	<td><div id="552185par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552185',552185,'Advanced Topics in Clinical Science',3)">
+	
+	Advanced Topics in Clinical Science</a></div>
+	<div id="5521853"> </div></td>
+	 <td>(D-HE, KCM-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>6470</td>
+	<td><div id="520952par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520952',520952,'Psychology of Imagination',3)">
+	
+	Psychology of Imagination</a></div>
+	<div id="5209523"> </div></td>
+	 <td>(KCM-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>6540</td>
+	<td><div id="534887par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','534887',534887,'Creativity and Its Development',3)">
+	
+	Creativity and Its Development</a></div>
+	<div id="5348873"> </div></td>
+	 <td>(CA-HE, D-HE, KCM-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HD</td><td>6635</td>
+	<td><div id="552251par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552251',552251,'Introduction to python for functional MRI analysis in human neuroimaging',3)">
+	
+	Introduction to python for functional MRI analysis in human neuroimaging</a></div>
+	<div id="5522513"> </div></td>
+	 <td>(PBS-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HE</td><td>4901</td>
+	<td><div id="527019par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527019',527019,'Practicing Health Equity: Theory and Fieldwork in Brooklyn',3)">
+	
+	Practicing Health Equity: Theory and Fieldwork in Brooklyn</a></div>
+	<div id="5270193"> </div></td>
+	 <td>(CA-HE, D-HE, KCM-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4551</td>
+	<td><div id="518818par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','518818',518818,'Race and the University',3)">
+	
+	Race and the University</a></div>
+	<div id="5188183"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>INFO</td><td>2040</td>
+	<td><div id="524304par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524304',524304,'Networks',3)">
+	
+	Networks</a></div>
+	<div id="5243043"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>INFO</td><td>2450</td>
+	<td><div id="524307par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524307',524307,'Communication and Technology',3)">
+	
+	Communication and Technology</a></div>
+	<div id="5243073"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>INFO</td><td>2770</td>
+	<td><div id="528224par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528224',528224,'Excursions in Computational Sustainability',3)">
+	
+	Excursions in Computational Sustainability</a></div>
+	<div id="5282243"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>INFO</td><td>4430</td>
+	<td><div id="529348par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529348',529348,'Teams and Technology',3)">
+	
+	Teams and Technology</a></div>
+	<div id="5293483"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>INFO</td><td>4450</td>
+	<td><div id="524321par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524321',524321,'Computer-Mediated Communication',3)">
+	
+	Computer-Mediated Communication</a></div>
+	<div id="5243213"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>INFO</td><td>4561</td>
+	<td><div id="530537par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530537',530537,'Stars, Scores, and Rankings: Evaluation and Society',3)">
+	
+	Stars, Scores, and Rankings: Evaluation and Society</a></div>
+	<div id="5305373"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>2271</td>
+	<td><div id="524372par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524372',524372,'Yiddish Linguistics',3)">
+	
+	Yiddish Linguistics</a></div>
+	<div id="5243723"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATA</td><td>3065</td>
+	<td><div id="527697par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527697',527697,'Immigrant America: Race and Citizenship in Modern Working-Class History',3)">
+	
+	Immigrant America: Race and Citizenship in Modern Working-Class History</a></div>
+	<div id="5276973"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATA</td><td>3290</td>
+	<td><div id="524461par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524461',524461,'Comparative Politics of Latin America',3)">
+	
+	Comparative Politics of Latin America</a></div>
+	<div id="5244613"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATA</td><td>4260</td>
+	<td><div id="527138par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527138',527138,'Social Movements in Latin America',3)">
+	
+	Social Movements in Latin America</a></div>
+	<div id="5271383"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LEAD</td><td>3100</td>
+	<td><div id="526503par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526503',526503,'Foundations in Leadership: Skills for Professional Success and Life',3)">
+	
+	Foundations in Leadership: Skills for Professional Success and Life</a></div>
+	<div id="5265033"> </div></td>
+	 <td>(KCM-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>LGBT</td><td>2421</td>
+	<td><div id="529315par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529315',529315,'Sex and Gender in Cross-Cultural Perspective',3)">
+	
+	Sex and Gender in Cross-Cultural Perspective</a></div>
+	<div id="5293153"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LING</td><td>2223</td>
+	<td><div id="529230par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529230',529230,'Language and the Law',3)">
+	
+	Language and the Law</a></div>
+	<div id="5292303"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LING</td><td>2241</td>
+	<td><div id="524623par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524623',524623,'Yiddish Linguistics',3)">
+	
+	Yiddish Linguistics</a></div>
+	<div id="5246233"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>1105</td>
+	<td><div id="527967par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527967',527967,'Race and Ethnicity in the United States: Social Constructs, Real World Consequences',3)">
+	
+	Race and Ethnicity in the United States: Social Constructs, Real World Consequences</a></div>
+	<div id="5279673"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>2010</td>
+	<td><div id="524679par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524679',524679,'Latinos in the United States',3)">
+	
+	Latinos in the United States</a></div>
+	<div id="5246793"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>2152</td>
+	<td><div id="531233par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531233',531233,'(Im)migration and (Im)migrants: Then and Now',3)">
+	
+	(Im)migration and (Im)migrants: Then and Now</a></div>
+	<div id="5312333"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>2200</td>
+	<td><div id="524681par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524681',524681,'Sociology of Health and Ethnic Minorities',3)">
+	
+	Sociology of Health and Ethnic Minorities</a></div>
+	<div id="5246813"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>2401</td>
+	<td><div id="534902par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','534902',534902,'Cultural Diversity and Contemporary Issues',3)">
+	
+	Cultural Diversity and Contemporary Issues</a></div>
+	<div id="5349023"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>3065</td>
+	<td><div id="527375par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527375',527375,'Immigrant America: Race and Citizenship in Modern Working-Class History',3)">
+	
+	Immigrant America: Race and Citizenship in Modern Working-Class History</a></div>
+	<div id="5273753"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>4032</td>
+	<td><div id="524685par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524685',524685,'Immigration and Politics Research Seminar',3)">
+	
+	Immigration and Politics Research Seminar</a></div>
+	<div id="5246853"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>4283</td>
+	<td><div id="529592par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529592',529592,'Latino Politics as Racial Politics',3)">
+	
+	Latino Politics as Racial Politics</a></div>
+	<div id="5295923"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>4312</td>
+	<td><div id="531160par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531160',531160,'Migration in the Americas: Engaged Research Methods and Practice',3)">
+	
+	Migration in the Americas: Engaged Research Methods and Practice</a></div>
+	<div id="5311603"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>4340</td>
+	<td><div id="530717par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530717',530717,'Fieldwork Methods in Ethnomusicology',3)">
+	
+	Fieldwork Methods in Ethnomusicology</a></div>
+	<div id="5307173"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>4590</td>
+	<td><div id="531121par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531121',531121,'Diverse Cities of the Middle East',3)">
+	
+	Diverse Cities of the Middle East</a></div>
+	<div id="5311213"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NS</td><td>1600</td>
+	<td><div id="528150par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528150',528150,'Introduction to Public Health',3)">
+	
+	Introduction to Public Health</a></div>
+	<div id="5281503"> </div></td>
+	 <td>(D-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>NS</td><td>2450</td>
+	<td><div id="525199par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525199',525199,'Social Science Perspectives on Food and Nutrition',3)">
+	
+	Social Science Perspectives on Food and Nutrition</a></div>
+	<div id="5251993"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>NS</td><td>4450</td>
+	<td><div id="525222par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525222',525222,'Toward a Sustainable Global Food System: Food Policy for Developing Countries',3)">
+	
+	Toward a Sustainable Global Food System: Food Policy for Developing Countries</a></div>
+	<div id="5252223"> </div></td>
+	 <td>(SBA-AG, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>NS</td><td>4480</td>
+	<td><div id="529637par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529637',529637,'Economics of Food and Malnutrition',3)">
+	
+	Economics of Food and Malnutrition</a></div>
+	<div id="5296373"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>NS</td><td>4570</td>
+	<td><div id="525224par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525224',525224,'Health, Poverty, and Inequality: A Global Perspective',3)">
+	
+	Health, Poverty, and Inequality: A Global Perspective</a></div>
+	<div id="5252243"> </div></td>
+	 <td>(D-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>NS</td><td>6480</td>
+	<td><div id="529638par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529638',529638,'Economics of Food and Malnutrition',3)">
+	
+	Economics of Food and Malnutrition</a></div>
+	<div id="5296383"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>NTRES</td><td>2201</td>
+	<td><div id="525258par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525258',525258,'Society and Natural Resources',3)">
+	
+	Society and Natural Resources</a></div>
+	<div id="5252583"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>NTRES</td><td>3311</td>
+	<td><div id="525271par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525271',525271,'Environmental Governance',3)">
+	
+	Environmental Governance</a></div>
+	<div id="5252713"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>NTRES</td><td>3330</td>
+	<td><div id="525273par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525273',525273,'Ways of Knowing: Indigenous and Place-Based Ecological Knowledge',3)">
+	
+	Ways of Knowing: Indigenous and Place-Based Ecological Knowledge</a></div>
+	<div id="5252733"> </div></td>
+	 <td>(CA-AG, D-AG, KCM-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>NTRES</td><td>4320</td>
+	<td><div id="525281par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525281',525281,'Human Dimensions of Coupled Social - Ecological Systems',3)">
+	
+	Human Dimensions of Coupled Social - Ecological Systems</a></div>
+	<div id="5252813"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>NTRES</td><td>4600</td>
+	<td><div id="525270par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525270',525270,'Planning for Environmental Conservation and Sustainability',3)">
+	
+	Planning for Environmental Conservation and Sustainability</a></div>
+	<div id="5252703"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>NTRES</td><td>6201</td>
+	<td><div id="527322par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527322',527322,'Community, Place, and Environment',3)">
+	
+	Community, Place, and Environment</a></div>
+	<div id="5273223"> </div></td>
+	 <td>(SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>NTRES</td><td>6330</td>
+	<td><div id="527486par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527486',527486,'Ways of Knowing: Indigenous and Place-Based Ecological Knowledge',3)">
+	
+	Ways of Knowing: Indigenous and Place-Based Ecological Knowledge</a></div>
+	<div id="5274863"> </div></td>
+	 <td>(CA-AG, D-AG, KCM-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>1734</td>
+	<td><div id="531613par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531613',531613,'Disasters',3)">
+	
+	Disasters</a></div>
+	<div id="5316133"> </div></td>
+	 <td>(PBS-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5009</td>
+	<td><div id="552191par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552191',552191,'Career Management for Public Affairs',3)">
+	
+	Career Management for Public Affairs</a></div>
+	<div id="5521913"> </div></td>
+	 <td>(KCM-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5011</td>
+	<td><div id="552192par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552192',552192,'Perspectives on Public Affairs',3)">
+	
+	Perspectives on Public Affairs</a></div>
+	<div id="5521923"> </div></td>
+	 <td>(CA-HE, D-HE, HA-HE, KCM-HE, S</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5023</td>
+	<td><div id="531594par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531594',531594,'Policy Writing for Public Affairs',3)">
+	
+	Policy Writing for Public Affairs</a></div>
+	<div id="5315943"> </div></td>
+	 <td>(KCM-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5055</td>
+	<td><div id="530676par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530676',530676,'Cross-Cultural Presentations',3)">
+	
+	Cross-Cultural Presentations</a></div>
+	<div id="5306763"> </div></td>
+	 <td>(CA-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5114</td>
+	<td><div id="530563par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530563',530563,'Organizational Design, Change, and Leadership',3)">
+	
+	Organizational Design, Change, and Leadership</a></div>
+	<div id="5305633"> </div></td>
+	 <td>(KCM-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5118</td>
+	<td><div id="531183par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531183',531183,'Leadership in Public Affairs',3)">
+	
+	Leadership in Public Affairs</a></div>
+	<div id="5311833"> </div></td>
+	 <td>(D-HE, HA-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5210</td>
+	<td><div id="535306par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535306',535306,'Intermediate Microeconomics for Public Affairs',3)">
+	
+	Intermediate Microeconomics for Public Affairs</a></div>
+	<div id="5353063"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5382</td>
+	<td><div id="552184par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552184',552184,'Bridging the Gap: Connecting Research and Policy in the New York State Legislature',3)">
+	
+	Bridging the Gap: Connecting Research and Policy in the New York State Legislature</a></div>
+	<div id="5521843"> </div></td>
+	 <td>(CA-HE, D-HE, HA-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5420</td>
+	<td><div id="531086par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531086',531086,'Public Budgeting',3)">
+	
+	Public Budgeting</a></div>
+	<div id="5310863"> </div></td>
+	 <td>(HA-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5579</td>
+	<td><div id="531526par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531526',531526,'Environmental Finance and Impact Investing Practicum',3)">
+	
+	Environmental Finance and Impact Investing Practicum</a></div>
+	<div id="5315263"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5612</td>
+	<td><div id="530701par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530701',530701,'Intergovernmental Relations',3)">
+	
+	Intergovernmental Relations</a></div>
+	<div id="5307013"> </div></td>
+	 <td>(HA-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5634</td>
+	<td><div id="531546par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531546',531546,'Corruption, Governance, and Development',3)">
+	
+	Corruption, Governance, and Development</a></div>
+	<div id="5315463"> </div></td>
+	 <td>(CA-HE, HA-HE, KCM-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5656</td>
+	<td><div id="530667par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530667',530667,'Institutional Reform in Developing Countries',3)">
+	
+	Institutional Reform in Developing Countries</a></div>
+	<div id="5306673"> </div></td>
+	 <td>(CA-HE, HA-HE, D-HE, KCM-HE, S</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5730</td>
+	<td><div id="531498par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531498',531498,'Comparative Environmental Regulation',3)">
+	
+	Comparative Environmental Regulation</a></div>
+	<div id="5314983"> </div></td>
+	 <td>(HA-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5930</td>
+	<td><div id="552133par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552133',552133,'Writing Professional Reports for Public Affairs',3)">
+	
+	Writing Professional Reports for Public Affairs</a></div>
+	<div id="5521333"> </div></td>
+	 <td>(KCM-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>2000</td>
+	<td><div id="525393par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525393',525393,'Intermediate Microeconomics',3)">
+	
+	Intermediate Microeconomics</a></div>
+	<div id="5253933"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>2030</td>
+	<td><div id="525394par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525394',525394,'Population and Public Policy',3)">
+	
+	Population and Public Policy</a></div>
+	<div id="5253943"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>2040</td>
+	<td><div id="525395par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525395',525395,'Economics of the Public Sector',3)">
+	
+	Economics of the Public Sector</a></div>
+	<div id="5253953"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>2250</td>
+	<td><div id="530481par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530481',530481,'Social Problems in the United States',3)">
+	
+	Social Problems in the United States</a></div>
+	<div id="5304813"> </div></td>
+	 <td>(CA-HE, D-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>2300</td>
+	<td><div id="525400par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525400',525400,'Introduction to Policy Analysis',3)">
+	
+	Introduction to Policy Analysis</a></div>
+	<div id="5254003"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>2350</td>
+	<td><div id="525401par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525401',525401,'The U.S. Health Care System',3)">
+	
+	The U.S. Health Care System</a></div>
+	<div id="5254013"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>2390</td>
+	<td><div id="531497par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531497',531497,'Modern Romance: Sex, Love, and Union Formation in the Internet Age',3)">
+	
+	Modern Romance: Sex, Love, and Union Formation in the Internet Age</a></div>
+	<div id="5314973"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>2610</td>
+	<td><div id="528337par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528337',528337,'Incarceration Nation',3)">
+	
+	Incarceration Nation</a></div>
+	<div id="5283373"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3080</td>
+	<td><div id="529705par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529705',529705,'Economics of the U.S. Social Safety Net',3)">
+	
+	Economics of the U.S. Social Safety Net</a></div>
+	<div id="5297053"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3100</td>
+	<td><div id="525402par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525402',525402,'Multiple Regression Analysis',3)">
+	
+	Multiple Regression Analysis</a></div>
+	<div id="5254023"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3110</td>
+	<td><div id="527001par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527001',527001,'Pharmaceutical Management and Policy',3)">
+	
+	Pharmaceutical Management and Policy</a></div>
+	<div id="5270013"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3120</td>
+	<td><div id="525398par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525398',525398,'Research Design, Practice, and Policy',3)">
+	
+	Research Design, Practice, and Policy</a></div>
+	<div id="5253983"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3130</td>
+	<td><div id="528174par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528174',528174,'Behavioral Economics and Public Policy',3)">
+	
+	Behavioral Economics and Public Policy</a></div>
+	<div id="5281743"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3150</td>
+	<td><div id="527583par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527583',527583,'Social Welfare Policy in the United States',3)">
+	
+	Social Welfare Policy in the United States</a></div>
+	<div id="5275833"> </div></td>
+	 <td>(D-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3160</td>
+	<td><div id="529706par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529706',529706,'Labor Markets and Public Policy',3)">
+	
+	Labor Markets and Public Policy</a></div>
+	<div id="5297063"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3170</td>
+	<td><div id="529708par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529708',529708,'Market Regulation and Public Policy',3)">
+	
+	Market Regulation and Public Policy</a></div>
+	<div id="5297083"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3180</td>
+	<td><div id="535223par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535223',535223,'Health Disparities',3)">
+	
+	Health Disparities</a></div>
+	<div id="5352233"> </div></td>
+	 <td>(D-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3190</td>
+	<td><div id="552095par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552095',552095,'Nonprofits and Public Policy',3)">
+	
+	Nonprofits and Public Policy</a></div>
+	<div id="5520953"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3250</td>
+	<td><div id="527538par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527538',527538,'Neighborhoods, Housing, and Urban Policy',3)">
+	
+	Neighborhoods, Housing, and Urban Policy</a></div>
+	<div id="5275383"> </div></td>
+	 <td>(D-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3280</td>
+	<td><div id="525403par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525403',525403,'Fundamentals of Population Health',3)">
+	
+	Fundamentals of Population Health</a></div>
+	<div id="5254033"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3300</td>
+	<td><div id="525404par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525404',525404,'Cost-Benefit Analysis',3)">
+	
+	Cost-Benefit Analysis</a></div>
+	<div id="5254043"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3301</td>
+	<td><div id="552094par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552094',552094,'Intermediate Policy Analysis',3)">
+	
+	Intermediate Policy Analysis</a></div>
+	<div id="5520943"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3340</td>
+	<td><div id="525405par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525405',525405,'Corporations, Shareholders, and Policy',3)">
+	
+	Corporations, Shareholders, and Policy</a></div>
+	<div id="5254053"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3400</td>
+	<td><div id="525407par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525407',525407,'The Economics of Consumer Policy',3)">
+	
+	The Economics of Consumer Policy</a></div>
+	<div id="5254073"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3440</td>
+	<td><div id="525408par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525408',525408,'Regulating Financial Institutions',3)">
+	
+	Regulating Financial Institutions</a></div>
+	<div id="5254083"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3550</td>
+	<td><div id="526615par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526615',526615,'Economics of Education',3)">
+	
+	Economics of Education</a></div>
+	<div id="5266153"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3670</td>
+	<td><div id="529709par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529709',529709,'Economics and Environmental Policy',3)">
+	
+	Economics and Environmental Policy</a></div>
+	<div id="5297093"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3780</td>
+	<td><div id="528167par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528167',528167,'Sick Around the World? Comparing Health Care Systems Around the World',3)">
+	
+	Sick Around the World? Comparing Health Care Systems Around the World</a></div>
+	<div id="5281673"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3870</td>
+	<td><div id="528175par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528175',528175,'Economic Evaluations in Health Care',3)">
+	
+	Economic Evaluations in Health Care</a></div>
+	<div id="5281753"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>4070</td>
+	<td><div id="528172par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528172',528172,'Early Childhood Policy and Economics',3)">
+	
+	Early Childhood Policy and Economics</a></div>
+	<div id="5281723"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>4140</td>
+	<td><div id="528173par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528173',528173,'Global Health Economics and Policy',3)">
+	
+	Global Health Economics and Policy</a></div>
+	<div id="5281733"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>4280</td>
+	<td><div id="526616par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526616',526616,'The Economics of Risky Health Behaviors',3)">
+	
+	The Economics of Risky Health Behaviors</a></div>
+	<div id="5266163"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>4370</td>
+	<td><div id="525415par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525415',525415,'The Economics of Health Care Markets',3)">
+	
+	The Economics of Health Care Markets</a></div>
+	<div id="5254153"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>4980</td>
+	<td><div id="525417par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525417',525417,'Honors Seminar',3)">
+	
+	Honors Seminar</a></div>
+	<div id="5254173"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PHIL</td><td>1950</td>
+	<td><div id="525599par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525599',525599,'Controversies About Inequality',3)">
+	
+	Controversies About Inequality</a></div>
+	<div id="5255993"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PHIL</td><td>2525</td>
+	<td><div id="519989par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','519989',519989,'Introduction to African Philosophy',3)">
+	
+	Introduction to African Philosophy</a></div>
+	<div id="5199893"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PHIL</td><td>2941</td>
+	<td><div id="520710par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520710',520710,'Ethics and Society: Aid and Its Consequences',3)">
+	
+	Ethics and Society: Aid and Its Consequences</a></div>
+	<div id="5207103"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PLHRT</td><td>2240</td>
+	<td><div id="527578par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527578',527578,'Urban Ecosystems',3)">
+	
+	Urban Ecosystems</a></div>
+	<div id="5275783"> </div></td>
+	 <td>(HA-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>1101</td>
+	<td><div id="525756par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525756',525756,'Introduction to Psychology',3)">
+	
+	Introduction to Psychology</a></div>
+	<div id="5257563"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>1280</td>
+	<td><div id="526437par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526437',526437,'Personality and Social Psychology: The Individual in the Social World',3)">
+	
+	Personality and Social Psychology: The Individual in the Social World</a></div>
+	<div id="5264373"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>1500</td>
+	<td><div id="527596par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527596',527596,'Introduction to Environmental Psychology',3)">
+	
+	Introduction to Environmental Psychology</a></div>
+	<div id="5275963"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>1501</td>
+	<td><div id="527597par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527597',527597,'Introduction to Environmental Psychology - Writing in the Major',3)">
+	
+	Introduction to Environmental Psychology - Writing in the Major</a></div>
+	<div id="5275973"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>2610</td>
+	<td><div id="521156par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521156',521156,'Development of Social Behavior',3)">
+	
+	Development of Social Behavior</a></div>
+	<div id="5211563"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>2650</td>
+	<td><div id="525765par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525765',525765,'Psychology and Law',3)">
+	
+	Psychology and Law</a></div>
+	<div id="5257653"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>2750</td>
+	<td><div id="525766par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525766',525766,'Introduction to Personality',3)">
+	
+	Introduction to Personality</a></div>
+	<div id="5257663"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>2800</td>
+	<td><div id="525767par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525767',525767,'Introduction to Social Psychology',3)">
+	
+	Introduction to Social Psychology</a></div>
+	<div id="5257673"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>3250</td>
+	<td><div id="525774par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525774',525774,'Adult Psychopathology',3)">
+	
+	Adult Psychopathology</a></div>
+	<div id="5257743"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>3270</td>
+	<td><div id="525776par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525776',525776,'Field Practicum I',3)">
+	
+	Field Practicum I</a></div>
+	<div id="5257763"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>3280</td>
+	<td><div id="525777par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525777',525777,'Field Practicum II',3)">
+	
+	Field Practicum II</a></div>
+	<div id="5257773"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>3350</td>
+	<td><div id="527755par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527755',527755,'The Psychology of Attention',3)">
+	
+	The Psychology of Attention</a></div>
+	<div id="5277553"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>3800</td>
+	<td><div id="525782par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525782',525782,'Social Cognition',3)">
+	
+	Social Cognition</a></div>
+	<div id="5257823"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>4030</td>
+	<td><div id="527744par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527744',527744,'Inequality, Power and Happiness',3)">
+	
+	Inequality, Power and Happiness</a></div>
+	<div id="5277443"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>4050</td>
+	<td><div id="525783par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525783',525783,'Judgment and Decision Making',3)">
+	
+	Judgment and Decision Making</a></div>
+	<div id="5257833"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>4060</td>
+	<td><div id="529951par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529951',529951,'Language and Social Groups',3)">
+	
+	Language and Social Groups</a></div>
+	<div id="5299513"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>4070</td>
+	<td><div id="529635par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529635',529635,'The Origins of Us vs Them',3)">
+	
+	The Origins of Us vs Them</a></div>
+	<div id="5296353"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>4230</td>
+	<td><div id="525786par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525786',525786,'Navigation, Memory, and Context: What Does the Hippocampus Do?',3)">
+	
+	Navigation, Memory, and Context: What Does the Hippocampus Do?</a></div>
+	<div id="5257863"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>4500</td>
+	<td><div id="530642par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530642',530642,'Psychology at the Sciencenter!',3)">
+	
+	Psychology at the Sciencenter!</a></div>
+	<div id="5306423"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>4840</td>
+	<td><div id="525795par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525795',525795,'Goals, Needs, and Desires',3)">
+	
+	Goals, Needs, and Desires</a></div>
+	<div id="5257953"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>2330</td>
+	<td><div id="535400par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535400',535400,'Religion and Social Life',3)">
+	
+	Religion and Social Life</a></div>
+	<div id="5354003"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>1101</td>
+	<td><div id="525907par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525907',525907,'Introduction to Sociology',3)">
+	
+	Introduction to Sociology</a></div>
+	<div id="5259073"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>1104</td>
+	<td><div id="525908par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525908',525908,'Race and Ethnicity in the United States: Social Constructs, Real World Consequences',3)">
+	
+	Race and Ethnicity in the United States: Social Constructs, Real World Consequences</a></div>
+	<div id="5259083"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>1290</td>
+	<td><div id="527039par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527039',527039,'American Society through Film',3)">
+	
+	American Society through Film</a></div>
+	<div id="5270393"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>2070</td>
+	<td><div id="530482par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530482',530482,'Social Problems in the United States',3)">
+	
+	Social Problems in the United States</a></div>
+	<div id="5304823"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>2090</td>
+	<td><div id="525909par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525909',525909,'Networks',3)">
+	
+	Networks</a></div>
+	<div id="5259093"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>2190</td>
+	<td><div id="525911par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525911',525911,'Introduction to Economic Sociology',3)">
+	
+	Introduction to Economic Sociology</a></div>
+	<div id="5259113"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>2208</td>
+	<td><div id="525914par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525914',525914,'Social Inequality',3)">
+	
+	Social Inequality</a></div>
+	<div id="5259143"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>2220</td>
+	<td><div id="525915par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525915',525915,'Controversies About Inequality',3)">
+	
+	Controversies About Inequality</a></div>
+	<div id="5259153"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>2250</td>
+	<td><div id="525916par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525916',525916,'Schooling and Society',3)">
+	
+	Schooling and Society</a></div>
+	<div id="5259163"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>2320</td>
+	<td><div id="531407par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531407',531407,'Social Identities and Interaction in Everyday Life',3)">
+	
+	Social Identities and Interaction in Everyday Life</a></div>
+	<div id="5314073"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>2330</td>
+	<td><div id="535393par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535393',535393,'Religion and Social Life',3)">
+	
+	Religion and Social Life</a></div>
+	<div id="5353933"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>2390</td>
+	<td><div id="531596par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531596',531596,'Modern Romance: Sex, Love, and Union Formation in the Internet Age',3)">
+	
+	Modern Romance: Sex, Love, and Union Formation in the Internet Age</a></div>
+	<div id="5315963"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>2460</td>
+	<td><div id="525917par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525917',525917,'Drugs and Society',3)">
+	
+	Drugs and Society</a></div>
+	<div id="5259173"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>2510</td>
+	<td><div id="525919par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525919',525919,'Social Gerontology: Aging and the Life Course',3)">
+	
+	Social Gerontology: Aging and the Life Course</a></div>
+	<div id="5259193"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>2560</td>
+	<td><div id="525920par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525920',525920,'Sociology of Law',3)">
+	
+	Sociology of Law</a></div>
+	<div id="5259203"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>2580</td>
+	<td><div id="521069par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521069',521069,'Six Pretty Good Books: Explorations in Social Science',3)">
+	
+	Six Pretty Good Books: Explorations in Social Science</a></div>
+	<div id="5210693"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>2610</td>
+	<td><div id="530192par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530192',530192,'Incarceration Nation',3)">
+	
+	Incarceration Nation</a></div>
+	<div id="5301923"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>2650</td>
+	<td><div id="525921par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525921',525921,'Latinos in the United States',3)">
+	
+	Latinos in the United States</a></div>
+	<div id="5259213"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>2710</td>
+	<td><div id="525922par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525922',525922,'America\'s Promise: Social and Political Context of American Education',3)">
+	
+	America's Promise: Social and Political Context of American Education</a></div>
+	<div id="5259223"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>2840</td>
+	<td><div id="528401par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528401',528401,'Capitalism in China',3)">
+	
+	Capitalism in China</a></div>
+	<div id="5284013"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3120</td>
+	<td><div id="526489par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526489',526489,'Urban Sociology',3)">
+	
+	Urban Sociology</a></div>
+	<div id="5264893"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3130</td>
+	<td><div id="525924par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525924',525924,'Sociology of Medicine',3)">
+	
+	Sociology of Medicine</a></div>
+	<div id="5259243"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3140</td>
+	<td><div id="530189par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530189',530189,'Social Welfare Policy in the United States',3)">
+	
+	Social Welfare Policy in the United States</a></div>
+	<div id="5301893"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3160</td>
+	<td><div id="529092par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529092',529092,'Social Context and Health',3)">
+	
+	Social Context and Health</a></div>
+	<div id="5290923"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3190</td>
+	<td><div id="525925par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525925',525925,'Contemporary Sociological Theory',3)">
+	
+	Contemporary Sociological Theory</a></div>
+	<div id="5259253"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3240</td>
+	<td><div id="525926par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525926',525926,'Environmental Sociology',3)">
+	
+	Environmental Sociology</a></div>
+	<div id="5259263"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3250</td>
+	<td><div id="529778par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529778',529778,'Neighborhoods, Housing, and Urban Policy',3)">
+	
+	Neighborhoods, Housing, and Urban Policy</a></div>
+	<div id="5297783"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3310</td>
+	<td><div id="528747par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528747',528747,'Modern European Politics',3)">
+	
+	Modern European Politics</a></div>
+	<div id="5287473"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3360</td>
+	<td><div id="521062par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521062',521062,'Evolving Families: Challenges to Public Policy',3)">
+	
+	Evolving Families: Challenges to Public Policy</a></div>
+	<div id="5210623"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3380</td>
+	<td><div id="527637par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527637',527637,'Urban Inequality',3)">
+	
+	Urban Inequality</a></div>
+	<div id="5276373"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3430</td>
+	<td><div id="552135par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552135',552135,'Transformation of Socialist Societies',3)">
+	
+	Transformation of Socialist Societies</a></div>
+	<div id="5521353"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3540</td>
+	<td><div id="527205par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527205',527205,'Capitalism, Competition, and Conflict in the Global Economy',3)">
+	
+	Capitalism, Competition, and Conflict in the Global Economy</a></div>
+	<div id="5272053"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3570</td>
+	<td><div id="525929par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525929',525929,'Schooling, Racial Inequality, and Public Policy in America',3)">
+	
+	Schooling, Racial Inequality, and Public Policy in America</a></div>
+	<div id="5259293"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3580</td>
+	<td><div id="552116par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552116',552116,'Big Data on the Social World',3)">
+	
+	Big Data on the Social World</a></div>
+	<div id="5521163"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3650</td>
+	<td><div id="527860par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527860',527860,'Sociology of Disasters',3)">
+	
+	Sociology of Disasters</a></div>
+	<div id="5278603"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3680</td>
+	<td><div id="552117par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552117',552117,'Comparative Corruption',3)">
+	
+	Comparative Corruption</a></div>
+	<div id="5521173"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3710</td>
+	<td><div id="525930par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525930',525930,'Comparative Social Inequalities',3)">
+	
+	Comparative Social Inequalities</a></div>
+	<div id="5259303"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3750</td>
+	<td><div id="525931par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525931',525931,'Classical Sociological Theory',3)">
+	
+	Classical Sociological Theory</a></div>
+	<div id="5259313"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3770</td>
+	<td><div id="530582par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530582',530582,'Money, Work and Social Life',3)">
+	
+	Money, Work and Social Life</a></div>
+	<div id="5305823"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3850</td>
+	<td><div id="528402par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528402',528402,'Mass Incarceration and Family Life Course',3)">
+	
+	Mass Incarceration and Family Life Course</a></div>
+	<div id="5284023"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3950</td>
+	<td><div id="525932par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525932',525932,'Advanced Economic Sociology',3)">
+	
+	Advanced Economic Sociology</a></div>
+	<div id="5259323"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>4120</td>
+	<td><div id="552266par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552266',552266,'Health and Social Context',3)">
+	
+	Health and Social Context</a></div>
+	<div id="5522663"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>4290</td>
+	<td><div id="530891par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530891',530891,'Diverse Cities of the Middle East',3)">
+	
+	Diverse Cities of the Middle East</a></div>
+	<div id="5308913"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>4330</td>
+	<td><div id="527864par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527864',527864,'Seminar in Economy and Society',3)">
+	
+	Seminar in Economy and Society</a></div>
+	<div id="5278643"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>4370</td>
+	<td><div id="531682par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531682',531682,'Sociology of Sex and Gender',3)">
+	
+	Sociology of Sex and Gender</a></div>
+	<div id="5316823"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>4540</td>
+	<td><div id="530892par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530892',530892,'Fascism, Nationalism and Populism',3)">
+	
+	Fascism, Nationalism and Populism</a></div>
+	<div id="5308923"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>4560</td>
+	<td><div id="530511par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530511',530511,'Stars, Scores, and Rankings: Evaluation and Society',3)">
+	
+	Stars, Scores, and Rankings: Evaluation and Society</a></div>
+	<div id="5305113"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>4750</td>
+	<td><div id="552119par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552119',552119,'Careers and Social Mobility and Knowledge Economy',3)">
+	
+	Careers and Social Mobility and Knowledge Economy</a></div>
+	<div id="5521193"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>4780</td>
+	<td><div id="520912par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520912',520912,'The Family and Society in Africa and the African Diaspora',3)">
+	
+	The Family and Society in Africa and the African Diaspora</a></div>
+	<div id="5209123"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>1101</td>
+	<td><div id="525983par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525983',525983,'Science, Technology, and Politics',3)">
+	
+	Science, Technology, and Politics</a></div>
+	<div id="5259833"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>2851</td>
+	<td><div id="525992par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525992',525992,'Communication, Environment, Science, and Health',3)">
+	
+	Communication, Environment, Science, and Health</a></div>
+	<div id="5259923"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>3011</td>
+	<td><div id="525995par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525995',525995,'Life Sciences and Society',3)">
+	
+	Life Sciences and Society</a></div>
+	<div id="5259953"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>3111</td>
+	<td><div id="525996par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525996',525996,'Sociology of Medicine',3)">
+	
+	Sociology of Medicine</a></div>
+	<div id="5259963"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>3231</td>
+	<td><div id="534985par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','534985',534985,'Global Health Security and Diplomacy',3)">
+	
+	Global Health Security and Diplomacy</a></div>
+	<div id="5349853"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>3241</td>
+	<td><div id="525998par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525998',525998,'Environmental Sociology',3)">
+	
+	Environmental Sociology</a></div>
+	<div id="5259983"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>3311</td>
+	<td><div id="525999par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525999',525999,'Environmental Governance',3)">
+	
+	Environmental Governance</a></div>
+	<div id="5259993"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>3911</td>
+	<td><div id="521160par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521160',521160,'Science in the American Polity, 1960 to Now',3)">
+	
+	Science in the American Polity, 1960 to Now</a></div>
+	<div id="5211603"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>4041</td>
+	<td><div id="529598par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529598',529598,'Controversies in Science, Technology and Medicine: What They Are and How to Study Them',3)">
+	
+	Controversies in Science, Technology and Medicine: What They Are and How to Study Them</a></div>
+	<div id="5295983"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>4451</td>
+	<td><div id="531208par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531208',531208,'Making Science Policy: The Real World',3)">
+	
+	Making Science Policy: The Real World</a></div>
+	<div id="5312083"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>4541</td>
+	<td><div id="530386par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530386',530386,'Risk and Society',3)">
+	
+	Risk and Society</a></div>
+	<div id="5303863"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>4561</td>
+	<td><div id="530437par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530437',530437,'Stars, Scores, and Rankings: Evaluation and Society',3)">
+	
+	Stars, Scores, and Rankings: Evaluation and Society</a></div>
+	<div id="5304373"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>4841</td>
+	<td><div id="531489par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531489',531489,'What is (an) Epidemic? (Infectious Diseases in Historical, Social, and Political Perspective)',3)">
+	
+	What is (an) Epidemic? (Infectious Diseases in Historical, Social, and Political Perspective)</a></div>
+	<div id="5314893"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+</table>
+
+<br>
+</div></div></div>
+</body>
+</html>

@@ -1,0 +1,7493 @@
+<!DOCTYPE HTML><html><head><script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/masks.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Liberal Studies Category: LA</title> <script src="/liberalstudies/js/ls_course_ajax.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/app_header/appheader_main.css" />
+
+
+
+<link rel="stylesheet" type="text/css" href="/app_header/appheader_mobile.css" />
+
+
+
+<!--[if lt IE 9]>
+
+<link rel="stylesheet" href="/app_header/appheader_IE.css" type="text/css" media="screen, projection"><![endif]-->
+
+<script type="text/javascript">
+<!--
+    _CF_checkCFForm_1 = function(_CF_this)
+    {
+        //reset on submit
+        _CF_error_exists = false;
+        _CF_error_messages = new Array();
+        _CF_error_fields = new Object();
+        _CF_FirstErrorField = null;
+
+
+        //display error messages and return success
+        if( _CF_error_exists )
+        {
+            if( _CF_error_messages.length > 0 )
+            {
+                // show alert() message
+                _CF_onErrorAlert(_CF_error_messages);
+                // set focus to first form error, if the field supports js focus().
+                if( _CF_this[_CF_FirstErrorField].type == "text" )
+                { _CF_this[_CF_FirstErrorField].focus(); }
+
+            }
+            return false;
+        }else {
+            return true;
+        }
+    }
+//-->
+</script>
+</head> <body style="margin: 0px 0px 0px 0px;"> 
+
+
+
+
+
+<!-- The following div contains the Cornell University logo with unit signature -->
+
+
+
+
+
+<div id="cu-identity">
+
+
+
+	<div id="cu-logo">
+
+
+
+		<img src="/app_header/images/stilllogo_3.jpg" alt="Cornell University" width="260" height="75" border="0" usemap="#linksmap"/></a>
+
+				<map name="linksmap">
+
+				<area shape="rect" coords="50,22,175,40" href="http://www.cornell.edu/" alt="Cornell University">
+
+				<area shape="rect" coords="55,41,200,60" href="http://www.engineering.cornell.edu/" alt="College of Engineering">
+
+					<area shape="circle" coords="28,36,23" href="http://www.cornell.edu/" alt="Cornell University">
+
+				</map>
+
+  	</div>
+
+
+
+	<div id="search_form">
+
+	<form name="CFForm_1" id="CFForm_1" action="https://apps.engineering.cornell.edu/liberalstudies/search.cfm" method="post" onsubmit="return _CF_checkCFForm_1(this)">
+
+				<label id="search_text">SEARCH:</label>
+
+		<input name="q" type="text" maxlength="256"  size="20"  id="search_query"  /> <input name="enter" type="submit" value="go" id="search_submit"  /> </form>
+
+
+	</div>
+
+</div>
+
+
+
+
+
+	
+
+
+
+	<!-- The header div contains the main identity and main navigation for the site -->
+
+<div id="header">
+
+	<!--
+
+		The navigation div contains the site's main navigation. These
+
+		links will be displayed in a horizontal, gray navigation bar
+
+		under the unit signature banner.
+
+	-->
+
+	
+
+	<div id="navigation">
+
+		<ul>
+
+			<li><a href="index.cfm" >Liberal Studies Policy</a></li>
+
+	
+            <li><a href="CA.cfm" >CA</a></li>
+
+            <li><a href="HA.cfm" >HA</a></li>
+
+            <li><a href="KCM.cfm" >KCM</a></li>
+
+            <li><a href="LA.cfm" class="current">LA</a></li>
+
+            <li><a href="SBA.cfm" >SBA</a></li>
+
+			<li><a href="CE.cfm" >CE</a></li>
+
+            <li><a href="policy.cfm" >Petitions</a></li>
+
+
+
+            <li><a href="ApprovedLiberalStudies.pdf">Other Yes</a></li>
+
+
+
+          <li><a href="DeniedLiberalStudies.pdf">Other No</a></li>
+
+		  
+
+		  
+
+
+
+		</ul>
+
+	</div>
+
+
+
+  </div>
+
+  <div id="identity">
+
+  Liberal Studies Category: LA
+
+  </div>
+
+
+
+
+
+</div>
+
+<div id="wrapper"> <div id="center"> 
+
+<!-- The content div contains the main content of the page -->
+<div id="content">
+<br>
+
+<table>
+<tr><th><b>Department</b></th><th><b>Course Number</b></th><th><b>Title</b></th><th><b>Distribution</b></th></tr>
+ 
+  <tr>
+	<td>AAS</td><td>2620</td>
+	<td><div id="521284par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521284',521284,'Introduction to Asian American Literature',3)">
+	
+	Introduction to Asian American Literature</a></div>
+	<div id="5212843"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AAS</td><td>3020</td>
+	<td><div id="552036par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552036',552036,'Asian Americans & Popular Culture',3)">
+	
+	Asian Americans & Popular Culture</a></div>
+	<div id="5520363"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AAS</td><td>3580</td>
+	<td><div id="529098par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529098',529098,'Twentieth Century Women Writers of Color in the Americas',3)">
+	
+	Twentieth Century Women Writers of Color in the Americas</a></div>
+	<div id="5290983"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AAS</td><td>4555</td>
+	<td><div id="521192par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521192',521192,'Race and Time',3)">
+	
+	Race and Time</a></div>
+	<div id="5211923"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AIIS</td><td>2600</td>
+	<td><div id="521208par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521208',521208,'Introduction to Native American Literature',3)">
+	
+	Introduction to Native American Literature</a></div>
+	<div id="5212083"> </div></td>
+	 <td>(CA-AG, D-AG, LA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AKKAD</td><td>1411</td>
+	<td><div id="526577par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526577',526577,'Elementary Akkadian II: Historical and Literary Texts',3)">
+	
+	Elementary Akkadian II: Historical and Literary Texts</a></div>
+	<div id="5265773"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>1312</td>
+	<td><div id="521450par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521450',521450,'History of Rock Music',3)">
+	
+	History of Rock Music</a></div>
+	<div id="5214503"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>1313</td>
+	<td><div id="521451par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521451',521451,'A Survey of Jazz',3)">
+	
+	A Survey of Jazz</a></div>
+	<div id="5214513"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2000</td>
+	<td><div id="527095par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527095',527095,'Introduction to Visual Studies',3)">
+	
+	Introduction to Visual Studies</a></div>
+	<div id="5270953"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2030</td>
+	<td><div id="521457par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521457',521457,'Introduction to American Literatures: Beginnings to the Civil War',3)">
+	
+	Introduction to American Literatures: Beginnings to the Civil War</a></div>
+	<div id="5214573"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2060</td>
+	<td><div id="521459par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521459',521459,'The Great American Cornell Novel',3)">
+	
+	The Great American Cornell Novel</a></div>
+	<div id="5214593"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2401</td>
+	<td><div id="520961par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520961',520961,'Introduction to Latino/a Literature',3)">
+	
+	Introduction to Latino/a Literature</a></div>
+	<div id="5209613"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2600</td>
+	<td><div id="521209par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521209',521209,'Introduction to Native American Literature',3)">
+	
+	Introduction to Native American Literature</a></div>
+	<div id="5212093"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2620</td>
+	<td><div id="521469par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521469',521469,'Introduction to Asian American Literature',3)">
+	
+	Introduction to Asian American Literature</a></div>
+	<div id="5214693"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2735</td>
+	<td><div id="530788par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530788',530788,'Children\'s Literature',3)">
+	
+	Children's Literature</a></div>
+	<div id="5307883"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2760</td>
+	<td><div id="521473par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521473',521473,'American Cinema',3)">
+	
+	American Cinema</a></div>
+	<div id="5214733"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3025</td>
+	<td><div id="552037par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552037',552037,'Asian Americans & Popular Culture',3)">
+	
+	Asian Americans & Popular Culture</a></div>
+	<div id="5520373"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3035</td>
+	<td><div id="531028par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531028',531028,'Seminar in American Literature: Beginnings to the Civil War',3)">
+	
+	Seminar in American Literature: Beginnings to the Civil War</a></div>
+	<div id="5310283"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3370</td>
+	<td><div id="519125par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','519125',519125,'Contemporary American Theatre on Stage and Screen',3)">
+	
+	Contemporary American Theatre on Stage and Screen</a></div>
+	<div id="5191253"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3506</td>
+	<td><div id="535141par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535141',535141,'Slavery and Visual Culture',3)">
+	
+	Slavery and Visual Culture</a></div>
+	<div id="5351413"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3515</td>
+	<td><div id="526932par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526932',526932,'Blaxploitation Film and Photography',3)">
+	
+	Blaxploitation Film and Photography</a></div>
+	<div id="5269323"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3525</td>
+	<td><div id="527939par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527939',527939,'Twentieth Century American Poetry',3)">
+	
+	Twentieth Century American Poetry</a></div>
+	<div id="5279393"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3562</td>
+	<td><div id="527961par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527961',527961,'Thinking from a Different Place: Indigenous Philosophies',3)">
+	
+	Thinking from a Different Place: Indigenous Philosophies</a></div>
+	<div id="5279613"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3580</td>
+	<td><div id="529099par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529099',529099,'Twentieth Century Women Writers of Color in the Americas',3)">
+	
+	Twentieth Century Women Writers of Color in the Americas</a></div>
+	<div id="5290993"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3612</td>
+	<td><div id="521025par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521025',521025,'Capitalism and Colonialism in Early American Literatures',3)">
+	
+	Capitalism and Colonialism in Early American Literatures</a></div>
+	<div id="5210253"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3650</td>
+	<td><div id="534871par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','534871',534871,'Envisioning America: Nineteenth-Century US Poetry and Prose',3)">
+	
+	Envisioning America: Nineteenth-Century US Poetry and Prose</a></div>
+	<div id="5348713"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3655</td>
+	<td><div id="521489par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521489',521489,'Politics and Literature',3)">
+	
+	Politics and Literature</a></div>
+	<div id="5214893"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3661</td>
+	<td><div id="530005par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530005',530005,'Reading the Nineteenth-Century American Novel',3)">
+	
+	Reading the Nineteenth-Century American Novel</a></div>
+	<div id="5300053"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3670</td>
+	<td><div id="521035par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521035',521035,'Modern American Fiction',3)">
+	
+	Modern American Fiction</a></div>
+	<div id="5210353"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3720</td>
+	<td><div id="521490par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521490',521490,'Food, Gender, and Culture',3)">
+	
+	Food, Gender, and Culture</a></div>
+	<div id="5214903"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3754</td>
+	<td><div id="529266par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529266',529266,'Spoken Word, Hip-Hop Theater, and the Politics of the Performance',3)">
+	
+	Spoken Word, Hip-Hop Theater, and the Politics of the Performance</a></div>
+	<div id="5292663"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3760</td>
+	<td><div id="531001par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531001',531001,'American Cinema since 1968',3)">
+	
+	American Cinema since 1968</a></div>
+	<div id="5310013"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3820</td>
+	<td><div id="521494par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521494',521494,'Poetry and Poetics of the Americas',3)">
+	
+	Poetry and Poetics of the Americas</a></div>
+	<div id="5214943"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4030</td>
+	<td><div id="520962par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520962',520962,'Poetry in Process',3)">
+	
+	Poetry in Process</a></div>
+	<div id="5209623"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4194</td>
+	<td><div id="528063par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528063',528063,'American Shakespeare',3)">
+	
+	American Shakespeare</a></div>
+	<div id="5280633"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4470</td>
+	<td><div id="552219par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552219',552219,'Data Bodies: Latinx Art and Politics',3)">
+	
+	Data Bodies: Latinx Art and Politics</a></div>
+	<div id="5522193"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4521</td>
+	<td><div id="521003par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521003',521003,'Gender, Memory, and History in Twentieth Century Fiction',3)">
+	
+	Gender, Memory, and History in Twentieth Century Fiction</a></div>
+	<div id="5210033"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4565</td>
+	<td><div id="519070par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','519070',519070,'Traffic: Drugs, Bodies, Books',3)">
+	
+	Traffic: Drugs, Bodies, Books</a></div>
+	<div id="5190703"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4578</td>
+	<td><div id="518947par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','518947',518947,'The Bodies That Were Not Ours: Critical Studies of Chicana, Latina, and Indigena Body Politics',3)">
+	
+	The Bodies That Were Not Ours: Critical Studies of Chicana, Latina, and Indigena Body Politics</a></div>
+	<div id="5189473"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4627</td>
+	<td><div id="520854par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520854',520854,'Contemporary Native American Fiction',3)">
+	
+	Contemporary Native American Fiction</a></div>
+	<div id="5208543"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4633</td>
+	<td><div id="520855par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520855',520855,'Art! Poetry! Power!',3)">
+	
+	Art! Poetry! Power!</a></div>
+	<div id="5208553"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4670</td>
+	<td><div id="520839par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520839',520839,'Native American Poetry of Resistance',3)">
+	
+	Native American Poetry of Resistance</a></div>
+	<div id="5208393"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4671</td>
+	<td><div id="552050par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552050',552050,'How the Civil War Haunts America',3)">
+	
+	How the Civil War Haunts America</a></div>
+	<div id="5520503"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4696</td>
+	<td><div id="527096par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527096',527096,'The Art Market',3)">
+	
+	The Art Market</a></div>
+	<div id="5270963"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4880</td>
+	<td><div id="521277par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521277',521277,'Contemporary Poetry and Poetics',3)">
+	
+	Contemporary Poetry and Poetics</a></div>
+	<div id="5212773"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>3110</td>
+	<td><div id="535637par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535637',535637,'Documentary Production Fundamentals',3)">
+	
+	Documentary Production Fundamentals</a></div>
+	<div id="5356373"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARAB</td><td>2204</td>
+	<td><div id="525149par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525149',525149,'Introduction to Quranic Arabic',3)">
+	
+	Introduction to Quranic Arabic</a></div>
+	<div id="5251493"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARAB</td><td>3210</td>
+	<td><div id="528246par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528246',528246,'Arabic Grammar and Writing (in Arabic)',3)">
+	
+	Arabic Grammar and Writing (in Arabic)</a></div>
+	<div id="5282463"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARAB</td><td>3700</td>
+	<td><div id="528478par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528478',528478,'Arabic Language Through Film',3)">
+	
+	Arabic Language Through Film</a></div>
+	<div id="5284783"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARAB</td><td>4200</td>
+	<td><div id="526571par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526571',526571,'Modern Arabic Literature',3)">
+	
+	Modern Arabic Literature</a></div>
+	<div id="5265713"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARCH</td><td>1120</td>
+	<td><div id="531638par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531638',531638,'Architecture Design Studio',3)">
+	
+	Architecture Design Studio</a></div>
+	<div id="5316383"> </div></td>
+	 <td>(LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>3226</td>
+	<td><div id="527876par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527876',527876,'Art of Late Antiquity',3)">
+	
+	Art of Late Antiquity</a></div>
+	<div id="5278763"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>3662</td>
+	<td><div id="527436par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527436',527436,'Sumerian Language and Culture II',3)">
+	
+	Sumerian Language and Culture II</a></div>
+	<div id="5274363"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>3800</td>
+	<td><div id="521753par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521753',521753,'Introduction to the Arts of China',3)">
+	
+	Introduction to the Arts of China</a></div>
+	<div id="5217533"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>4162</td>
+	<td><div id="535194par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535194',535194,'The Inca Empire and its Colonial Legacies',3)">
+	
+	The Inca Empire and its Colonial Legacies</a></div>
+	<div id="5351943"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>2201</td>
+	<td><div id="521774par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521774',521774,'Painting: Introduction to Painting',3)">
+	
+	Painting: Introduction to Painting</a></div>
+	<div id="5217743"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>2301</td>
+	<td><div id="521775par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521775',521775,'Print Media: Introduction to Print Media',3)">
+	
+	Print Media: Introduction to Print Media</a></div>
+	<div id="5217753"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>2401</td>
+	<td><div id="521776par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521776',521776,'Introduction to Sculpture',3)">
+	
+	Introduction to Sculpture</a></div>
+	<div id="5217763"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>2503</td>
+	<td><div id="521778par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521778',521778,'Drawing: Introduction to Drawing',3)">
+	
+	Drawing: Introduction to Drawing</a></div>
+	<div id="5217783"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>2601</td>
+	<td><div id="521781par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521781',521781,'Photography: Introduction to Photography',3)">
+	
+	Photography: Introduction to Photography</a></div>
+	<div id="5217813"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>2701</td>
+	<td><div id="521783par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521783',521783,'Digital Media: Introduction to Digital Media',3)">
+	
+	Digital Media: Introduction to Digital Media</a></div>
+	<div id="5217833"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3092</td>
+	<td><div id="526527par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526527',526527,'Independent Studio in Art',3)">
+	
+	Independent Studio in Art</a></div>
+	<div id="5265273"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3201</td>
+	<td><div id="521794par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521794',521794,'Painting: Spatial Transpositions in Painting',3)">
+	
+	Painting: Spatial Transpositions in Painting</a></div>
+	<div id="5217943"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3202</td>
+	<td><div id="521795par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521795',521795,'Painting: Painting Intent and Context',3)">
+	
+	Painting: Painting Intent and Context</a></div>
+	<div id="5217953"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3203</td>
+	<td><div id="521786par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521786',521786,'Painting: Painting Film',3)">
+	
+	Painting: Painting Film</a></div>
+	<div id="5217863"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3205</td>
+	<td><div id="527444par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527444',527444,'Painting: Materials and Processes',3)">
+	
+	Painting: Materials and Processes</a></div>
+	<div id="5274443"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3304</td>
+	<td><div id="521788par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521788',521788,'Print Media: Large Format Print Media',3)">
+	
+	Print Media: Large Format Print Media</a></div>
+	<div id="5217883"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3305</td>
+	<td><div id="521787par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521787',521787,'Print Media: The Hybrid Print',3)">
+	
+	Print Media: The Hybrid Print</a></div>
+	<div id="5217873"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3306</td>
+	<td><div id="528669par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528669',528669,'Print Media: The Artist\'s Book and the Object Multiple',3)">
+	
+	Print Media: The Artist's Book and the Object Multiple</a></div>
+	<div id="5286693"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3399</td>
+	<td><div id="528177par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528177',528177,'Print Media: Special Topics',3)">
+	
+	Print Media: Special Topics</a></div>
+	<div id="5281773"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3401</td>
+	<td><div id="521797par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521797',521797,'Sculpture: Sculptural/Artistic Practice',3)">
+	
+	Sculpture: Sculptural/Artistic Practice</a></div>
+	<div id="5217973"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3404</td>
+	<td><div id="521789par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521789',521789,'Sculpture: Installation',3)">
+	
+	Sculpture: Installation</a></div>
+	<div id="5217893"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3499</td>
+	<td><div id="528178par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528178',528178,'Sculpture: Special Topics',3)">
+	
+	Sculpture: Special Topics</a></div>
+	<div id="5281783"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3501</td>
+	<td><div id="521790par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521790',521790,'Drawing: Pictorial Languages',3)">
+	
+	Drawing: Pictorial Languages</a></div>
+	<div id="5217903"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3502</td>
+	<td><div id="527445par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527445',527445,'Drawing: The Body',3)">
+	
+	Drawing: The Body</a></div>
+	<div id="5274453"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3599</td>
+	<td><div id="528179par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528179',528179,'Drawing: Special Topics',3)">
+	
+	Drawing: Special Topics</a></div>
+	<div id="5281793"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3601</td>
+	<td><div id="521798par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521798',521798,'Photography: Identity and the Global Lens',3)">
+	
+	Photography: Identity and the Global Lens</a></div>
+	<div id="5217983"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3604</td>
+	<td><div id="521791par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521791',521791,'Photography: Alternative Photographic Processes - The Composite Image',3)">
+	
+	Photography: Alternative Photographic Processes - The Composite Image</a></div>
+	<div id="5217913"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3606</td>
+	<td><div id="526432par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526432',526432,'Photography: The Constructed Image',3)">
+	
+	Photography: The Constructed Image</a></div>
+	<div id="5264323"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3699</td>
+	<td><div id="528180par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528180',528180,'Photography: Special Topics',3)">
+	
+	Photography: Special Topics</a></div>
+	<div id="5281803"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3703</td>
+	<td><div id="521799par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521799',521799,'Digital Media: Projects in Time-Based Art',3)">
+	
+	Digital Media: Projects in Time-Based Art</a></div>
+	<div id="5217993"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3704</td>
+	<td><div id="521800par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521800',521800,'Digital Media: Interactive Digital Media',3)">
+	
+	Digital Media: Interactive Digital Media</a></div>
+	<div id="5218003"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3705</td>
+	<td><div id="521801par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521801',521801,'Digital Media: Art in the Age of Networks',3)">
+	
+	Digital Media: Art in the Age of Networks</a></div>
+	<div id="5218013"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3707</td>
+	<td><div id="521792par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521792',521792,'Digital Media: Digital Video and Sound',3)">
+	
+	Digital Media: Digital Video and Sound</a></div>
+	<div id="5217923"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3708</td>
+	<td><div id="528666par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528666',528666,'Digital Media: Hybrid Media and Global Arts Practices',3)">
+	
+	Digital Media: Hybrid Media and Global Arts Practices</a></div>
+	<div id="5286663"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3799</td>
+	<td><div id="528181par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528181',528181,'Digital Media: Special Topics',3)">
+	
+	Digital Media: Special Topics</a></div>
+	<div id="5281813"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3803</td>
+	<td><div id="526433par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526433',526433,'Art History: Italian Cinema',3)">
+	
+	Art History: Italian Cinema</a></div>
+	<div id="5264333"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3805</td>
+	<td><div id="526429par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526429',526429,'Interdisciplinary Perspectives on Metropolitan Studies',3)">
+	
+	Interdisciplinary Perspectives on Metropolitan Studies</a></div>
+	<div id="5264293"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3999</td>
+	<td><div id="529455par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529455',529455,'Special Topics in Art',3)">
+	
+	Special Topics in Art</a></div>
+	<div id="5294553"> </div></td>
+	 <td>(CA-AAP, LA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>2000</td>
+	<td><div id="521812par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521812',521812,'Introduction to Visual Studies',3)">
+	
+	Introduction to Visual Studies</a></div>
+	<div id="5218123"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>3100</td>
+	<td><div id="520494par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520494',520494,'History of Photography',3)">
+	
+	History of Photography</a></div>
+	<div id="5204943"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>3226</td>
+	<td><div id="527875par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527875',527875,'Art of Late Antiquity',3)">
+	
+	Art of Late Antiquity</a></div>
+	<div id="5278753"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>3505</td>
+	<td><div id="526931par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526931',526931,'Blaxploitation Film and Photography',3)">
+	
+	Blaxploitation Film and Photography</a></div>
+	<div id="5269313"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>3506</td>
+	<td><div id="535128par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535128',535128,'Slavery and Visual Culture',3)">
+	
+	Slavery and Visual Culture</a></div>
+	<div id="5351283"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>3800</td>
+	<td><div id="521824par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521824',521824,'Introduction to the Arts of China',3)">
+	
+	Introduction to the Arts of China</a></div>
+	<div id="5218243"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>3820</td>
+	<td><div id="521825par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521825',521825,'Introduction to the Arts of Japan',3)">
+	
+	Introduction to the Arts of Japan</a></div>
+	<div id="5218253"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>3900</td>
+	<td><div id="530532par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530532',530532,'Bollywood and Beyond: South Asian Cinema',3)">
+	
+	Bollywood and Beyond: South Asian Cinema</a></div>
+	<div id="5305323"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>3940</td>
+	<td><div id="535172par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535172',535172,'The Photobook',3)">
+	
+	The Photobook</a></div>
+	<div id="5351723"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>4160</td>
+	<td><div id="527642par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527642',527642,'Topics in Colonial Encounters',3)">
+	
+	Topics in Colonial Encounters</a></div>
+	<div id="5276423"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>4162</td>
+	<td><div id="535192par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535192',535192,'The Inca Empire and its Colonial Legacies',3)">
+	
+	The Inca Empire and its Colonial Legacies</a></div>
+	<div id="5351923"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>4507</td>
+	<td><div id="528570par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528570',528570,'Topics in Contemporary Art',3)">
+	
+	Topics in Contemporary Art</a></div>
+	<div id="5285703"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>4540</td>
+	<td><div id="535242par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535242',535242,'Film History for Art Historians',3)">
+	
+	Film History for Art Historians</a></div>
+	<div id="5352423"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>4578</td>
+	<td><div id="519786par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','519786',519786,'African Cinema',3)">
+	
+	African Cinema</a></div>
+	<div id="5197863"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>4606</td>
+	<td><div id="531011par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531011',531011,'Rembrandt: Flesh Paint Performance',3)">
+	
+	Rembrandt: Flesh Paint Performance</a></div>
+	<div id="5310113"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>4696</td>
+	<td><div id="521837par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521837',521837,'The Art Market',3)">
+	
+	The Art Market</a></div>
+	<div id="5218373"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>4857</td>
+	<td><div id="530017par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530017',530017,'Biodiversity in Art: Unruly Passions in Collecting, Narrating and Creating',3)">
+	
+	Biodiversity in Art: Unruly Passions in Collecting, Narrating and Creating</a></div>
+	<div id="5300173"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>2245</td>
+	<td><div id="521869par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521869',521869,'Gamelan in Indonesian History and Cultures',3)">
+	
+	Gamelan in Indonesian History and Cultures</a></div>
+	<div id="5218693"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>2271</td>
+	<td><div id="521871par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521871',521871,'China\'s Literary Heritage: An Introduction in Translation',3)">
+	
+	China's Literary Heritage: An Introduction in Translation</a></div>
+	<div id="5218713"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>2279</td>
+	<td><div id="521874par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521874',521874,'Chinese Mythology',3)">
+	
+	Chinese Mythology</a></div>
+	<div id="5218743"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3329</td>
+	<td><div id="528270par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528270',528270,'Literature of Leaving China',3)">
+	
+	Literature of Leaving China</a></div>
+	<div id="5282703"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3337</td>
+	<td><div id="528859par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528859',528859,'Love Stories of Early Modern China',3)">
+	
+	Love Stories of Early Modern China</a></div>
+	<div id="5288593"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3339</td>
+	<td><div id="530584par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530584',530584,'Bollywood and Beyond: South Asian Cinema',3)">
+	
+	Bollywood and Beyond: South Asian Cinema</a></div>
+	<div id="5305843"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3352</td>
+	<td><div id="534897par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','534897',534897,'Getting Rich in Modern China',3)">
+	
+	Getting Rich in Modern China</a></div>
+	<div id="5348973"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3366</td>
+	<td><div id="527224par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527224',527224,'Poetry of Classical India',3)">
+	
+	Poetry of Classical India</a></div>
+	<div id="5272243"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3368</td>
+	<td><div id="529812par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529812',529812,'Imagining India, Home and Diaspora',3)">
+	
+	Imagining India, Home and Diaspora</a></div>
+	<div id="5298123"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3380</td>
+	<td><div id="520812par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520812',520812,'The Asian Century: The Rise of China and India',3)">
+	
+	The Asian Century: The Rise of China and India</a></div>
+	<div id="5208123"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3381</td>
+	<td><div id="521885par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521885',521885,'Introduction to the Arts of Japan',3)">
+	
+	Introduction to the Arts of Japan</a></div>
+	<div id="5218853"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3383</td>
+	<td><div id="521886par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521886',521886,'Introduction to the Arts of China',3)">
+	
+	Introduction to the Arts of China</a></div>
+	<div id="5218863"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4407</td>
+	<td><div id="535325par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535325',535325,'Written on the Body',3)">
+	
+	Written on the Body</a></div>
+	<div id="5353253"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4436</td>
+	<td><div id="521900par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521900',521900,'Topics in Indian Film',3)">
+	
+	Topics in Indian Film</a></div>
+	<div id="5219003"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4451</td>
+	<td><div id="527738par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527738',527738,'Gender and Sexuality in Southeast Asian Cinema',3)">
+	
+	Gender and Sexuality in Southeast Asian Cinema</a></div>
+	<div id="5277383"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4468</td>
+	<td><div id="529288par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529288',529288,'Transpacific Studies',3)">
+	
+	Transpacific Studies</a></div>
+	<div id="5292883"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4493</td>
+	<td><div id="530603par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530603',530603,'Biodiversity in Art: Unruly Passions in Collecting, Narrating and Creating',3)">
+	
+	Biodiversity in Art: Unruly Passions in Collecting, Narrating and Creating</a></div>
+	<div id="5306033"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>2204</td>
+	<td><div id="521930par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521930',521930,'Introduction to Quranic Arabic',3)">
+	
+	Introduction to Quranic Arabic</a></div>
+	<div id="5219303"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>2380</td>
+	<td><div id="529747par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529747',529747,'Performing Hip Hop',3)">
+	
+	Performing Hip Hop</a></div>
+	<div id="5297473"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>2505</td>
+	<td><div id="519600par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','519600',519600,'Literature, Sport, and Ideology',3)">
+	
+	Literature, Sport, and Ideology</a></div>
+	<div id="5196003"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>2771</td>
+	<td><div id="521198par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521198',521198,'Africa in Hollywood',3)">
+	
+	Africa in Hollywood</a></div>
+	<div id="5211983"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>2870</td>
+	<td><div id="521081par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521081',521081,'Freedom Writes: Literature of Global Justice Struggles',3)">
+	
+	Freedom Writes: Literature of Global Justice Struggles</a></div>
+	<div id="5210813"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>3340</td>
+	<td><div id="520852par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520852',520852,'Race, Class, Gender and Violence',3)">
+	
+	Race, Class, Gender and Violence</a></div>
+	<div id="5208523"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>3350</td>
+	<td><div id="530869par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530869',530869,'Beyoncé Nation',3)">
+	
+	Beyoncé Nation</a></div>
+	<div id="5308693"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>3505</td>
+	<td><div id="526933par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526933',526933,'Blaxploitation Film and Photography',3)">
+	
+	Blaxploitation Film and Photography</a></div>
+	<div id="5269333"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>3506</td>
+	<td><div id="535140par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535140',535140,'Slavery and Visual Culture',3)">
+	
+	Slavery and Visual Culture</a></div>
+	<div id="5351403"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>3630</td>
+	<td><div id="535102par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535102',535102,'Black Feminism/Africana Womanism',3)">
+	
+	Black Feminism/Africana Womanism</a></div>
+	<div id="5351023"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>4212</td>
+	<td><div id="530861par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530861',530861,'Black Women\'s Autobiography in the 21st Century #WritingHerStory',3)">
+	
+	Black Women's Autobiography in the 21st Century #WritingHerStory</a></div>
+	<div id="5308613"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>4368</td>
+	<td><div id="535380par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535380',535380,'Reading Édouard Glissant',3)">
+	
+	Reading Édouard Glissant</a></div>
+	<div id="5353803"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>4501</td>
+	<td><div id="520835par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520835',520835,'African Women Writers Critique the PostColonial State',3)">
+	
+	African Women Writers Critique the PostColonial State</a></div>
+	<div id="5208353"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>4502</td>
+	<td><div id="519601par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','519601',519601,'African Cinema',3)">
+	
+	African Cinema</a></div>
+	<div id="5196013"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>4507</td>
+	<td><div id="520966par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520966',520966,'Black Women Writers: Book to Screen',3)">
+	
+	Black Women Writers: Book to Screen</a></div>
+	<div id="5209663"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>4509</td>
+	<td><div id="520880par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520880',520880,'Toni Morrison\'s Novels',3)">
+	
+	Toni Morrison's Novels</a></div>
+	<div id="5208803"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>4570</td>
+	<td><div id="521187par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521187',521187,'Africa Writes Back',3)">
+	
+	Africa Writes Back</a></div>
+	<div id="5211873"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>2350</td>
+	<td><div id="527960par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527960',527960,'Literature and Medicine',3)">
+	
+	Literature and Medicine</a></div>
+	<div id="5279603"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>4431</td>
+	<td><div id="530129par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530129',530129,'Victorian Literature and Psychology: Madness, Monstrosity and the Science of Mind',3)">
+	
+	Victorian Literature and Psychology: Madness, Monstrosity and the Science of Mind</a></div>
+	<div id="5301293"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>2271</td>
+	<td><div id="529020par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529020',529020,'China\'s Literary Heritage: An Introduction in Translation',3)">
+	
+	China's Literary Heritage: An Introduction in Translation</a></div>
+	<div id="5290203"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>3307</td>
+	<td><div id="529026par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529026',529026,'Readings in Classical Chinese Literature',3)">
+	
+	Readings in Classical Chinese Literature</a></div>
+	<div id="5290263"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>3329</td>
+	<td><div id="529075par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529075',529075,'Literature of Leaving China',3)">
+	
+	Literature of Leaving China</a></div>
+	<div id="5290753"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>3337</td>
+	<td><div id="529707par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529707',529707,'Love Stories of Early Modern China',3)">
+	
+	Love Stories of Early Modern China</a></div>
+	<div id="5297073"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>3352</td>
+	<td><div id="535233par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535233',535233,'Getting Rich in Modern China',3)">
+	
+	Getting Rich in Modern China</a></div>
+	<div id="5352333"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>3387</td>
+	<td><div id="531264par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531264',531264,'The Asian Century: The Rise of China and India',3)">
+	
+	The Asian Century: The Rise of China and India</a></div>
+	<div id="5312643"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>4420</td>
+	<td><div id="529027par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529027',529027,'Tang Poetry: Themes and Contexts',3)">
+	
+	Tang Poetry: Themes and Contexts</a></div>
+	<div id="5290273"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CHLIT</td><td>2213</td>
+	<td><div id="522607par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522607',522607,'Introduction to Classical Chinese I',3)">
+	
+	Introduction to Classical Chinese I</a></div>
+	<div id="5226073"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CHLIT</td><td>2214</td>
+	<td><div id="522608par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522608',522608,'Introduction to Classical Chinese II',3)">
+	
+	Introduction to Classical Chinese II</a></div>
+	<div id="5226083"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CHLIT</td><td>3307</td>
+	<td><div id="522609par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522609',522609,'Readings in Classical Chinese Literature',3)">
+	
+	Readings in Classical Chinese Literature</a></div>
+	<div id="5226093"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CHLIT</td><td>3314</td>
+	<td><div id="529292par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529292',529292,'Violence, Sex, and Justice in Premodern Chinese Novel',3)">
+	
+	Violence, Sex, and Justice in Premodern Chinese Novel</a></div>
+	<div id="5292923"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CHLIT</td><td>4418</td>
+	<td><div id="522610par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522610',522610,'Stories of the Strange and the Marvelous from the Tang Dynasty',3)">
+	
+	Stories of the Strange and the Marvelous from the Tang Dynasty</a></div>
+	<div id="5226103"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CHLIT</td><td>4420</td>
+	<td><div id="522611par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522611',522611,'Tang Poetry: Themes and Contexts',3)">
+	
+	Tang Poetry: Themes and Contexts</a></div>
+	<div id="5226113"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CHLIT</td><td>4435</td>
+	<td><div id="535142par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535142',535142,'Chinese Buddhist Texts',3)">
+	
+	Chinese Buddhist Texts</a></div>
+	<div id="5351423"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>1615</td>
+	<td><div id="529058par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529058',529058,'Introduction to Ancient Rome',3)">
+	
+	Introduction to Ancient Rome</a></div>
+	<div id="5290583"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>2603</td>
+	<td><div id="522624par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522624',522624,'Initiation to Greek Culture',3)">
+	
+	Initiation to Greek Culture</a></div>
+	<div id="5226243"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>2604</td>
+	<td><div id="522625par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522625',522625,'Greek Mythology',3)">
+	
+	Greek Mythology</a></div>
+	<div id="5226253"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>2633</td>
+	<td><div id="534920par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','534920',534920,'Sex, Gender, and Identity in Ancient Greece and Rome',3)">
+	
+	Sex, Gender, and Identity in Ancient Greece and Rome</a></div>
+	<div id="5349203"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>2651</td>
+	<td><div id="522629par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522629',522629,'The Comic Theater',3)">
+	
+	The Comic Theater</a></div>
+	<div id="5226293"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>2808</td>
+	<td><div id="529608par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529608',529608,'The Animal in Greek Literature and Thought: Friend, Foe, or Food?',3)">
+	
+	The Animal in Greek Literature and Thought: Friend, Foe, or Food?</a></div>
+	<div id="5296083"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>3645</td>
+	<td><div id="522637par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522637',522637,'The Tragic Theatre',3)">
+	
+	The Tragic Theatre</a></div>
+	<div id="5226373"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>3746</td>
+	<td><div id="527877par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527877',527877,'Art of Late Antiquity',3)">
+	
+	Art of Late Antiquity</a></div>
+	<div id="5278773"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>4626</td>
+	<td><div id="535213par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535213',535213,'Reinventing Biblical Narrative',3)">
+	
+	Reinventing Biblical Narrative</a></div>
+	<div id="5352133"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>2000</td>
+	<td><div id="522671par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522671',522671,'Introduction to Visual Studies',3)">
+	
+	Introduction to Visual Studies</a></div>
+	<div id="5226713"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>2020</td>
+	<td><div id="522672par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522672',522672,'Great Books: The Great Short Works',3)">
+	
+	Great Books: The Great Short Works</a></div>
+	<div id="5226723"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>2030</td>
+	<td><div id="522673par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522673',522673,'Introduction to Comparative Literature',3)">
+	
+	Introduction to Comparative Literature</a></div>
+	<div id="5226733"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>2041</td>
+	<td><div id="535278par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535278',535278,'World Literature in Question',3)">
+	
+	World Literature in Question</a></div>
+	<div id="5352783"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>2050</td>
+	<td><div id="521124par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521124',521124,'Introduction to Poetry',3)">
+	
+	Introduction to Poetry</a></div>
+	<div id="5211243"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>2230</td>
+	<td><div id="522674par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522674',522674,'The Comic Theater',3)">
+	
+	The Comic Theater</a></div>
+	<div id="5226743"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>2290</td>
+	<td><div id="531600par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531600',531600,'Introduction to Lesbian, Gay, Bisexual, and Transgender Studies',3)">
+	
+	Introduction to Lesbian, Gay, Bisexual, and Transgender Studies</a></div>
+	<div id="5316003"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>2293</td>
+	<td><div id="527807par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527807',527807,'Middle Eastern Cinema',3)">
+	
+	Middle Eastern Cinema</a></div>
+	<div id="5278073"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>2305</td>
+	<td><div id="529863par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529863',529863,'Women, Real and Imagined',3)">
+	
+	Women, Real and Imagined</a></div>
+	<div id="5298633"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>2580</td>
+	<td><div id="528499par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528499',528499,'Imagining the Holocaust',3)">
+	
+	Imagining the Holocaust</a></div>
+	<div id="5284993"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>2754</td>
+	<td><div id="526600par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526600',526600,'Wondrous Literatures of the Near East',3)">
+	
+	Wondrous Literatures of the Near East</a></div>
+	<div id="5266003"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>2760</td>
+	<td><div id="522675par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522675',522675,'Desire',3)">
+	
+	Desire</a></div>
+	<div id="5226753"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>3021</td>
+	<td><div id="528592par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528592',528592,'Literary Theory on the Edge',3)">
+	
+	Literary Theory on the Edge</a></div>
+	<div id="5285923"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>3024</td>
+	<td><div id="530130par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530130',530130,'Literature, Trauma, and Culture',3)">
+	
+	Literature, Trauma, and Culture</a></div>
+	<div id="5301303"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>3115</td>
+	<td><div id="535279par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535279',535279,'Video and New Media: Art, Theory, Politics',3)">
+	
+	Video and New Media: Art, Theory, Politics</a></div>
+	<div id="5352793"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>3440</td>
+	<td><div id="522677par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522677',522677,'The Tragic Theatre',3)">
+	
+	The Tragic Theatre</a></div>
+	<div id="5226773"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>3541</td>
+	<td><div id="527750par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527750',527750,'Introduction to Critical Theory',3)">
+	
+	Introduction to Critical Theory</a></div>
+	<div id="5277503"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>3550</td>
+	<td><div id="526436par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526436',526436,'Decadence',3)">
+	
+	Decadence</a></div>
+	<div id="5264363"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>3681</td>
+	<td><div id="535139par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535139',535139,'Slavery and Visual Culture',3)">
+	
+	Slavery and Visual Culture</a></div>
+	<div id="5351393"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>3688</td>
+	<td><div id="530088par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530088',530088,'Kafka\'s Worlds: Castles, Trials, and Tribulations',3)">
+	
+	Kafka's Worlds: Castles, Trials, and Tribulations</a></div>
+	<div id="5300883"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>3689</td>
+	<td><div id="529215par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529215',529215,'Me, Myself, I: Subjects of Literature',3)">
+	
+	Me, Myself, I: Subjects of Literature</a></div>
+	<div id="5292153"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>3700</td>
+	<td><div id="527752par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527752',527752,'Metropolis: Urban Sites in Literature',3)">
+	
+	Metropolis: Urban Sites in Literature</a></div>
+	<div id="5277523"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>3702</td>
+	<td><div id="521201par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521201',521201,'Desire and Cinema',3)">
+	
+	Desire and Cinema</a></div>
+	<div id="5212013"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>3800</td>
+	<td><div id="522678par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522678',522678,'Poetry and Poetics of the Americas',3)">
+	
+	Poetry and Poetics of the Americas</a></div>
+	<div id="5226783"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>3802</td>
+	<td><div id="531082par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531082',531082,'Fantasies of Avant-Gardes',3)">
+	
+	Fantasies of Avant-Gardes</a></div>
+	<div id="5310823"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>3811</td>
+	<td><div id="530126par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530126',530126,'Theory and Practice of Translation',3)">
+	
+	Theory and Practice of Translation</a></div>
+	<div id="5301263"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>3815</td>
+	<td><div id="528595par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528595',528595,'Reading Nabokov',3)">
+	
+	Reading Nabokov</a></div>
+	<div id="5285953"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>3985</td>
+	<td><div id="528863par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528863',528863,'Literature of Leaving China',3)">
+	
+	Literature of Leaving China</a></div>
+	<div id="5288633"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>4090</td>
+	<td><div id="526662par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526662',526662,'Spinoza and the New Spinozism',3)">
+	
+	Spinoza and the New Spinozism</a></div>
+	<div id="5266623"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>4368</td>
+	<td><div id="535336par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535336',535336,'Reading Édouard Glissant',3)">
+	
+	Reading Édouard Glissant</a></div>
+	<div id="5353363"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>4415</td>
+	<td><div id="528421par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528421',528421,'The Holocaust in Postwar Culture (1945-1961)',3)">
+	
+	The Holocaust in Postwar Culture (1945-1961)</a></div>
+	<div id="5284213"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>4571</td>
+	<td><div id="521188par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521188',521188,'Africa Writes Back',3)">
+	
+	Africa Writes Back</a></div>
+	<div id="5211883"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>4704</td>
+	<td><div id="531684par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531684',531684,'Written on the Body',3)">
+	
+	Written on the Body</a></div>
+	<div id="5316843"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>4860</td>
+	<td><div id="522683par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522683',522683,'Contemporary Poetry and Poetics',3)">
+	
+	Contemporary Poetry and Poetics</a></div>
+	<div id="5226833"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>4995</td>
+	<td><div id="535285par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535285',535285,'Critical Thinking and Literary Methods',3)">
+	
+	Critical Thinking and Literary Methods</a></div>
+	<div id="5352853"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CS</td><td>1610</td>
+	<td><div id="522858par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','522858',522858,'Computing in the Arts',3)">
+	
+	Computing in the Arts</a></div>
+	<div id="5228583"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>1101</td>
+	<td><div id="523018par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523018',523018,'Visual Literacy and Design Studio',3)">
+	
+	Visual Literacy and Design Studio</a></div>
+	<div id="5230183"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>1150</td>
+	<td><div id="523020par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523020',523020,'Design Graphics and Visualization',3)">
+	
+	Design Graphics and Visualization</a></div>
+	<div id="5230203"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>1200</td>
+	<td><div id="529467par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529467',529467,'Art and Science: Sustainability, Multiculturalism and Transdisciplinarity',3)">
+	
+	Art and Science: Sustainability, Multiculturalism and Transdisciplinarity</a></div>
+	<div id="5294673"> </div></td>
+	 <td>(D-HE, LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>1500</td>
+	<td><div id="523021par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523021',523021,'Introduction to Environmental Psychology',3)">
+	
+	Introduction to Environmental Psychology</a></div>
+	<div id="5230213"> </div></td>
+	 <td>(D-HE, LAD-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>1501</td>
+	<td><div id="526759par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526759',526759,'Introduction to Environmental Psychology - Writing in the Major',3)">
+	
+	Introduction to Environmental Psychology - Writing in the Major</a></div>
+	<div id="5267593"> </div></td>
+	 <td>(D-HE, LAD-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>2020</td>
+	<td><div id="528227par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528227',528227,'Introduction to Sustainable Design',3)">
+	
+	Introduction to Sustainable Design</a></div>
+	<div id="5282273"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>2030</td>
+	<td><div id="520972par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520972',520972,'Digital Communications',3)">
+	
+	Digital Communications</a></div>
+	<div id="5209723"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>2201</td>
+	<td><div id="523023par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523023',523023,'Magnifying Small Spaces Studio',3)">
+	
+	Magnifying Small Spaces Studio</a></div>
+	<div id="5230233"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>2203</td>
+	<td><div id="528919par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528919',528919,'StudioShift',3)">
+	
+	StudioShift</a></div>
+	<div id="5289193"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>2422</td>
+	<td><div id="535225par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535225',535225,'Making Green: Sustainable Product Design Studio',3)">
+	
+	Making Green: Sustainable Product Design Studio</a></div>
+	<div id="5352253"> </div></td>
+	 <td>(KCM-HE; LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>2550</td>
+	<td><div id="523026par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523026',523026,'Design Strategy and Management',3)">
+	
+	Design Strategy and Management</a></div>
+	<div id="5230263"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>2700</td>
+	<td><div id="527803par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527803',527803,'Healthy Places: Design, Planning and Public Health',3)">
+	
+	Healthy Places: Design, Planning and Public Health</a></div>
+	<div id="5278033"> </div></td>
+	 <td>(LAD-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>2730</td>
+	<td><div id="530415par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530415',530415,'Human Centered Design Methods',3)">
+	
+	Human Centered Design Methods</a></div>
+	<div id="5304153"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>2750</td>
+	<td><div id="528989par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528989',528989,'Lighting Design: Light InForming Space',3)">
+	
+	Lighting Design: Light InForming Space</a></div>
+	<div id="5289893"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>3030</td>
+	<td><div id="523027par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523027',523027,'Materials for Design & Sustainability',3)">
+	
+	Materials for Design & Sustainability</a></div>
+	<div id="5230273"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>3050</td>
+	<td><div id="523029par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523029',523029,'Construction Documentation: CAD and BIM',3)">
+	
+	Construction Documentation: CAD and BIM</a></div>
+	<div id="5230293"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>3055</td>
+	<td><div id="529764par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529764',529764,'Hospitality, Health and Design Industry Immersion Seminar',3)">
+	
+	Hospitality, Health and Design Industry Immersion Seminar</a></div>
+	<div id="5297643"> </div></td>
+	 <td>(LAD-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>3301</td>
+	<td><div id="523031par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523031',523031,'Design UX with Technology Studio',3)">
+	
+	Design UX with Technology Studio</a></div>
+	<div id="5230313"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>3530</td>
+	<td><div id="523044par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523044',523044,'Planning and Managing the Workplace: Evidence-Based Design and Organizational Ecology',3)">
+	
+	Planning and Managing the Workplace: Evidence-Based Design and Organizational Ecology</a></div>
+	<div id="5230443"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>3590</td>
+	<td><div id="523045par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523045',523045,'Problem-Seeking through Programming',3)">
+	
+	Problem-Seeking through Programming</a></div>
+	<div id="5230453"> </div></td>
+	 <td>(LAD-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>4100</td>
+	<td><div id="523039par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523039',523039,'Diversity and Facility Design',3)">
+	
+	Diversity and Facility Design</a></div>
+	<div id="5230393"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>4224</td>
+	<td><div id="552073par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552073',552073,'Global Citizenship: Cuba',3)">
+	
+	Global Citizenship: Cuba</a></div>
+	<div id="5520733"> </div></td>
+	 <td>(CA-HE, HA-HE, LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>4225</td>
+	<td><div id="552074par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552074',552074,'Cuba Vista',3)">
+	
+	Cuba Vista</a></div>
+	<div id="5520743"> </div></td>
+	 <td>(CA-HE, D-HE, HA-HE, KCM-HE, L</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>4230</td>
+	<td><div id="523041par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523041',523041,'Design Charrette',3)">
+	
+	Design Charrette</a></div>
+	<div id="5230413"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>4401</td>
+	<td><div id="523042par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523042',523042,'Adaptive Reuse Studio: Recycling the Built Environment',3)">
+	
+	Adaptive Reuse Studio: Recycling the Built Environment</a></div>
+	<div id="5230423"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>4402</td>
+	<td><div id="523043par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523043',523043,'Disruptive Design: Competitions Studio',3)">
+	
+	Disruptive Design: Competitions Studio</a></div>
+	<div id="5230433"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>5305</td>
+	<td><div id="523024par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523024',523024,'Health and Healing Studio',3)">
+	
+	Health and Healing Studio</a></div>
+	<div id="5230243"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>5420</td>
+	<td><div id="526992par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526992',526992,'Design Immersion: Current Topic',3)">
+	
+	Design Immersion: Current Topic</a></div>
+	<div id="5269923"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>5421</td>
+	<td><div id="526991par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526991',526991,'Design Immersion: Current Topics',3)">
+	
+	Design Immersion: Current Topics</a></div>
+	<div id="5269913"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>5520</td>
+	<td><div id="528818par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528818',528818,'Virtual Experience of Designed Environments',3)">
+	
+	Virtual Experience of Designed Environments</a></div>
+	<div id="5288183"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>5540</td>
+	<td><div id="523034par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523034',523034,'Workplace Strategies Studio',3)">
+	
+	Workplace Strategies Studio</a></div>
+	<div id="5230343"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>6055</td>
+	<td><div id="529765par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529765',529765,'Hospitality, Health and Design Industry Immersion Seminar',3)">
+	
+	Hospitality, Health and Design Industry Immersion Seminar</a></div>
+	<div id="5297653"> </div></td>
+	 <td>(LAD-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>6100</td>
+	<td><div id="527600par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527600',527600,'Studies in Design Thinking',3)">
+	
+	Studies in Design Thinking</a></div>
+	<div id="5276003"> </div></td>
+	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>6210</td>
+	<td><div id="535303par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535303',535303,'Architectural Robotics',3)">
+	
+	Architectural Robotics</a></div>
+	<div id="5353033"> </div></td>
+	 <td>(HA-HE, D-HE, KCM-HE, LAD-HE, </td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>6500</td>
+	<td><div id="523053par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523053',523053,'Problem-Seeking through Programming',3)">
+	
+	Problem-Seeking through Programming</a></div>
+	<div id="5230533"> </div></td>
+	 <td>(LAD-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>EAS</td><td>2021</td>
+	<td><div id="527361par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527361',527361,'Humans and Climate Change',3)">
+	
+	Humans and Climate Change</a></div>
+	<div id="5273613"> </div></td>
+	 <td>(CA-AG, LA-AG, CA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2000</td>
+	<td><div id="523390par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523390',523390,'Introduction to Criticism and Theory',3)">
+	
+	Introduction to Criticism and Theory</a></div>
+	<div id="5233903"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2010</td>
+	<td><div id="523391par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523391',523391,'Literatures in English I: From Old English to the New World',3)">
+	
+	Literatures in English I: From Old English to the New World</a></div>
+	<div id="5233913"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2020</td>
+	<td><div id="523392par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523392',523392,'Literature in English II: 1750 to the Present',3)">
+	
+	Literature in English II: 1750 to the Present</a></div>
+	<div id="5233923"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2030</td>
+	<td><div id="523393par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523393',523393,'Introduction to American Literatures: Beginnings to the Civil War',3)">
+	
+	Introduction to American Literatures: Beginnings to the Civil War</a></div>
+	<div id="5233933"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2045</td>
+	<td><div id="523395par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523395',523395,'Major Poets',3)">
+	
+	Major Poets</a></div>
+	<div id="5233953"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2050</td>
+	<td><div id="523396par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523396',523396,'Contemporary World Literature',3)">
+	
+	Contemporary World Literature</a></div>
+	<div id="5233963"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2060</td>
+	<td><div id="523397par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523397',523397,'The Great American Cornell Novel',3)">
+	
+	The Great American Cornell Novel</a></div>
+	<div id="5233973"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2070</td>
+	<td><div id="521131par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521131',521131,'Introduction to Modern Poetry',3)">
+	
+	Introduction to Modern Poetry</a></div>
+	<div id="5211313"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2080</td>
+	<td><div id="523398par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523398',523398,'Shakespeare and the Twentieth and Twenty-First Centuries',3)">
+	
+	Shakespeare and the Twentieth and Twenty-First Centuries</a></div>
+	<div id="5233983"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2100</td>
+	<td><div id="523399par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523399',523399,'Medieval Romance: Voyage to the Otherworld',3)">
+	
+	Medieval Romance: Voyage to the Otherworld</a></div>
+	<div id="5233993"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2270</td>
+	<td><div id="523403par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523403',523403,'Shakespeare',3)">
+	
+	Shakespeare</a></div>
+	<div id="5234033"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2330</td>
+	<td><div id="529794par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529794',529794,'Women, Real and Imagined',3)">
+	
+	Women, Real and Imagined</a></div>
+	<div id="5297943"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2350</td>
+	<td><div id="527748par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527748',527748,'Literature and Medicine',3)">
+	
+	Literature and Medicine</a></div>
+	<div id="5277483"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2400</td>
+	<td><div id="520975par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520975',520975,'Introduction to Latino/a Literature',3)">
+	
+	Introduction to Latino/a Literature</a></div>
+	<div id="5209753"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2505</td>
+	<td><div id="528583par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528583',528583,'Modern Global Poetry',3)">
+	
+	Modern Global Poetry</a></div>
+	<div id="5285833"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2515</td>
+	<td><div id="531618par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531618',531618,'Women and the Novel: Key Questions in Modern Fiction',3)">
+	
+	Women and the Novel: Key Questions in Modern Fiction</a></div>
+	<div id="5316183"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2540</td>
+	<td><div id="552081par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552081',552081,'The Twenty-First Century',3)">
+	
+	The Twenty-First Century</a></div>
+	<div id="5520813"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2580</td>
+	<td><div id="528498par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528498',528498,'Imagining the Holocaust',3)">
+	
+	Imagining the Holocaust</a></div>
+	<div id="5284983"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2600</td>
+	<td><div id="521228par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521228',521228,'Introduction to Native American Literature',3)">
+	
+	Introduction to Native American Literature</a></div>
+	<div id="5212283"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2620</td>
+	<td><div id="523404par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523404',523404,'Introduction to Asian American Literature',3)">
+	
+	Introduction to Asian American Literature</a></div>
+	<div id="5234043"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2707</td>
+	<td><div id="531663par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531663',531663,'Let Me Count the Ways: Poetry and Mathematics',3)">
+	
+	Let Me Count the Ways: Poetry and Mathematics</a></div>
+	<div id="5316633"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2730</td>
+	<td><div id="521132par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521132',521132,'Children\'s Literature',3)">
+	
+	Children's Literature</a></div>
+	<div id="5211323"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2740</td>
+	<td><div id="523405par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523405',523405,'Scottish Literature',3)">
+	
+	Scottish Literature</a></div>
+	<div id="5234053"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2751</td>
+	<td><div id="519657par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','519657',519657,'Literature, Sport, and Ideology',3)">
+	
+	Literature, Sport, and Ideology</a></div>
+	<div id="5196573"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2755</td>
+	<td><div id="530821par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530821',530821,'Birds, Beasts, and Bards: The Poetry of Animals',3)">
+	
+	Birds, Beasts, and Bards: The Poetry of Animals</a></div>
+	<div id="5308213"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2760</td>
+	<td><div id="523406par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523406',523406,'Desire',3)">
+	
+	Desire</a></div>
+	<div id="5234063"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2761</td>
+	<td><div id="528079par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528079',528079,'American Cinema',3)">
+	
+	American Cinema</a></div>
+	<div id="5280793"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2771</td>
+	<td><div id="521193par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521193',521193,'Africa in Hollywood',3)">
+	
+	Africa in Hollywood</a></div>
+	<div id="5211933"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2780</td>
+	<td><div id="523407par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523407',523407,'Body as Text: Pleasure and Danger',3)">
+	
+	Body as Text: Pleasure and Danger</a></div>
+	<div id="5234073"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2785</td>
+	<td><div id="530766par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530766',530766,'Comic Books and Graphic Novels',3)">
+	
+	Comic Books and Graphic Novels</a></div>
+	<div id="5307663"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2800</td>
+	<td><div id="523408par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523408',523408,'Creative Writing',3)">
+	
+	Creative Writing</a></div>
+	<div id="5234083"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2810</td>
+	<td><div id="523409par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523409',523409,'Creative Writing',3)">
+	
+	Creative Writing</a></div>
+	<div id="5234093"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2870</td>
+	<td><div id="521080par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521080',521080,'Freedom Writes: Literature of Global Justice Struggles',3)">
+	
+	Freedom Writes: Literature of Global Justice Struggles</a></div>
+	<div id="5210803"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2880</td>
+	<td><div id="523410par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523410',523410,'Expository Writing',3)">
+	
+	Expository Writing</a></div>
+	<div id="5234103"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2890</td>
+	<td><div id="523411par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523411',523411,'Expository Writing',3)">
+	
+	Expository Writing</a></div>
+	<div id="5234113"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2901</td>
+	<td><div id="520976par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520976',520976,'Utopia: From Thomas More to Science Fiction',3)">
+	
+	Utopia: From Thomas More to Science Fiction</a></div>
+	<div id="5209763"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2960</td>
+	<td><div id="523412par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523412',523412,'Linguistic Theory and Poetic Structure',3)">
+	
+	Linguistic Theory and Poetic Structure</a></div>
+	<div id="5234123"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3021</td>
+	<td><div id="528593par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528593',528593,'Literary Theory on the Edge',3)">
+	
+	Literary Theory on the Edge</a></div>
+	<div id="5285933"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3030</td>
+	<td><div id="521015par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521015',521015,'Seminar in American Literature: Beginnings to the Civil War',3)">
+	
+	Seminar in American Literature: Beginnings to the Civil War</a></div>
+	<div id="5210153"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3080</td>
+	<td><div id="523413par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523413',523413,'Icelandic Family Sagas',3)">
+	
+	Icelandic Family Sagas</a></div>
+	<div id="5234133"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3110</td>
+	<td><div id="523414par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523414',523414,'Old English',3)">
+	
+	Old English</a></div>
+	<div id="5234143"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3115</td>
+	<td><div id="535280par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535280',535280,'Video and New Media: Art, Theory, Politics',3)">
+	
+	Video and New Media: Art, Theory, Politics</a></div>
+	<div id="5352803"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3120</td>
+	<td><div id="523415par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523415',523415,'Beowulf',3)">
+	
+	Beowulf</a></div>
+	<div id="5234153"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3190</td>
+	<td><div id="523416par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523416',523416,'Chaucer',3)">
+	
+	Chaucer</a></div>
+	<div id="5234163"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3230</td>
+	<td><div id="520860par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520860',520860,'Renaissance Poetry',3)">
+	
+	Renaissance Poetry</a></div>
+	<div id="5208603"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3260</td>
+	<td><div id="520977par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520977',520977,'Spenser and the Faerie Queene',3)">
+	
+	Spenser and the Faerie Queene</a></div>
+	<div id="5209773"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3270</td>
+	<td><div id="520259par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520259',520259,'Shakespeare: The Late Plays',3)">
+	
+	Shakespeare: The Late Plays</a></div>
+	<div id="5202593"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3280</td>
+	<td><div id="520840par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520840',520840,'The Bible as Literature',3)">
+	
+	The Bible as Literature</a></div>
+	<div id="5208403"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3290</td>
+	<td><div id="523417par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523417',523417,'Milton: Political Revolution and Paradise Lost',3)">
+	
+	Milton: Political Revolution and Paradise Lost</a></div>
+	<div id="5234173"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3330</td>
+	<td><div id="523418par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523418',523418,'Fictions of Self-Invention: The Eighteenth Century Novel',3)">
+	
+	Fictions of Self-Invention: The Eighteenth Century Novel</a></div>
+	<div id="5234183"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3340</td>
+	<td><div id="520843par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520843',520843,'Race, Class, Gender and Violence',3)">
+	
+	Race, Class, Gender and Violence</a></div>
+	<div id="5208433"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3370</td>
+	<td><div id="519252par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','519252',519252,'Contemporary American Theatre on Stage and Screen',3)">
+	
+	Contemporary American Theatre on Stage and Screen</a></div>
+	<div id="5192523"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3390</td>
+	<td><div id="523419par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523419',523419,'Jane Austen',3)">
+	
+	Jane Austen</a></div>
+	<div id="5234193"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3430</td>
+	<td><div id="530445par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530445',530445,'The Brontës',3)">
+	
+	The Brontës</a></div>
+	<div id="5304453"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3470</td>
+	<td><div id="523424par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523424',523424,'The Victorian Novel',3)">
+	
+	The Victorian Novel</a></div>
+	<div id="5234243"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3500</td>
+	<td><div id="523420par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523420',523420,'The High Modernist Tradition',3)">
+	
+	The High Modernist Tradition</a></div>
+	<div id="5234203"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3525</td>
+	<td><div id="527757par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527757',527757,'Twentieth Century American Poetry',3)">
+	
+	Twentieth Century American Poetry</a></div>
+	<div id="5277573"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3530</td>
+	<td><div id="521135par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521135',521135,'Imagining India, Home and Diaspora',3)">
+	
+	Imagining India, Home and Diaspora</a></div>
+	<div id="5211353"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3550</td>
+	<td><div id="523421par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523421',523421,'Decadence',3)">
+	
+	Decadence</a></div>
+	<div id="5234213"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3560</td>
+	<td><div id="527758par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527758',527758,'Thinking from a Different Place: Indigenous Philosophies',3)">
+	
+	Thinking from a Different Place: Indigenous Philosophies</a></div>
+	<div id="5277583"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3580</td>
+	<td><div id="529097par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529097',529097,'Twentieth Century Women Writers of Color in the Americas',3)">
+	
+	Twentieth Century Women Writers of Color in the Americas</a></div>
+	<div id="5290973"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3591</td>
+	<td><div id="521027par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521027',521027,'Kids Rule! Children\'s Popular Culture',3)">
+	
+	Kids Rule! Children's Popular Culture</a></div>
+	<div id="5210273"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3612</td>
+	<td><div id="521024par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521024',521024,'Capitalism and Colonialism in Early American Literatures',3)">
+	
+	Capitalism and Colonialism in Early American Literatures</a></div>
+	<div id="5210243"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3650</td>
+	<td><div id="531664par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531664',531664,'Envisioning America: Nineteenth-Century US Poetry and Prose',3)">
+	
+	Envisioning America: Nineteenth-Century US Poetry and Prose</a></div>
+	<div id="5316643"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3660</td>
+	<td><div id="530004par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530004',530004,'Reading the Nineteenth-Century American Novel',3)">
+	
+	Reading the Nineteenth-Century American Novel</a></div>
+	<div id="5300043"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3670</td>
+	<td><div id="523423par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523423',523423,'Modern American Fiction',3)">
+	
+	Modern American Fiction</a></div>
+	<div id="5234233"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3702</td>
+	<td><div id="521104par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521104',521104,'Desire and Cinema',3)">
+	
+	Desire and Cinema</a></div>
+	<div id="5211043"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3705</td>
+	<td><div id="520816par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520816',520816,'Serial Stories: Television and the Novel',3)">
+	
+	Serial Stories: Television and the Novel</a></div>
+	<div id="5208163"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3717</td>
+	<td><div id="535070par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535070',535070,'Trauma and Invention',3)">
+	
+	Trauma and Invention</a></div>
+	<div id="5350703"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3721</td>
+	<td><div id="523425par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523425',523425,'Food, Gender, and Culture',3)">
+	
+	Food, Gender, and Culture</a></div>
+	<div id="5234253"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3725</td>
+	<td><div id="530030par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530030',530030,'Femininity as Masquerade',3)">
+	
+	Femininity as Masquerade</a></div>
+	<div id="5300303"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3741</td>
+	<td><div id="552223par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552223',552223,'Media, Design, and Community Engagement',3)">
+	
+	Media, Design, and Community Engagement</a></div>
+	<div id="5522233"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3752</td>
+	<td><div id="534929par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','534929',534929,'Thirteen Plays',3)">
+	
+	Thirteen Plays</a></div>
+	<div id="5349293"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3755</td>
+	<td><div id="530092par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530092',530092,'Literature, Trauma, and Culture',3)">
+	
+	Literature, Trauma, and Culture</a></div>
+	<div id="5300923"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3762</td>
+	<td><div id="523426par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523426',523426,'Law and Literature',3)">
+	
+	Law and Literature</a></div>
+	<div id="5234263"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3765</td>
+	<td><div id="521105par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521105',521105,'The 21st Century Novel',3)">
+	
+	The 21st Century Novel</a></div>
+	<div id="5211053"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3785</td>
+	<td><div id="529838par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529838',529838,'Apocalyptic Films and Fictions',3)">
+	
+	Apocalyptic Films and Fictions</a></div>
+	<div id="5298383"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3790</td>
+	<td><div id="523427par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523427',523427,'Reading Nabokov',3)">
+	
+	Reading Nabokov</a></div>
+	<div id="5234273"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3805</td>
+	<td><div id="528388par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528388',528388,'Literary Translation',3)">
+	
+	Literary Translation</a></div>
+	<div id="5283883"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3820</td>
+	<td><div id="523429par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523429',523429,'Narrative Writing',3)">
+	
+	Narrative Writing</a></div>
+	<div id="5234293"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3830</td>
+	<td><div id="523430par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523430',523430,'Narrative Writing',3)">
+	
+	Narrative Writing</a></div>
+	<div id="5234303"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3840</td>
+	<td><div id="523431par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523431',523431,'Poetry Writing',3)">
+	
+	Poetry Writing</a></div>
+	<div id="5234313"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3850</td>
+	<td><div id="523432par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523432',523432,'Poetry Writing',3)">
+	
+	Poetry Writing</a></div>
+	<div id="5234323"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3890</td>
+	<td><div id="521045par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521045',521045,'The Personal Voice: Nonfiction Writing',3)">
+	
+	The Personal Voice: Nonfiction Writing</a></div>
+	<div id="5210453"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3902</td>
+	<td><div id="531367par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531367',531367,'Fantasies of Avant-Gardes',3)">
+	
+	Fantasies of Avant-Gardes</a></div>
+	<div id="5313673"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3910</td>
+	<td><div id="523428par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523428',523428,'Poetry and Poetics of the Americas',3)">
+	
+	Poetry and Poetics of the Americas</a></div>
+	<div id="5234283"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3920</td>
+	<td><div id="529032par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529032',529032,'Introduction to Critical Theory',3)">
+	
+	Introduction to Critical Theory</a></div>
+	<div id="5290323"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>3954</td>
+	<td><div id="529228par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529228',529228,'Spoken Word, Hip-Hop Theater, and the Politics of the Performance',3)">
+	
+	Spoken Word, Hip-Hop Theater, and the Politics of the Performance</a></div>
+	<div id="5292283"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4030</td>
+	<td><div id="520978par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520978',520978,'Poetry in Process',3)">
+	
+	Poetry in Process</a></div>
+	<div id="5209783"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4125</td>
+	<td><div id="529129par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529129',529129,'Literary Biography and Autobiography from the Middle Ages to the Renaissance',3)">
+	
+	Literary Biography and Autobiography from the Middle Ages to the Renaissance</a></div>
+	<div id="5291293"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4160</td>
+	<td><div id="530392par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530392',530392,'Piers Plowman',3)">
+	
+	Piers Plowman</a></div>
+	<div id="5303923"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4270</td>
+	<td><div id="523436par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523436',523436,'Advanced Seminar in Shakespeare',3)">
+	
+	Advanced Seminar in Shakespeare</a></div>
+	<div id="5234363"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4291</td>
+	<td><div id="531378par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531378',531378,'American Shakespeare',3)">
+	
+	American Shakespeare</a></div>
+	<div id="5313783"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4430</td>
+	<td><div id="521004par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521004',521004,'Victorian Literature and Psychology: Madness, Monstrosity and the Science of Mind',3)">
+	
+	Victorian Literature and Psychology: Madness, Monstrosity and the Science of Mind</a></div>
+	<div id="5210043"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4470</td>
+	<td><div id="531661par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531661',531661,'Fictional Worlds in the Nineteenth-Century British Novel',3)">
+	
+	Fictional Worlds in the Nineteenth-Century British Novel</a></div>
+	<div id="5316613"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4501</td>
+	<td><div id="520836par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520836',520836,'African Women Writers Critique the PostColonial State',3)">
+	
+	African Women Writers Critique the PostColonial State</a></div>
+	<div id="5208363"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4507</td>
+	<td><div id="520979par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520979',520979,'Black Women Writers: Book to Screen',3)">
+	
+	Black Women Writers: Book to Screen</a></div>
+	<div id="5209793"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4509</td>
+	<td><div id="520883par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520883',520883,'Toni Morrison\'s Novels',3)">
+	
+	Toni Morrison's Novels</a></div>
+	<div id="5208833"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4520</td>
+	<td><div id="531665par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531665',531665,'Stein and Yeats in How to Kill a Century',3)">
+	
+	Stein and Yeats in How to Kill a Century</a></div>
+	<div id="5316653"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4521</td>
+	<td><div id="521000par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521000',521000,'Gender, Memory, and History in Twentieth Century Fiction',3)">
+	
+	Gender, Memory, and History in Twentieth Century Fiction</a></div>
+	<div id="5210003"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4535</td>
+	<td><div id="530492par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530492',530492,'The Modern Imagination: The Major Authors',3)">
+	
+	The Modern Imagination: The Major Authors</a></div>
+	<div id="5304923"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4550</td>
+	<td><div id="521191par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521191',521191,'Race and Time',3)">
+	
+	Race and Time</a></div>
+	<div id="5211913"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4565</td>
+	<td><div id="518998par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','518998',518998,'Traffic: Drugs, Bodies, Books',3)">
+	
+	Traffic: Drugs, Bodies, Books</a></div>
+	<div id="5189983"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4570</td>
+	<td><div id="521180par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521180',521180,'Africa Writes Back',3)">
+	
+	Africa Writes Back</a></div>
+	<div id="5211803"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4578</td>
+	<td><div id="518912par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','518912',518912,'Visual and Textual Representations of Brown Bodies',3)">
+	
+	Visual and Textual Representations of Brown Bodies</a></div>
+	<div id="5189123"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4610</td>
+	<td><div id="521139par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521139',521139,'The American Short Story',3)">
+	
+	The American Short Story</a></div>
+	<div id="5211393"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4625</td>
+	<td><div id="520847par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520847',520847,'Contemporary Native American Fiction',3)">
+	
+	Contemporary Native American Fiction</a></div>
+	<div id="5208473"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4635</td>
+	<td><div id="520848par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520848',520848,'Art! Poetry! Power!',3)">
+	
+	Art! Poetry! Power!</a></div>
+	<div id="5208483"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4670</td>
+	<td><div id="520838par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520838',520838,'Native American Poetry of Resistance',3)">
+	
+	Native American Poetry of Resistance</a></div>
+	<div id="5208383"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4671</td>
+	<td><div id="552049par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552049',552049,'How the Civil War Haunts America',3)">
+	
+	How the Civil War Haunts America</a></div>
+	<div id="5520493"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4700</td>
+	<td><div id="523439par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523439',523439,'Reading Joyce\'s Ulysses',3)">
+	
+	Reading Joyce's Ulysses</a></div>
+	<div id="5234393"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4766</td>
+	<td><div id="520530par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520530',520530,'Practicum in Performance Criticism and Dramaturgy',3)">
+	
+	Practicum in Performance Criticism and Dramaturgy</a></div>
+	<div id="5205303"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4775</td>
+	<td><div id="552224par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552224',552224,'The Family in Literature: From the House of Atreas to the Ipes',3)">
+	
+	The Family in Literature: From the House of Atreas to the Ipes</a></div>
+	<div id="5522243"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4800</td>
+	<td><div id="523440par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523440',523440,'Advanced Poetry Writing',3)">
+	
+	Advanced Poetry Writing</a></div>
+	<div id="5234403"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4801</td>
+	<td><div id="528191par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528191',528191,'Advanced Narrative Writing',3)">
+	
+	Advanced Narrative Writing</a></div>
+	<div id="5281913"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4810</td>
+	<td><div id="523441par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523441',523441,'Advanced Poetry Writing',3)">
+	
+	Advanced Poetry Writing</a></div>
+	<div id="5234413"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4811</td>
+	<td><div id="528151par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528151',528151,'Advanced Narrative Writing',3)">
+	
+	Advanced Narrative Writing</a></div>
+	<div id="5281513"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4850</td>
+	<td><div id="521165par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521165',521165,'Reading for Writers',3)">
+	
+	Reading for Writers</a></div>
+	<div id="5211653"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4960</td>
+	<td><div id="521229par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521229',521229,'Contemporary Poetry and Poetics',3)">
+	
+	Contemporary Poetry and Poetics</a></div>
+	<div id="5212293"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>2290</td>
+	<td><div id="531598par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531598',531598,'Introduction to Lesbian, Gay, Bisexual, and Transgender Studies',3)">
+	
+	Introduction to Lesbian, Gay, Bisexual, and Transgender Studies</a></div>
+	<div id="5315983"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>2330</td>
+	<td><div id="529795par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529795',529795,'Women, Real and Imagined',3)">
+	
+	Women, Real and Imagined</a></div>
+	<div id="5297953"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>2350</td>
+	<td><div id="527749par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527749',527749,'Literature and Medicine',3)">
+	
+	Literature and Medicine</a></div>
+	<div id="5277493"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>2515</td>
+	<td><div id="534986par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','534986',534986,'Women and the Novel: Key Questions in Modern Fiction',3)">
+	
+	Women and the Novel: Key Questions in Modern Fiction</a></div>
+	<div id="5349863"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>2633</td>
+	<td><div id="534940par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','534940',534940,'Sex, Gender, and Identity in Ancient Greece and Rome',3)">
+	
+	Sex, Gender, and Identity in Ancient Greece and Rome</a></div>
+	<div id="5349403"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>2760</td>
+	<td><div id="523601par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523601',523601,'Desire',3)">
+	
+	Desire</a></div>
+	<div id="5236013"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>2780</td>
+	<td><div id="523602par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523602',523602,'Body as Text: Pleasure and Danger',3)">
+	
+	Body as Text: Pleasure and Danger</a></div>
+	<div id="5236023"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>3505</td>
+	<td><div id="526934par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526934',526934,'Blaxploitation Film and Photography',3)">
+	
+	Blaxploitation Film and Photography</a></div>
+	<div id="5269343"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>3520</td>
+	<td><div id="527775par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527775',527775,'(Dis)ability Studies: A Brief History',3)">
+	
+	(Dis)ability Studies: A Brief History</a></div>
+	<div id="5277753"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>3550</td>
+	<td><div id="523607par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523607',523607,'Decadence',3)">
+	
+	Decadence</a></div>
+	<div id="5236073"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>3581</td>
+	<td><div id="529101par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529101',529101,'Twentieth Century Women Writers of Color in the Americas',3)">
+	
+	Twentieth Century Women Writers of Color in the Americas</a></div>
+	<div id="5291013"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>3591</td>
+	<td><div id="521028par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521028',521028,'Kids Rule! Children\'s Popular Culture',3)">
+	
+	Kids Rule! Children's Popular Culture</a></div>
+	<div id="5210283"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>3702</td>
+	<td><div id="521194par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521194',521194,'Desire and Cinema',3)">
+	
+	Desire and Cinema</a></div>
+	<div id="5211943"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>3720</td>
+	<td><div id="523610par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523610',523610,'Food, Gender, and Culture',3)">
+	
+	Food, Gender, and Culture</a></div>
+	<div id="5236103"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>3725</td>
+	<td><div id="530042par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530042',530042,'Femininity as Masquerade',3)">
+	
+	Femininity as Masquerade</a></div>
+	<div id="5300423"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>3754</td>
+	<td><div id="529107par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529107',529107,'Spoken Word, Hip-Hop Theater, and the Politics of the Performance',3)">
+	
+	Spoken Word, Hip-Hop Theater, and the Politics of the Performance</a></div>
+	<div id="5291073"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>4451</td>
+	<td><div id="527759par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527759',527759,'Gender and Sexuality in Southeast Asian Cinema',3)">
+	
+	Gender and Sexuality in Southeast Asian Cinema</a></div>
+	<div id="5277593"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>4501</td>
+	<td><div id="520837par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520837',520837,'African Women Writers Critique the PostColonial State',3)">
+	
+	African Women Writers Critique the PostColonial State</a></div>
+	<div id="5208373"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>4507</td>
+	<td><div id="520985par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520985',520985,'Black Women Writers: Book to Screen',3)">
+	
+	Black Women Writers: Book to Screen</a></div>
+	<div id="5209853"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>4509</td>
+	<td><div id="520885par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520885',520885,'Toni Morrison\'s Novels',3)">
+	
+	Toni Morrison's Novels</a></div>
+	<div id="5208853"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>4521</td>
+	<td><div id="521001par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521001',521001,'Gender, Memory, and History in Twentieth Century Fiction',3)">
+	
+	Gender, Memory, and History in Twentieth Century Fiction</a></div>
+	<div id="5210013"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>4578</td>
+	<td><div id="518927par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','518927',518927,'The Bodies That Were Not Ours: Critical Studies of Chicana, Latina, and Indigena Body Politics',3)">
+	
+	The Bodies That Were Not Ours: Critical Studies of Chicana, Latina, and Indigena Body Politics</a></div>
+	<div id="5189273"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>4607</td>
+	<td><div id="535313par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535313',535313,'Written on the Body',3)">
+	
+	Written on the Body</a></div>
+	<div id="5353133"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FREN</td><td>2320</td>
+	<td><div id="529108par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529108',529108,'Introduction to French and Francophone Film',3)">
+	
+	Introduction to French and Francophone Film</a></div>
+	<div id="5291083"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FREN</td><td>3115</td>
+	<td><div id="535282par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535282',535282,'Video and New Media: Art, Theory, Politics',3)">
+	
+	Video and New Media: Art, Theory, Politics</a></div>
+	<div id="5352823"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FREN</td><td>3160</td>
+	<td><div id="530982par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530982',530982,'Translating French: Theory and Practice',3)">
+	
+	Translating French: Theory and Practice</a></div>
+	<div id="5309823"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FREN</td><td>3350</td>
+	<td><div id="527227par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527227',527227,'Romance to Revolution: The French Novel Before 1850',3)">
+	
+	Romance to Revolution: The French Novel Before 1850</a></div>
+	<div id="5272273"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FREN</td><td>3400</td>
+	<td><div id="528375par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528375',528375,'French Identities: 21st Century Culture and Society in France',3)">
+	
+	French Identities: 21st Century Culture and Society in France</a></div>
+	<div id="5283753"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FREN</td><td>3520</td>
+	<td><div id="527774par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527774',527774,'(Dis)ability Studies: A Brief History',3)">
+	
+	(Dis)ability Studies: A Brief History</a></div>
+	<div id="5277743"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FREN</td><td>3695</td>
+	<td><div id="535628par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535628',535628,'Black Africans in Literature and Art',3)">
+	
+	Black Africans in Literature and Art</a></div>
+	<div id="5356283"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FREN</td><td>3710</td>
+	<td><div id="526529par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526529',526529,'Women\'s Stories I',3)">
+	
+	Women's Stories I</a></div>
+	<div id="5265293"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FREN</td><td>3850</td>
+	<td><div id="530106par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530106',530106,'Literature & Medicine in the 19th Century',3)">
+	
+	Literature & Medicine in the 19th Century</a></div>
+	<div id="5301063"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FREN</td><td>4368</td>
+	<td><div id="535339par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535339',535339,'Reading Édouard Glissant',3)">
+	
+	Reading Édouard Glissant</a></div>
+	<div id="5353393"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FREN</td><td>4415</td>
+	<td><div id="528348par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528348',528348,'The Holocaust in Postwar Culture (1945-1961)',3)">
+	
+	The Holocaust in Postwar Culture (1945-1961)</a></div>
+	<div id="5283483"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GERST</td><td>2020</td>
+	<td><div id="523700par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523700',523700,'Literary Contexts and Texts: The Myth of 1968',3)">
+	
+	Literary Contexts and Texts: The Myth of 1968</a></div>
+	<div id="5237003"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GERST</td><td>2250</td>
+	<td><div id="523703par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523703',523703,'Genius and Madness in Literature',3)">
+	
+	Genius and Madness in Literature</a></div>
+	<div id="5237033"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GERST</td><td>3070</td>
+	<td><div id="528264par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528264',528264,'Challenge of Literary Language',3)">
+	
+	Challenge of Literary Language</a></div>
+	<div id="5282643"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GERST</td><td>3075</td>
+	<td><div id="531667par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531667',531667,'Print Matters',3)">
+	
+	Print Matters</a></div>
+	<div id="5316673"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GERST</td><td>3225</td>
+	<td><div id="531653par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531653',531653,'Bestseller',3)">
+	
+	Bestseller</a></div>
+	<div id="5316533"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GERST</td><td>3260</td>
+	<td><div id="526976par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526976',526976,'Oddballs, Outcasts and Rebels',3)">
+	
+	Oddballs, Outcasts and Rebels</a></div>
+	<div id="5269763"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GERST</td><td>3350</td>
+	<td><div id="535264par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535264',535264,'Kafka in Context: Trials of Modernity',3)">
+	
+	Kafka in Context: Trials of Modernity</a></div>
+	<div id="5352643"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GERST</td><td>3560</td>
+	<td><div id="523708par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523708',523708,'Metropolis: Urban Sites in Literature',3)">
+	
+	Metropolis: Urban Sites in Literature</a></div>
+	<div id="5237083"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GERST</td><td>3620</td>
+	<td><div id="526977par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526977',526977,'Introduction to Critical Theory',3)">
+	
+	Introduction to Critical Theory</a></div>
+	<div id="5269773"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GERST</td><td>3640</td>
+	<td><div id="529056par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529056',529056,'Me, Myself, I: Subjects of Literature',3)">
+	
+	Me, Myself, I: Subjects of Literature</a></div>
+	<div id="5290563"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GERST</td><td>3800</td>
+	<td><div id="529927par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529927',529927,'Kafka\'s Worlds: Castles, Trials, and Tribulations',3)">
+	
+	Kafka's Worlds: Castles, Trials, and Tribulations</a></div>
+	<div id="5299273"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GERST</td><td>4100</td>
+	<td><div id="523712par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523712',523712,'The Seminar',3)">
+	
+	The Seminar</a></div>
+	<div id="5237123"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GERST</td><td>4245</td>
+	<td><div id="535284par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535284',535284,'Critical Thinking and Literary Methods',3)">
+	
+	Critical Thinking and Literary Methods</a></div>
+	<div id="5352843"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GERST</td><td>4285</td>
+	<td><div id="535287par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535287',535287,'Introduction to Medieval German Literature',3)">
+	
+	Introduction to Medieval German Literature</a></div>
+	<div id="5352873"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GERST</td><td>4290</td>
+	<td><div id="523711par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523711',523711,'Spinoza and the New Spinozism',3)">
+	
+	Spinoza and the New Spinozism</a></div>
+	<div id="5237113"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GERST</td><td>4411</td>
+	<td><div id="528349par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528349',528349,'The Holocaust in Postwar Culture (1945-1961)',3)">
+	
+	The Holocaust in Postwar Culture (1945-1961)</a></div>
+	<div id="5283493"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3384</td>
+	<td><div id="531267par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531267',531267,'The Asian Century: The Rise of China and India',3)">
+	
+	The Asian Century: The Rise of China and India</a></div>
+	<div id="5312673"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3636</td>
+	<td><div id="527746par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527746',527746,'Introduction to Critical Theory',3)">
+	
+	Introduction to Critical Theory</a></div>
+	<div id="5277463"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3655</td>
+	<td><div id="523767par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523767',523767,'Politics and Literature',3)">
+	
+	Politics and Literature</a></div>
+	<div id="5237673"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4769</td>
+	<td><div id="523785par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523785',523785,'Spinoza and the New Spinozism',3)">
+	
+	Spinoza and the New Spinozism</a></div>
+	<div id="5237853"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4786</td>
+	<td><div id="528350par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528350',528350,'The Holocaust in Postwar Culture (1945-1961)',3)">
+	
+	The Holocaust in Postwar Culture (1945-1961)</a></div>
+	<div id="5283503"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GREEK</td><td>2103</td>
+	<td><div id="523825par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523825',523825,'Homer',3)">
+	
+	Homer</a></div>
+	<div id="5238253"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GREEK</td><td>3103</td>
+	<td><div id="523829par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523829',523829,'Greek Philosophy and Rhetoric',3)">
+	
+	Greek Philosophy and Rhetoric</a></div>
+	<div id="5238293"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GREEK</td><td>3120</td>
+	<td><div id="531289par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531289',531289,'Seminar in Greek',3)">
+	
+	Seminar in Greek</a></div>
+	<div id="5312893"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GREEK</td><td>4457</td>
+	<td><div id="523837par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523837',523837,'Homeric Philology',3)">
+	
+	Homeric Philology</a></div>
+	<div id="5238373"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HEBRW</td><td>3104</td>
+	<td><div id="530467par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530467',530467,'Dynamics and Changes of Israeli Culture and Language',3)">
+	
+	Dynamics and Changes of Israeli Culture and Language</a></div>
+	<div id="5304673"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HEBRW</td><td>3105</td>
+	<td><div id="535071par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535071',535071,'Life in Israel: Aspects of Israeli Society, Language and Literature',3)">
+	
+	Life in Israel: Aspects of Israeli Society, Language and Literature</a></div>
+	<div id="5350713"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HEBRW</td><td>3108</td>
+	<td><div id="525164par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525164',525164,'Israeli Culture Through Literature',3)">
+	
+	Israeli Culture Through Literature</a></div>
+	<div id="5251643"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HEBRW</td><td>4102</td>
+	<td><div id="521155par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521155',521155,'Biblical Hebrew Prose: Genesis',3)">
+	
+	Biblical Hebrew Prose: Genesis</a></div>
+	<div id="5211553"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4233</td>
+	<td><div id="528351par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528351',528351,'The Holocaust in Postwar Culture (1945-1961)',3)">
+	
+	The Holocaust in Postwar Culture (1945-1961)</a></div>
+	<div id="5283513"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ITAL</td><td>2203</td>
+	<td><div id="528343par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528343',528343,'Languages/Literatures/Identities',3)">
+	
+	Languages/Literatures/Identities</a></div>
+	<div id="5283433"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ITAL</td><td>4710</td>
+	<td><div id="526551par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526551',526551,'Labor and the Arts',3)">
+	
+	Labor and the Arts</a></div>
+	<div id="5265513"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JPLIT</td><td>4406</td>
+	<td><div id="524360par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524360',524360,'Introduction to Classical Japanese',3)">
+	
+	Introduction to Classical Japanese</a></div>
+	<div id="5243603"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JPLIT</td><td>4408</td>
+	<td><div id="524361par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524361',524361,'Readings in Classical Japanese',3)">
+	
+	Readings in Classical Japanese</a></div>
+	<div id="5243613"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>2580</td>
+	<td><div id="528500par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528500',528500,'Imagining the Holocaust',3)">
+	
+	Imagining the Holocaust</a></div>
+	<div id="5285003"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>2724</td>
+	<td><div id="524376par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524376',524376,'Introduction to the Hebrew Bible',3)">
+	
+	Introduction to the Hebrew Bible</a></div>
+	<div id="5243763"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>2754</td>
+	<td><div id="530785par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530785',530785,'Wondrous Literatures of the Near East',3)">
+	
+	Wondrous Literatures of the Near East</a></div>
+	<div id="5307853"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>2793</td>
+	<td><div id="521243par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521243',521243,'Middle Eastern Cinema',3)">
+	
+	Middle Eastern Cinema</a></div>
+	<div id="5212433"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>3104</td>
+	<td><div id="530468par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530468',530468,'Dynamics and Changes of Israeli Culture and Language',3)">
+	
+	Dynamics and Changes of Israeli Culture and Language</a></div>
+	<div id="5304683"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>3105</td>
+	<td><div id="519251par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','519251',519251,'Life in Israel: Aspects of Israeli Society, Language and Literature',3)">
+	
+	Life in Israel: Aspects of Israeli Society, Language and Literature</a></div>
+	<div id="5192513"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>3108</td>
+	<td><div id="524379par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524379',524379,'Israeli Culture Through Literature',3)">
+	
+	Israeli Culture Through Literature</a></div>
+	<div id="5243793"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>3525</td>
+	<td><div id="526569par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526569',526569,'Palestinians in Israel',3)">
+	
+	Palestinians in Israel</a></div>
+	<div id="5265693"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>3711</td>
+	<td><div id="531650par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531650',531650,'Sitcom Jews: Ethnic Representation On Television and On Stage',3)">
+	
+	Sitcom Jews: Ethnic Representation On Television and On Stage</a></div>
+	<div id="5316503"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>4102</td>
+	<td><div id="521152par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521152',521152,'Biblical Hebrew Prose: Genesis',3)">
+	
+	Biblical Hebrew Prose: Genesis</a></div>
+	<div id="5211523"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>4410</td>
+	<td><div id="528476par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528476',528476,'The Holocaust in Postwar Culture (1945-1961)',3)">
+	
+	The Holocaust in Postwar Culture (1945-1961)</a></div>
+	<div id="5284763"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>4626</td>
+	<td><div id="535217par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535217',535217,'Reinventing Biblical Narrative',3)">
+	
+	Reinventing Biblical Narrative</a></div>
+	<div id="5352173"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>4790</td>
+	<td><div id="526663par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526663',526663,'Spinoza and the New Spinozism',3)">
+	
+	Spinoza and the New Spinozism</a></div>
+	<div id="5266633"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>KRLIT</td><td>4432</td>
+	<td><div id="524409par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524409',524409,'Middle Korean',3)">
+	
+	Middle Korean</a></div>
+	<div id="5244093"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LA</td><td>4830</td>
+	<td><div id="524426par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524426',524426,'Seminar in Landscape Studies',3)">
+	
+	Seminar in Landscape Studies</a></div>
+	<div id="5244263"> </div></td>
+	 <td>(CA-AG, LA-AG)</td>
+</tr>
+
+  <tr>
+	<td>LATA</td><td>2150</td>
+	<td><div id="524453par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524453',524453,'Contemporary Latin American Survey',3)">
+	
+	Contemporary Latin American Survey</a></div>
+	<div id="5244533"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATA</td><td>2170</td>
+	<td><div id="524454par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524454',524454,'Early Modern Iberian Survey',3)">
+	
+	Early Modern Iberian Survey</a></div>
+	<div id="5244543"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATA</td><td>3800</td>
+	<td><div id="526701par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526701',526701,'Poetry and Poetics of the Americas',3)">
+	
+	Poetry and Poetics of the Americas</a></div>
+	<div id="5267013"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATA</td><td>4160</td>
+	<td><div id="527643par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527643',527643,'Topics in Colonial Encounters',3)">
+	
+	Topics in Colonial Encounters</a></div>
+	<div id="5276433"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATA</td><td>4162</td>
+	<td><div id="535196par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535196',535196,'The Inca Empire and its Colonial Legacies',3)">
+	
+	The Inca Empire and its Colonial Legacies</a></div>
+	<div id="5351963"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATA</td><td>4565</td>
+	<td><div id="518999par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','518999',518999,'Traffic: Drugs, Bodies, Books',3)">
+	
+	Traffic: Drugs, Bodies, Books</a></div>
+	<div id="5189993"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATA</td><td>4578</td>
+	<td><div id="518956par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','518956',518956,'The Bodies That Were Not Ours: Critical Studies of Chicana, Latina, and Indigena Body Politics',3)">
+	
+	The Bodies That Were Not Ours: Critical Studies of Chicana, Latina, and Indigena Body Politics</a></div>
+	<div id="5189563"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATIN</td><td>2201</td>
+	<td><div id="524475par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524475',524475,'Latin Prose',3)">
+	
+	Latin Prose</a></div>
+	<div id="5244753"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATIN</td><td>2203</td>
+	<td><div id="524477par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524477',524477,'Catullus',3)">
+	
+	Catullus</a></div>
+	<div id="5244773"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATIN</td><td>2205</td>
+	<td><div id="526519par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526519',526519,'Virgil',3)">
+	
+	Virgil</a></div>
+	<div id="5265193"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATIN</td><td>2209</td>
+	<td><div id="535408par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535408',535408,'Latin Poetry',3)">
+	
+	Latin Poetry</a></div>
+	<div id="5354083"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATIN</td><td>3201</td>
+	<td><div id="524480par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524480',524480,'Roman Epic',3)">
+	
+	Roman Epic</a></div>
+	<div id="5244803"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATIN</td><td>3202</td>
+	<td><div id="524481par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524481',524481,'Roman Historiography',3)">
+	
+	Roman Historiography</a></div>
+	<div id="5244813"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATIN</td><td>3203</td>
+	<td><div id="524482par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524482',524482,'Roman Poetry',3)">
+	
+	Roman Poetry</a></div>
+	<div id="5244823"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATIN</td><td>3204</td>
+	<td><div id="524483par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524483',524483,'Roman Prose',3)">
+	
+	Roman Prose</a></div>
+	<div id="5244833"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATIN</td><td>3220</td>
+	<td><div id="534999par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','534999',534999,'Rapid Reading in Latin',3)">
+	
+	Rapid Reading in Latin</a></div>
+	<div id="5349993"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATIN</td><td>4213</td>
+	<td><div id="524487par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524487',524487,'Survey of Medieval Latin Literature',3)">
+	
+	Survey of Medieval Latin Literature</a></div>
+	<div id="5244873"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATIN</td><td>4223</td>
+	<td><div id="524489par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524489',524489,'Topics in Medieval Latin Literature',3)">
+	
+	Topics in Medieval Latin Literature</a></div>
+	<div id="5244893"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATIN</td><td>4456</td>
+	<td><div id="534866par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','534866',534866,'Archaic Latin',3)">
+	
+	Archaic Latin</a></div>
+	<div id="5348663"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LGBT</td><td>2290</td>
+	<td><div id="531599par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531599',531599,'Introduction to Lesbian, Gay, Bisexual, and Transgender Studies',3)">
+	
+	Introduction to Lesbian, Gay, Bisexual, and Transgender Studies</a></div>
+	<div id="5315993"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LGBT</td><td>2350</td>
+	<td><div id="528318par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528318',528318,'Literature and Medicine',3)">
+	
+	Literature and Medicine</a></div>
+	<div id="5283183"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LGBT</td><td>2760</td>
+	<td><div id="528405par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528405',528405,'Desire',3)">
+	
+	Desire</a></div>
+	<div id="5284053"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LGBT</td><td>2780</td>
+	<td><div id="528323par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528323',528323,'Body as Text: Pleasure and Danger',3)">
+	
+	Body as Text: Pleasure and Danger</a></div>
+	<div id="5283233"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LGBT</td><td>3550</td>
+	<td><div id="528326par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528326',528326,'Decadence',3)">
+	
+	Decadence</a></div>
+	<div id="5283263"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LGBT</td><td>3702</td>
+	<td><div id="530176par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530176',530176,'Desire and Cinema',3)">
+	
+	Desire and Cinema</a></div>
+	<div id="5301763"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LGBT</td><td>3725</td>
+	<td><div id="530044par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530044',530044,'Femininity as Masquerade',3)">
+	
+	Femininity as Masquerade</a></div>
+	<div id="5300443"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LGBT</td><td>3754</td>
+	<td><div id="530228par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530228',530228,'Spoken Word, Hip-Hop Theater, and the Politics of the Performance',3)">
+	
+	Spoken Word, Hip-Hop Theater, and the Politics of the Performance</a></div>
+	<div id="5302283"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LGBT</td><td>4451</td>
+	<td><div id="528654par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528654',528654,'Gender and Sexuality in Southeast Asian Cinema',3)">
+	
+	Gender and Sexuality in Southeast Asian Cinema</a></div>
+	<div id="5286543"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LING</td><td>2285</td>
+	<td><div id="524627par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524627',524627,'Linguistic Theory and Poetic Structure',3)">
+	
+	Linguistic Theory and Poetic Structure</a></div>
+	<div id="5246273"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LING</td><td>4432</td>
+	<td><div id="524654par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524654',524654,'Middle Korean',3)">
+	
+	Middle Korean</a></div>
+	<div id="5246543"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LING</td><td>4456</td>
+	<td><div id="534867par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','534867',534867,'Archaic Latin',3)">
+	
+	Archaic Latin</a></div>
+	<div id="5348673"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>2400</td>
+	<td><div id="520994par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520994',520994,'Introduction to Latino/a Literature',3)">
+	
+	Introduction to Latino/a Literature</a></div>
+	<div id="5209943"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>3754</td>
+	<td><div id="529229par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529229',529229,'Spoken Word, Hip-Hop Theater, and the Politics of the Performance',3)">
+	
+	Spoken Word, Hip-Hop Theater, and the Politics of the Performance</a></div>
+	<div id="5292293"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>4470</td>
+	<td><div id="552220par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552220',552220,'Data Bodies: Latinx Art and Politics',3)">
+	
+	Data Bodies: Latinx Art and Politics</a></div>
+	<div id="5522203"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>4565</td>
+	<td><div id="521029par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521029',521029,'Traffic: Drugs, Bodies, Books',3)">
+	
+	Traffic: Drugs, Bodies, Books</a></div>
+	<div id="5210293"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>4578</td>
+	<td><div id="518913par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','518913',518913,'The Bodies That Were Not Ours: Critical Studies of Chicana, Latina, and Indigena Body Politics',3)">
+	
+	The Bodies That Were Not Ours: Critical Studies of Chicana, Latina, and Indigena Body Politics</a></div>
+	<div id="5189133"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>4635</td>
+	<td><div id="520849par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520849',520849,'Art! Poetry! Power!',3)">
+	
+	Art! Poetry! Power!</a></div>
+	<div id="5208493"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>2100</td>
+	<td><div id="527959par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527959',527959,'Medieval Romance: Voyage to the Otherworld',3)">
+	
+	Medieval Romance: Voyage to the Otherworld</a></div>
+	<div id="5279593"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>2170</td>
+	<td><div id="527288par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527288',527288,'Early Modern Iberian Survey',3)">
+	
+	Early Modern Iberian Survey</a></div>
+	<div id="5272883"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>2740</td>
+	<td><div id="527326par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527326',527326,'Scottish Literature',3)">
+	
+	Scottish Literature</a></div>
+	<div id="5273263"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>3080</td>
+	<td><div id="528325par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528325',528325,'Icelandic Family Sagas',3)">
+	
+	Icelandic Family Sagas</a></div>
+	<div id="5283253"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>3110</td>
+	<td><div id="527327par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527327',527327,'Old English',3)">
+	
+	Old English</a></div>
+	<div id="5273273"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>3120</td>
+	<td><div id="527347par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527347',527347,'Beowulf',3)">
+	
+	Beowulf</a></div>
+	<div id="5273473"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>3190</td>
+	<td><div id="527352par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527352',527352,'Chaucer',3)">
+	
+	Chaucer</a></div>
+	<div id="5273523"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>3226</td>
+	<td><div id="527878par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527878',527878,'Art of Late Antiquity',3)">
+	
+	Art of Late Antiquity</a></div>
+	<div id="5278783"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>4103</td>
+	<td><div id="524875par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524875',524875,'Survey of Medieval Latin Literature',3)">
+	
+	Survey of Medieval Latin Literature</a></div>
+	<div id="5248753"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>4125</td>
+	<td><div id="529130par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529130',529130,'Literary Biography and Autobiography from the Middle Ages to the Renaissance',3)">
+	
+	Literary Biography and Autobiography from the Middle Ages to the Renaissance</a></div>
+	<div id="5291303"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>4160</td>
+	<td><div id="530393par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530393',530393,'Piers Plowman',3)">
+	
+	Piers Plowman</a></div>
+	<div id="5303933"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>4201</td>
+	<td><div id="524876par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524876',524876,'Topics in Medieval Latin Literature',3)">
+	
+	Topics in Medieval Latin Literature</a></div>
+	<div id="5248763"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>4295</td>
+	<td><div id="535288par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535288',535288,'Introduction to Medieval German Literature',3)">
+	
+	Introduction to Medieval German Literature</a></div>
+	<div id="5352883"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>4420</td>
+	<td><div id="530621par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530621',530621,'Tang Poetry: Themes and Contexts',3)">
+	
+	Tang Poetry: Themes and Contexts</a></div>
+	<div id="5306213"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>4626</td>
+	<td><div id="535214par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535214',535214,'Reinventing Biblical Narrative',3)">
+	
+	Reinventing Biblical Narrative</a></div>
+	<div id="5352143"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>1101</td>
+	<td><div id="524961par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524961',524961,'Elements of Music',3)">
+	
+	Elements of Music</a></div>
+	<div id="5249613"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>1105</td>
+	<td><div id="524962par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524962',524962,'Introduction to Western Music Theory',3)">
+	
+	Introduction to Western Music Theory</a></div>
+	<div id="5249623"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>1201</td>
+	<td><div id="524963par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524963',524963,'European Music from the Middle Ages, Renaissance, and Baroque',3)">
+	
+	European Music from the Middle Ages, Renaissance, and Baroque</a></div>
+	<div id="5249633"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>1202</td>
+	<td><div id="524964par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524964',524964,'Classical Music from 1750 to the Present',3)">
+	
+	Classical Music from 1750 to the Present</a></div>
+	<div id="5249643"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>1312</td>
+	<td><div id="524965par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524965',524965,'History of Rock Music',3)">
+	
+	History of Rock Music</a></div>
+	<div id="5249653"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>1313</td>
+	<td><div id="524966par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524966',524966,'A Survey of Jazz',3)">
+	
+	A Survey of Jazz</a></div>
+	<div id="5249663"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>1341</td>
+	<td><div id="524967par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524967',524967,'Gamelan in Indonesian History and Cultures',3)">
+	
+	Gamelan in Indonesian History and Cultures</a></div>
+	<div id="5249673"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>1421</td>
+	<td><div id="524968par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524968',524968,'Introduction to Computer Music',3)">
+	
+	Introduction to Computer Music</a></div>
+	<div id="5249683"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>1465</td>
+	<td><div id="524969par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524969',524969,'Computing in the Arts',3)">
+	
+	Computing in the Arts</a></div>
+	<div id="5249693"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>2101</td>
+	<td><div id="524971par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524971',524971,'Theory, Materials and Techniques I',3)">
+	
+	Theory, Materials and Techniques I</a></div>
+	<div id="5249713"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>2102</td>
+	<td><div id="524972par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524972',524972,'Theory, Materials and Techniques II',3)">
+	
+	Theory, Materials and Techniques II</a></div>
+	<div id="5249723"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>2111</td>
+	<td><div id="529311par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529311',529311,'Songwriting',3)">
+	
+	Songwriting</a></div>
+	<div id="5293113"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>2112</td>
+	<td><div id="531404par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531404',531404,'Collaborative Songwriting',3)">
+	
+	Collaborative Songwriting</a></div>
+	<div id="5314043"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>2221</td>
+	<td><div id="524975par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524975',524975,'Bach and Handel',3)">
+	
+	Bach and Handel</a></div>
+	<div id="5249753"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>2241</td>
+	<td><div id="524977par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524977',524977,'Music as Drama: An Introduction to Opera',3)">
+	
+	Music as Drama: An Introduction to Opera</a></div>
+	<div id="5249773"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>2244</td>
+	<td><div id="527249par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527249',527249,'The Music, Art, and Technology of the Organ',3)">
+	
+	The Music, Art, and Technology of the Organ</a></div>
+	<div id="5272493"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>2311</td>
+	<td><div id="531190par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531190',531190,'The Art and Craft of Music Journalism',3)">
+	
+	The Art and Craft of Music Journalism</a></div>
+	<div id="5311903"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>2380</td>
+	<td><div id="528454par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528454',528454,'Performing Hip Hop',3)">
+	
+	Performing Hip Hop</a></div>
+	<div id="5284543"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>2421</td>
+	<td><div id="524978par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524978',524978,'Computers in Music Performance',3)">
+	
+	Computers in Music Performance</a></div>
+	<div id="5249783"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>2441</td>
+	<td><div id="534868par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','534868',534868,'Shaping Sound II',3)">
+	
+	Shaping Sound II</a></div>
+	<div id="5348683"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>2701</td>
+	<td><div id="530140par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530140',530140,'Music and Digital Gameplay',3)">
+	
+	Music and Digital Gameplay</a></div>
+	<div id="5301403"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>3111</td>
+	<td><div id="524979par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524979',524979,'Jazz Improvisation and Theory I',3)">
+	
+	Jazz Improvisation and Theory I</a></div>
+	<div id="5249793"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>3112</td>
+	<td><div id="524980par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524980',524980,'Jazz Improvisation and Theory II',3)">
+	
+	Jazz Improvisation and Theory II</a></div>
+	<div id="5249803"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>3121</td>
+	<td><div id="525000par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525000',525000,'Choral Conducting',3)">
+	
+	Choral Conducting</a></div>
+	<div id="5250003"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>3130</td>
+	<td><div id="531148par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531148',531148,'Counterpoint',3)">
+	
+	Counterpoint</a></div>
+	<div id="5311483"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>3150</td>
+	<td><div id="534877par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','534877',534877,'Tonal Counterpoint',3)">
+	
+	Tonal Counterpoint</a></div>
+	<div id="5348773"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>3211</td>
+	<td><div id="524982par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524982',524982,'Seminar in Advanced Music Studies',3)">
+	
+	Seminar in Advanced Music Studies</a></div>
+	<div id="5249823"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>3232</td>
+	<td><div id="524983par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524983',524983,'Topics in Western Art Music from 1750 to the Present',3)">
+	
+	Topics in Western Art Music from 1750 to the Present</a></div>
+	<div id="5249833"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>3340</td>
+	<td><div id="534922par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','534922',534922,'Minimalism',3)">
+	
+	Minimalism</a></div>
+	<div id="5349223"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>3431</td>
+	<td><div id="524984par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524984',524984,'Sound Design',3)">
+	
+	Sound Design</a></div>
+	<div id="5249843"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>4102</td>
+	<td><div id="524997par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524997',524997,'Topics in Music Analysis',3)">
+	
+	Topics in Music Analysis</a></div>
+	<div id="5249973"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>4103</td>
+	<td><div id="524998par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524998',524998,'Topics in Post-Tonal Theory',3)">
+	
+	Topics in Post-Tonal Theory</a></div>
+	<div id="5249983"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>4111</td>
+	<td><div id="524999par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524999',524999,'Composition in Recent Styles',3)">
+	
+	Composition in Recent Styles</a></div>
+	<div id="5249993"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>4112</td>
+	<td><div id="531312par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531312',531312,'Composition',3)">
+	
+	Composition</a></div>
+	<div id="5313123"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>4121</td>
+	<td><div id="527765par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527765',527765,'Advanced Conducting',3)">
+	
+	Advanced Conducting</a></div>
+	<div id="5277653"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>4122</td>
+	<td><div id="525001par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525001',525001,'Orchestration',3)">
+	
+	Orchestration</a></div>
+	<div id="5250013"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>4222</td>
+	<td><div id="525003par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525003',525003,'Music and Monstrous Imaginings',3)">
+	
+	Music and Monstrous Imaginings</a></div>
+	<div id="5250033"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>4306</td>
+	<td><div id="527776par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527776',527776,'Historical Performance Practice',3)">
+	
+	Historical Performance Practice</a></div>
+	<div id="5277763"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>4325</td>
+	<td><div id="530710par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530710',530710,'Musician Biographies: Re-assessing a Genre',3)">
+	
+	Musician Biographies: Re-assessing a Genre</a></div>
+	<div id="5307103"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>2724</td>
+	<td><div id="525160par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525160',525160,'Introduction to the Hebrew Bible',3)">
+	
+	Introduction to the Hebrew Bible</a></div>
+	<div id="5251603"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>2754</td>
+	<td><div id="525161par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525161',525161,'Wondrous Literatures of the Near East',3)">
+	
+	Wondrous Literatures of the Near East</a></div>
+	<div id="5251613"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>2793</td>
+	<td><div id="521256par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521256',521256,'Middle Eastern Cinema',3)">
+	
+	Middle Eastern Cinema</a></div>
+	<div id="5212563"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>3226</td>
+	<td><div id="527880par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527880',527880,'Art of Late Antiquity',3)">
+	
+	Art of Late Antiquity</a></div>
+	<div id="5278803"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>3525</td>
+	<td><div id="526568par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526568',526568,'Palestinians in Israel',3)">
+	
+	Palestinians in Israel</a></div>
+	<div id="5265683"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>4626</td>
+	<td><div id="535212par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535212',535212,'Reinventing Biblical Narrative',3)">
+	
+	Reinventing Biblical Narrative</a></div>
+	<div id="5352123"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PHIL</td><td>3510</td>
+	<td><div id="526525par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526525',526525,'Aesthetics',3)">
+	
+	Aesthetics</a></div>
+	<div id="5265253"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PLHRT</td><td>2010</td>
+	<td><div id="524097par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','524097',524097,'The Art of Horticulture',3)">
+	
+	The Art of Horticulture</a></div>
+	<div id="5240973"> </div></td>
+	 <td>(LA-AG)</td>
+</tr>
+
+  <tr>
+	<td>PLHRT</td><td>3250</td>
+	<td><div id="527997par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527997',527997,'Intensive Study in Botanical Illustration',3)">
+	
+	Intensive Study in Botanical Illustration</a></div>
+	<div id="5279973"> </div></td>
+	 <td>(LA-AG)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>1640</td>
+	<td><div id="523003par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523003',523003,'Computing in the Arts',3)">
+	
+	Computing in the Arts</a></div>
+	<div id="5230033"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>2300</td>
+	<td><div id="523007par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523007',523007,'Beginning Dance Composition',3)">
+	
+	Beginning Dance Composition</a></div>
+	<div id="5230073"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>2403</td>
+	<td><div id="521200par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521200',521200,'Africa in Hollywood',3)">
+	
+	Africa in Hollywood</a></div>
+	<div id="5212003"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>2493</td>
+	<td><div id="527855par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527855',527855,'Middle Eastern Cinema',3)">
+	
+	Middle Eastern Cinema</a></div>
+	<div id="5278553"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>2540</td>
+	<td><div id="520265par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520265',520265,'Introduction to Film Analysis: Meaning and Value',3)">
+	
+	Introduction to Film Analysis: Meaning and Value</a></div>
+	<div id="5202653"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>2560</td>
+	<td><div id="523630par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523630',523630,'American Cinema',3)">
+	
+	American Cinema</a></div>
+	<div id="5236303"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>2620</td>
+	<td><div id="531575par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531575',531575,'Performing Death and Desire: Vampires on Stage and Screen',3)">
+	
+	Performing Death and Desire: Vampires on Stage and Screen</a></div>
+	<div id="5315753"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>2633</td>
+	<td><div id="526101par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526101',526101,'Music as Drama: An Introduction to Opera',3)">
+	
+	Music as Drama: An Introduction to Opera</a></div>
+	<div id="5261013"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>2635</td>
+	<td><div id="526094par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526094',526094,'The Comic Theater',3)">
+	
+	The Comic Theater</a></div>
+	<div id="5260943"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>2670</td>
+	<td><div id="526102par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526102',526102,'Shakespeare',3)">
+	
+	Shakespeare</a></div>
+	<div id="5261023"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>2680</td>
+	<td><div id="526103par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526103',526103,'Desire',3)">
+	
+	Desire</a></div>
+	<div id="5261033"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>2681</td>
+	<td><div id="527907par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527907',527907,'Shakespeare and the Twentieth and Twenty-First Centuries',3)">
+	
+	Shakespeare and the Twentieth and Twenty-First Centuries</a></div>
+	<div id="5279073"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>2800</td>
+	<td><div id="526104par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526104',526104,'Introduction to Acting',3)">
+	
+	Introduction to Acting</a></div>
+	<div id="5261043"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>2830</td>
+	<td><div id="521064par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521064',521064,'The Expressive Voice',3)">
+	
+	The Expressive Voice</a></div>
+	<div id="5210643"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>2901</td>
+	<td><div id="531576par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531576',531576,'Spanish Performance Studio: RVVR Caberet Literario',3)">
+	
+	Spanish Performance Studio: RVVR Caberet Literario</a></div>
+	<div id="5315763"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3226</td>
+	<td><div id="523008par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523008',523008,'Global Dance I',3)">
+	
+	Global Dance I</a></div>
+	<div id="5230083"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3227</td>
+	<td><div id="526483par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526483',526483,'Global Dance II',3)">
+	
+	Global Dance II</a></div>
+	<div id="5264833"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3232</td>
+	<td><div id="527879par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527879',527879,'Topics in Western Art Music from 1750 to the Present',3)">
+	
+	Topics in Western Art Music from 1750 to the Present</a></div>
+	<div id="5278793"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3300</td>
+	<td><div id="523011par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523011',523011,'Intermediate Dance Composition I',3)">
+	
+	Intermediate Dance Composition I</a></div>
+	<div id="5230113"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3420</td>
+	<td><div id="552038par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552038',552038,'Asian Americans & Popular Culture',3)">
+	
+	Asian Americans & Popular Culture</a></div>
+	<div id="5520383"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3421</td>
+	<td><div id="530489par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530489',530489,'Literary Theory on the Edge',3)">
+	
+	Literary Theory on the Edge</a></div>
+	<div id="5304893"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3505</td>
+	<td><div id="526935par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526935',526935,'Blaxploitation Film and Photography',3)">
+	
+	Blaxploitation Film and Photography</a></div>
+	<div id="5269353"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3510</td>
+	<td><div id="535638par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535638',535638,'Documentary Production Fundamentals',3)">
+	
+	Documentary Production Fundamentals</a></div>
+	<div id="5356383"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3515</td>
+	<td><div id="535281par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535281',535281,'Video and New Media: Art, Theory, Politics',3)">
+	
+	Video and New Media: Art, Theory, Politics</a></div>
+	<div id="5352813"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3520</td>
+	<td><div id="529844par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529844',529844,'Light and Image',3)">
+	
+	Light and Image</a></div>
+	<div id="5298443"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3531</td>
+	<td><div id="523635par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523635',523635,'Screenwriting',3)">
+	
+	Screenwriting</a></div>
+	<div id="5236353"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3550</td>
+	<td><div id="523632par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523632',523632,'Global Cinema I',3)">
+	
+	Global Cinema I</a></div>
+	<div id="5236323"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3560</td>
+	<td><div id="531041par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531041',531041,'American Cinema since 1968',3)">
+	
+	American Cinema since 1968</a></div>
+	<div id="5310413"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3570</td>
+	<td><div id="523634par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523634',523634,'Introduction to Visual Storytelling',3)">
+	
+	Introduction to Visual Storytelling</a></div>
+	<div id="5236343"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3571</td>
+	<td><div id="520818par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520818',520818,'Documentary Filmmaking',3)">
+	
+	Documentary Filmmaking</a></div>
+	<div id="5208183"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3614</td>
+	<td><div id="526488par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526488',526488,'Creative Character Design',3)">
+	
+	Creative Character Design</a></div>
+	<div id="5264883"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3616</td>
+	<td><div id="526111par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526111',526111,'The Body of Fashion: A Head-to-Toe Journey through the History of Western Dress',3)">
+	
+	The Body of Fashion: A Head-to-Toe Journey through the History of Western Dress</a></div>
+	<div id="5261113"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3620</td>
+	<td><div id="526119par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526119',526119,'Lighting Design Studio I',3)">
+	
+	Lighting Design Studio I</a></div>
+	<div id="5261193"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3640</td>
+	<td><div id="526120par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526120',526120,'Scenic Design Studio',3)">
+	
+	Scenic Design Studio</a></div>
+	<div id="5261203"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3641</td>
+	<td><div id="530396par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530396',530396,'Film Production Design Studio: Designing the Next Batman Film',3)">
+	
+	Film Production Design Studio: Designing the Next Batman Film</a></div>
+	<div id="5303963"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3650</td>
+	<td><div id="526121par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526121',526121,'Automated Lighting and Control Systems',3)">
+	
+	Automated Lighting and Control Systems</a></div>
+	<div id="5261213"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3660</td>
+	<td><div id="526122par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526122',526122,'Costume Design Studio',3)">
+	
+	Costume Design Studio</a></div>
+	<div id="5261223"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3680</td>
+	<td><div id="526123par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526123',526123,'Sound Design',3)">
+	
+	Sound Design</a></div>
+	<div id="5261233"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3702</td>
+	<td><div id="521199par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521199',521199,'Desire and Cinema',3)">
+	
+	Desire and Cinema</a></div>
+	<div id="5211993"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3711</td>
+	<td><div id="535120par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535120',535120,'Sitcom Jews: Ethnic Representation On Television and On Stage',3)">
+	
+	Sitcom Jews: Ethnic Representation On Television and On Stage</a></div>
+	<div id="5351203"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3724</td>
+	<td><div id="526112par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526112',526112,'The Tragic Theatre',3)">
+	
+	The Tragic Theatre</a></div>
+	<div id="5261123"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3750</td>
+	<td><div id="526095par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526095',526095,'Global Stages I',3)">
+	
+	Global Stages I</a></div>
+	<div id="5260953"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3751</td>
+	<td><div id="526096par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526096',526096,'Global Stages II',3)">
+	
+	Global Stages II</a></div>
+	<div id="5260963"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3752</td>
+	<td><div id="535396par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535396',535396,'Thirteen Plays',3)">
+	
+	Thirteen Plays</a></div>
+	<div id="5353963"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3754</td>
+	<td><div id="529102par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','529102',529102,'Spoken Word, Hip-Hop Theater, and the Politics of the Performance',3)">
+	
+	Spoken Word, Hip-Hop Theater, and the Politics of the Performance</a></div>
+	<div id="5291023"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3758</td>
+	<td><div id="519224par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','519224',519224,'Contemporary American Theatre on Stage and Screen',3)">
+	
+	Contemporary American Theatre on Stage and Screen</a></div>
+	<div id="5192243"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3770</td>
+	<td><div id="520382par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520382',520382,'Shakespeare: The Late Plays',3)">
+	
+	Shakespeare: The Late Plays</a></div>
+	<div id="5203823"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3800</td>
+	<td><div id="526124par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526124',526124,'Acting II',3)">
+	
+	Acting II</a></div>
+	<div id="5261243"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3805</td>
+	<td><div id="526114par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526114',526114,'Playwriting I',3)">
+	
+	Playwriting I</a></div>
+	<div id="5261143"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3815</td>
+	<td><div id="526445par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526445',526445,'Acting in Public: Performance in Everyday Life',3)">
+	
+	Acting in Public: Performance in Everyday Life</a></div>
+	<div id="5264453"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3840</td>
+	<td><div id="520359par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520359',520359,'Commedia: A Contemporization of Physical Acting Styles and the Comic Approach',3)">
+	
+	Commedia: A Contemporization of Physical Acting Styles and the Comic Approach</a></div>
+	<div id="5203593"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>3880</td>
+	<td><div id="526128par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526128',526128,'Fundamentals of Directing I',3)">
+	
+	Fundamentals of Directing I</a></div>
+	<div id="5261283"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>4000</td>
+	<td><div id="527345par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527345',527345,'Senior Studio',3)">
+	
+	Senior Studio</a></div>
+	<div id="5273453"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>4190</td>
+	<td><div id="527508par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527508',527508,'American Shakespeare',3)">
+	
+	American Shakespeare</a></div>
+	<div id="5275083"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>4300</td>
+	<td><div id="523014par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523014',523014,'Advanced Dance Composition I',3)">
+	
+	Advanced Dance Composition I</a></div>
+	<div id="5230143"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>4301</td>
+	<td><div id="523015par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523015',523015,'Advanced Dance Composition II',3)">
+	
+	Advanced Dance Composition II</a></div>
+	<div id="5230153"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>4420</td>
+	<td><div id="520986par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520986',520986,'Cinematography I',3)">
+	
+	Cinematography I</a></div>
+	<div id="5209863"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>4451</td>
+	<td><div id="527883par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527883',527883,'Gender and Sexuality in Southeast Asian Cinema',3)">
+	
+	Gender and Sexuality in Southeast Asian Cinema</a></div>
+	<div id="5278833"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>4505</td>
+	<td><div id="531577par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531577',531577,'Playwriting II',3)">
+	
+	Playwriting II</a></div>
+	<div id="5315773"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>4532</td>
+	<td><div id="527590par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527590',527590,'Advanced Screenwriting',3)">
+	
+	Advanced Screenwriting</a></div>
+	<div id="5275903"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>4536</td>
+	<td><div id="531030par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531030',531030,'Topics in Indian Film',3)">
+	
+	Topics in Indian Film</a></div>
+	<div id="5310303"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>4585</td>
+	<td><div id="523637par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','523637',523637,'Advanced Film and Video Projects',3)">
+	
+	Advanced Film and Video Projects</a></div>
+	<div id="5236373"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>4620</td>
+	<td><div id="526136par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526136',526136,'Lighting Design Studio II',3)">
+	
+	Lighting Design Studio II</a></div>
+	<div id="5261363"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>4660</td>
+	<td><div id="526131par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526131',526131,'Adaptation: Text/Theatricality',3)">
+	
+	Adaptation: Text/Theatricality</a></div>
+	<div id="5261313"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>4801</td>
+	<td><div id="526126par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526126',526126,'Advanced Studies in Acting Techniques',3)">
+	
+	Advanced Studies in Acting Techniques</a></div>
+	<div id="5261263"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>4866</td>
+	<td><div id="520507par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520507',520507,'Practicum in Performance Criticism and Dramaturgy',3)">
+	
+	Practicum in Performance Criticism and Dramaturgy</a></div>
+	<div id="5205073"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>4880</td>
+	<td><div id="526140par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526140',526140,'Fundamentals of Directing II',3)">
+	
+	Fundamentals of Directing II</a></div>
+	<div id="5261403"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>1650</td>
+	<td><div id="525759par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525759',525759,'Computing in the Arts',3)">
+	
+	Computing in the Arts</a></div>
+	<div id="5257593"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>2204</td>
+	<td><div id="525825par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525825',525825,'Introduction to Quranic Arabic',3)">
+	
+	Introduction to Quranic Arabic</a></div>
+	<div id="5258253"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>2724</td>
+	<td><div id="525835par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525835',525835,'Introduction to the Hebrew Bible',3)">
+	
+	Introduction to the Hebrew Bible</a></div>
+	<div id="5258353"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>3226</td>
+	<td><div id="527881par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527881',527881,'Art of Late Antiquity',3)">
+	
+	Art of Late Antiquity</a></div>
+	<div id="5278813"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>3281</td>
+	<td><div id="520842par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520842',520842,'The Bible as Literature',3)">
+	
+	The Bible as Literature</a></div>
+	<div id="5208423"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>4102</td>
+	<td><div id="521158par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521158',521158,'Biblical Hebrew Prose: Genesis',3)">
+	
+	Biblical Hebrew Prose: Genesis</a></div>
+	<div id="5211583"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>4451</td>
+	<td><div id="528397par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528397',528397,'Gender and Sexuality in Southeast Asian Cinema',3)">
+	
+	Gender and Sexuality in Southeast Asian Cinema</a></div>
+	<div id="5283973"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>4626</td>
+	<td><div id="535216par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535216',535216,'Reinventing Biblical Narrative',3)">
+	
+	Reinventing Biblical Narrative</a></div>
+	<div id="5352163"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ROMS</td><td>3802</td>
+	<td><div id="531368par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531368',531368,'Fantasies of Avant-Gardes',3)">
+	
+	Fantasies of Avant-Gardes</a></div>
+	<div id="5313683"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ROMS</td><td>4245</td>
+	<td><div id="535286par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535286',535286,'Critical Thinking and Literary Methods',3)">
+	
+	Critical Thinking and Literary Methods</a></div>
+	<div id="5352863"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ROMS</td><td>4410</td>
+	<td><div id="528347par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528347',528347,'The Holocaust in Postwar Culture (1945-1961)',3)">
+	
+	The Holocaust in Postwar Culture (1945-1961)</a></div>
+	<div id="5283473"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RUSSL</td><td>2209</td>
+	<td><div id="525873par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525873',525873,'Readings in Russian Prose and Poetry',3)">
+	
+	Readings in Russian Prose and Poetry</a></div>
+	<div id="5258733"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RUSSL</td><td>3331</td>
+	<td><div id="521262par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521262',521262,'Introduction to Russian Poetry',3)">
+	
+	Introduction to Russian Poetry</a></div>
+	<div id="5212623"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RUSSL</td><td>3333</td>
+	<td><div id="525874par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525874',525874,'Twentieth Century Russian Poetry',3)">
+	
+	Twentieth Century Russian Poetry</a></div>
+	<div id="5258743"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RUSSL</td><td>3341</td>
+	<td><div id="531447par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531447',531447,'Short Russian Fiction (The Nineteenth Century)',3)">
+	
+	Short Russian Fiction (The Nineteenth Century)</a></div>
+	<div id="5314473"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RUSSL</td><td>3367</td>
+	<td><div id="525875par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525875',525875,'The Russian Novel',3)">
+	
+	The Russian Novel</a></div>
+	<div id="5258753"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RUSSL</td><td>3385</td>
+	<td><div id="525876par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525876',525876,'Reading Nabokov',3)">
+	
+	Reading Nabokov</a></div>
+	<div id="5258763"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RUSSL</td><td>4432</td>
+	<td><div id="521263par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521263',521263,'Pushkin',3)">
+	
+	Pushkin</a></div>
+	<div id="5212633"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SEA</td><td>3710</td>
+	<td><div id="525891par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525891',525891,'Marine Environmental History',3)">
+	
+	Marine Environmental History</a></div>
+	<div id="5258913"> </div></td>
+	 <td>(CA-AG, LA-AG)</td>
+</tr>
+
+  <tr>
+	<td>SPAN</td><td>2140</td>
+	<td><div id="525964par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525964',525964,'Modern Spanish Survey',3)">
+	
+	Modern Spanish Survey</a></div>
+	<div id="5259643"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SPAN</td><td>2150</td>
+	<td><div id="525965par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525965',525965,'Contemporary Latin American Survey',3)">
+	
+	Contemporary Latin American Survey</a></div>
+	<div id="5259653"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SPAN</td><td>2170</td>
+	<td><div id="525966par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525966',525966,'Early Modern Iberian Survey',3)">
+	
+	Early Modern Iberian Survey</a></div>
+	<div id="5259663"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SPAN</td><td>3240</td>
+	<td><div id="530116par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530116',530116,'Iberian Modern Political Cultures',3)">
+	
+	Iberian Modern Political Cultures</a></div>
+	<div id="5301163"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SPAN</td><td>3800</td>
+	<td><div id="526703par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526703',526703,'Poetry and Poetics of the Americas',3)">
+	
+	Poetry and Poetics of the Americas</a></div>
+	<div id="5267033"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SPAN</td><td>4080</td>
+	<td><div id="552110par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552110',552110,'New Configurations of Time in Contemporary Latin American Art and Fiction',3)">
+	
+	New Configurations of Time in Contemporary Latin American Art and Fiction</a></div>
+	<div id="5521103"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SPAN</td><td>4470</td>
+	<td><div id="535249par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535249',535249,'Theory of the Novel',3)">
+	
+	Theory of the Novel</a></div>
+	<div id="5352493"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SPAN</td><td>4760</td>
+	<td><div id="519278par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','519278',519278,'Lorca\'s World: From Granada to New York',3)">
+	
+	Lorca's World: From Granada to New York</a></div>
+	<div id="5192783"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SPAN</td><td>4830</td>
+	<td><div id="527609par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527609',527609,'21st Century Latin American Literature',3)">
+	
+	21st Century Latin American Literature</a></div>
+	<div id="5276093"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SPAN</td><td>4880</td>
+	<td><div id="526711par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526711',526711,'Contemporary Poetry and Poetics',3)">
+	
+	Contemporary Poetry and Poetics</a></div>
+	<div id="5267113"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>4470</td>
+	<td><div id="552218par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','552218',552218,'Data Bodies: Latinx Art and Politics',3)">
+	
+	Data Bodies: Latinx Art and Politics</a></div>
+	<div id="5522183"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SUMER</td><td>3662</td>
+	<td><div id="525170par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','525170',525170,'Sumerian Language and Culture II',3)">
+	
+	Sumerian Language and Culture II</a></div>
+	<div id="5251703"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>2000</td>
+	<td><div id="526208par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526208',526208,'Introduction to Visual Studies',3)">
+	
+	Introduction to Visual Studies</a></div>
+	<div id="5262083"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>2174</td>
+	<td><div id="520365par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','520365',520365,'Introduction to Film Analysis: Meaning and Value',3)">
+	
+	Introduction to Film Analysis: Meaning and Value</a></div>
+	<div id="5203653"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>2193</td>
+	<td><div id="527808par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527808',527808,'Middle Eastern Cinema',3)">
+	
+	Middle Eastern Cinema</a></div>
+	<div id="5278083"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>2300</td>
+	<td><div id="526210par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526210',526210,'American Cinema',3)">
+	
+	American Cinema</a></div>
+	<div id="5262103"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>2511</td>
+	<td><div id="526212par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526212',526212,'Beginning Dance Composition',3)">
+	
+	Beginning Dance Composition</a></div>
+	<div id="5262123"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>2744</td>
+	<td><div id="526214par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526214',526214,'Gamelan in Indonesian History and Cultures',3)">
+	
+	Gamelan in Indonesian History and Cultures</a></div>
+	<div id="5262143"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>3115</td>
+	<td><div id="535283par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535283',535283,'Video and New Media: Art, Theory, Politics',3)">
+	
+	Video and New Media: Art, Theory, Politics</a></div>
+	<div id="5352833"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>3175</td>
+	<td><div id="526215par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526215',526215,'Global Cinema I',3)">
+	
+	Global Cinema I</a></div>
+	<div id="5262153"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>3226</td>
+	<td><div id="527882par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527882',527882,'Art of Late Antiquity',3)">
+	
+	Art of Late Antiquity</a></div>
+	<div id="5278823"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>3227</td>
+	<td><div id="527625par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527625',527625,'Global Dance II',3)">
+	
+	Global Dance II</a></div>
+	<div id="5276253"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>3505</td>
+	<td><div id="526936par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526936',526936,'Blaxploitation Film and Photography',3)">
+	
+	Blaxploitation Film and Photography</a></div>
+	<div id="5269363"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>3506</td>
+	<td><div id="535138par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535138',535138,'Slavery and Visual Culture',3)">
+	
+	Slavery and Visual Culture</a></div>
+	<div id="5351383"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>3520</td>
+	<td><div id="530387par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530387',530387,'Light and Image',3)">
+	
+	Light and Image</a></div>
+	<div id="5303873"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>3620</td>
+	<td><div id="526224par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526224',526224,'Lighting Design Studio I',3)">
+	
+	Lighting Design Studio I</a></div>
+	<div id="5262243"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>3702</td>
+	<td><div id="521195par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','521195',521195,'Desire and Cinema',3)">
+	
+	Desire and Cinema</a></div>
+	<div id="5211953"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>3760</td>
+	<td><div id="531029par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','531029',531029,'American Cinema since 1968',3)">
+	
+	American Cinema since 1968</a></div>
+	<div id="5310293"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>3798</td>
+	<td><div id="526229par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526229',526229,'Fundamentals of Directing I',3)">
+	
+	Fundamentals of Directing I</a></div>
+	<div id="5262293"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>3901</td>
+	<td><div id="530534par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530534',530534,'Bollywood and Beyond: South Asian Cinema',3)">
+	
+	Bollywood and Beyond: South Asian Cinema</a></div>
+	<div id="5305343"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>4160</td>
+	<td><div id="527644par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527644',527644,'Topics in Colonial Encounters',3)">
+	
+	Topics in Colonial Encounters</a></div>
+	<div id="5276443"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>4162</td>
+	<td><div id="535461par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','535461',535461,'The Inca Empire and its Colonial Legacies',3)">
+	
+	The Inca Empire and its Colonial Legacies</a></div>
+	<div id="5354613"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>4260</td>
+	<td><div id="526234par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526234',526234,'Adaptation: Text/Theatricality',3)">
+	
+	Adaptation: Text/Theatricality</a></div>
+	<div id="5262343"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>4436</td>
+	<td><div id="526235par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526235',526235,'Topics in Indian Film',3)">
+	
+	Topics in Indian Film</a></div>
+	<div id="5262353"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>4507</td>
+	<td><div id="528572par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','528572',528572,'Topics in Contemporary Art',3)">
+	
+	Topics in Contemporary Art</a></div>
+	<div id="5285723"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>4563</td>
+	<td><div id="526240par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526240',526240,'Lighting Design Studio II',3)">
+	
+	Lighting Design Studio II</a></div>
+	<div id="5262403"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>4696</td>
+	<td><div id="527556par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','527556',527556,'The Art Market',3)">
+	
+	The Art Market</a></div>
+	<div id="5275563"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>4793</td>
+	<td><div id="526393par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','526393',526393,'Advanced Film and Video Projects',3)">
+	
+	Advanced Film and Video Projects</a></div>
+	<div id="5263933"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>4859</td>
+	<td><div id="530535par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','530535',530535,'Biodiversity in Art: Unruly Passions in Collecting, Narrating and Creating',3)">
+	
+	Biodiversity in Art: Unruly Passions in Collecting, Narrating and Creating</a></div>
+	<div id="5305353"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+</table>
+
+<br>
+</div></div></div>
+</body>
+</html>

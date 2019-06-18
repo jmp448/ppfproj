@@ -2,28 +2,151 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd24cbf4-981b-4ba1-b319-35767ec554cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CourseReq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Students/Popp,Joshua Michael.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Students/blankPPF.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Students/blankPPF.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Students/jmp448.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Students/poppj.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Students/roddyboi.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_structs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/course_map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getClass.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppf_updater.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readTranscript" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readTranscript.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readTranscript.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/read_transcript.py" beforeDir="false" afterPath="$PROJECT_DIR$/read_transcript.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReqTypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/ab1092.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/adm254.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/ads280.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/aem204.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/afc157.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/aga2587.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/ajd75.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/ajr2605.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/ajr69.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/amc268.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/aml531.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/anb89.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/arb465.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/awm428.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/bas3289.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/bjs227.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/blankPPF.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/brc52.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/bsl2324.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/cer77.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/cjs54.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/cmh232.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/cmw85.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/cth233.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/dc1075.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/des1372.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/dkr446.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/dlm397.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/dmb249.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/dmf413.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/dsm829.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/eac606.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/ec737.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/eck534.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/esp46.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/fbo129.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/fet27.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/fxp76.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/gcw915.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/gh543.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/gjt99.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/gmy139.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/gva3.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/gyt582.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/hcm466.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/heh100.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/hjg44.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/hpc44.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/hu1236.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/ic228.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/ijr27.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/ijv22.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/ims56.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/jah247.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/jap373.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/jcp74.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/jds43.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/jg1272.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/jgr162.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/jin36.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/jlg198.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/jlg292.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/jls765.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/jp2013.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/jsm956.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/jw2633.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/kf202.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/kjf317.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/kl57.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/kp2136.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/lac322.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/lfg288.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/lmb512.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/lrc604.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/lsg123.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/lvd1077.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/meg293.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/mjk372.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/mk3123.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/mlh37.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/mm342.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/ms3388.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/msa256.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/mts427.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/mwc55.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/my1339.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/mz2282.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/mzm54.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/na302.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/nlk122.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/npm225.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/npm448.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/nzb46.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/pbc241.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/pm447.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/poppinsj-jmp448.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/ra239.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/rfw92.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/rg433.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/rjh635.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/rms2469.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/rmz2339.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/rs2458.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/sa2168.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/sbm95.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/sec442.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/sg1239.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/shp104.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/sj5186.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/ski28.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/sl2942.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/spf231.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/ss3227.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/swh2734.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/taw228.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/test_merge" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/test_merge.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/vac412.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/vc786.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/vig266.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/wer97.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/wjf55.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/wrm2272.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/yiv26.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/ys3746.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/ysk24.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/yz2414.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/zi53.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/zx252.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students_test/farmers-spf231.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Students_test/farmers-spf231.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students_test/poppj-jmp448.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Students_test/poppj-jmp448.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course_map.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper_structs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/helper_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matlab/Class.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matlab/Practice.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matlab/getClass.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matlab/readTranscript.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/read_transcript.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/transcript.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/transcript.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/write_summary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transcript_test.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/transcript_test.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,37 +158,37 @@
     <session id="1357677588">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="12" />
+          <entry key="py" value="26" />
           <entry key="readTranscript" value="1" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="12" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="4" />
-          <entry key="py" value="10410" />
+          <entry key="dummy" value="7" />
+          <entry key="py" value="20278" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="10410" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="20278" />
         </counts>
       </usages-collector>
     </session>
@@ -73,27 +196,105 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/helpers.py">
+        <entry file="file://$PROJECT_DIR$/Student.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2070">
-              <caret line="138" selection-start-line="138" selection-end-line="138" />
+            <state relative-caret-position="206">
+              <caret line="228" column="49" selection-start-line="228" selection-start-column="49" selection-end-line="228" selection-end-column="49" />
               <folding>
-                <marker date="1548809163121" expanded="true" signature="794:799" ph="..." />
-                <marker date="1548809163121" expanded="true" signature="1235:1236" ph="..." />
-                <marker date="1548809163121" expanded="true" signature="1235:1314" ph="..." />
+                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#198#1047#0" />
+                <element signature="e#871#1227#0" />
+                <element signature="e#1214#1799#0" />
+                <element signature="e#3793#4744#0" />
+                <element signature="e#3257#4219#0" />
+                <element signature="e#2779#2832#0" />
+                <element signature="e#2619#2637#0" />
+                <element signature="e#2664#2682#0" />
+                <element signature="e#2748#2766#0" />
+                <element signature="e#2792#2810#0" />
+                <element signature="e#2919#2937#0" />
+                <element signature="e#3960#3970#0" />
+                <element signature="e#8528#8698#0" />
+                <marker date="1560803563874" expanded="true" signature="5826:6621" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/read_transcript.py">
+        <entry file="file://$PROJECT_DIR$/web_reader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="264" column="27" selection-start-line="264" selection-start-column="27" selection-end-line="264" selection-end-column="27" />
+            <state relative-caret-position="298">
+              <caret line="208" column="32" selection-start-line="208" selection-start-column="32" selection-end-line="208" selection-end-column="32" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#78#326#0" />
+                <element signature="e#436#577#0" />
+                <element signature="e#626#739#0" />
+                <element signature="e#847#960#0" />
+                <element signature="e#1069#1187#0" />
+                <element signature="e#1296#1409#0" />
+                <element signature="e#1518#1636#0" />
+                <element signature="e#1746#1859#0" />
+                <element signature="e#2151#2588#0" />
+                <element signature="e#1957#2914#0" />
+                <element signature="e#422#988#0" />
+                <element signature="e#3828#5219#0" />
+                <marker date="1560894457367" expanded="true" signature="1205:1354" ph="..." />
+                <marker date="1560894457367" expanded="true" signature="1378:1490" ph="..." />
+                <marker date="1560894457367" expanded="true" signature="3792:5222" ph="..." />
+                <marker date="1560894457367" expanded="true" signature="5233:5374" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website_data/ca_raw_code.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2824">
+              <caret line="9170" column="22" selection-start-line="9170" selection-start-column="13" selection-end-line="9170" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/define_reqs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-197">
+              <caret line="27" column="99" selection-start-line="27" selection-start-column="99" selection-end-line="27" selection-end-column="99" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/masterfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Category.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ReqTypes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-40">
+              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -110,6 +311,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>print</find>
+      <find>ppf_cred</find>
+      <find>•</find>
+      <find>/td</find>
+      <find>&lt;tr&gt;</find>
+      <find>&lt;/td&gt;&lt;td&gt;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -126,21 +332,30 @@
         <option value="$PROJECT_DIR$/write_ppf.py" />
         <option value="$PROJECT_DIR$/helpers.py" />
         <option value="$PROJECT_DIR$/read_transcript.py" />
+        <option value="$PROJECT_DIR$/Course.py" />
+        <option value="$PROJECT_DIR$/BasicCourseReq.py" />
+        <option value="$PROJECT_DIR$/MultiCourseReq.py" />
+        <option value="$PROJECT_DIR$/masterfile.py" />
+        <option value="$PROJECT_DIR$/helper_tools.py" />
+        <option value="$PROJECT_DIR$/Category.py" />
+        <option value="$PROJECT_DIR$/ReqTypes.py" />
+        <option value="$PROJECT_DIR$/Student.py" />
+        <option value="$PROJECT_DIR$/define_reqs.py" />
+        <option value="$PROJECT_DIR$/web_reader.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="77" />
+    <option name="x" value="42" />
     <option name="y" value="23" />
-    <option name="width" value="1053" />
-    <option name="height" value="752" />
+    <option name="width" value="1217" />
+    <option name="height" value="756" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,20 +363,21 @@
               <item name="ppfproj" type="b2602c69:ProjectViewProjectNode" />
               <item name="ppfproj" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ppfproj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ppfproj" type="462c0819:PsiDirectoryNode" />
-              <item name="Students" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -175,8 +391,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.read_transcript">
-    <configuration name="course_map" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.web_reader">
+    <configuration name="masterfile" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ppfproj" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,7 +404,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course_map.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/masterfile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,28 +413,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ppf_updater" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ppfproj" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ppf_updater.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ppfproj" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="web_reader" type="PythonConfigurationType" factoryName="Python">
       <module name="ppfproj" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,53 +421,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="read_transcript" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ppfproj" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/read_transcript.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="write_ppf" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ppfproj" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/write_ppf.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_reader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,18 +435,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ppfproj" />
-      <item itemvalue="Python.ppf_updater" />
-      <item itemvalue="Python.read_transcript" />
-      <item itemvalue="Python.course_map" />
-      <item itemvalue="Python.write_ppf" />
+      <item itemvalue="Python.web_reader" />
+      <item itemvalue="Python.masterfile" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.read_transcript" />
-        <item itemvalue="Python.write_ppf" />
-        <item itemvalue="Python.course_map" />
-        <item itemvalue="Python.ppf_updater" />
+        <item itemvalue="Python.masterfile" />
       </list>
     </recent_temporary>
   </component>
@@ -320,19 +467,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="23" width="1053" height="752" extended-state="0" />
+    <frame x="42" y="23" width="1217" height="756" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23442137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20851064" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3287879" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32272726" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32831326" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32228917" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990964" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3287879" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32831326" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -347,40 +494,172 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/hop.py" />
     <entry file="file://$PROJECT_DIR$/class_structs.py" />
     <entry file="file://$PROJECT_DIR$/readTranscript" />
-    <entry file="file://$PROJECT_DIR$/CourseReq.py" />
     <entry file="file://$PROJECT_DIR$/readTranscript.py" />
     <entry file="file://$PROJECT_DIR$/ppf_updater.py" />
-    <entry file="file://$PROJECT_DIR$/course_map.py">
+    <entry file="file://$PROJECT_DIR$/course_map.py" />
+    <entry file="file://$PROJECT_DIR$/Students/Popp,Joshua Michael.txt" />
+    <entry file="file://$PROJECT_DIR$/write_ppf.py" />
+    <entry file="file://$PROJECT_DIR$/helpers.py" />
+    <entry file="file://$PROJECT_DIR$/read_transcript.py" />
+    <entry file="file://$PROJECT_DIR$/CourseReq.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Students/Popp,Joshua Michael.txt" />
-    <entry file="file://$PROJECT_DIR$/write_ppf.py" />
-    <entry file="file://$PROJECT_DIR$/helpers.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2070">
-          <caret line="138" selection-start-line="138" selection-end-line="138" />
+        <state relative-caret-position="154">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiCourseReq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="36" lean-forward="true" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicCourseReq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="28" lean-forward="true" selection-start-line="5" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Course.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/focus_area_raw_code.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="485" column="15" selection-start-line="485" selection-start-column="14" selection-end-line="485" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Category.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/masterfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <marker date="1548809163121" expanded="true" signature="794:799" ph="..." />
-            <marker date="1548809163121" expanded="true" signature="1235:1236" ph="..." />
-            <marker date="1548809163121" expanded="true" signature="1235:1314" ph="..." />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/read_transcript.py">
+    <entry file="file://$PROJECT_DIR$/Student.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="264" column="27" selection-start-line="264" selection-start-column="27" selection-end-line="264" selection-end-column="27" />
+        <state relative-caret-position="206">
+          <caret line="228" column="49" selection-start-line="228" selection-start-column="49" selection-end-line="228" selection-end-column="49" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#198#1047#0" />
+            <element signature="e#871#1227#0" />
+            <element signature="e#1214#1799#0" />
+            <element signature="e#3793#4744#0" />
+            <element signature="e#3257#4219#0" />
+            <element signature="e#2779#2832#0" />
+            <element signature="e#2619#2637#0" />
+            <element signature="e#2664#2682#0" />
+            <element signature="e#2748#2766#0" />
+            <element signature="e#2792#2810#0" />
+            <element signature="e#2919#2937#0" />
+            <element signature="e#3960#3970#0" />
+            <element signature="e#8528#8698#0" />
+            <marker date="1560803563874" expanded="true" signature="5826:6621" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helper_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2147">
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReqTypes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/define_reqs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="27" column="99" selection-start-line="27" selection-start-column="99" selection-end-line="27" selection-end-column="99" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website_data/ca_raw_code.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2824">
+          <caret line="9170" column="22" selection-start-line="9170" selection-start-column="13" selection-end-line="9170" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helper_structs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-487">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="208" column="32" selection-start-line="208" selection-start-column="32" selection-end-line="208" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#78#326#0" />
+            <element signature="e#436#577#0" />
+            <element signature="e#626#739#0" />
+            <element signature="e#847#960#0" />
+            <element signature="e#1069#1187#0" />
+            <element signature="e#1296#1409#0" />
+            <element signature="e#1518#1636#0" />
+            <element signature="e#1746#1859#0" />
+            <element signature="e#2151#2588#0" />
+            <element signature="e#1957#2914#0" />
+            <element signature="e#422#988#0" />
+            <element signature="e#3828#5219#0" />
+            <marker date="1560894457367" expanded="true" signature="1205:1354" ph="..." />
+            <marker date="1560894457367" expanded="true" signature="1378:1490" ph="..." />
+            <marker date="1560894457367" expanded="true" signature="3792:5222" ph="..." />
+            <marker date="1560894457367" expanded="true" signature="5233:5374" ph="..." />
           </folding>
         </state>
       </provider>
