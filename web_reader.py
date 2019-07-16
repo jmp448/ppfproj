@@ -3,7 +3,9 @@ import re
 import os
 
 
-''' URL and filenames, for directory navigation '''
+"""
+URL and filenames, for directory navigation
+"""
 
 fa_url = 'http://beadvised.bee.cornell.edu/full-list-of-focus-area-courses-fall-2018-and-later/'
 ca_url = 'https://apps.engineering.cornell.edu/liberalstudies/CA.cfm'
@@ -205,8 +207,8 @@ def main():
     fa_list = get_focus_area_list()
     libart_dict = get_full_libarts_dict()
 
-    print(len(fa_list))
-    print(len(libart_dict.keys()))
+    # print(len(fa_list))
+    print(libart_dict["HIST1620"])
 
 
 if __name__ == "__main__":

@@ -10,15 +10,3 @@ class Category:
         self.min_creds = min_creds
         self.curr_creds = curr_creds
         self.satisfied = satisfied
-
-    def update_total(self):
-        for r in self.reqs:
-            if isinstance(r, BasicCourseReq):
-                if r.course is not None:
-                    self.curr_creds += int(r.course.creds)
-            elif isinstance(r, MultiCourseReq):
-                for c in r.courses:
-                    self.curr_creds += int(c.creds)
-        if self.curr_creds >= self.min_creds:
-            self.satisfied = True
-        return self.curr_creds

@@ -4,11 +4,18 @@ from Student import Student
 
 def main():
 
+    write_summaries = True
+    # Prompt user for what grad sems they want included in
+    if write_summaries:
+        summary_sems_str = input("Whose info would you like included in the summary?\nList in the same form they appear on the transcript, separated by a comma without spaces\nie SP2019,FA2019 or Fall 2018,Spring 2019\n\n")
+        summary_sems = summary_sems_str.split(",")
+
     # In testing mode, will use transcript_test.xlsx and will write to the Students_test
     # folder.  Otherwise, will use transcript.xlsx and write to the Students folder
     test = True
     if test:
         _, _, transcript = open_excel_file("transcript_test.xlsx")
+        # _, _, transcript = open_excel_file("PoppJoshua_UnofficialTranscriptForPPFProject_6_19_18.xlsx")
     else:
         _, _, transcript = open_excel_file("transcript.xlsx")
 
@@ -17,11 +24,8 @@ def main():
     students_remain = True
     student_courses_remain = True
 
-    summary = open("summary.txt", "w")
-
     while students_remain:
         curr = Student(transcript, row, cols, test)
-        summary.write("%s\n \n" % curr.name)
         while student_courses_remain:
             c = read_class_from_transcript(transcript, cols, row)
             curr.course_list.append(c)
@@ -32,9 +36,8 @@ def main():
             elif transcript[cols['student name'] + row].value != curr.name:
                 break
         curr.update_ppf()
-        curr.update_summary(summary)
-        summary.write("\n \n")
-    summary.close()
+        if summary_sems.__contains__(curr.grad):
+            curr.write_summary()
 
 
 if __name__ == "__main__":

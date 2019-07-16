@@ -1,5 +1,6 @@
 from openpyxl import load_workbook
 from Course import Course
+import xlrd
 
 PPF_COLS = {
     'Course': 'G',
@@ -60,9 +61,8 @@ def exceeds(a, threshold='C-'):
         'F': 0.0
     }
 
-    if a == 'AP' or a[0:2] == '20':
-        return True
-    elif grades[a] >= grades[threshold]:
+    assert grades.keys().__contains__(a), "Cannot compare a non-letter grade to the letter grade threshold"
+    if grades[a] >= grades[threshold]:
         return True
     else:
         return False
@@ -74,7 +74,7 @@ def designate_columns(transcript):
     cols = {}
 
     while curr is not None:
-        if curr == 'Academic Term Ldescr':
+        if curr == 'Academic Term Ldescr' or curr == 'Academic Term Sdescr':
             cols['semester'] = pos[0]
         elif curr == 'Effdt Primary Name':
             cols['student name'] = pos[0]
@@ -84,7 +84,7 @@ def designate_columns(transcript):
             cols['student id'] = pos[0]
         elif curr == 'Advisor':
             cols['advisor'] = pos[0]
-        elif curr == 'Exp Grad Term Ldescr':
+        elif curr == 'Exp Grad Term Ldescr' or curr == 'Exp Grad Term Sdescr':
             cols['grad'] = pos[0]
         elif curr == 'Class Descr':
             cols['desc'] = pos[0]
@@ -162,3 +162,20 @@ def read_class_from_transcript(transcript, cols, row):
         c.grade = c.term
 
     return c
+
+
+def upload_adv_bio():
+
+    courses = []
+    wb = xlrd.open_workbook("advanced_bio.xlsx")
+    sheet = wb.sheet_by_index(0)
+    for i in range(1, sheet.nrows):
+        courses.append(sheet.cell_value(i, 0))
+    return courses
+
+
+def is_semester(s):
+    if s is None:
+        return True
+    else:
+        return any(c.isdigit() for c in s)
