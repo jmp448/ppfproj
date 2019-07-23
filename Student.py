@@ -2,6 +2,7 @@ from define_reqs import create_category_list
 from helper_tools import *
 from shutil import copyfile
 from ReqTypes import BasicCourseReq,  MultiCourseReq, FillinCourseReq
+from web_reader import get_full_libarts_dict
 import os
 
 ppf_creds_col = 'K'
@@ -47,6 +48,10 @@ class Student:
             os.chdir(parent)
             self.read_ppf()
         else:  # if they don't, create a new one
+            if self.test:
+                os.chdir(parent + "/Students_test")
+            else:
+                os.chdir(parent + "/Students")
             self.create_ppf()
             os.chdir(parent)
 
@@ -180,7 +185,10 @@ class Student:
                         self.ppf[ppf_grade_col + str(p)] = None
                     elif self.ppf[ppf_creds_col + str(p)].value is not None:
                         c = read_class_from_ppf(self.ppf, p)
-                        req.courses.append(c)
+                        if req.courses is None:
+                            req.courses = [c]
+                        else:
+                            req.courses.append(c)
                         req.creds_taken += int(c.creds)
                         if req.creds_taken >= req.creds_needed:
                             req.satisfied = True
@@ -193,10 +201,12 @@ class Student:
                     if is_semester(self.ppf[ppf_grade_col + str(p)].value):
                         self.ppf[ppf_creds_col + str(p)] = None
                         self.ppf[ppf_grade_col + str(p)] = None
-                        # self.wb.save(filename=self.filename)
                     elif self.ppf[ppf_grade_col + str(p)].value is not None:
                         c = read_class_from_ppf(self.ppf, p)
-                        req.courses.append(c)
+                        if req.courses is None:
+                            req.courses = [c]
+                        else:
+                            req.courses.append(c)
                         bio.curr_creds += int(c.creds)
                         if bio.curr_creds >= bio.min_creds:
                             req.satisfied = True
@@ -214,7 +224,10 @@ class Student:
                     self.ppf[ppf_grade_col + str(p)] = None
                 elif self.ppf[ppf_creds_col + str(p)].value is not None:
                     c = read_class_from_ppf(self.ppf, p)
-                    req.courses.append(c)
+                    if req.courses is None:
+                        req.courses = [c]
+                    else:
+                        req.courses.append(c)
                     req.creds_taken += int(c.creds)
                     if req.creds_taken >= req.creds_needed:
                         req.satisfied = True
@@ -235,9 +248,22 @@ class Student:
                     self.ppf[ppf_grade_col + str(p)] = None
                 elif self.ppf[ppf_creds_col + str(p)].value is not None:
                     c = read_class_from_ppf(self.ppf, p)
-                    req.courses.append(c)
+                    s = self.ppf['H'+str(p)].value
+                    s = s.replace(" ", "")
+                    s = s.split(",")
+                    c.categories = s
+                    if req.courses is None:
+                        req.courses = [c]
+                    else:
+                        req.courses.append(c)
                     req.creds_taken += int(c.creds)
-                    if req.creds_taken >= req.creds_needed:
+                    c_num = int(list(filter(str.isdigit, c.num))[0])
+                    if c_num >= 2000:
+                        req.over2000s += 1
+                    test1 = req.creds_taken >= req.creds_needed
+                    test2 = req.over2000s >= 1
+                    test3 = categories_represented(req.courses) >= 3
+                    if test1 and test2 and test3:
                         req.satisfied = True
                     else:
                         req.next += 1
@@ -276,17 +302,23 @@ class Student:
                     req.satisfied = True
                     eng.curr_creds += int(c.creds)
                     self.total_creds += int(c.creds)
-            elif isinstance(req, FillinCourseReq):
+            elif isinstance(req, MultiCourseReq):
                 for p in req.positions:
                     if is_semester(self.ppf[ppf_grade_col + str(p)].value):
                         self.ppf[ppf_creds_col + str(p)] = None
                         self.ppf[ppf_grade_col + str(p)] = None
-                    elif self.ppf[ppf_grade_col + str(p)].value is not None:
+                    elif self.ppf[ppf_creds_col + str(p)].value is not None:
                         c = read_class_from_ppf(self.ppf, p)
-                        req.courses.append(c)
-                        eng.curr_creds += int(c.creds)
-                        if eng.curr_creds >= eng.min_creds:
+                        if req.courses is None:
+                            req.courses = [c]
+                        else:
+                            req.courses.append(c)
+                        req.creds_taken += int(c.creds)
+                        if req.creds_taken >= req.creds_needed:
                             req.satisfied = True
+                        else:
+                            req.next += 1
+                        eng.curr_creds += int(c.creds)
                         self.total_creds += int(c.creds)
 
 
@@ -303,7 +335,7 @@ class Student:
             if cat.cat_name == "First-Year Writing Seminar" and cat.satisfied is False:
                 self.update_fws()
             if cat.cat_name == "Liberal Studies" and cat.satisfied is False:
-                self.update_fws()
+                self.update_lib()
             if cat.cat_name == "Computer Science" and cat.satisfied is False:
                 self.update_cs()
             if cat.cat_name == "Engineering Requirements" and cat.satisfied is False:
@@ -319,9 +351,6 @@ class Student:
             os.chdir(parent+"/Students")
         self.wb.save(self.filename)
         os.chdir(parent)
-
-        # TODO the rest of the update types
-        # TODO AP credit
 
     def update_math(self):
 
@@ -445,8 +474,20 @@ class Student:
 
 
     def update_lib(self):
-        pass
-        #TODO
+        for cat in self.requirements:
+            # get the student's current info
+            if cat.cat_name == "Liberal Studies":
+                lib = cat
+                break
+
+        for r in lib.reqs:
+            classes_remaining = len(self.course_list)
+            while r.satisfied is False and classes_remaining > 0:
+                for c in self.course_list:
+                    classes_remaining -= 1
+                    if r.check_fillby(c):
+                        r.fillby(c, self.ppf)
+
 
     def update_cs(self):
         for cat in self.requirements:
@@ -513,7 +554,7 @@ class Student:
                     else:
                         self.ppf['K'+str(row)] = r.req_name
                 elif isinstance(r, MultiCourseReq) and r.satisfied is False:
-                    self.ppf['K'+str(row)] = r.req_name + " (%d credits)" % r.creds_needed
+                    self.ppf['K'+str(row)] = r.req_name + " (%d more credits)" % (r.creds_needed-r.creds_taken)
                     row += 1
                 elif isinstance(r, FillinCourseReq) and cat.satisfied is False:
                     self.ppf['K'+str(row)] = r.req_name + " to complete %d credits of %s" % (cat.min_creds, cat.cat_name)

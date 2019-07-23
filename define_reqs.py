@@ -8,6 +8,7 @@ from helper_tools import upload_adv_bio
 Create objects used to store PPF data
 '''
 
+
 def create_category_list():
 
     calcI = BasicCourseReq('Calc I', threshold="C-", options=['MATH1910'], position=12)
@@ -37,8 +38,10 @@ def create_category_list():
     fws = MultiCourseReq('FWS', creds_needed=6, options=None, positions=[35, 36])
     fws = Category('First-Year Writing Seminar', [fws], 'M36', 6)
 
-    libarts_courses = get_full_libarts_dict()
-    libarts = MultiCourseReq('Liberal Arts', options=libarts_courses, creds_needed=18)
+    libarts_dict = get_full_libarts_dict()
+    libarts_courses = libarts_dict.keys()
+    libarts = MultiCourseReq('Liberal Arts', options=libarts_courses, creds_needed=18,
+                             positions=[49, 50, 51, 52, 53, 54, 55], libart=True)
     libarts = Category('Liberal Studies', [libarts], 'M57', 18)
 
     cs = BasicCourseReq('Computer Science', options=['BEE1510', 'CS1112'], position=65)
@@ -54,11 +57,10 @@ def create_category_list():
     heat_mass = BasicCourseReq('Heat and Mass', options=['BEE3500'], position=79)
     cell_bioeng = BasicCourseReq('Molecular and Cellular Bioengineering', options=['BEE3600'], position=80)
     bioinst = BasicCourseReq('Bioinstrumentation', options=['BEE4500'], position=81)
-    eng_core = Category('Engineering Requirements', [statics, stats, intro_bee, thermo, eng_dist, fluids, biomat, heat_mass,
-                                                     cell_bioeng, bioinst], 'M90', 48)
     fa_list = get_focus_area_list()
-    focus_areas = FillinCourseReq('Focus Areas', options=fa_list, category=eng_core, positions=[84, 85, 86, 87, 88])
-    eng_core.reqs.append(focus_areas)
+    focus_areas = MultiCourseReq('Focus Areas', options=fa_list, creds_needed=15, positions=[84, 85, 86, 87, 88])
+    eng_core = Category('Engineering Requirements', [statics, stats, intro_bee, thermo, eng_dist, fluids, biomat,
+                                                     heat_mass, cell_bioeng, bioinst, focus_areas], 'M90', 48)
 
 
     # TODO phys ed

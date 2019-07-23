@@ -1,6 +1,7 @@
 from openpyxl import load_workbook
 from Course import Course
 import xlrd
+import numpy as np
 
 PPF_COLS = {
     'Course': 'G',
@@ -179,3 +180,21 @@ def is_semester(s):
         return True
     else:
         return any(c.isdigit() for c in s)
+
+
+def categories_represented(courses):
+    total_cats = []
+    for c in courses:
+        for cat in c.categories:
+            if total_cats.__contains__(cat) is False:
+                total_cats.append(cat)
+    table = np.zeros([len(courses), len(total_cats)], dtype=bool)
+    for c in courses:
+        for l in total_cats:
+            if c.categories.__contains__(l):
+                table[courses.index(c)][total_cats.index(l)] = 1
+    tot = 0
+    for c in range(len(courses)):
+        if sum(table[c][:]) >= 1:
+            tot += 1
+    return tot

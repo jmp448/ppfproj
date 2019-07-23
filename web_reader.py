@@ -29,8 +29,9 @@ libarts_files = [ca_file, ha_file, kcm_file, la_file, sba_file, ce_file]
 """Support methods"""
 
 
-def update_focus_areas():
-    """This creates a text file containing the source code for the BEE focus area course listings found at fa_url
+def refresh_focus_areas():
+    """
+    This creates a text file containing the source code for the BEE focus area course listings found at fa_url
     """
 
     r = requests.get(fa_url)
@@ -39,16 +40,16 @@ def update_focus_areas():
     fa_code.close()
 
 
-def update_libarts_all():
-    update_libarts_ca()
-    update_libarts_ce()
-    update_libarts_ha()
-    update_libarts_kcm()
-    update_libarts_sba()
-    update_libarts_la()
+def refresh_libarts_all():
+    refresh_libarts_ca()
+    refresh_libarts_ce()
+    refresh_libarts_ha()
+    refresh_libarts_kcm()
+    refresh_libarts_sba()
+    refresh_libarts_la()
 
 
-def update_libarts_ca():
+def refresh_libarts_ca():
 
     r = requests.get(ca_url)
     ca_code = open(ca_file, "w")
@@ -56,7 +57,7 @@ def update_libarts_ca():
     ca_code.close()
 
 
-def update_libarts_ha():
+def refresh_libarts_ha():
 
     r = requests.get(ha_url)
     ha_code = open("ha_raw_code.txt", "w")
@@ -64,7 +65,7 @@ def update_libarts_ha():
     ha_code.close()
 
 
-def update_libarts_kcm():
+def refresh_libarts_kcm():
 
     r = requests.get(kcm_url)
     kcm_code = open(kcm_file, "w")
@@ -72,7 +73,7 @@ def update_libarts_kcm():
     kcm_code.close()
 
 
-def update_libarts_la():
+def refresh_libarts_la():
 
     r = requests.get(la_url)
     la_code = open(la_file, "w")
@@ -80,7 +81,7 @@ def update_libarts_la():
     la_code.close()
 
 
-def update_libarts_sba():
+def refresh_libarts_sba():
 
     r = requests.get(sba_url)
     sba_code = open(sba_file, "w")
@@ -88,7 +89,7 @@ def update_libarts_sba():
     sba_code.close()
 
 
-def update_libarts_ce():
+def refresh_libarts_ce():
 
     r = requests.get(ce_url)
     ce_code = open(ce_file, "w")
@@ -97,7 +98,8 @@ def update_libarts_ce():
 
 
 def get_libarts_list(filename):
-    """This uses the criteria of ___ to figure out the
+    """
+    This uses the criteria of having two consecutive </td><td> to figure out where the courses are
     """
     course_list = []
     f = open(filename, "r")

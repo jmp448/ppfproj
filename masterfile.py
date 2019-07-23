@@ -1,14 +1,21 @@
 from helper_tools import *
 from Student import Student
+from web_reader import *
 
 
 def main():
 
-    write_summaries = True
+    # Ask user if they want to refresh liberal arts and focus area courses
+    refresh_lib = input("Would you like to refresh the liberal arts course listings from online?  Yes or No\n")
+    if refresh_lib == "Yes":
+        refresh_libarts_all()
+    refresh_fa = input("Would you like to refresh the focus area course listings from online?  Yes or No\n")
+    if refresh_fa == "Yes":
+        refresh_focus_areas()
+
     # Prompt user for what grad sems they want included in
-    if write_summaries:
-        summary_sems_str = input("Whose info would you like included in the summary?\nList in the same form they appear on the transcript, separated by a comma without spaces\nie SP2019,FA2019 or Fall 2018,Spring 2019\n\n")
-        summary_sems = summary_sems_str.split(",")
+    summary_sems_str = input("Whose info would you like included in the summary?\nList in the same form they appear on the transcript, separated by a comma without spaces\nie SP2019,FA2019 or Fall 2018,Spring 2019\n\n")
+    summary_sems = summary_sems_str.split(",")
 
     # In testing mode, will use transcript_test.xlsx and will write to the Students_test
     # folder.  Otherwise, will use transcript.xlsx and write to the Students folder

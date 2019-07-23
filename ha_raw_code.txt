@@ -1,0 +1,7559 @@
+<!DOCTYPE HTML><html><head><script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/masks.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Liberal Studies Category: HA</title> <script src="/liberalstudies/js/ls_course_ajax.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/app_header/appheader_main.css" />
+
+
+
+<link rel="stylesheet" type="text/css" href="/app_header/appheader_mobile.css" />
+
+
+
+<!--[if lt IE 9]>
+
+<link rel="stylesheet" href="/app_header/appheader_IE.css" type="text/css" media="screen, projection"><![endif]-->
+
+<script type="text/javascript">
+<!--
+    _CF_checkCFForm_1 = function(_CF_this)
+    {
+        //reset on submit
+        _CF_error_exists = false;
+        _CF_error_messages = new Array();
+        _CF_error_fields = new Object();
+        _CF_FirstErrorField = null;
+
+
+        //display error messages and return success
+        if( _CF_error_exists )
+        {
+            if( _CF_error_messages.length > 0 )
+            {
+                // show alert() message
+                _CF_onErrorAlert(_CF_error_messages);
+                // set focus to first form error, if the field supports js focus().
+                if( _CF_this[_CF_FirstErrorField].type == "text" )
+                { _CF_this[_CF_FirstErrorField].focus(); }
+
+            }
+            return false;
+        }else {
+            return true;
+        }
+    }
+//-->
+</script>
+</head> <body style="margin: 0px 0px 0px 0px;"> 
+
+
+
+
+
+<!-- The following div contains the Cornell University logo with unit signature -->
+
+
+
+
+
+<div id="cu-identity">
+
+
+
+	<div id="cu-logo">
+
+
+
+		<img src="/app_header/images/stilllogo_3.jpg" alt="Cornell University" width="260" height="75" border="0" usemap="#linksmap"/></a>
+
+				<map name="linksmap">
+
+				<area shape="rect" coords="50,22,175,40" href="http://www.cornell.edu/" alt="Cornell University">
+
+				<area shape="rect" coords="55,41,200,60" href="http://www.engineering.cornell.edu/" alt="College of Engineering">
+
+					<area shape="circle" coords="28,36,23" href="http://www.cornell.edu/" alt="Cornell University">
+
+				</map>
+
+  	</div>
+
+
+
+	<div id="search_form">
+
+	<form name="CFForm_1" id="CFForm_1" action="https://apps.engineering.cornell.edu/liberalstudies/search.cfm" method="post" onsubmit="return _CF_checkCFForm_1(this)">
+
+				<label id="search_text">SEARCH:</label>
+
+		<input name="q" type="text" maxlength="256"  size="20"  id="search_query"  /> <input name="enter" type="submit" value="go" id="search_submit"  /> </form>
+
+
+	</div>
+
+</div>
+
+
+
+
+
+	
+
+
+
+	<!-- The header div contains the main identity and main navigation for the site -->
+
+<div id="header">
+
+	<!--
+
+		The navigation div contains the site's main navigation. These
+
+		links will be displayed in a horizontal, gray navigation bar
+
+		under the unit signature banner.
+
+	-->
+
+	
+
+	<div id="navigation">
+
+		<ul>
+
+			<li><a href="index.cfm" >Liberal Studies Policy</a></li>
+
+	
+            <li><a href="CA.cfm" >CA</a></li>
+
+            <li><a href="HA.cfm" class="current">HA</a></li>
+
+            <li><a href="KCM.cfm" >KCM</a></li>
+
+            <li><a href="LA.cfm" >LA/LAD</a></li>
+
+            <li><a href="SBA.cfm" >SBA</a></li>
+
+			<li><a href="CE.cfm" >CE</a></li>
+
+            <li><a href="policy.cfm" >Petitions</a></li>
+
+
+
+            <li><a href="ApprovedLiberalStudies.pdf">Other Yes</a></li>
+
+
+
+          <li><a href="DeniedLiberalStudies.pdf">Other No</a></li>
+
+		  
+
+		  
+
+
+
+		</ul>
+
+	</div>
+
+
+
+  </div>
+
+  <div id="identity">
+
+  Liberal Studies Category: HA
+
+  </div>
+
+
+
+
+
+</div>
+
+<div id="wrapper"> <div id="center"> 
+
+<!-- The content div contains the main content of the page -->
+<div id="content">
+<br>
+
+<table>
+<tr><th><b>Department</b></th><th><b>Course Number</b></th><th><b>Title</b></th><th><b>Distribution</b></th></tr>
+ 
+  <tr>
+	<td>AAS</td><td>2042</td>
+	<td><div id="581602par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581602',581602,'Jim Crow and Exclusion Era in America',3)">
+	
+	Jim Crow and Exclusion Era in America</a></div>
+	<div id="5816023"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AAS</td><td>2130</td>
+	<td><div id="572552par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572552',572552,'Introduction to Asian American History',3)">
+	
+	Introduction to Asian American History</a></div>
+	<div id="5725523"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AAS</td><td>2641</td>
+	<td><div id="581597par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581597',581597,'Race and Modern US History',3)">
+	
+	Race and Modern US History</a></div>
+	<div id="5815973"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AIIS</td><td>1100</td>
+	<td><div id="572685par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572685',572685,'Indigenous North America',3)">
+	
+	Indigenous North America</a></div>
+	<div id="5726853"> </div></td>
+	 <td>(D-AG, HA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AIIS</td><td>2350</td>
+	<td><div id="572687par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572687',572687,'Archaeology of North American Indians',3)">
+	
+	Archaeology of North American Indians</a></div>
+	<div id="5726873"> </div></td>
+	 <td>(CA-AG, D-AG, HA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AIIS</td><td>4000</td>
+	<td><div id="572692par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572692',572692,'Critical Approaches to American Indian and Indigenous Studies: Intellectual History',3)">
+	
+	Critical Approaches to American Indian and Indigenous Studies: Intellectual History</a></div>
+	<div id="5726923"> </div></td>
+	 <td>(CA-AG, HA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AIIS</td><td>4720</td>
+	<td><div id="572693par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572693',572693,'Archaeology of Colonialism and Cultural Entanglement',3)">
+	
+	Archaeology of Colonialism and Cultural Entanglement</a></div>
+	<div id="5726933"> </div></td>
+	 <td>(CA-AG, HA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AIIS</td><td>4900</td>
+	<td><div id="572240par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572240',572240,'New World Encounters, 1500 - 1800',3)">
+	
+	New World Encounters, 1500 - 1800</a></div>
+	<div id="5722403"> </div></td>
+	 <td>(CA-AG, HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AIIS</td><td>7720</td>
+	<td><div id="572699par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572699',572699,'Archaeology of Colonialism and Cultural Entanglement',3)">
+	
+	Archaeology of Colonialism and Cultural Entanglement</a></div>
+	<div id="5726993"> </div></td>
+	 <td>(CA-AG, HA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>1540</td>
+	<td><div id="578482par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578482',578482,'American Capitalism',3)">
+	
+	American Capitalism</a></div>
+	<div id="5784823"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>1585</td>
+	<td><div id="580402par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580402',580402,'Sports and Politics in American History',3)">
+	
+	Sports and Politics in American History</a></div>
+	<div id="5804023"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>1595</td>
+	<td><div id="579421par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579421',579421,'African American History From 1865',3)">
+	
+	African American History From 1865</a></div>
+	<div id="5794213"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>1600</td>
+	<td><div id="572712par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572712',572712,'Indigenous North America',3)">
+	
+	Indigenous North America</a></div>
+	<div id="5727123"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>1640</td>
+	<td><div id="579422par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579422',579422,'U.S. History since the Great Depression',3)">
+	
+	U.S. History since the Great Depression</a></div>
+	<div id="5794223"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>1800</td>
+	<td><div id="572714par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572714',572714,'Immigration in U.S. History',3)">
+	
+	Immigration in U.S. History</a></div>
+	<div id="5727143"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>1802</td>
+	<td><div id="581232par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581232',581232,'Introduction to Latinos in U.S. History',3)">
+	
+	Introduction to Latinos in U.S. History</a></div>
+	<div id="5812323"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>1850</td>
+	<td><div id="581603par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581603',581603,'Thinking about History with the Manson Murders',3)">
+	
+	Thinking about History with the Manson Murders</a></div>
+	<div id="5816033"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>1951</td>
+	<td><div id="581068par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581068',581068,'Foreign Policy as Subversion',3)">
+	
+	Foreign Policy as Subversion</a></div>
+	<div id="5810683"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2016</td>
+	<td><div id="580403par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580403',580403,'Understanding Global Capitalism Through Service Learning',3)">
+	
+	Understanding Global Capitalism Through Service Learning</a></div>
+	<div id="5804033"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2042</td>
+	<td><div id="581601par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581601',581601,'Jim Crow and Exclusion Era in America',3)">
+	
+	Jim Crow and Exclusion Era in America</a></div>
+	<div id="5816013"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2112</td>
+	<td><div id="581061par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581061',581061,'Black Spirituality, Religion & Protest',3)">
+	
+	Black Spirituality, Religion & Protest</a></div>
+	<div id="5810613"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2146</td>
+	<td><div id="581599par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581599',581599,'Health and Fitness Culture',3)">
+	
+	Health and Fitness Culture</a></div>
+	<div id="5815993"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2220</td>
+	<td><div id="578823par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578823',578823,'From the New Deal to the Age of Reagan',3)">
+	
+	From the New Deal to the Age of Reagan</a></div>
+	<div id="5788233"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2251</td>
+	<td><div id="578827par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578827',578827,'U.S. Immigration Narratives',3)">
+	
+	U.S. Immigration Narratives</a></div>
+	<div id="5788273"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2252</td>
+	<td><div id="579947par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579947',579947,'Immigrant Ithaca',3)">
+	
+	Immigrant Ithaca</a></div>
+	<div id="5799473"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2280</td>
+	<td><div id="583124par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','583124',583124,'What is Public Health?',3)">
+	
+	What is Public Health?</a></div>
+	<div id="5831243"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2296</td>
+	<td><div id="582705par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582705',582705,'History Lab: Digital History of Black Resistance',3)">
+	
+	History Lab: Digital History of Black Resistance</a></div>
+	<div id="5827053"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2350</td>
+	<td><div id="572717par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572717',572717,'Archaeology of North American Indians',3)">
+	
+	Archaeology of North American Indians</a></div>
+	<div id="5727173"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2352</td>
+	<td><div id="579132par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579132',579132,'Paul Robeson and the Revolutionary Imagination',3)">
+	
+	Paul Robeson and the Revolutionary Imagination</a></div>
+	<div id="5791323"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2353</td>
+	<td><div id="579426par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579426',579426,'Civil Rights vs. Human Rights in the Black Freedom Struggle',3)">
+	
+	Civil Rights vs. Human Rights in the Black Freedom Struggle</a></div>
+	<div id="5794263"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2354</td>
+	<td><div id="578844par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578844',578844,'African American Visions of Africa',3)">
+	
+	African American Visions of Africa</a></div>
+	<div id="5788443"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2390</td>
+	<td><div id="572718par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572718',572718,'Seminar in Iroquois History',3)">
+	
+	Seminar in Iroquois History</a></div>
+	<div id="5727183"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2391</td>
+	<td><div id="581594par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581594',581594,'From Terra Incognita to Territories of Nation-States: Early American History in Two Dozen Maps',3)">
+	
+	From Terra Incognita to Territories of Nation-States: Early American History in Two Dozen Maps</a></div>
+	<div id="5815943"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2422</td>
+	<td><div id="578958par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578958',578958,'The History of the U.S. Prison',3)">
+	
+	The History of the U.S. Prison</a></div>
+	<div id="5789583"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2423</td>
+	<td><div id="580411par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580411',580411,'Dazed and Confused: The Politics of Drug and Alcohol in US History',3)">
+	
+	Dazed and Confused: The Politics of Drug and Alcohol in US History</a></div>
+	<div id="5804113"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2511</td>
+	<td><div id="572719par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572719',572719,'Black Women to 1900',3)">
+	
+	Black Women to 1900</a></div>
+	<div id="5727193"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2512</td>
+	<td><div id="572720par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572720',572720,'Black Women in the 20th Century',3)">
+	
+	Black Women in the 20th Century</a></div>
+	<div id="5727203"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2581</td>
+	<td><div id="577323par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577323',577323,'Environmental History',3)">
+	
+	Environmental History</a></div>
+	<div id="5773233"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2640</td>
+	<td><div id="572722par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572722',572722,'Introduction to Asian American History',3)">
+	
+	Introduction to Asian American History</a></div>
+	<div id="5727223"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2645</td>
+	<td><div id="581596par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581596',581596,'Race and Modern US History',3)">
+	
+	Race and Modern US History</a></div>
+	<div id="5815963"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2660</td>
+	<td><div id="572723par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572723',572723,'Everything You Know About Indians is Wrong: Unlearning Native American History',3)">
+	
+	Everything You Know About Indians is Wrong: Unlearning Native American History</a></div>
+	<div id="5727233"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2664</td>
+	<td><div id="580772par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580772',580772,'What\'s Colonial About Early America?',3)">
+	
+	What's Colonial About Early America?</a></div>
+	<div id="5807723"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2665</td>
+	<td><div id="579993par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579993',579993,'The American Revolutionary Era',3)">
+	
+	The American Revolutionary Era</a></div>
+	<div id="5799933"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2682</td>
+	<td><div id="579428par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579428',579428,'The United States in the 1960s and 1970s',3)">
+	
+	The United States in the 1960s and 1970s</a></div>
+	<div id="5794283"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2726</td>
+	<td><div id="580685par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580685',580685,'Culture and Identity in Modern America: The 19th Century',3)">
+	
+	Culture and Identity in Modern America: The 19th Century</a></div>
+	<div id="5806853"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2800</td>
+	<td><div id="579994par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579994',579994,'Latinos in US History',3)">
+	
+	Latinos in US History</a></div>
+	<div id="5799943"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2955</td>
+	<td><div id="581595par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581595',581595,'Socialism in America',3)">
+	
+	Socialism in America</a></div>
+	<div id="5815953"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>2980</td>
+	<td><div id="572726par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572726',572726,'Inventing an Information Society',3)">
+	
+	Inventing an Information Society</a></div>
+	<div id="5727263"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3032</td>
+	<td><div id="577333par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577333',577333,'Race and Revolution in the Americas: 1776-1900',3)">
+	
+	Race and Revolution in the Americas: 1776-1900</a></div>
+	<div id="5773333"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3140</td>
+	<td><div id="572729par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572729',572729,'U.S. in the World',3)">
+	
+	U.S. in the World</a></div>
+	<div id="5727293"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3185</td>
+	<td><div id="581146par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581146',581146,'Living in an Uncertain World: Science, Technology, and Risk',3)">
+	
+	Living in an Uncertain World: Science, Technology, and Risk</a></div>
+	<div id="5811463"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3200</td>
+	<td><div id="578177par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578177',578177,'Historical Archaeology',3)">
+	
+	Historical Archaeology</a></div>
+	<div id="5781773"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3248</td>
+	<td><div id="572734par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572734',572734,'Finger Lakes and Beyond: Archaeology of the Native Northeast',3)">
+	
+	Finger Lakes and Beyond: Archaeology of the Native Northeast</a></div>
+	<div id="5727343"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3281</td>
+	<td><div id="572735par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572735',572735,'Constitutional Politics: The U.S. Supreme Court',3)">
+	
+	Constitutional Politics: The U.S. Supreme Court</a></div>
+	<div id="5727353"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3430</td>
+	<td><div id="572737par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572737',572737,'History of the U.S. Civil War and Reconstruction',3)">
+	
+	History of the U.S. Civil War and Reconstruction</a></div>
+	<div id="5727373"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3590</td>
+	<td><div id="578837par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578837',578837,'The Black Radical Tradition in the U.S.',3)">
+	
+	The Black Radical Tradition in the U.S.</a></div>
+	<div id="5788373"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3678</td>
+	<td><div id="579272par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579272',579272,'Democracy and its Discontents',3)">
+	
+	Democracy and its Discontents</a></div>
+	<div id="5792723"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3744</td>
+	<td><div id="578838par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578838',578838,'America Becomes Modern: The Gilded Age and Progressive Era',3)">
+	
+	America Becomes Modern: The Gilded Age and Progressive Era</a></div>
+	<div id="5788383"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4039</td>
+	<td><div id="572747par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572747',572747,'Reconstruction and the New South',3)">
+	
+	Reconstruction and the New South</a></div>
+	<div id="5727473"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4112</td>
+	<td><div id="578533par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578533',578533,'The Politics of Change',3)">
+	
+	The Politics of Change</a></div>
+	<div id="5785333"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4203</td>
+	<td><div id="581242par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581242',581242,'Contesting Votes: Democracy and Citizenship Throughout U.S. History',3)">
+	
+	Contesting Votes: Democracy and Citizenship Throughout U.S. History</a></div>
+	<div id="5812423"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4218</td>
+	<td><div id="578449par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578449',578449,'History of the United States Senate',3)">
+	
+	History of the United States Senate</a></div>
+	<div id="5784493"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4252</td>
+	<td><div id="578452par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578452',578452,'Migration and the Peopling of America: A Perennial Debate',3)">
+	
+	Migration and the Peopling of America: A Perennial Debate</a></div>
+	<div id="5784523"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4256</td>
+	<td><div id="578553par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578553',578553,'The U.S.-Mexico Borderlands',3)">
+	
+	The U.S.-Mexico Borderlands</a></div>
+	<div id="5785533"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4272</td>
+	<td><div id="572750par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572750',572750,'Archaeology of Colonialism and Cultural Entanglement',3)">
+	
+	Archaeology of Colonialism and Cultural Entanglement</a></div>
+	<div id="5727503"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4295</td>
+	<td><div id="582762par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582762',582762,'US Borders North & South',3)">
+	
+	US Borders North & South</a></div>
+	<div id="5827623"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4661</td>
+	<td><div id="578419par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578419',578419,'Contested Continents: The Great War for Empire in North America and Beyond, 1754-1763',3)">
+	
+	Contested Continents: The Great War for Empire in North America and Beyond, 1754-1763</a></div>
+	<div id="5784193"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4702</td>
+	<td><div id="579424par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579424',579424,'Cultural Politics of the 1970s',3)">
+	
+	Cultural Politics of the 1970s</a></div>
+	<div id="5794243"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4851</td>
+	<td><div id="572754par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572754',572754,'Refugees',3)">
+	
+	Refugees</a></div>
+	<div id="5727543"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4900</td>
+	<td><div id="572241par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572241',572241,'New World Encounters, 1500 - 1800',3)">
+	
+	New World Encounters, 1500 - 1800</a></div>
+	<div id="5722413"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>1200</td>
+	<td><div id="572812par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572812',572812,'Ancient Peoples and Places',3)">
+	
+	Ancient Peoples and Places</a></div>
+	<div id="5728123"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>1700</td>
+	<td><div id="579657par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579657',579657,'Indigenous North America',3)">
+	
+	Indigenous North America</a></div>
+	<div id="5796573"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>2010</td>
+	<td><div id="577412par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577412',577412,'Archaeology of the Ancient Near East',3)">
+	
+	Archaeology of the Ancient Near East</a></div>
+	<div id="5774123"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>2201</td>
+	<td><div id="572815par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572815',572815,'Early Agriculture',3)">
+	
+	Early Agriculture</a></div>
+	<div id="5728153"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>2235</td>
+	<td><div id="572816par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572816',572816,'Archaeology of North American Indians',3)">
+	
+	Archaeology of North American Indians</a></div>
+	<div id="5728163"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>2245</td>
+	<td><div id="580620par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580620',580620,'Health and Disease in the Ancient World',3)">
+	
+	Health and Disease in the Ancient World</a></div>
+	<div id="5806203"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>2430</td>
+	<td><div id="577896par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577896',577896,'The Rise and Fall of Civilization',3)">
+	
+	The Rise and Fall of Civilization</a></div>
+	<div id="5778963"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>2729</td>
+	<td><div id="579685par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579685',579685,'Climate, Archaeology and History',3)">
+	
+	Climate, Archaeology and History</a></div>
+	<div id="5796853"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>3210</td>
+	<td><div id="577894par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577894',577894,'Historical Archaeology',3)">
+	
+	Historical Archaeology</a></div>
+	<div id="5778943"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>3232</td>
+	<td><div id="572826par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572826',572826,'Politics of the Past',3)">
+	
+	Politics of the Past</a></div>
+	<div id="5728263"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>3245</td>
+	<td><div id="579374par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579374',579374,'Across the Seas: Contacts between the Americas and the Old World Before Columbus',3)">
+	
+	Across the Seas: Contacts between the Americas and the Old World Before Columbus</a></div>
+	<div id="5793743"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>3248</td>
+	<td><div id="572827par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572827',572827,'Finger Lakes and Beyond: Archaeology of the Native Northeast',3)">
+	
+	Finger Lakes and Beyond: Archaeology of the Native Northeast</a></div>
+	<div id="5728273"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>3255</td>
+	<td><div id="572828par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572828',572828,'Ancient Mexico and Central America',3)">
+	
+	Ancient Mexico and Central America</a></div>
+	<div id="5728283"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>4114</td>
+	<td><div id="581083par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581083',581083,'Science, Medicine, the Body: A Critical Race and Feminist Inquiry',3)">
+	
+	Science, Medicine, the Body: A Critical Race and Feminist Inquiry</a></div>
+	<div id="5810833"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>4216</td>
+	<td><div id="577508par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577508',577508,'Maya History',3)">
+	
+	Maya History</a></div>
+	<div id="5775083"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>4230</td>
+	<td><div id="577898par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577898',577898,'History of Archaeological Thought',3)">
+	
+	History of Archaeological Thought</a></div>
+	<div id="5778983"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>4235</td>
+	<td><div id="580068par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580068',580068,'Meaningful Stuff: Interpreting Material Culture',3)">
+	
+	Meaningful Stuff: Interpreting Material Culture</a></div>
+	<div id="5800683"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>4254</td>
+	<td><div id="579732par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579732',579732,'Themes in Mediterranean Archaeology',3)">
+	
+	Themes in Mediterranean Archaeology</a></div>
+	<div id="5797323"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>4268</td>
+	<td><div id="572846par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572846',572846,'Aztecs and Their Empire: Myth, History, and Politics',3)">
+	
+	Aztecs and Their Empire: Myth, History, and Politics</a></div>
+	<div id="5728463"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>4272</td>
+	<td><div id="572847par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572847',572847,'Archaeology of Colonialism and Cultural Entanglement',3)">
+	
+	Archaeology of Colonialism and Cultural Entanglement</a></div>
+	<div id="5728473"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>4456</td>
+	<td><div id="579922par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579922',579922,'Secularism and Political Theology',3)">
+	
+	Secularism and Political Theology</a></div>
+	<div id="5799223"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>4774</td>
+	<td><div id="580755par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580755',580755,'Indigenous Spaces and Materiality',3)">
+	
+	Indigenous Spaces and Materiality</a></div>
+	<div id="5807553"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>1200</td>
+	<td><div id="572972par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572972',572972,'Ancient Peoples and Places',3)">
+	
+	Ancient Peoples and Places</a></div>
+	<div id="5729723"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>1702</td>
+	<td><div id="581039par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581039',581039,'Great Discoveries in Greek and Roman Archaeology',3)">
+	
+	Great Discoveries in Greek and Roman Archaeology</a></div>
+	<div id="5810393"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>2010</td>
+	<td><div id="577413par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577413',577413,'Archaeology of the Ancient Near East',3)">
+	
+	Archaeology of the Ancient Near East</a></div>
+	<div id="5774133"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>2201</td>
+	<td><div id="572973par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572973',572973,'Early Agriculture',3)">
+	
+	Early Agriculture</a></div>
+	<div id="5729733"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>2235</td>
+	<td><div id="572974par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572974',572974,'Archaeology of North American Indians',3)">
+	
+	Archaeology of North American Indians</a></div>
+	<div id="5729743"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>2245</td>
+	<td><div id="580621par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580621',580621,'Health and Disease in the Ancient World',3)">
+	
+	Health and Disease in the Ancient World</a></div>
+	<div id="5806213"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>2430</td>
+	<td><div id="577897par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577897',577897,'The Rise and Fall of Civilization',3)">
+	
+	The Rise and Fall of Civilization</a></div>
+	<div id="5778973"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>2610</td>
+	<td><div id="572975par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572975',572975,'Fieldwork in Urban Archaeology',3)">
+	
+	Fieldwork in Urban Archaeology</a></div>
+	<div id="5729753"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>2620</td>
+	<td><div id="572976par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572976',572976,'Laboratory in Landscape Archaeology',3)">
+	
+	Laboratory in Landscape Archaeology</a></div>
+	<div id="5729763"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>2661</td>
+	<td><div id="572977par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572977',572977,'Ancient Ships and Seafaring: Introduction to Nautical Archaeology',3)">
+	
+	Ancient Ships and Seafaring: Introduction to Nautical Archaeology</a></div>
+	<div id="5729773"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>2662</td>
+	<td><div id="572201par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572201',572201,'Daily Life in the Biblical World',3)">
+	
+	Daily Life in the Biblical World</a></div>
+	<div id="5722013"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>2666</td>
+	<td><div id="577383par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577383',577383,'Jerusalem the Holy in Judaism, Christianity and Islam',3)">
+	
+	Jerusalem the Holy in Judaism, Christianity and Islam</a></div>
+	<div id="5773833"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>2668</td>
+	<td><div id="572978par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572978',572978,'Ancient Egyptian Civilization',3)">
+	
+	Ancient Egyptian Civilization</a></div>
+	<div id="5729783"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>2688</td>
+	<td><div id="571202par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','571202',571202,'Cleopatra\'s Egypt: Tradition and Transformation',3)">
+	
+	Cleopatra's Egypt: Tradition and Transformation</a></div>
+	<div id="5712023"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>2700</td>
+	<td><div id="572979par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572979',572979,'Introduction to the Classical World in 24 Objects',3)">
+	
+	Introduction to the Classical World in 24 Objects</a></div>
+	<div id="5729793"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>2711</td>
+	<td><div id="579964par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579964',579964,'Archaeology of the Roman world: Italy and the West',3)">
+	
+	Archaeology of the Roman world: Italy and the West</a></div>
+	<div id="5799643"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>2729</td>
+	<td><div id="579298par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579298',579298,'Climate, Archaeology and History',3)">
+	
+	Climate, Archaeology and History</a></div>
+	<div id="5792983"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>3090</td>
+	<td><div id="572981par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572981',572981,'Introduction to Dendrochronology',3)">
+	
+	Introduction to Dendrochronology</a></div>
+	<div id="5729813"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>3130</td>
+	<td><div id="578699par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578699',578699,'Iconography of Greek Myth',3)">
+	
+	Iconography of Greek Myth</a></div>
+	<div id="5786993"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>3210</td>
+	<td><div id="577895par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577895',577895,'Historical Archaeology',3)">
+	
+	Historical Archaeology</a></div>
+	<div id="5778953"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>3232</td>
+	<td><div id="572983par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572983',572983,'Politics of the Past',3)">
+	
+	Politics of the Past</a></div>
+	<div id="5729833"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>3245</td>
+	<td><div id="579377par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579377',579377,'Across the Seas: Contacts between the Americas and the Old World Before Columbus',3)">
+	
+	Across the Seas: Contacts between the Americas and the Old World Before Columbus</a></div>
+	<div id="5793773"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>3248</td>
+	<td><div id="572984par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572984',572984,'Finger Lakes and Beyond: Archaeology of the Native Northeast',3)">
+	
+	Finger Lakes and Beyond: Archaeology of the Native Northeast</a></div>
+	<div id="5729843"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>3255</td>
+	<td><div id="572985par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572985',572985,'Ancient Mexico and Central America',3)">
+	
+	Ancient Mexico and Central America</a></div>
+	<div id="5729853"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>3370</td>
+	<td><div id="578379par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578379',578379,'Constantinople/Istanbul, 330-1566',3)">
+	
+	Constantinople/Istanbul, 330-1566</a></div>
+	<div id="5783793"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>3600</td>
+	<td><div id="572988par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572988',572988,'Pre-Industrial Cities and Towns in North America',3)">
+	
+	Pre-Industrial Cities and Towns in North America</a></div>
+	<div id="5729883"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>3661</td>
+	<td><div id="572989par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572989',572989,'Sumerian Language and Culture I',3)">
+	
+	Sumerian Language and Culture I</a></div>
+	<div id="5729893"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>4020</td>
+	<td><div id="572991par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572991',572991,'Designing Archaeological Exhibits',3)">
+	
+	Designing Archaeological Exhibits</a></div>
+	<div id="5729913"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>4216</td>
+	<td><div id="577509par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577509',577509,'Maya History',3)">
+	
+	Maya History</a></div>
+	<div id="5775093"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>4230</td>
+	<td><div id="577900par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577900',577900,'History of Archaeological Thought',3)">
+	
+	History of Archaeological Thought</a></div>
+	<div id="5779003"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>4233</td>
+	<td><div id="578351par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578351',578351,'Greek and Roman Art and Archaeology',3)">
+	
+	Greek and Roman Art and Archaeology</a></div>
+	<div id="5783513"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>4235</td>
+	<td><div id="580070par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580070',580070,'Meaningful Stuff: Interpreting Material Culture',3)">
+	
+	Meaningful Stuff: Interpreting Material Culture</a></div>
+	<div id="5800703"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>4254</td>
+	<td><div id="579733par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579733',579733,'Themes in Mediterranean Archaeology',3)">
+	
+	Themes in Mediterranean Archaeology</a></div>
+	<div id="5797333"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>4268</td>
+	<td><div id="572499par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572499',572499,'Aztecs and Their Empire: Myth, History, and Politics',3)">
+	
+	Aztecs and Their Empire: Myth, History, and Politics</a></div>
+	<div id="5724993"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>4272</td>
+	<td><div id="572995par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572995',572995,'Archaeology of Colonialism and Cultural Entanglement',3)">
+	
+	Archaeology of Colonialism and Cultural Entanglement</a></div>
+	<div id="5729953"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>4351</td>
+	<td><div id="578897par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578897',578897,'Problems in Byzantine Art',3)">
+	
+	Problems in Byzantine Art</a></div>
+	<div id="5788973"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>4510</td>
+	<td><div id="578498par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578498',578498,'Advanced Fieldwork in Historical Archaeology',3)">
+	
+	Advanced Fieldwork in Historical Archaeology</a></div>
+	<div id="5784983"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>4520</td>
+	<td><div id="572411par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572411',572411,'Advanced Laboratory in Historical Archaeology',3)">
+	
+	Advanced Laboratory in Historical Archaeology</a></div>
+	<div id="5724113"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3102</td>
+	<td><div id="573030par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573030',573030,'Contemporary Rome Seminar',3)">
+	
+	Contemporary Rome Seminar</a></div>
+	<div id="5730303"> </div></td>
+	 <td>(CA-AAP, HA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ART</td><td>3103</td>
+	<td><div id="573022par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573022',573022,'New York City Seminar',3)">
+	
+	New York City Seminar</a></div>
+	<div id="5730223"> </div></td>
+	 <td>(CA-AAP, HA-AAP)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>2200</td>
+	<td><div id="573049par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573049',573049,'Introduction to the Classical World in 24 Objects',3)">
+	
+	Introduction to the Classical World in 24 Objects</a></div>
+	<div id="5730493"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>2255</td>
+	<td><div id="581657par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581657',581657,'Ecocriticism & Visual Culture',3)">
+	
+	Ecocriticism & Visual Culture</a></div>
+	<div id="5816573"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>2400</td>
+	<td><div id="573050par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573050',573050,'Introduction to Renaissance and Baroque Art and Society',3)">
+	
+	Introduction to Renaissance and Baroque Art and Society</a></div>
+	<div id="5730503"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>2711</td>
+	<td><div id="579999par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579999',579999,'Archaeology of the Roman world: Italy and the West',3)">
+	
+	Archaeology of the Roman world: Italy and the West</a></div>
+	<div id="5799993"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>3230</td>
+	<td><div id="573054par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573054',573054,'Iconography of Greek Myth',3)">
+	
+	Iconography of Greek Myth</a></div>
+	<div id="5730543"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>3250</td>
+	<td><div id="573055par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573055',573055,'Introduction to Dendrochronology',3)">
+	
+	Introduction to Dendrochronology</a></div>
+	<div id="5730553"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>3270</td>
+	<td><div id="578122par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578122',578122,'Constantinople/Istanbul, 330-1566',3)">
+	
+	Constantinople/Istanbul, 330-1566</a></div>
+	<div id="5781223"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>3440</td>
+	<td><div id="573057par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573057',573057,'Leonardo, Michelangelo, and Raphael, and their World',3)">
+	
+	Leonardo, Michelangelo, and Raphael, and their World</a></div>
+	<div id="5730573"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>4101</td>
+	<td><div id="573062par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573062',573062,'Proseminar: Introduction to Methods',3)">
+	
+	Proseminar: Introduction to Methods</a></div>
+	<div id="5730623"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>4233</td>
+	<td><div id="573066par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573066',573066,'Greek and Roman Art and Archaeology',3)">
+	
+	Greek and Roman Art and Archaeology</a></div>
+	<div id="5730663"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>4331</td>
+	<td><div id="573067par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573067',573067,'Topics in Islamic Art',3)">
+	
+	Topics in Islamic Art</a></div>
+	<div id="5730673"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>4351</td>
+	<td><div id="578128par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578128',578128,'Problems in Byzantine Art',3)">
+	
+	Problems in Byzantine Art</a></div>
+	<div id="5781283"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>4354</td>
+	<td><div id="582273par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582273',582273,'Byzantine Archaeology',3)">
+	
+	Byzantine Archaeology</a></div>
+	<div id="5822733"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>4440</td>
+	<td><div id="573068par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573068',573068,'Constructing the Self in the Sixteenth Century',3)">
+	
+	Constructing the Self in the Sixteenth Century</a></div>
+	<div id="5730683"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>4754</td>
+	<td><div id="579734par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579734',579734,'Themes in Mediterranean Archaeology',3)">
+	
+	Themes in Mediterranean Archaeology</a></div>
+	<div id="5797343"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>4774</td>
+	<td><div id="580610par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580610',580610,'Indigenous Spaces and Materiality',3)">
+	
+	Indigenous Spaces and Materiality</a></div>
+	<div id="5806103"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>4816</td>
+	<td><div id="577737par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577737',577737,'Modern Chinese Art',3)">
+	
+	Modern Chinese Art</a></div>
+	<div id="5777373"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>4840</td>
+	<td><div id="578876par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578876',578876,'Contemporary Taiwanese Art',3)">
+	
+	Contemporary Taiwanese Art</a></div>
+	<div id="5788763"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARTH</td><td>4851</td>
+	<td><div id="577447par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577447',577447,'Performing Objects/Collecting Cultures',3)">
+	
+	Performing Objects/Collecting Cultures</a></div>
+	<div id="5774473"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>1174</td>
+	<td><div id="578910par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578910',578910,'Imperial China',3)">
+	
+	Imperial China</a></div>
+	<div id="5789103"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>1191</td>
+	<td><div id="573095par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573095',573095,'Introduction to Modern Asian History',3)">
+	
+	Introduction to Modern Asian History</a></div>
+	<div id="5730953"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>1192</td>
+	<td><div id="581752par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581752',581752,'Modern China',3)">
+	
+	Modern China</a></div>
+	<div id="5817523"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>1193</td>
+	<td><div id="580875par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580875',580875,'A Global History of Love',3)">
+	
+	A Global History of Love</a></div>
+	<div id="5808753"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>2210</td>
+	<td><div id="573097par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573097',573097,'Pop Culture in China',3)">
+	
+	Pop Culture in China</a></div>
+	<div id="5730973"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>2219</td>
+	<td><div id="577206par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577206',577206,'Women and Gender in South Asia',3)">
+	
+	Women and Gender in South Asia</a></div>
+	<div id="5772063"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>2222</td>
+	<td><div id="581065par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581065',581065,'The World of Modern Japan',3)">
+	
+	The World of Modern Japan</a></div>
+	<div id="5810653"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>2228</td>
+	<td><div id="573103par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573103',573103,'Indian Ocean World',3)">
+	
+	Indian Ocean World</a></div>
+	<div id="5731033"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>2247</td>
+	<td><div id="578683par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578683',578683,'Controversy and Debate in Islam',3)">
+	
+	Controversy and Debate in Islam</a></div>
+	<div id="5786833"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>2250</td>
+	<td><div id="573105par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573105',573105,'Introduction to Asian Religions',3)">
+	
+	Introduction to Asian Religions</a></div>
+	<div id="5731053"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>2258</td>
+	<td><div id="572290par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572290',572290,'The Occupation of Japan',3)">
+	
+	The Occupation of Japan</a></div>
+	<div id="5722903"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>2261</td>
+	<td><div id="581349par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581349',581349,'Indian Ocean Buddhism',3)">
+	
+	Indian Ocean Buddhism</a></div>
+	<div id="5813493"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>2262</td>
+	<td><div id="578805par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578805',578805,'Medicine and Healing in China',3)">
+	
+	Medicine and Healing in China</a></div>
+	<div id="5788053"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>2274</td>
+	<td><div id="572453par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572453',572453,'Mughal India and the Early Modern World, c. 1500-1800',3)">
+	
+	Mughal India and the Early Modern World, c. 1500-1800</a></div>
+	<div id="5724533"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>2275</td>
+	<td><div id="573107par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573107',573107,'History of Modern India',3)">
+	
+	History of Modern India</a></div>
+	<div id="5731073"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>2280</td>
+	<td><div id="581753par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581753',581753,'Law and Society in Early Modern and Modern China',3)">
+	
+	Law and Society in Early Modern and Modern China</a></div>
+	<div id="5817533"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>2286</td>
+	<td><div id="579770par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579770',579770,'Transformations in Twentieth Century China',3)">
+	
+	Transformations in Twentieth Century China</a></div>
+	<div id="5797703"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>2289</td>
+	<td><div id="580484par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580484',580484,'Daoist Traditions',3)">
+	
+	Daoist Traditions</a></div>
+	<div id="5804843"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>2290</td>
+	<td><div id="573110par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573110',573110,'East Asian Martial Arts',3)">
+	
+	East Asian Martial Arts</a></div>
+	<div id="5731103"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>2293</td>
+	<td><div id="581746par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581746',581746,'Making of an Empire in China',3)">
+	
+	Making of an Empire in China</a></div>
+	<div id="5817463"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3305</td>
+	<td><div id="573112par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573112',573112,'Seminar on American Relations with China',3)">
+	
+	Seminar on American Relations with China</a></div>
+	<div id="5731123"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3312</td>
+	<td><div id="580575par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580575',580575,'What was the Vietnam War?',3)">
+	
+	What was the Vietnam War?</a></div>
+	<div id="5805753"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3319</td>
+	<td><div id="582441par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582441',582441,'Small Countries in a Big World',3)">
+	
+	Small Countries in a Big World</a></div>
+	<div id="5824413"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3334</td>
+	<td><div id="573115par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573115',573115,'Southeast Asian Politics',3)">
+	
+	Southeast Asian Politics</a></div>
+	<div id="5731153"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3385</td>
+	<td><div id="573121par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573121',573121,'China and Vietnam - Myth and History',3)">
+	
+	China and Vietnam - Myth and History</a></div>
+	<div id="5731213"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3389</td>
+	<td><div id="582649par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582649',582649,'China\'s Rural-Urban Integration',3)">
+	
+	China's Rural-Urban Integration</a></div>
+	<div id="5826493"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3396</td>
+	<td><div id="573123par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573123',573123,'Transnational Local: Southeast Asian History from the Eighteenth Century',3)">
+	
+	Transnational Local: Southeast Asian History from the Eighteenth Century</a></div>
+	<div id="5731233"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>3397</td>
+	<td><div id="573124par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573124',573124,'Monsoon Kingdoms: Pre-Modern Southeast Asian History',3)">
+	
+	Monsoon Kingdoms: Pre-Modern Southeast Asian History</a></div>
+	<div id="5731243"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4411</td>
+	<td><div id="573129par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573129',573129,'History of the Japanese Language',3)">
+	
+	History of the Japanese Language</a></div>
+	<div id="5731293"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4415</td>
+	<td><div id="580415par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580415',580415,'The Body Politic in Asia',3)">
+	
+	The Body Politic in Asia</a></div>
+	<div id="5804153"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4422</td>
+	<td><div id="580417par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580417',580417,'Religion and the State in Chinese History',3)">
+	
+	Religion and the State in Chinese History</a></div>
+	<div id="5804173"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4426</td>
+	<td><div id="582816par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582816',582816,'Narrating Choson Korea: History and Memory',3)">
+	
+	Narrating Choson Korea: History and Memory</a></div>
+	<div id="5828163"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4429</td>
+	<td><div id="577287par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577287',577287,'Vitality and Power in China',3)">
+	
+	Vitality and Power in China</a></div>
+	<div id="5772873"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4445</td>
+	<td><div id="577924par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577924',577924,'Performing Objects/Collecting Cultures',3)">
+	
+	Performing Objects/Collecting Cultures</a></div>
+	<div id="5779243"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4448</td>
+	<td><div id="577710par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577710',577710,'China, Tibet and Xinjiang',3)">
+	
+	China, Tibet and Xinjiang</a></div>
+	<div id="5777103"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4461</td>
+	<td><div id="578712par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578712',578712,'China\'s Early Modern',3)">
+	
+	China's Early Modern</a></div>
+	<div id="5787123"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4466</td>
+	<td><div id="581626par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581626',581626,'Buddhists and Muslims: Asian Interactions',3)">
+	
+	Buddhists and Muslims: Asian Interactions</a></div>
+	<div id="5816263"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4473</td>
+	<td><div id="577738par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577738',577738,'Modern Chinese Art',3)">
+	
+	Modern Chinese Art</a></div>
+	<div id="5777383"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4478</td>
+	<td><div id="581747par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581747',581747,'China Imagined: The Historical and Global Origins of the Chinese Nation',3)">
+	
+	China Imagined: The Historical and Global Origins of the Chinese Nation</a></div>
+	<div id="5817473"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4484</td>
+	<td><div id="578879par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578879',578879,'Contemporary Taiwanese Art',3)">
+	
+	Contemporary Taiwanese Art</a></div>
+	<div id="5788793"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASIAN</td><td>4492</td>
+	<td><div id="572466par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572466',572466,'Ocean: The Sea in Human History',3)">
+	
+	Ocean: The Sea in Human History</a></div>
+	<div id="5724663"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>1590</td>
+	<td><div id="578214par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578214',578214,'History and Popular Culture in Africa',3)">
+	
+	History and Popular Culture in Africa</a></div>
+	<div id="5782143"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>1595</td>
+	<td><div id="579965par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579965',579965,'African American History From 1865',3)">
+	
+	African American History From 1865</a></div>
+	<div id="5799653"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>1790</td>
+	<td><div id="579971par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579971',579971,'Pirates, Slaves, and Revolutionaries: A History of the Caribbean from Columbus to Louverture',3)">
+	
+	Pirates, Slaves, and Revolutionaries: A History of the Caribbean from Columbus to Louverture</a></div>
+	<div id="5799713"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>2003</td>
+	<td><div id="572074par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572074',572074,'Africa: The Continent and Its People',3)">
+	
+	Africa: The Continent and Its People</a></div>
+	<div id="5720743"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>2006</td>
+	<td><div id="579791par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579791',579791,'Understanding Global Capitalism Through Service Learning',3)">
+	
+	Understanding Global Capitalism Through Service Learning</a></div>
+	<div id="5797913"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>2112</td>
+	<td><div id="581062par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581062',581062,'Black Spirituality, Religion & Protest',3)">
+	
+	Black Spirituality, Religion & Protest</a></div>
+	<div id="5810623"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>2308</td>
+	<td><div id="573166par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573166',573166,'Modern Caribbean History',3)">
+	
+	Modern Caribbean History</a></div>
+	<div id="5731663"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>2352</td>
+	<td><div id="579133par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579133',579133,'Paul Robeson and the Revolutionary Imagination',3)">
+	
+	Paul Robeson and the Revolutionary Imagination</a></div>
+	<div id="5791333"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>2353</td>
+	<td><div id="579416par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579416',579416,'Civil Rights vs. Human Rights in the Black Freedom Struggle',3)">
+	
+	Civil Rights vs. Human Rights in the Black Freedom Struggle</a></div>
+	<div id="5794163"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>2354</td>
+	<td><div id="578810par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578810',578810,'African American Visions of Africa',3)">
+	
+	African American Visions of Africa</a></div>
+	<div id="5788103"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>2452</td>
+	<td><div id="577211par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577211',577211,'Dress Cloth and Identity',3)">
+	
+	Dress Cloth and Identity</a></div>
+	<div id="5772113"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>2511</td>
+	<td><div id="577835par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577835',577835,'Black Women to 1900',3)">
+	
+	Black Women to 1900</a></div>
+	<div id="5778353"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>2512</td>
+	<td><div id="577209par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577209',577209,'Black Women in the 20th Century',3)">
+	
+	Black Women in the 20th Century</a></div>
+	<div id="5772093"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>2542</td>
+	<td><div id="578807par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578807',578807,'The Making of Contemporary Africa',3)">
+	
+	The Making of Contemporary Africa</a></div>
+	<div id="5788073"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>2543</td>
+	<td><div id="579771par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579771',579771,'In the Crossfire of Empires: Africa and World War II',3)">
+	
+	In the Crossfire of Empires: Africa and World War II</a></div>
+	<div id="5797713"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>2670</td>
+	<td><div id="577839par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577839',577839,'The History and Politics of Modern Egypt',3)">
+	
+	The History and Politics of Modern Egypt</a></div>
+	<div id="5778393"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>2955</td>
+	<td><div id="581605par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581605',581605,'Socialism in America',3)">
+	
+	Socialism in America</a></div>
+	<div id="5816053"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>3031</td>
+	<td><div id="578211par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578211',578211,'Race and Revolution in the Americas: 1776-1900',3)">
+	
+	Race and Revolution in the Americas: 1776-1900</a></div>
+	<div id="5782113"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>3302</td>
+	<td><div id="573169par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573169',573169,'West Africa and the West, 1450 - 1850',3)">
+	
+	West Africa and the West, 1450 - 1850</a></div>
+	<div id="5731693"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>3590</td>
+	<td><div id="578809par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578809',578809,'The Black Radical Tradition in the U.S.',3)">
+	
+	The Black Radical Tradition in the U.S.</a></div>
+	<div id="5788093"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>3652</td>
+	<td><div id="573170par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573170',573170,'African Economic Development Histories',3)">
+	
+	African Economic Development Histories</a></div>
+	<div id="5731703"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>4291</td>
+	<td><div id="578209par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578209',578209,'Marriage and Divorce in the African Context',3)">
+	
+	Marriage and Divorce in the African Context</a></div>
+	<div id="5782093"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>4303</td>
+	<td><div id="577890par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577890',577890,'Nationalism and Decolonization in Africa',3)">
+	
+	Nationalism and Decolonization in Africa</a></div>
+	<div id="5778903"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>4390</td>
+	<td><div id="577848par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577848',577848,'Reconstruction and the New South',3)">
+	
+	Reconstruction and the New South</a></div>
+	<div id="5778483"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>4650</td>
+	<td><div id="577831par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577831',577831,'Contesting Identities in Modern Egypt',3)">
+	
+	Contesting Identities in Modern Egypt</a></div>
+	<div id="5778313"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>4672</td>
+	<td><div id="571067par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','571067',571067,'Nationalism(s) in the Arab World',3)">
+	
+	Nationalism(s) in the Arab World</a></div>
+	<div id="5710673"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>4702</td>
+	<td><div id="579409par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579409',579409,'Cultural Politics of the 1970s',3)">
+	
+	Cultural Politics of the 1970s</a></div>
+	<div id="5794093"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASTRO</td><td>1700</td>
+	<td><div id="573191par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573191',573191,'History of Exploration: Land, Sea, and Space',3)">
+	
+	History of Exploration: Land, Sea, and Space</a></div>
+	<div id="5731913"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BIOMI</td><td>1720</td>
+	<td><div id="573373par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573373',573373,'Biomedical Terminology',3)">
+	
+	Biomedical Terminology</a></div>
+	<div id="5733733"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>1941</td>
+	<td><div id="573515par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573515',573515,'The History of Science in Europe: From the Ancient Legacy to Isaac Newton',3)">
+	
+	The History of Science in Europe: From the Ancient Legacy to Isaac Newton</a></div>
+	<div id="5735153"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>1942</td>
+	<td><div id="573516par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573516',573516,'The History of Science in Europe: Newton to Darwin; Darwin to Einstein',3)">
+	
+	The History of Science in Europe: Newton to Darwin; Darwin to Einstein</a></div>
+	<div id="5735163"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>2071</td>
+	<td><div id="578046par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578046',578046,'Introduction to the History of Medicine',3)">
+	
+	Introduction to the History of Medicine</a></div>
+	<div id="5780463"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>2122</td>
+	<td><div id="578218par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578218',578218,'Darwin and the Making of Histories',3)">
+	
+	Darwin and the Making of Histories</a></div>
+	<div id="5782183"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>2211</td>
+	<td><div id="581816par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581816',581816,'Early Agriculture',3)">
+	
+	Early Agriculture</a></div>
+	<div id="5818163"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>2245</td>
+	<td><div id="581817par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581817',581817,'Health and Disease in the Ancient World',3)">
+	
+	Health and Disease in the Ancient World</a></div>
+	<div id="5818173"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>2561</td>
+	<td><div id="578991par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578991',578991,'Medicine and Healing in China',3)">
+	
+	Medicine and Healing in China</a></div>
+	<div id="5789913"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>2581</td>
+	<td><div id="577397par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577397',577397,'Environmental History',3)">
+	
+	Environmental History</a></div>
+	<div id="5773973"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>2821</td>
+	<td><div id="572398par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572398',572398,'Science in Western Civilization: Newton to Darwin, Darwin to Einstein',3)">
+	
+	Science in Western Civilization: Newton to Darwin, Darwin to Einstein</a></div>
+	<div id="5723983"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>3181</td>
+	<td><div id="573523par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573523',573523,'Living in an Uncertain World: Science, Technology, and Risk',3)">
+	
+	Living in an Uncertain World: Science, Technology, and Risk</a></div>
+	<div id="5735233"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>4121</td>
+	<td><div id="577248par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577248',577248,'Scientific Revolution in Early - Modern Europe',3)">
+	
+	Scientific Revolution in Early - Modern Europe</a></div>
+	<div id="5772483"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>4122</td>
+	<td><div id="572419par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572419',572419,'Darwin and the Making of Histories',3)">
+	
+	Darwin and the Making of Histories</a></div>
+	<div id="5724193"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>4127</td>
+	<td><div id="582255par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582255',582255,'The Body Politic in Asia',3)">
+	
+	The Body Politic in Asia</a></div>
+	<div id="5822553"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>4131</td>
+	<td><div id="577464par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577464',577464,'Comparative Environmental History',3)">
+	
+	Comparative Environmental History</a></div>
+	<div id="5774643"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>4741</td>
+	<td><div id="581214par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581214',581214,'Science, Medicine, the Body: A Critical Race and Feminist Inquiry',3)">
+	
+	Science, Medicine, the Body: A Critical Race and Feminist Inquiry</a></div>
+	<div id="5812143"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>BSOC</td><td>4911</td>
+	<td><div id="573528par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573528',573528,'Vitality and Power in China',3)">
+	
+	Vitality and Power in China</a></div>
+	<div id="5735283"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>1622</td>
+	<td><div id="581064par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581064',581064,'The World of Modern Japan',3)">
+	
+	The World of Modern Japan</a></div>
+	<div id="5810643"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>1740</td>
+	<td><div id="578909par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578909',578909,'Imperial China',3)">
+	
+	Imperial China</a></div>
+	<div id="5789093"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>1910</td>
+	<td><div id="573570par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573570',573570,'Introduction to Modern Asian History',3)">
+	
+	Introduction to Modern Asian History</a></div>
+	<div id="5735703"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>1920</td>
+	<td><div id="581734par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581734',581734,'Modern China',3)">
+	
+	Modern China</a></div>
+	<div id="5817343"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>2132</td>
+	<td><div id="581736par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581736',581736,'Law and Society in Early Modern and Modern China',3)">
+	
+	Law and Society in Early Modern and Modern China</a></div>
+	<div id="5817363"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>2209</td>
+	<td><div id="580406par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580406',580406,'Daoist Traditions',3)">
+	
+	Daoist Traditions</a></div>
+	<div id="5804063"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>2210</td>
+	<td><div id="579582par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579582',579582,'Pop Culture in China',3)">
+	
+	Pop Culture in China</a></div>
+	<div id="5795823"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>2262</td>
+	<td><div id="578914par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578914',578914,'Medicine and Healing in China',3)">
+	
+	Medicine and Healing in China</a></div>
+	<div id="5789143"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>2931</td>
+	<td><div id="581722par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581722',581722,'Making of an Empire in China',3)">
+	
+	Making of an Empire in China</a></div>
+	<div id="5817223"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>2985</td>
+	<td><div id="581070par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581070',581070,'Transformations in Twentieth Century China',3)">
+	
+	Transformations in Twentieth Century China</a></div>
+	<div id="5810703"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>3000</td>
+	<td><div id="573572par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573572',573572,'Seminar on American Relations with China',3)">
+	
+	Seminar on American Relations with China</a></div>
+	<div id="5735723"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>3140</td>
+	<td><div id="573573par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573573',573573,'U.S. in the World',3)">
+	
+	U.S. in the World</a></div>
+	<div id="5735733"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>4127</td>
+	<td><div id="580865par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580865',580865,'The Body Politic in Asia',3)">
+	
+	The Body Politic in Asia</a></div>
+	<div id="5808653"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>4241</td>
+	<td><div id="580485par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580485',580485,'Religion and the State in Chinese History',3)">
+	
+	Religion and the State in Chinese History</a></div>
+	<div id="5804853"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>4650</td>
+	<td><div id="577283par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577283',577283,'Reading and Viewing Modern China',3)">
+	
+	Reading and Viewing Modern China</a></div>
+	<div id="5772833"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>4772</td>
+	<td><div id="581730par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581730',581730,'China Imagined: The Historical and Global Origins of the Chinese Nation',3)">
+	
+	China Imagined: The Historical and Global Origins of the Chinese Nation</a></div>
+	<div id="5817303"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>4827</td>
+	<td><div id="573582par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573582',573582,'China, Tibet and Xinjiang',3)">
+	
+	China, Tibet and Xinjiang</a></div>
+	<div id="5735823"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>4931</td>
+	<td><div id="577289par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577289',577289,'Vitality and Power in China',3)">
+	
+	Vitality and Power in China</a></div>
+	<div id="5772893"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CAPS</td><td>4963</td>
+	<td><div id="578911par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578911',578911,'China\'s Early Modern',3)">
+	
+	China's Early Modern</a></div>
+	<div id="5789113"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CHIN</td><td>4426</td>
+	<td><div id="573793par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573793',573793,'Reading and Viewing Modern China',3)">
+	
+	Reading and Viewing Modern China</a></div>
+	<div id="5737933"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>1692</td>
+	<td><div id="573816par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573816',573816,'Biomedical Terminology',3)">
+	
+	Biomedical Terminology</a></div>
+	<div id="5738163"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>1699</td>
+	<td><div id="573817par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573817',573817,'English Words: Histories and Mysteries',3)">
+	
+	English Words: Histories and Mysteries</a></div>
+	<div id="5738173"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>1702</td>
+	<td><div id="581032par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581032',581032,'Great Discoveries in Greek and Roman Archaeology',3)">
+	
+	Great Discoveries in Greek and Roman Archaeology</a></div>
+	<div id="5810323"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>2613</td>
+	<td><div id="570636par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','570636',570636,'New Testament/Early Christian Literatures',3)">
+	
+	New Testament/Early Christian Literatures</a></div>
+	<div id="5706363"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>2636</td>
+	<td><div id="579061par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579061',579061,'Introduction to Christian History',3)">
+	
+	Introduction to Christian History</a></div>
+	<div id="5790613"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>2675</td>
+	<td><div id="573826par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573826',573826,'Ancient Greece from Helen to Alexander',3)">
+	
+	Ancient Greece from Helen to Alexander</a></div>
+	<div id="5738263"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>2680</td>
+	<td><div id="572229par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572229',572229,'War and Peace in Greece and Rome',3)">
+	
+	War and Peace in Greece and Rome</a></div>
+	<div id="5722293"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>2687</td>
+	<td><div id="579570par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579570',579570,'Introduction to Military History',3)">
+	
+	Introduction to Military History</a></div>
+	<div id="5795703"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>2688</td>
+	<td><div id="570990par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','570990',570990,'Cleopatra\'s Egypt: Tradition and Transformation',3)">
+	
+	Cleopatra's Egypt: Tradition and Transformation</a></div>
+	<div id="5709903"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>2689</td>
+	<td><div id="580679par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580679',580679,'Roman History',3)">
+	
+	Roman History</a></div>
+	<div id="5806793"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>2700</td>
+	<td><div id="573827par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573827',573827,'Introduction to the Classical World in 24 Objects',3)">
+	
+	Introduction to the Classical World in 24 Objects</a></div>
+	<div id="5738273"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>2711</td>
+	<td><div id="579962par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579962',579962,'Archaeology of the Roman world: Italy and the West',3)">
+	
+	Archaeology of the Roman world: Italy and the West</a></div>
+	<div id="5799623"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>2729</td>
+	<td><div id="579297par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579297',579297,'Climate, Archaeology and History',3)">
+	
+	Climate, Archaeology and History</a></div>
+	<div id="5792973"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>2802</td>
+	<td><div id="578297par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578297',578297,'Classical Tradition',3)">
+	
+	Classical Tradition</a></div>
+	<div id="5782973"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>2806</td>
+	<td><div id="572095par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572095',572095,'Roman Law',3)">
+	
+	Roman Law</a></div>
+	<div id="5720953"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>2807</td>
+	<td><div id="582317par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582317',582317,'Slavery in the Ancient World',3)">
+	
+	Slavery in the Ancient World</a></div>
+	<div id="5823173"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>3359</td>
+	<td><div id="578439par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578439',578439,'Seminar in Vedic Philology',3)">
+	
+	Seminar in Vedic Philology</a></div>
+	<div id="5784393"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>3675</td>
+	<td><div id="579273par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579273',579273,'Democracy and its Discontents',3)">
+	
+	Democracy and its Discontents</a></div>
+	<div id="5792733"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>3727</td>
+	<td><div id="573833par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573833',573833,'Iconography of Greek Myth',3)">
+	
+	Iconography of Greek Myth</a></div>
+	<div id="5738333"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>3750</td>
+	<td><div id="573834par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573834',573834,'Introduction to Dendrochronology',3)">
+	
+	Introduction to Dendrochronology</a></div>
+	<div id="5738343"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>3770</td>
+	<td><div id="578123par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578123',578123,'Constantinople/Istanbul, 330-1566',3)">
+	
+	Constantinople/Istanbul, 330-1566</a></div>
+	<div id="5781233"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>4675</td>
+	<td><div id="572308par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572308',572308,'Greek and Roman Historiography',3)">
+	
+	Greek and Roman Historiography</a></div>
+	<div id="5723083"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>4746</td>
+	<td><div id="573838par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','573838',573838,'Greek and Roman Art and Archaeology',3)">
+	
+	Greek and Roman Art and Archaeology</a></div>
+	<div id="5738383"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>4752</td>
+	<td><div id="578129par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578129',578129,'Problems in Byzantine Art',3)">
+	
+	Problems in Byzantine Art</a></div>
+	<div id="5781293"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>4754</td>
+	<td><div id="579731par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579731',579731,'Themes in Mediterranean Archaeology',3)">
+	
+	Themes in Mediterranean Archaeology</a></div>
+	<div id="5797313"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>2251</td>
+	<td><div id="582380par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582380',582380,'Poetry\'s Image',3)">
+	
+	Poetry's Image</a></div>
+	<div id="5823803"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>4948</td>
+	<td><div id="582125par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582125',582125,'Pleasure and Neoliberalism',3)">
+	
+	Pleasure and Neoliberalism</a></div>
+	<div id="5821253"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>2510</td>
+	<td><div id="574155par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','574155',574155,'History of Design Futures',3)">
+	
+	History of Design Futures</a></div>
+	<div id="5741553"> </div></td>
+	 <td>(HA-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>4224</td>
+	<td><div id="582093par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582093',582093,'Global Citizenship: Cuba',3)">
+	
+	Global Citizenship: Cuba</a></div>
+	<div id="5820933"> </div></td>
+	 <td>(CA-HE, HA-HE, LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>4225</td>
+	<td><div id="582094par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582094',582094,'Cuba Vista',3)">
+	
+	Cuba Vista</a></div>
+	<div id="5820943"> </div></td>
+	 <td>(CA-HE, D-HE, HA-HE, KCM-HE, L</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>6210</td>
+	<td><div id="581717par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581717',581717,'Architectural Robotics',3)">
+	
+	Architectural Robotics</a></div>
+	<div id="5817173"> </div></td>
+	 <td>(HA-HE, D-HE, KCM-HE, LAD-HE, </td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>2050</td>
+	<td><div id="574192par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','574192',574192,'International Development',3)">
+	
+	International Development</a></div>
+	<div id="5741923"> </div></td>
+	 <td>(D-AG, HA-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>2130</td>
+	<td><div id="582327par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582327',582327,'Mother Nature Fights Back? The Promises and Paradoxes of Sustainable Development',3)">
+	
+	Mother Nature Fights Back? The Promises and Paradoxes of Sustainable Development</a></div>
+	<div id="5823273"> </div></td>
+	 <td>(HA-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>2710</td>
+	<td><div id="577458par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577458',577458,'America\'s Promise: Social and Political Context of American Education',3)">
+	
+	America's Promise: Social and Political Context of American Education</a></div>
+	<div id="5774583"> </div></td>
+	 <td>(D-AG, HA-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>6250</td>
+	<td><div id="572508par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572508',572508,'State, Economy, and Society',3)">
+	
+	State, Economy, and Society</a></div>
+	<div id="5725083"> </div></td>
+	 <td>(HA-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>7001</td>
+	<td><div id="574222par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','574222',574222,'Historical Sociology of Modernity',3)">
+	
+	Historical Sociology of Modernity</a></div>
+	<div id="5742223"> </div></td>
+	 <td>(HA-AG, KCM-AG)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>3300</td>
+	<td><div id="574394par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','574394',574394,'Development of Economic Thought and Institutions',3)">
+	
+	Development of Economic Thought and Institutions</a></div>
+	<div id="5743943"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ECON</td><td>4300</td>
+	<td><div id="574407par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','574407',574407,'History of Economic Analysis',3)">
+	
+	History of Economic Analysis</a></div>
+	<div id="5744073"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>EDUC</td><td>2710</td>
+	<td><div id="574466par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','574466',574466,'America\'s Promise: Social and Political Context of American Education',3)">
+	
+	America's Promise: Social and Political Context of American Education</a></div>
+	<div id="5744663"> </div></td>
+	 <td>(D-AG, HA-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>EDUC</td><td>5710</td>
+	<td><div id="574480par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','574480',574480,'America\'s Promise: Social and Political Context of American Education',3)">
+	
+	America's Promise: Social and Political Context of American Education</a></div>
+	<div id="5744803"> </div></td>
+	 <td>(HA-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2170</td>
+	<td><div id="574497par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','574497',574497,'History of the English Language to 1300',3)">
+	
+	History of the English Language to 1300</a></div>
+	<div id="5744973"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2951</td>
+	<td><div id="582850par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582850',582850,'Poetry\'s Image',3)">
+	
+	Poetry's Image</a></div>
+	<div id="5828503"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4145</td>
+	<td><div id="581478par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581478',581478,'Race and Gender in the Middle Ages',3)">
+	
+	Race and Gender in the Middle Ages</a></div>
+	<div id="5814783"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4170</td>
+	<td><div id="572192par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572192',572192,'The Archaeology of the Text from Chaucer through the Renaissance',3)">
+	
+	The Archaeology of the Text from Chaucer through the Renaissance</a></div>
+	<div id="5721923"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>1940</td>
+	<td><div id="579969par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579969',579969,'A Global History of Love',3)">
+	
+	A Global History of Love</a></div>
+	<div id="5799693"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>2082</td>
+	<td><div id="582294par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582294',582294,'Of Ice and Men: Masculinities in the Medieval North',3)">
+	
+	Of Ice and Men: Masculinities in the Medieval North</a></div>
+	<div id="5822943"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>2190</td>
+	<td><div id="577205par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577205',577205,'Women and Gender in South Asia',3)">
+	
+	Women and Gender in South Asia</a></div>
+	<div id="5772053"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>2511</td>
+	<td><div id="574682par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','574682',574682,'Black Women to 1900',3)">
+	
+	Black Women to 1900</a></div>
+	<div id="5746823"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>2512</td>
+	<td><div id="574683par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','574683',574683,'Black Women in the 20th Century',3)">
+	
+	Black Women in the 20th Century</a></div>
+	<div id="5746833"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>2806</td>
+	<td><div id="572096par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572096',572096,'Roman Law',3)">
+	
+	Roman Law</a></div>
+	<div id="5720963"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>4114</td>
+	<td><div id="580734par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580734',580734,'Science, Medicine, the Body: A Critical Race and Feminist Inquiry',3)">
+	
+	Science, Medicine, the Body: A Critical Race and Feminist Inquiry</a></div>
+	<div id="5807343"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>4127</td>
+	<td><div id="580416par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580416',580416,'The Body Politic in Asia',3)">
+	
+	The Body Politic in Asia</a></div>
+	<div id="5804163"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>4291</td>
+	<td><div id="580054par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580054',580054,'Marriage and Divorce in the African Context',3)">
+	
+	Marriage and Divorce in the African Context</a></div>
+	<div id="5800543"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FGSS</td><td>4948</td>
+	<td><div id="582826par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582826',582826,'Pleasure and Neoliberalism',3)">
+	
+	Pleasure and Neoliberalism</a></div>
+	<div id="5828263"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FREN</td><td>2350</td>
+	<td><div id="582127par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582127',582127,'The Medieval Book: Objects and Texts',3)">
+	
+	The Medieval Book: Objects and Texts</a></div>
+	<div id="5821273"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FREN</td><td>2860</td>
+	<td><div id="579417par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579417',579417,'The French Revolution',3)">
+	
+	The French Revolution</a></div>
+	<div id="5794173"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FREN</td><td>3460</td>
+	<td><div id="581367par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581367',581367,'Intellectuals: A French History',3)">
+	
+	Intellectuals: A French History</a></div>
+	<div id="5813673"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FREN</td><td>4285</td>
+	<td><div id="580678par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580678',580678,'Old French',3)">
+	
+	Old French</a></div>
+	<div id="5806783"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FREN</td><td>4525</td>
+	<td><div id="581471par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581471',581471,'Historicizing Communism',3)">
+	
+	Historicizing Communism</a></div>
+	<div id="5814713"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FSAD</td><td>2190</td>
+	<td><div id="580506par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580506',580506,'Fashion, Aesthetics and Society',3)">
+	
+	Fashion, Aesthetics and Society</a></div>
+	<div id="5805063"> </div></td>
+	 <td>(CA-HE, HA-HE)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>1615</td>
+	<td><div id="574800par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','574800',574800,'Introduction to Political Theory',3)">
+	
+	Introduction to Political Theory</a></div>
+	<div id="5748003"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>1623</td>
+	<td><div id="581227par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581227',581227,'The World of Modern Japan',3)">
+	
+	The World of Modern Japan</a></div>
+	<div id="5812273"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>2623</td>
+	<td><div id="579826par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579826',579826,'History and Politics of the Modern and Contemporary Middle East',3)">
+	
+	History and Politics of the Modern and Contemporary Middle East</a></div>
+	<div id="5798263"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>2673</td>
+	<td><div id="579716par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579716',579716,'The History and Politics of Modern Egypt',3)">
+	
+	The History and Politics of Modern Egypt</a></div>
+	<div id="5797163"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3281</td>
+	<td><div id="574814par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','574814',574814,'Constitutional Politics',3)">
+	
+	Constitutional Politics</a></div>
+	<div id="5748143"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3443</td>
+	<td><div id="574818par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','574818',574818,'Southeast Asian Politics',3)">
+	
+	Southeast Asian Politics</a></div>
+	<div id="5748183"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3595</td>
+	<td><div id="582325par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582325',582325,'Academe, Work, Politics',3)">
+	
+	Academe, Work, Politics</a></div>
+	<div id="5823253"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3633</td>
+	<td><div id="574821par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','574821',574821,'Politics and Culture',3)">
+	
+	Politics and Culture</a></div>
+	<div id="5748213"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3675</td>
+	<td><div id="578251par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578251',578251,'Democracy and its Discontents',3)">
+	
+	Democracy and its Discontents</a></div>
+	<div id="5782513"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3726</td>
+	<td><div id="579906par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579906',579906,'Revolution',3)">
+	
+	Revolution</a></div>
+	<div id="5799063"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>3837</td>
+	<td><div id="577434par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577434',577434,'The Cold War',3)">
+	
+	The Cold War</a></div>
+	<div id="5774343"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4112</td>
+	<td><div id="574828par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','574828',574828,'The Politics of Change',3)">
+	
+	The Politics of Change</a></div>
+	<div id="5748283"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4218</td>
+	<td><div id="577244par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577244',577244,'History of the United States Senate',3)">
+	
+	History of the United States Senate</a></div>
+	<div id="5772443"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4339</td>
+	<td><div id="571065par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','571065',571065,'Nationalism(s) in the Arab World',3)">
+	
+	Nationalism(s) in the Arab World</a></div>
+	<div id="5710653"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4496</td>
+	<td><div id="579879par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579879',579879,'Power',3)">
+	
+	Power</a></div>
+	<div id="5798793"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4827</td>
+	<td><div id="574837par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','574837',574837,'China, Tibet and Xinjiang',3)">
+	
+	China, Tibet and Xinjiang</a></div>
+	<div id="5748373"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1510</td>
+	<td><div id="575030par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575030',575030,'Introduction to Western Civilization I',3)">
+	
+	Introduction to Western Civilization I</a></div>
+	<div id="5750303"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1511</td>
+	<td><div id="575031par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575031',575031,'The Making of Modern Europe, from 1500 to the Present',3)">
+	
+	The Making of Modern Europe, from 1500 to the Present</a></div>
+	<div id="5750313"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1540</td>
+	<td><div id="577865par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577865',577865,'American Capitalism',3)">
+	
+	American Capitalism</a></div>
+	<div id="5778653"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1561</td>
+	<td><div id="577852par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577852',577852,'Introduction to the Ottoman Empire',3)">
+	
+	Introduction to the Ottoman Empire</a></div>
+	<div id="5778523"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1585</td>
+	<td><div id="579963par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579963',579963,'Sports and Politics in American History',3)">
+	
+	Sports and Politics in American History</a></div>
+	<div id="5799633"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1590</td>
+	<td><div id="577203par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577203',577203,'History and Popular Culture in Africa',3)">
+	
+	History and Popular Culture in Africa</a></div>
+	<div id="5772033"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1591</td>
+	<td><div id="579173par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579173',579173,'A Global Approach to Modern Chinese History',3)">
+	
+	A Global Approach to Modern Chinese History</a></div>
+	<div id="5791733"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1595</td>
+	<td><div id="579257par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579257',579257,'African American History From 1865',3)">
+	
+	African American History From 1865</a></div>
+	<div id="5792573"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1600</td>
+	<td><div id="575032par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575032',575032,'History of Law: Great Trials',3)">
+	
+	History of Law: Great Trials</a></div>
+	<div id="5750323"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1622</td>
+	<td><div id="580661par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580661',580661,'The World of Modern Japan',3)">
+	
+	The World of Modern Japan</a></div>
+	<div id="5806613"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1640</td>
+	<td><div id="577851par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577851',577851,'U.S. History since the Great Depression',3)">
+	
+	U.S. History since the Great Depression</a></div>
+	<div id="5778513"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1650</td>
+	<td><div id="577866par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577866',577866,'Myths of Monarchy in Europe, Medieval Times to the Present',3)">
+	
+	Myths of Monarchy in Europe, Medieval Times to the Present</a></div>
+	<div id="5778663"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1660</td>
+	<td><div id="580722par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580722',580722,'The Vikings and their World',3)">
+	
+	The Vikings and their World</a></div>
+	<div id="5807223"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1700</td>
+	<td><div id="575034par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575034',575034,'History of Exploration: Land, Sea, and Space',3)">
+	
+	History of Exploration: Land, Sea, and Space</a></div>
+	<div id="5750343"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1740</td>
+	<td><div id="578681par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578681',578681,'Imperial China',3)">
+	
+	Imperial China</a></div>
+	<div id="5786813"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1750</td>
+	<td><div id="579966par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579966',579966,'Routes: Global Histories',3)">
+	
+	Routes: Global Histories</a></div>
+	<div id="5799663"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1800</td>
+	<td><div id="575035par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575035',575035,'Immigration in U.S. History',3)">
+	
+	Immigration in U.S. History</a></div>
+	<div id="5750353"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1802</td>
+	<td><div id="581231par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581231',581231,'Introduction to Latinos in U.S. History',3)">
+	
+	Introduction to Latinos in U.S. History</a></div>
+	<div id="5812313"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1850</td>
+	<td><div id="581239par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581239',581239,'Thinking about History with the Manson Murders',3)">
+	
+	Thinking about History with the Manson Murders</a></div>
+	<div id="5812393"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1910</td>
+	<td><div id="575036par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575036',575036,'Introduction to Modern Asian History',3)">
+	
+	Introduction to Modern Asian History</a></div>
+	<div id="5750363"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1920</td>
+	<td><div id="581732par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581732',581732,'Modern China',3)">
+	
+	Modern China</a></div>
+	<div id="5817323"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1930</td>
+	<td><div id="579908par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579908',579908,'A Global History of Love',3)">
+	
+	A Global History of Love</a></div>
+	<div id="5799083"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1941</td>
+	<td><div id="575037par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575037',575037,'The History of Science in Europe: From the Ancient Legacy to Isaac Newton',3)">
+	
+	The History of Science in Europe: From the Ancient Legacy to Isaac Newton</a></div>
+	<div id="5750373"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1942</td>
+	<td><div id="575038par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575038',575038,'The History of Science in Europe: Newton to Darwin; Darwin to Einstein',3)">
+	
+	The History of Science in Europe: Newton to Darwin; Darwin to Einstein</a></div>
+	<div id="5750383"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1950</td>
+	<td><div id="575039par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575039',575039,'The Invention of the Americas',3)">
+	
+	The Invention of the Americas</a></div>
+	<div id="5750393"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1951</td>
+	<td><div id="580664par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580664',580664,'Foreign Policy as Subversion',3)">
+	
+	Foreign Policy as Subversion</a></div>
+	<div id="5806643"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1955</td>
+	<td><div id="577699par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577699',577699,'No Gods, No Masters: Histories of Anarchism',3)">
+	
+	No Gods, No Masters: Histories of Anarchism</a></div>
+	<div id="5776993"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1960</td>
+	<td><div id="575040par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575040',575040,'Modern Latin America',3)">
+	
+	Modern Latin America</a></div>
+	<div id="5750403"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>1970</td>
+	<td><div id="578682par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578682',578682,'Pirates, Slaves, and Revolutionaries: A History of the Caribbean from Columbus to Louverture',3)">
+	
+	Pirates, Slaves, and Revolutionaries: A History of the Caribbean from Columbus to Louverture</a></div>
+	<div id="5786823"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2006</td>
+	<td><div id="579190par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579190',579190,'Understanding Global Capitalism Through Service Learning',3)">
+	
+	Understanding Global Capitalism Through Service Learning</a></div>
+	<div id="5791903"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2010</td>
+	<td><div id="577854par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577854',577854,'Atlantic Travelers',3)">
+	
+	Atlantic Travelers</a></div>
+	<div id="5778543"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2042</td>
+	<td><div id="581237par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581237',581237,'Jim Crow and Exclusion Era in America',3)">
+	
+	Jim Crow and Exclusion Era in America</a></div>
+	<div id="5812373"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2082</td>
+	<td><div id="582293par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582293',582293,'Of Ice and Men: Masculinities in the Medieval North',3)">
+	
+	Of Ice and Men: Masculinities in the Medieval North</a></div>
+	<div id="5822933"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2085</td>
+	<td><div id="578831par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578831',578831,'The Enlightenment: The Birth of Modern Thought',3)">
+	
+	The Enlightenment: The Birth of Modern Thought</a></div>
+	<div id="5788313"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2112</td>
+	<td><div id="581060par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581060',581060,'Black Spirituality, Religion & Protest',3)">
+	
+	Black Spirituality, Religion & Protest</a></div>
+	<div id="5810603"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2122</td>
+	<td><div id="578216par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578216',578216,'Darwin and the Making of Histories',3)">
+	
+	Darwin and the Making of Histories</a></div>
+	<div id="5782163"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2132</td>
+	<td><div id="581735par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581735',581735,'Law and Society in Early Modern and Modern China',3)">
+	
+	Law and Society in Early Modern and Modern China</a></div>
+	<div id="5817353"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2146</td>
+	<td><div id="581598par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581598',581598,'Health and Fitness Culture',3)">
+	
+	Health and Fitness Culture</a></div>
+	<div id="5815983"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2155</td>
+	<td><div id="581721par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581721',581721,'The Invention of Religion',3)">
+	
+	The Invention of Religion</a></div>
+	<div id="5817213"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2156</td>
+	<td><div id="581737par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581737',581737,'Anti-Semitism and the Making of European Jewry',3)">
+	
+	Anti-Semitism and the Making of European Jewry</a></div>
+	<div id="5817373"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2157</td>
+	<td><div id="582297par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582297',582297,'Tolstoy: History and Counter-Culture',3)">
+	
+	Tolstoy: History and Counter-Culture</a></div>
+	<div id="5822973"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2165</td>
+	<td><div id="582821par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582821',582821,'The Death of Democracy: Europe Between the World Wars',3)">
+	
+	The Death of Democracy: Europe Between the World Wars</a></div>
+	<div id="5828213"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2190</td>
+	<td><div id="577204par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577204',577204,'Women and Gender in South Asia',3)">
+	
+	Women and Gender in South Asia</a></div>
+	<div id="5772043"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2209</td>
+	<td><div id="579986par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579986',579986,'Daoist Traditions',3)">
+	
+	Daoist Traditions</a></div>
+	<div id="5799863"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2210</td>
+	<td><div id="575042par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575042',575042,'Pop Culture in China',3)">
+	
+	Pop Culture in China</a></div>
+	<div id="5750423"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2220</td>
+	<td><div id="578690par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578690',578690,'From the New Deal to the Age of Reagan',3)">
+	
+	From the New Deal to the Age of Reagan</a></div>
+	<div id="5786903"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2251</td>
+	<td><div id="578691par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578691',578691,'U.S. Immigration Narratives',3)">
+	
+	U.S. Immigration Narratives</a></div>
+	<div id="5786913"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2252</td>
+	<td><div id="579946par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579946',579946,'Immigrant Ithaca',3)">
+	
+	Immigrant Ithaca</a></div>
+	<div id="5799463"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2280</td>
+	<td><div id="575043par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575043',575043,'Indian Ocean World',3)">
+	
+	Indian Ocean World</a></div>
+	<div id="5750433"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2296</td>
+	<td><div id="582298par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582298',582298,'History Lab: Digital History of Black Resistance',3)">
+	
+	History Lab: Digital History of Black Resistance</a></div>
+	<div id="5822983"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2315</td>
+	<td><div id="579571par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579571',579571,'The Occupation of Japan',3)">
+	
+	The Occupation of Japan</a></div>
+	<div id="5795713"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2321</td>
+	<td><div id="572439par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572439',572439,'Introduction to Military History',3)">
+	
+	Introduction to Military History</a></div>
+	<div id="5724393"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2352</td>
+	<td><div id="579131par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579131',579131,'Paul Robeson and the Revolutionary Imagination',3)">
+	
+	Paul Robeson and the Revolutionary Imagination</a></div>
+	<div id="5791313"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2353</td>
+	<td><div id="579258par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579258',579258,'Civil Rights vs. Human Rights in the Black Freedom Struggle',3)">
+	
+	Civil Rights vs. Human Rights in the Black Freedom Struggle</a></div>
+	<div id="5792583"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2354</td>
+	<td><div id="578718par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578718',578718,'African American Visions of Africa',3)">
+	
+	African American Visions of Africa</a></div>
+	<div id="5787183"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2390</td>
+	<td><div id="575044par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575044',575044,'Seminar in Iroquois History',3)">
+	
+	Seminar in Iroquois History</a></div>
+	<div id="5750443"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2391</td>
+	<td><div id="581544par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581544',581544,'From Terra Incognita to Territories of Nation-States: Early American History in Two Dozen Maps',3)">
+	
+	From Terra Incognita to Territories of Nation-States: Early American History in Two Dozen Maps</a></div>
+	<div id="5815443"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2422</td>
+	<td><div id="577704par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577704',577704,'The History of the U.S. Prison',3)">
+	
+	The History of the U.S. Prison</a></div>
+	<div id="5777043"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2423</td>
+	<td><div id="577868par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577868',577868,'Dazed and Confused: The Politics of Drug and Alcohol in US History',3)">
+	
+	Dazed and Confused: The Politics of Drug and Alcohol in US History</a></div>
+	<div id="5778683"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2452</td>
+	<td><div id="577210par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577210',577210,'Dress Cloth and Identity',3)">
+	
+	Dress Cloth and Identity</a></div>
+	<div id="5772103"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2460</td>
+	<td><div id="581551par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581551',581551,'The Age of Suleiman the Magnificent',3)">
+	
+	The Age of Suleiman the Magnificent</a></div>
+	<div id="5815513"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2465</td>
+	<td><div id="580528par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580528',580528,'Democracy and Modern China',3)">
+	
+	Democracy and Modern China</a></div>
+	<div id="5805283"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2500</td>
+	<td><div id="575046par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575046',575046,'Technology in Society',3)">
+	
+	Technology in Society</a></div>
+	<div id="5750463"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2511</td>
+	<td><div id="575047par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575047',575047,'Black Women to 1900',3)">
+	
+	Black Women to 1900</a></div>
+	<div id="5750473"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2512</td>
+	<td><div id="575048par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575048',575048,'Black Women in the 20th Century',3)">
+	
+	Black Women in the 20th Century</a></div>
+	<div id="5750483"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2521</td>
+	<td><div id="581758par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581758',581758,'England\'s Age of Revolutions, 1500-1815',3)">
+	
+	England's Age of Revolutions, 1500-1815</a></div>
+	<div id="5817583"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2526</td>
+	<td><div id="582257par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582257',582257,'Words as Weapons: Political Vocabulary, Mass Media and the Evolution of Political Consciousness',3)">
+	
+	Words as Weapons: Political Vocabulary, Mass Media and the Evolution of Political Consciousness</a></div>
+	<div id="5822573"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2530</td>
+	<td><div id="575049par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575049',575049,'Introduction to Islamic Civilization',3)">
+	
+	Introduction to Islamic Civilization</a></div>
+	<div id="5750493"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2541</td>
+	<td><div id="577212par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577212',577212,'Modern Caribbean History',3)">
+	
+	Modern Caribbean History</a></div>
+	<div id="5772123"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2542</td>
+	<td><div id="578700par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578700',578700,'The Making of Contemporary Africa',3)">
+	
+	The Making of Contemporary Africa</a></div>
+	<div id="5787003"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2543</td>
+	<td><div id="579299par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579299',579299,'In the Crossfire of Empires: Africa and World War II',3)">
+	
+	In the Crossfire of Empires: Africa and World War II</a></div>
+	<div id="5792993"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2560</td>
+	<td><div id="572225par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572225',572225,'War and Peace in Greece and Rome',3)">
+	
+	War and Peace in Greece and Rome</a></div>
+	<div id="5722253"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2562</td>
+	<td><div id="578694par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578694',578694,'Medicine and Healing in China',3)">
+	
+	Medicine and Healing in China</a></div>
+	<div id="5786943"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2581</td>
+	<td><div id="577213par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577213',577213,'Environmental History',3)">
+	
+	Environmental History</a></div>
+	<div id="5772133"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2596</td>
+	<td><div id="582256par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582256',582256,'America\'s Gods: Race and Place in American History',3)">
+	
+	America's Gods: Race and Place in American History</a></div>
+	<div id="5822563"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2640</td>
+	<td><div id="575051par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575051',575051,'Introduction to Asian American History',3)">
+	
+	Introduction to Asian American History</a></div>
+	<div id="5750513"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2641</td>
+	<td><div id="581563par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581563',581563,'Race and Modern US History',3)">
+	
+	Race and Modern US History</a></div>
+	<div id="5815633"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2650</td>
+	<td><div id="575052par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575052',575052,'Ancient Greece from Helen to Alexander',3)">
+	
+	Ancient Greece from Helen to Alexander</a></div>
+	<div id="5750523"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2660</td>
+	<td><div id="575053par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575053',575053,'Everything You Know About Indians is Wrong: Unlearning Native American History',3)">
+	
+	Everything You Know About Indians is Wrong: Unlearning Native American History</a></div>
+	<div id="5750533"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2664</td>
+	<td><div id="580600par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580600',580600,'What\'s Colonial About Early America?',3)">
+	
+	What's Colonial About Early America?</a></div>
+	<div id="5806003"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2665</td>
+	<td><div id="579909par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579909',579909,'The American Revolutionary Era',3)">
+	
+	The American Revolutionary Era</a></div>
+	<div id="5799093"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2672</td>
+	<td><div id="572515par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572515',572515,'The History and Politics of Modern Egypt',3)">
+	
+	The History and Politics of Modern Egypt</a></div>
+	<div id="5725153"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2680</td>
+	<td><div id="577867par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577867',577867,'The United States in the 1960s and 1970s',3)">
+	
+	The United States in the 1960s and 1970s</a></div>
+	<div id="5778673"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2689</td>
+	<td><div id="580682par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580682',580682,'Roman History',3)">
+	
+	Roman History</a></div>
+	<div id="5806823"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2690</td>
+	<td><div id="577214par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577214',577214,'History of Terrorism',3)">
+	
+	History of Terrorism</a></div>
+	<div id="5772143"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2710</td>
+	<td><div id="577792par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577792',577792,'Introduction to the History of Medicine',3)">
+	
+	Introduction to the History of Medicine</a></div>
+	<div id="5777923"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2726</td>
+	<td><div id="580601par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580601',580601,'Culture and Identity in Modern America: The 19th Century',3)">
+	
+	Culture and Identity in Modern America: The 19th Century</a></div>
+	<div id="5806013"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2749</td>
+	<td><div id="572452par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572452',572452,'Mughal India and the Early Modern World, c. 1500-1800',3)">
+	
+	Mughal India and the Early Modern World, c. 1500-1800</a></div>
+	<div id="5724523"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2750</td>
+	<td><div id="575054par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575054',575054,'History of Modern India',3)">
+	
+	History of Modern India</a></div>
+	<div id="5750543"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2760</td>
+	<td><div id="577216par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577216',577216,'The British Empire',3)">
+	
+	The British Empire</a></div>
+	<div id="5772163"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2792</td>
+	<td><div id="583112par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','583112',583112,'Introduction to Public History',3)">
+	
+	Introduction to Public History</a></div>
+	<div id="5831123"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2800</td>
+	<td><div id="579910par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579910',579910,'Latinos in US History',3)">
+	
+	Latinos in US History</a></div>
+	<div id="5799103"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2820</td>
+	<td><div id="572393par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572393',572393,'Science in Western Civilization: Newton to Darwin, Darwin to Einstein',3)">
+	
+	Science in Western Civilization: Newton to Darwin, Darwin to Einstein</a></div>
+	<div id="5723933"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2851</td>
+	<td><div id="582300par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582300',582300,'Sex and Power in Jewish History',3)">
+	
+	Sex and Power in Jewish History</a></div>
+	<div id="5823003"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2860</td>
+	<td><div id="578808par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578808',578808,'The French Revolution',3)">
+	
+	The French Revolution</a></div>
+	<div id="5788083"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2862</td>
+	<td><div id="579300par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579300',579300,'Before the Modern: European Culture, Thought, and Politics (1500 to 1750)',3)">
+	
+	Before the Modern: European Culture, Thought, and Politics (1500 to 1750)</a></div>
+	<div id="5793003"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2881</td>
+	<td><div id="580152par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580152',580152,'Ten Technologies That Shook the World?',3)">
+	
+	Ten Technologies That Shook the World?</a></div>
+	<div id="5801523"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2920</td>
+	<td><div id="575056par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575056',575056,'Inventing an Information Society',3)">
+	
+	Inventing an Information Society</a></div>
+	<div id="5750563"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2931</td>
+	<td><div id="581724par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581724',581724,'Making of an Empire in China',3)">
+	
+	Making of an Empire in China</a></div>
+	<div id="5817243"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2955</td>
+	<td><div id="581575par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581575',581575,'Socialism in America',3)">
+	
+	Socialism in America</a></div>
+	<div id="5815753"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2960</td>
+	<td><div id="575057par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575057',575057,'East Asian Martial Arts',3)">
+	
+	East Asian Martial Arts</a></div>
+	<div id="5750573"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2969</td>
+	<td><div id="568872par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','568872',568872,'The Rise and Fall of the Soviet Empire',3)">
+	
+	The Rise and Fall of the Soviet Empire</a></div>
+	<div id="5688723"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2970</td>
+	<td><div id="575058par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575058',575058,'Imperial Russia',3)">
+	
+	Imperial Russia</a></div>
+	<div id="5750583"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2985</td>
+	<td><div id="572481par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572481',572481,'Transformations in Twentieth Century China',3)">
+	
+	Transformations in Twentieth Century China</a></div>
+	<div id="5724813"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3031</td>
+	<td><div id="577218par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577218',577218,'Race and Revolution in the Americas: 1776-1900',3)">
+	
+	Race and Revolution in the Americas: 1776-1900</a></div>
+	<div id="5772183"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3050</td>
+	<td><div id="575060par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575060',575060,'Eighteenth-Century Britain',3)">
+	
+	Eighteenth-Century Britain</a></div>
+	<div id="5750603"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3060</td>
+	<td><div id="578309par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578309',578309,'Modern Mexico: A Global History',3)">
+	
+	Modern Mexico: A Global History</a></div>
+	<div id="5783093"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3101</td>
+	<td><div id="575061par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575061',575061,'British History, from 1870 to the Present',3)">
+	
+	British History, from 1870 to the Present</a></div>
+	<div id="5750613"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3140</td>
+	<td><div id="575062par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575062',575062,'U.S. in the World',3)">
+	
+	U.S. in the World</a></div>
+	<div id="5750623"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3181</td>
+	<td><div id="575063par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575063',575063,'Living in an Uncertain World: Science, Technology, and Risk',3)">
+	
+	Living in an Uncertain World: Science, Technology, and Risk</a></div>
+	<div id="5750633"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3200</td>
+	<td><div id="575064par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575064',575064,'The Viking Age',3)">
+	
+	The Viking Age</a></div>
+	<div id="5750643"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3312</td>
+	<td><div id="581246par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581246',581246,'What was the Vietnam War?',3)">
+	
+	What was the Vietnam War?</a></div>
+	<div id="5812463"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3391</td>
+	<td><div id="575065par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575065',575065,'Seminar on American Relations with China',3)">
+	
+	Seminar on American Relations with China</a></div>
+	<div id="5750653"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3430</td>
+	<td><div id="575066par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575066',575066,'History of the U.S. Civil War and Reconstruction',3)">
+	
+	History of the U.S. Civil War and Reconstruction</a></div>
+	<div id="5750663"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3490</td>
+	<td><div id="575068par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575068',575068,'Renaissance England, 1485 - 1660',3)">
+	
+	Renaissance England, 1485 - 1660</a></div>
+	<div id="5750683"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3541</td>
+	<td><div id="577872par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577872',577872,'Empire to Nation-states in the Eastern Mediterranean',3)">
+	
+	Empire to Nation-states in the Eastern Mediterranean</a></div>
+	<div id="5778723"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3542</td>
+	<td><div id="580171par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580171',580171,'The Ottoman Empire 1800-1922',3)">
+	
+	The Ottoman Empire 1800-1922</a></div>
+	<div id="5801713"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3590</td>
+	<td><div id="578701par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578701',578701,'The Black Radical Tradition in the U.S.',3)">
+	
+	The Black Radical Tradition in the U.S.</a></div>
+	<div id="5787013"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3626</td>
+	<td><div id="579905par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579905',579905,'Revolution',3)">
+	
+	Revolution</a></div>
+	<div id="5799053"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3650</td>
+	<td><div id="575069par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575069',575069,'West Africa and the West, 1450 - 1850',3)">
+	
+	West Africa and the West, 1450 - 1850</a></div>
+	<div id="5750693"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3652</td>
+	<td><div id="575070par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575070',575070,'African Economic Development Histories',3)">
+	
+	African Economic Development Histories</a></div>
+	<div id="5750703"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3662</td>
+	<td><div id="581029par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581029',581029,'Women, War, and Peace in Europe, 1900-1950',3)">
+	
+	Women, War, and Peace in Europe, 1900-1950</a></div>
+	<div id="5810293"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3677</td>
+	<td><div id="570974par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','570974',570974,'The Search for the Historical Muhammad',3)">
+	
+	The Search for the Historical Muhammad</a></div>
+	<div id="5709743"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3740</td>
+	<td><div id="578702par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578702',578702,'America Becomes Modern: The Gilded Age and Progressive Era',3)">
+	
+	America Becomes Modern: The Gilded Age and Progressive Era</a></div>
+	<div id="5787023"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3837</td>
+	<td><div id="579724par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579724',579724,'The Cold War',3)">
+	
+	The Cold War</a></div>
+	<div id="5797243"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3880</td>
+	<td><div id="577245par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577245',577245,'China and Vietnam - Myth and History',3)">
+	
+	China and Vietnam - Myth and History</a></div>
+	<div id="5772453"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3950</td>
+	<td><div id="575072par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575072',575072,'Monsoon Kingdoms: Pre-Modern Southeast Asian History',3)">
+	
+	Monsoon Kingdoms: Pre-Modern Southeast Asian History</a></div>
+	<div id="5750723"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>3960</td>
+	<td><div id="575073par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575073',575073,'Transnational Local: Southeast Asian History from the Eighteenth Century',3)">
+	
+	Transnational Local: Southeast Asian History from the Eighteenth Century</a></div>
+	<div id="5750733"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4030</td>
+	<td><div id="575077par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575077',575077,'History of the United States Senate',3)">
+	
+	History of the United States Senate</a></div>
+	<div id="5750773"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4085</td>
+	<td><div id="582923par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582923',582923,'Economic Globalization and Democratic Crisis, 1870-present',3)">
+	
+	Economic Globalization and Democratic Crisis, 1870-present</a></div>
+	<div id="5829233"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4091</td>
+	<td><div id="572516par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572516',572516,'Contesting Identities in Modern Egypt',3)">
+	
+	Contesting Identities in Modern Egypt</a></div>
+	<div id="5725163"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4120</td>
+	<td><div id="575078par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575078',575078,'Scientific Revolution in Early - Modern Europe',3)">
+	
+	Scientific Revolution in Early - Modern Europe</a></div>
+	<div id="5750783"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4122</td>
+	<td><div id="572440par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572440',572440,'Darwin and the Making of Histories',3)">
+	
+	Darwin and the Making of Histories</a></div>
+	<div id="5724403"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4127</td>
+	<td><div id="580049par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580049',580049,'The Body Politic in Asia',3)">
+	
+	The Body Politic in Asia</a></div>
+	<div id="5800493"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4131</td>
+	<td><div id="577690par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577690',577690,'Comparative Environmental History',3)">
+	
+	Comparative Environmental History</a></div>
+	<div id="5776903"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4203</td>
+	<td><div id="581241par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581241',581241,'Contesting Votes: Democracy and Citizenship Throughout U.S. History',3)">
+	
+	Contesting Votes: Democracy and Citizenship Throughout U.S. History</a></div>
+	<div id="5812413"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4241</td>
+	<td><div id="572356par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572356',572356,'Religion and the State in Chinese History',3)">
+	
+	Religion and the State in Chinese History</a></div>
+	<div id="5723563"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4252</td>
+	<td><div id="578451par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578451',578451,'Migration and the Peopling of America: A Perennial Debate',3)">
+	
+	Migration and the Peopling of America: A Perennial Debate</a></div>
+	<div id="5784513"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4256</td>
+	<td><div id="578147par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578147',578147,'The U.S.-Mexico Borderlands',3)">
+	
+	The U.S.-Mexico Borderlands</a></div>
+	<div id="5781473"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4291</td>
+	<td><div id="577272par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577272',577272,'Marriage and Divorce in the African Context',3)">
+	
+	Marriage and Divorce in the African Context</a></div>
+	<div id="5772723"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4295</td>
+	<td><div id="582302par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582302',582302,'US Borders North & South',3)">
+	
+	US Borders North & South</a></div>
+	<div id="5823023"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4303</td>
+	<td><div id="577882par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577882',577882,'Nationalism and Decolonization in Africa',3)">
+	
+	Nationalism and Decolonization in Africa</a></div>
+	<div id="5778823"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4390</td>
+	<td><div id="575079par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575079',575079,'Reconstruction and the New South',3)">
+	
+	Reconstruction and the New South</a></div>
+	<div id="5750793"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4525</td>
+	<td><div id="581690par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581690',581690,'Historicizing Communism',3)">
+	
+	Historicizing Communism</a></div>
+	<div id="5816903"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4542</td>
+	<td><div id="577860par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577860',577860,'The Modern Middle East During the Long Nineteenth Century',3)">
+	
+	The Modern Middle East During the Long Nineteenth Century</a></div>
+	<div id="5778603"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4546</td>
+	<td><div id="580079par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580079',580079,'Ethnic and Religious Minorities in the Middle East (1800-1950)',3)">
+	
+	Ethnic and Religious Minorities in the Middle East (1800-1950)</a></div>
+	<div id="5800793"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4624</td>
+	<td><div id="579379par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579379',579379,'The Age of Intellectual & Political Revolutions: Europe & the Colonies in the 18th Century',3)">
+	
+	The Age of Intellectual & Political Revolutions: Europe & the Colonies in the 18th Century</a></div>
+	<div id="5793793"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4650</td>
+	<td><div id="575082par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575082',575082,'Reading and Viewing Modern China',3)">
+	
+	Reading and Viewing Modern China</a></div>
+	<div id="5750823"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4661</td>
+	<td><div id="578311par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578311',578311,'Contested Continents: The Great War for Empire in North America and Beyond, 1754-1763',3)">
+	
+	Contested Continents: The Great War for Empire in North America and Beyond, 1754-1763</a></div>
+	<div id="5783113"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4667</td>
+	<td><div id="571068par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','571068',571068,'Nationalism(s) in the Arab World',3)">
+	
+	Nationalism(s) in the Arab World</a></div>
+	<div id="5710683"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4675</td>
+	<td><div id="580437par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580437',580437,'Greek and Roman Historiography',3)">
+	
+	Greek and Roman Historiography</a></div>
+	<div id="5804373"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4702</td>
+	<td><div id="579408par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579408',579408,'Cultural Politics of the 1970s',3)">
+	
+	Cultural Politics of the 1970s</a></div>
+	<div id="5794083"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4751</td>
+	<td><div id="575083par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575083',575083,'Science, Race, and Colonialism',3)">
+	
+	Science, Race, and Colonialism</a></div>
+	<div id="5750833"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4761</td>
+	<td><div id="579410par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579410',579410,'Anglo-Saxon England',3)">
+	
+	Anglo-Saxon England</a></div>
+	<div id="5794103"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4772</td>
+	<td><div id="581729par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581729',581729,'China Imagined: The Historical and Global Origins of the Chinese Nation',3)">
+	
+	China Imagined: The Historical and Global Origins of the Chinese Nation</a></div>
+	<div id="5817293"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4851</td>
+	<td><div id="575085par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575085',575085,'Refugees',3)">
+	
+	Refugees</a></div>
+	<div id="5750853"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4900</td>
+	<td><div id="572252par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572252',572252,'New World Encounters, 1500 - 1800',3)">
+	
+	New World Encounters, 1500 - 1800</a></div>
+	<div id="5722523"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4922</td>
+	<td><div id="572465par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572465',572465,'Ocean: The Sea in Human History',3)">
+	
+	Ocean: The Sea in Human History</a></div>
+	<div id="5724653"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4931</td>
+	<td><div id="575087par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575087',575087,'Vitality and Power in China',3)">
+	
+	Vitality and Power in China</a></div>
+	<div id="5750873"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4945</td>
+	<td><div id="578708par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578708',578708,'The Birth of the Prison in Eighteenth Century Europe and America',3)">
+	
+	The Birth of the Prison in Eighteenth Century Europe and America</a></div>
+	<div id="5787083"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4963</td>
+	<td><div id="578710par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578710',578710,'China\'s Early Modern',3)">
+	
+	China's Early Modern</a></div>
+	<div id="5787103"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>INFO</td><td>2921</td>
+	<td><div id="575301par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575301',575301,'Inventing an Information Society',3)">
+	
+	Inventing an Information Society</a></div>
+	<div id="5753013"> </div></td>
+	 <td>(HA-AG, HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ITAL</td><td>4520</td>
+	<td><div id="581686par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581686',581686,'Historicizing Communism',3)">
+	
+	Historicizing Communism</a></div>
+	<div id="5816863"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JAPAN</td><td>4410</td>
+	<td><div id="575340par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575340',575340,'History of the Japanese Language',3)">
+	
+	History of the Japanese Language</a></div>
+	<div id="5753403"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>2155</td>
+	<td><div id="582079par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582079',582079,'The Invention of Religion',3)">
+	
+	The Invention of Religion</a></div>
+	<div id="5820793"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>2156</td>
+	<td><div id="581741par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581741',581741,'Anti-Semitism and the Making of European Jewry',3)">
+	
+	Anti-Semitism and the Making of European Jewry</a></div>
+	<div id="5817413"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>2601</td>
+	<td><div id="577826par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577826',577826,'An Introduction to the Ancient Near East',3)">
+	
+	An Introduction to the Ancient Near East</a></div>
+	<div id="5778263"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>2629</td>
+	<td><div id="570817par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','570817',570817,'New Testament/Early Christian Literatures',3)">
+	
+	New Testament/Early Christian Literatures</a></div>
+	<div id="5708173"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>2644</td>
+	<td><div id="575353par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575353',575353,'Introduction to Judaism',3)">
+	
+	Introduction to Judaism</a></div>
+	<div id="5753533"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>2662</td>
+	<td><div id="572202par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572202',572202,'Daily Life in the Biblical World',3)">
+	
+	Daily Life in the Biblical World</a></div>
+	<div id="5722023"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>2666</td>
+	<td><div id="577384par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577384',577384,'Jerusalem the Holy in Judaism, Christianity and Islam',3)">
+	
+	Jerusalem the Holy in Judaism, Christianity and Islam</a></div>
+	<div id="5773843"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>2676</td>
+	<td><div id="580653par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580653',580653,'Holy War, Crusade, and Jihad from Antiquity to Present',3)">
+	
+	Holy War, Crusade, and Jihad from Antiquity to Present</a></div>
+	<div id="5806533"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>2851</td>
+	<td><div id="582301par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582301',582301,'Sex and Power in Jewish History',3)">
+	
+	Sex and Power in Jewish History</a></div>
+	<div id="5823013"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>3625</td>
+	<td><div id="571219par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','571219',571219,'Ancient Iraq: Cities, Migrations, and Kings',3)">
+	
+	Ancient Iraq: Cities, Migrations, and Kings</a></div>
+	<div id="5712193"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>3697</td>
+	<td><div id="575358par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575358',575358,'History of the Israeli-Palestinian Conflict',3)">
+	
+	History of the Israeli-Palestinian Conflict</a></div>
+	<div id="5753583"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>4456</td>
+	<td><div id="580059par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580059',580059,'Secularism and Political Theology',3)">
+	
+	Secularism and Political Theology</a></div>
+	<div id="5800593"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>JWST</td><td>4623</td>
+	<td><div id="580424par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580424',580424,'Ethnic and Religious Minorities in the Middle East (1800-1950)',3)">
+	
+	Ethnic and Religious Minorities in the Middle East (1800-1950)</a></div>
+	<div id="5804243"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LA</td><td>2610</td>
+	<td><div id="575388par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575388',575388,'Fieldwork in Urban Archaeology',3)">
+	
+	Fieldwork in Urban Archaeology</a></div>
+	<div id="5753883"> </div></td>
+	 <td>(CA-AG, HA-AG)</td>
+</tr>
+
+  <tr>
+	<td>LA</td><td>2620</td>
+	<td><div id="575389par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575389',575389,'Laboratory in Landscape Archaeology',3)">
+	
+	Laboratory in Landscape Archaeology</a></div>
+	<div id="5753893"> </div></td>
+	 <td>(CA-AG, HA-AG)</td>
+</tr>
+
+  <tr>
+	<td>LA</td><td>3600</td>
+	<td><div id="575394par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575394',575394,'Pre-Industrial Cities and Towns in North America',3)">
+	
+	Pre-Industrial Cities and Towns in North America</a></div>
+	<div id="5753943"> </div></td>
+	 <td>(CA-AG, HA-AG)</td>
+</tr>
+
+  <tr>
+	<td>LA</td><td>4050</td>
+	<td><div id="577263par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577263',577263,'Designing Archaeological Exhibits',3)">
+	
+	Designing Archaeological Exhibits</a></div>
+	<div id="5772633"> </div></td>
+	 <td>(CA-AG, HA-AG)</td>
+</tr>
+
+  <tr>
+	<td>LA</td><td>6050</td>
+	<td><div id="577264par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577264',577264,'Designing Archaeological Exhibits',3)">
+	
+	Designing Archaeological Exhibits</a></div>
+	<div id="5772643"> </div></td>
+	 <td>(CA-AG, HA-AG)</td>
+</tr>
+
+  <tr>
+	<td>LA</td><td>6660</td>
+	<td><div id="575419par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575419',575419,'Pre-Industrial Cities and Towns in North America',3)">
+	
+	Pre-Industrial Cities and Towns in North America</a></div>
+	<div id="5754193"> </div></td>
+	 <td>(CA-AG, HA-AG)</td>
+</tr>
+
+  <tr>
+	<td>LATA</td><td>1802</td>
+	<td><div id="581234par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581234',581234,'Introduction to Latinos in U.S. History',3)">
+	
+	Introduction to Latinos in U.S. History</a></div>
+	<div id="5812343"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATA</td><td>1950</td>
+	<td><div id="575425par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575425',575425,'The Invention of the Americas',3)">
+	
+	The Invention of the Americas</a></div>
+	<div id="5754253"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATA</td><td>1951</td>
+	<td><div id="581069par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581069',581069,'Foreign Policy as Subversion',3)">
+	
+	Foreign Policy as Subversion</a></div>
+	<div id="5810693"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATA</td><td>1960</td>
+	<td><div id="575426par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575426',575426,'Modern Latin America',3)">
+	
+	Modern Latin America</a></div>
+	<div id="5754263"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATA</td><td>1970</td>
+	<td><div id="580776par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580776',580776,'Pirates, Slaves, and Revolutionaries: A History of the Caribbean from Columbus to Louverture',3)">
+	
+	Pirates, Slaves, and Revolutionaries: A History of the Caribbean from Columbus to Louverture</a></div>
+	<div id="5807763"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATA</td><td>2308</td>
+	<td><div id="575431par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575431',575431,'Modern Caribbean History',3)">
+	
+	Modern Caribbean History</a></div>
+	<div id="5754313"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATA</td><td>3031</td>
+	<td><div id="582259par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582259',582259,'Race and Revolution in the Americas: 1776-1900',3)">
+	
+	Race and Revolution in the Americas: 1776-1900</a></div>
+	<div id="5822593"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATA</td><td>3060</td>
+	<td><div id="578310par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578310',578310,'Modern Mexico: A Global History',3)">
+	
+	Modern Mexico: A Global History</a></div>
+	<div id="5783103"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATA</td><td>3550</td>
+	<td><div id="575435par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575435',575435,'Ancient Mexico and Central America',3)">
+	
+	Ancient Mexico and Central America</a></div>
+	<div id="5754353"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LATA</td><td>4215</td>
+	<td><div id="577632par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577632',577632,'Maya History',3)">
+	
+	Maya History</a></div>
+	<div id="5776323"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LGBT</td><td>1940</td>
+	<td><div id="580033par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580033',580033,'A Global History of Love',3)">
+	
+	A Global History of Love</a></div>
+	<div id="5800333"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LING</td><td>1109</td>
+	<td><div id="575564par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575564',575564,'English Words: Histories and Mysteries',3)">
+	
+	English Words: Histories and Mysteries</a></div>
+	<div id="5755643"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LING</td><td>2217</td>
+	<td><div id="575570par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575570',575570,'History of the English Language to 1300',3)">
+	
+	History of the English Language to 1300</a></div>
+	<div id="5755703"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LING</td><td>2261</td>
+	<td><div id="575575par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575575',575575,'Introduction to Indo-European Linguistics',3)">
+	
+	Introduction to Indo-European Linguistics</a></div>
+	<div id="5755753"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LING</td><td>3314</td>
+	<td><div id="575579par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575579',575579,'Introduction to Historical Linguistics',3)">
+	
+	Introduction to Historical Linguistics</a></div>
+	<div id="5755793"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LING</td><td>3321</td>
+	<td><div id="575582par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575582',575582,'History of Romance Languages I',3)">
+	
+	History of Romance Languages I</a></div>
+	<div id="5755823"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LING</td><td>3322</td>
+	<td><div id="575583par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575583',575583,'History of Romance Languages II',3)">
+	
+	History of Romance Languages II</a></div>
+	<div id="5755833"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LING</td><td>3359</td>
+	<td><div id="578438par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578438',578438,'Seminar in Vedic Philology',3)">
+	
+	Seminar in Vedic Philology</a></div>
+	<div id="5784383"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LING</td><td>4411</td>
+	<td><div id="575591par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575591',575591,'History of the Japanese Language',3)">
+	
+	History of the Japanese Language</a></div>
+	<div id="5755913"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>1800</td>
+	<td><div id="575624par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575624',575624,'Immigration in U.S. History',3)">
+	
+	Immigration in U.S. History</a></div>
+	<div id="5756243"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>1802</td>
+	<td><div id="581233par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581233',581233,'Introduction to Latinos in U.S. History',3)">
+	
+	Introduction to Latinos in U.S. History</a></div>
+	<div id="5812333"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>2251</td>
+	<td><div id="578814par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578814',578814,'U.S. Immigration Narratives',3)">
+	
+	U.S. Immigration Narratives</a></div>
+	<div id="5788143"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>2252</td>
+	<td><div id="579945par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579945',579945,'Immigrant Ithaca',3)">
+	
+	Immigrant Ithaca</a></div>
+	<div id="5799453"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>2800</td>
+	<td><div id="579911par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579911',579911,'Latinos in US History',3)">
+	
+	Latinos in US History</a></div>
+	<div id="5799113"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>3061</td>
+	<td><div id="580003par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580003',580003,'Modern Mexico: A Global History',3)">
+	
+	Modern Mexico: A Global History</a></div>
+	<div id="5800033"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>4256</td>
+	<td><div id="578148par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578148',578148,'The U.S.-Mexico Borderlands',3)">
+	
+	The U.S.-Mexico Borderlands</a></div>
+	<div id="5781483"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>4295</td>
+	<td><div id="582303par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582303',582303,'US Borders North & South',3)">
+	
+	US Borders North & South</a></div>
+	<div id="5823033"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>LSP</td><td>4851</td>
+	<td><div id="575634par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575634',575634,'Refugees',3)">
+	
+	Refugees</a></div>
+	<div id="5756343"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>1660</td>
+	<td><div id="581066par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581066',581066,'The Vikings and their World',3)">
+	
+	The Vikings and their World</a></div>
+	<div id="5810663"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>1740</td>
+	<td><div id="581600par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581600',581600,'Imperial China',3)">
+	
+	Imperial China</a></div>
+	<div id="5816003"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>2082</td>
+	<td><div id="582295par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582295',582295,'Of Ice and Men: Masculinities in the Medieval North',3)">
+	
+	Of Ice and Men: Masculinities in the Medieval North</a></div>
+	<div id="5822953"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>2217</td>
+	<td><div id="577880par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577880',577880,'History of the English Language to 1300',3)">
+	
+	History of the English Language to 1300</a></div>
+	<div id="5778803"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>2655</td>
+	<td><div id="577830par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577830',577830,'Introduction to Islamic Civilization',3)">
+	
+	Introduction to Islamic Civilization</a></div>
+	<div id="5778303"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>2676</td>
+	<td><div id="581089par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581089',581089,'Holy War, Crusade, and Jihad from Antiquity to Present',3)">
+	
+	Holy War, Crusade, and Jihad from Antiquity to Present</a></div>
+	<div id="5810893"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>2695</td>
+	<td><div id="580535par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580535',580535,'Introduction to Christian History',3)">
+	
+	Introduction to Christian History</a></div>
+	<div id="5805353"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>3200</td>
+	<td><div id="577703par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577703',577703,'The Viking Age',3)">
+	
+	The Viking Age</a></div>
+	<div id="5777033"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>3270</td>
+	<td><div id="578124par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578124',578124,'Constantinople/Istanbul, 330-1566',3)">
+	
+	Constantinople/Istanbul, 330-1566</a></div>
+	<div id="5781243"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>3677</td>
+	<td><div id="571531par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','571531',571531,'The Search for the Historical Muhammad',3)">
+	
+	The Search for the Historical Muhammad</a></div>
+	<div id="5715313"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>3750</td>
+	<td><div id="577931par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577931',577931,'Introduction to Dendrochronology',3)">
+	
+	Introduction to Dendrochronology</a></div>
+	<div id="5779313"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>4145</td>
+	<td><div id="581479par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581479',581479,'Race and Gender in the Middle Ages',3)">
+	
+	Race and Gender in the Middle Ages</a></div>
+	<div id="5814793"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>4331</td>
+	<td><div id="577884par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577884',577884,'Topics in Islamic Art',3)">
+	
+	Topics in Islamic Art</a></div>
+	<div id="5778843"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>4351</td>
+	<td><div id="578130par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578130',578130,'Problems in Byzantine Art',3)">
+	
+	Problems in Byzantine Art</a></div>
+	<div id="5781303"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>4754</td>
+	<td><div id="579855par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579855',579855,'Themes in Mediterranean Archaeology',3)">
+	
+	Themes in Mediterranean Archaeology</a></div>
+	<div id="5798553"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MEDVL</td><td>4761</td>
+	<td><div id="579793par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579793',579793,'Anglo-Saxon England',3)">
+	
+	Anglo-Saxon England</a></div>
+	<div id="5797933"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>2207</td>
+	<td><div id="575906par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575906',575906,'History of Western Music I',3)">
+	
+	History of Western Music I</a></div>
+	<div id="5759063"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>2208</td>
+	<td><div id="575907par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575907',575907,'History of Western Music II',3)">
+	
+	History of Western Music II</a></div>
+	<div id="5759073"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>1561</td>
+	<td><div id="577853par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577853',577853,'Introduction to the Ottoman Empire',3)">
+	
+	Introduction to the Ottoman Empire</a></div>
+	<div id="5778533"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>1602</td>
+	<td><div id="581040par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581040',581040,'Great Discoveries in Greek and Roman Archaeology',3)">
+	
+	Great Discoveries in Greek and Roman Archaeology</a></div>
+	<div id="5810403"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>1660</td>
+	<td><div id="581067par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581067',581067,'The Vikings and their World',3)">
+	
+	The Vikings and their World</a></div>
+	<div id="5810673"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>2601</td>
+	<td><div id="572464par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572464',572464,'An Introduction to the Ancient Near East',3)">
+	
+	An Introduction to the Ancient Near East</a></div>
+	<div id="5724643"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>2610</td>
+	<td><div id="577411par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577411',577411,'Archaeology of the Ancient Near East',3)">
+	
+	Archaeology of the Ancient Near East</a></div>
+	<div id="5774113"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>2619</td>
+	<td><div id="579825par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579825',579825,'History and Politics of the Modern and Contemporary Middle East',3)">
+	
+	History and Politics of the Modern and Contemporary Middle East</a></div>
+	<div id="5798253"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>2629</td>
+	<td><div id="570856par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','570856',570856,'New Testament/Early Christian Literatures',3)">
+	
+	New Testament/Early Christian Literatures</a></div>
+	<div id="5708563"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>2640</td>
+	<td><div id="581549par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581549',581549,'The Age of Suleiman the Magnificent',3)">
+	
+	The Age of Suleiman the Magnificent</a></div>
+	<div id="5815493"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>2644</td>
+	<td><div id="576077par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576077',576077,'Introduction to Judaism',3)">
+	
+	Introduction to Judaism</a></div>
+	<div id="5760773"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>2649</td>
+	<td><div id="579324par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579324',579324,'Controversy and Debate in Islam',3)">
+	
+	Controversy and Debate in Islam</a></div>
+	<div id="5793243"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>2655</td>
+	<td><div id="576078par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576078',576078,'Introduction to Islamic Civilization',3)">
+	
+	Introduction to Islamic Civilization</a></div>
+	<div id="5760783"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>2661</td>
+	<td><div id="576079par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576079',576079,'Ancient Ships and Seafaring: Introduction to Nautical Archaeology',3)">
+	
+	Ancient Ships and Seafaring: Introduction to Nautical Archaeology</a></div>
+	<div id="5760793"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>2662</td>
+	<td><div id="572200par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572200',572200,'Daily Life in the Biblical World',3)">
+	
+	Daily Life in the Biblical World</a></div>
+	<div id="5722003"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>2666</td>
+	<td><div id="577382par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577382',577382,'Jerusalem the Holy in Judaism, Christianity and Islam',3)">
+	
+	Jerusalem the Holy in Judaism, Christianity and Islam</a></div>
+	<div id="5773823"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>2668</td>
+	<td><div id="576080par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576080',576080,'Ancient Egyptian Civilization',3)">
+	
+	Ancient Egyptian Civilization</a></div>
+	<div id="5760803"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>2670</td>
+	<td><div id="576092par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576092',576092,'The History and Politics of Modern Egypt',3)">
+	
+	The History and Politics of Modern Egypt</a></div>
+	<div id="5760923"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>2676</td>
+	<td><div id="580652par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580652',580652,'Holy War, Crusade, and Jihad from Antiquity to Present',3)">
+	
+	Holy War, Crusade, and Jihad from Antiquity to Present</a></div>
+	<div id="5806523"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>2688</td>
+	<td><div id="570992par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','570992',570992,'Cleopatra\'s Egypt: Tradition and Transformation',3)">
+	
+	Cleopatra's Egypt: Tradition and Transformation</a></div>
+	<div id="5709923"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>2695</td>
+	<td><div id="578854par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578854',578854,'Introduction to Christian History',3)">
+	
+	Introduction to Christian History</a></div>
+	<div id="5788543"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>3270</td>
+	<td><div id="578126par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578126',578126,'Constantinople/Istanbul, 330-1566',3)">
+	
+	Constantinople/Istanbul, 330-1566</a></div>
+	<div id="5781263"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>3541</td>
+	<td><div id="577873par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577873',577873,'Empire to Nation-states in the Eastern Mediterranean',3)">
+	
+	Empire to Nation-states in the Eastern Mediterranean</a></div>
+	<div id="5778733"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>3542</td>
+	<td><div id="580412par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580412',580412,'The Ottoman Empire 1800-1922',3)">
+	
+	The Ottoman Empire 1800-1922</a></div>
+	<div id="5804123"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>3625</td>
+	<td><div id="570980par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','570980',570980,'Ancient Iraq: Cities, Migrations, and Kings',3)">
+	
+	Ancient Iraq: Cities, Migrations, and Kings</a></div>
+	<div id="5709803"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>3677</td>
+	<td><div id="570859par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','570859',570859,'The Search for the Historical Muhammad',3)">
+	
+	The Search for the Historical Muhammad</a></div>
+	<div id="5708593"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>3697</td>
+	<td><div id="576093par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576093',576093,'History of the Israeli-Palestinian Conflict',3)">
+	
+	History of the Israeli-Palestinian Conflict</a></div>
+	<div id="5760933"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>4351</td>
+	<td><div id="578131par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578131',578131,'Problems in Byzantine Art',3)">
+	
+	Problems in Byzantine Art</a></div>
+	<div id="5781313"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>4354</td>
+	<td><div id="582274par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582274',582274,'Byzantine Archaeology',3)">
+	
+	Byzantine Archaeology</a></div>
+	<div id="5822743"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>4542</td>
+	<td><div id="577859par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577859',577859,'The Modern Middle East During the Long Nineteenth Century',3)">
+	
+	The Modern Middle East During the Long Nineteenth Century</a></div>
+	<div id="5778593"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>4605</td>
+	<td><div id="576096par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576096',576096,'Contesting Identities in Modern Egypt',3)">
+	
+	Contesting Identities in Modern Egypt</a></div>
+	<div id="5760963"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>4623</td>
+	<td><div id="580423par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580423',580423,'Ethnic and Religious Minorities in the Middle East (1800-1950)',3)">
+	
+	Ethnic and Religious Minorities in the Middle East (1800-1950)</a></div>
+	<div id="5804233"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>4654</td>
+	<td><div id="579735par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579735',579735,'Themes in Mediterranean Archaeology',3)">
+	
+	Themes in Mediterranean Archaeology</a></div>
+	<div id="5797353"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>4672</td>
+	<td><div id="571066par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','571066',571066,'Nationalism(s) in the Arab World',3)">
+	
+	Nationalism(s) in the Arab World</a></div>
+	<div id="5710663"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>4731</td>
+	<td><div id="576098par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576098',576098,'Topics in Islamic Art',3)">
+	
+	Topics in Islamic Art</a></div>
+	<div id="5760983"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NTRES</td><td>2010</td>
+	<td><div id="576169par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576169',576169,'Environmental Conservation',3)">
+	
+	Environmental Conservation</a></div>
+	<div id="5761693"> </div></td>
+	 <td>(HA-AG, OPHLS-AG)</td>
+</tr>
+
+  <tr>
+	<td>NTRES</td><td>2320</td>
+	<td><div id="576172par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576172',576172,'Nature and Culture',3)">
+	
+	Nature and Culture</a></div>
+	<div id="5761723"> </div></td>
+	 <td>(CA-AG, HA-AG)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5011</td>
+	<td><div id="582206par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582206',582206,'Perspectives on Public Affairs',3)">
+	
+	Perspectives on Public Affairs</a></div>
+	<div id="5822063"> </div></td>
+	 <td>(CA-HE, D-HE, HA-HE, KCM-HE, S</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5118</td>
+	<td><div id="580878par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580878',580878,'Leadership in Public Affairs',3)">
+	
+	Leadership in Public Affairs</a></div>
+	<div id="5808783"> </div></td>
+	 <td>(D-HE, HA-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5382</td>
+	<td><div id="582198par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582198',582198,'Bridging the Gap: Connecting Research and Policy in the New York State Legislature',3)">
+	
+	Bridging the Gap: Connecting Research and Policy in the New York State Legislature</a></div>
+	<div id="5821983"> </div></td>
+	 <td>(CA-HE, D-HE, HA-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5456</td>
+	<td><div id="582670par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582670',582670,'Comparative Public Administration: The Case of Dubai, United Arab Emirates',3)">
+	
+	Comparative Public Administration: The Case of Dubai, United Arab Emirates</a></div>
+	<div id="5826703"> </div></td>
+	 <td>(CA-HE, D-HE, HA-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5612</td>
+	<td><div id="580580par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580580',580580,'Intergovernmental Relations',3)">
+	
+	Intergovernmental Relations</a></div>
+	<div id="5805803"> </div></td>
+	 <td>(HA-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5634</td>
+	<td><div id="581171par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581171',581171,'Corruption, Governance, and Development',3)">
+	
+	Corruption, Governance, and Development</a></div>
+	<div id="5811713"> </div></td>
+	 <td>(CA-HE, HA-HE, KCM-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5757</td>
+	<td><div id="582933par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582933',582933,'Infrastructure Project Management and Finance Practicum',3)">
+	
+	Infrastructure Project Management and Finance Practicum</a></div>
+	<div id="5829333"> </div></td>
+	 <td>(HA-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PADM</td><td>5855</td>
+	<td><div id="580924par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580924',580924,'International Human Rights',3)">
+	
+	International Human Rights</a></div>
+	<div id="5809243"> </div></td>
+	 <td>(CA-HE, D-HE, HA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>3410</td>
+	<td><div id="582427par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582427',582427,'Economics of Consumer Protection and the Law',3)">
+	
+	Economics of Consumer Protection and the Law</a></div>
+	<div id="5824273"> </div></td>
+	 <td>(HA-HE, KCM-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PHIL</td><td>1920</td>
+	<td><div id="572471par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572471',572471,'Introduction to Political Theory',3)">
+	
+	Introduction to Political Theory</a></div>
+	<div id="5724713"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PLHRT</td><td>2150</td>
+	<td><div id="578602par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578602',578602,'Coffee, Cloves, and Chocolate: Plant Explorers and Thieves',3)">
+	
+	Coffee, Cloves, and Chocolate: Plant Explorers and Thieves</a></div>
+	<div id="5786023"> </div></td>
+	 <td>(CA-AG, HA-AG)</td>
+</tr>
+
+  <tr>
+	<td>PLHRT</td><td>2240</td>
+	<td><div id="578143par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578143',578143,'Urban Ecosystems',3)">
+	
+	Urban Ecosystems</a></div>
+	<div id="5781433"> </div></td>
+	 <td>(HA-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>PORT</td><td>3210</td>
+	<td><div id="581574par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581574',581574,'Reading Rio',3)">
+	
+	Reading Rio</a></div>
+	<div id="5815743"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>2112</td>
+	<td><div id="581063par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581063',581063,'Black Spirituality, Religion & Protest',3)">
+	
+	Black Spirituality, Religion & Protest</a></div>
+	<div id="5810633"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>2155</td>
+	<td><div id="582080par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582080',582080,'The Invention of Religion',3)">
+	
+	The Invention of Religion</a></div>
+	<div id="5820803"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>2156</td>
+	<td><div id="582180par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582180',582180,'Anti-Semitism and the Making of European Jewry',3)">
+	
+	Anti-Semitism and the Making of European Jewry</a></div>
+	<div id="5821803"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>2157</td>
+	<td><div id="582990par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582990',582990,'Tolstoy: History and Counter-Culture',3)">
+	
+	Tolstoy: History and Counter-Culture</a></div>
+	<div id="5829903"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>2209</td>
+	<td><div id="580407par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580407',580407,'Daoist Traditions',3)">
+	
+	Daoist Traditions</a></div>
+	<div id="5804073"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>2247</td>
+	<td><div id="578758par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578758',578758,'Controversy and Debate in Islam',3)">
+	
+	Controversy and Debate in Islam</a></div>
+	<div id="5787583"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>2250</td>
+	<td><div id="576709par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576709',576709,'Introduction to Asian Religions',3)">
+	
+	Introduction to Asian Religions</a></div>
+	<div id="5767093"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>2261</td>
+	<td><div id="581351par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581351',581351,'Indian Ocean Buddhism',3)">
+	
+	Indian Ocean Buddhism</a></div>
+	<div id="5813513"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>2629</td>
+	<td><div id="570894par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','570894',570894,'New Testament/Early Christian Literatures',3)">
+	
+	New Testament/Early Christian Literatures</a></div>
+	<div id="5708943"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>2644</td>
+	<td><div id="576713par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576713',576713,'Introduction to Judaism',3)">
+	
+	Introduction to Judaism</a></div>
+	<div id="5767133"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>2655</td>
+	<td><div id="576714par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576714',576714,'Introduction to Islamic Civilization',3)">
+	
+	Introduction to Islamic Civilization</a></div>
+	<div id="5767143"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>2662</td>
+	<td><div id="572203par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572203',572203,'Daily Life in the Biblical World',3)">
+	
+	Daily Life in the Biblical World</a></div>
+	<div id="5722033"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>2666</td>
+	<td><div id="577385par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577385',577385,'Jerusalem the Holy in Judaism, Christianity and Islam',3)">
+	
+	Jerusalem the Holy in Judaism, Christianity and Islam</a></div>
+	<div id="5773853"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>2676</td>
+	<td><div id="580654par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580654',580654,'Holy War, Crusade, and Jihad from Antiquity to Present',3)">
+	
+	Holy War, Crusade, and Jihad from Antiquity to Present</a></div>
+	<div id="5806543"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>2695</td>
+	<td><div id="578855par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578855',578855,'Introduction to Christian History',3)">
+	
+	Introduction to Christian History</a></div>
+	<div id="5788553"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>2851</td>
+	<td><div id="582750par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582750',582750,'Sex and Power in Jewish History',3)">
+	
+	Sex and Power in Jewish History</a></div>
+	<div id="5827503"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>3270</td>
+	<td><div id="578125par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578125',578125,'Constantinople/Istanbul, 330-1566',3)">
+	
+	Constantinople/Istanbul, 330-1566</a></div>
+	<div id="5781253"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>3677</td>
+	<td><div id="570897par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','570897',570897,'The Search for the Historical Muhammad',3)">
+	
+	The Search for the Historical Muhammad</a></div>
+	<div id="5708973"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>4241</td>
+	<td><div id="580418par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580418',580418,'Religion and the State in Chinese History',3)">
+	
+	Religion and the State in Chinese History</a></div>
+	<div id="5804183"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>4351</td>
+	<td><div id="578132par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578132',578132,'Problems in Byzantine Art',3)">
+	
+	Problems in Byzantine Art</a></div>
+	<div id="5781323"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>4456</td>
+	<td><div id="580061par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580061',580061,'Secularism and Political Theology',3)">
+	
+	Secularism and Political Theology</a></div>
+	<div id="5800613"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>4465</td>
+	<td><div id="581673par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581673',581673,'Buddhists and Muslims: Asian Interactions',3)">
+	
+	Buddhists and Muslims: Asian Interactions</a></div>
+	<div id="5816733"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>4931</td>
+	<td><div id="577288par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577288',577288,'Vitality and Power in China',3)">
+	
+	Vitality and Power in China</a></div>
+	<div id="5772883"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ROMS</td><td>3210</td>
+	<td><div id="577706par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577706',577706,'History of Romance Languages I',3)">
+	
+	History of Romance Languages I</a></div>
+	<div id="5777063"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ROMS</td><td>3220</td>
+	<td><div id="577705par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577705',577705,'History of Romance Languages II',3)">
+	
+	History of Romance Languages II</a></div>
+	<div id="5777053"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ROMS</td><td>4260</td>
+	<td><div id="581684par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581684',581684,'Historicizing Communism',3)">
+	
+	Historicizing Communism</a></div>
+	<div id="5816843"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ROMS</td><td>4948</td>
+	<td><div id="582126par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582126',582126,'Pleasure and Neoliberalism',3)">
+	
+	Pleasure and Neoliberalism</a></div>
+	<div id="5821263"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RUSSL</td><td>2157</td>
+	<td><div id="582819par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582819',582819,'Tolstoy: History and Counter-Culture',3)">
+	
+	Tolstoy: History and Counter-Culture</a></div>
+	<div id="5828193"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RUSSL</td><td>3386</td>
+	<td><div id="582381par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582381',582381,'Life, Love, and Death in Twentieth-Century Russian Prose',3)">
+	
+	Life, Love, and Death in Twentieth-Century Russian Prose</a></div>
+	<div id="5823813"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SANSK</td><td>3359</td>
+	<td><div id="578440par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578440',578440,'Seminar in Vedic Philology',3)">
+	
+	Seminar in Vedic Philology</a></div>
+	<div id="5784403"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>2206</td>
+	<td><div id="576787par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576787',576787,'International Development',3)">
+	
+	International Development</a></div>
+	<div id="5767873"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SOC</td><td>3480</td>
+	<td><div id="576792par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576792',576792,'Politics and Culture',3)">
+	
+	Politics and Culture</a></div>
+	<div id="5767923"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SPAN</td><td>3440</td>
+	<td><div id="582343par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582343',582343,'Global Latin America',3)">
+	
+	Global Latin America</a></div>
+	<div id="5823433"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SPAN</td><td>4525</td>
+	<td><div id="581688par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','581688',581688,'Historicizing Communism',3)">
+	
+	Historicizing Communism</a></div>
+	<div id="5816883"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>1941</td>
+	<td><div id="576851par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576851',576851,'The History of Science in Europe: From the Ancient Legacy to Isaac Newton',3)">
+	
+	The History of Science in Europe: From the Ancient Legacy to Isaac Newton</a></div>
+	<div id="5768513"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>1942</td>
+	<td><div id="576852par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576852',576852,'The History of Science in Europe: Newton to Darwin; Darwin to Einstein',3)">
+	
+	The History of Science in Europe: Newton to Darwin; Darwin to Einstein</a></div>
+	<div id="5768523"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>2071</td>
+	<td><div id="577791par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577791',577791,'Introduction to the History of Medicine',3)">
+	
+	Introduction to the History of Medicine</a></div>
+	<div id="5777913"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>2122</td>
+	<td><div id="578217par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578217',578217,'Darwin and the Making of Histories',3)">
+	
+	Darwin and the Making of Histories</a></div>
+	<div id="5782173"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>2280</td>
+	<td><div id="583123par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','583123',583123,'What is Public Health?',3)">
+	
+	What is Public Health?</a></div>
+	<div id="5831233"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>2381</td>
+	<td><div id="580045par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580045',580045,'Ten Technologies That Shook the World?',3)">
+	
+	Ten Technologies That Shook the World?</a></div>
+	<div id="5800453"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>2501</td>
+	<td><div id="576856par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576856',576856,'Technology in Society',3)">
+	
+	Technology in Society</a></div>
+	<div id="5768563"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>2561</td>
+	<td><div id="578806par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578806',578806,'Medicine and Healing in China',3)">
+	
+	Medicine and Healing in China</a></div>
+	<div id="5788063"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>2821</td>
+	<td><div id="572394par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572394',572394,'Science in Western Civilization: Newton to Darwin, Darwin to Einstein',3)">
+	
+	Science in Western Civilization: Newton to Darwin, Darwin to Einstein</a></div>
+	<div id="5723943"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>2921</td>
+	<td><div id="576859par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576859',576859,'Inventing an Information Society',3)">
+	
+	Inventing an Information Society</a></div>
+	<div id="5768593"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>3181</td>
+	<td><div id="576862par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576862',576862,'Living in an Uncertain World: Science, Technology, and Risk',3)">
+	
+	Living in an Uncertain World: Science, Technology, and Risk</a></div>
+	<div id="5768623"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>4120</td>
+	<td><div id="576871par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576871',576871,'Scientific Revolution in Early - Modern Europe',3)">
+	
+	Scientific Revolution in Early - Modern Europe</a></div>
+	<div id="5768713"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>4122</td>
+	<td><div id="572451par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572451',572451,'Darwin and the Making of Histories',3)">
+	
+	Darwin and the Making of Histories</a></div>
+	<div id="5724513"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>4131</td>
+	<td><div id="576872par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576872',576872,'Comparative Environmental History',3)">
+	
+	Comparative Environmental History</a></div>
+	<div id="5768723"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>4741</td>
+	<td><div id="580736par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','580736',580736,'Science, Medicine, the Body: A Critical Race and Feminist Inquiry',3)">
+	
+	Science, Medicine, the Body: A Critical Race and Feminist Inquiry</a></div>
+	<div id="5807363"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>4751</td>
+	<td><div id="576874par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576874',576874,'Science, Race, and Colonialism',3)">
+	
+	Science, Race, and Colonialism</a></div>
+	<div id="5768743"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>4911</td>
+	<td><div id="576875par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576875',576875,'Vitality and Power in China',3)">
+	
+	Vitality and Power in China</a></div>
+	<div id="5768753"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SUMER</td><td>3661</td>
+	<td><div id="576090par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576090',576090,'Sumerian Language and Culture I',3)">
+	
+	Sumerian Language and Culture I</a></div>
+	<div id="5760903"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>2645</td>
+	<td><div id="577037par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577037',577037,'Introduction to Renaissance and Baroque Art and Society',3)">
+	
+	Introduction to Renaissance and Baroque Art and Society</a></div>
+	<div id="5770373"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>3270</td>
+	<td><div id="578127par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578127',578127,'Constantinople/Istanbul, 330-1566',3)">
+	
+	Constantinople/Istanbul, 330-1566</a></div>
+	<div id="5781273"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>3443</td>
+	<td><div id="577044par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577044',577044,'Leonardo, Michelangelo, and Raphael, and their World',3)">
+	
+	Leonardo, Michelangelo, and Raphael, and their World</a></div>
+	<div id="5770443"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>4101</td>
+	<td><div id="577053par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577053',577053,'Proseminar: Introduction to Methods',3)">
+	
+	Proseminar: Introduction to Methods</a></div>
+	<div id="5770533"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>4351</td>
+	<td><div id="578133par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578133',578133,'Problems in Byzantine Art',3)">
+	
+	Problems in Byzantine Art</a></div>
+	<div id="5781333"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>4440</td>
+	<td><div id="578513par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578513',578513,'Constructing the Self in the Sixteenth Century',3)">
+	
+	Constructing the Self in the Sixteenth Century</a></div>
+	<div id="5785133"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>4840</td>
+	<td><div id="578878par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578878',578878,'Contemporary Taiwanese Art',3)">
+	
+	Contemporary Taiwanese Art</a></div>
+	<div id="5788783"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>4851</td>
+	<td><div id="578049par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578049',578049,'Performing Objects/Collecting Cultures',3)">
+	
+	Performing Objects/Collecting Cultures</a></div>
+	<div id="5780493"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+</table>
+
+<br>
+</div></div></div>
+</body>
+</html>
