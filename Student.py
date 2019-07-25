@@ -1,6 +1,6 @@
 from define_reqs import create_category_list
 from helper_tools import *
-from shutil import copyfile
+from shutil import copy
 from ReqTypes import BasicCourseReq,  MultiCourseReq, FillinCourseReq
 from web_reader import get_full_libarts_dict
 import os
@@ -22,12 +22,22 @@ class Student:
         studid_loc = cols['student id'] + row
         self.student_id = transcript[studid_loc].value
 
+        self.test = test
+
         grad_loc = cols['grad'] + row
         self.grad = transcript[grad_loc].value
+        if " " in self.grad:
+            if self.test:
+                self.folder = "/Students_test/%s" % ldescr2sdescr(self.grad)
+            else:
+                self.folder = "/Students/%s" % ldescr2sdescr(self.grad)
+        else:
+            if self.test:
+                self.folder = "/Students_test/%s" % self.grad
+            else:
+                self.folder = "/Students/%s" % self.grad
 
         self.requirements = create_category_list()
-
-        self.test = test
 
         self.total_creds = 0
 
@@ -40,24 +50,16 @@ class Student:
         parent = os.getcwd()
         has_ppf, filename = self.has_ppf()
         if has_ppf:  # if they do have a PPF, read it
-            if self.test:
-                os.chdir(parent + "/Students_test")
-            else:
-                os.chdir(parent + "/Students")
+            os.chdir(parent + self.folder)
             self.filename, self.wb, self.ppf = open_excel_file(filename)
             os.chdir(parent)
             self.read_ppf()
         else:  # if they don't, create a new one
-            if self.test:
-                os.chdir(parent + "/Students_test")
-            else:
-                os.chdir(parent + "/Students")
             self.create_ppf()
-            os.chdir(parent)
 
     def has_ppf(self):
         parent = os.getcwd()
-        os.chdir(parent + "/Students_test")  # TODO: update later
+        os.chdir(self.folder)
 
         [lname, fname] = self.name.split(',')
         filename = lname.lower() + fname[0].lower() +\
@@ -77,14 +79,17 @@ class Student:
         Fills in name, netID, student ID, and expected graduation date
         """
         folder = os.getcwd()
-        template = folder + '/blankPPF.xlsx'
+        if self.test:
+            template = folder + '/Students_test/blankPPF.xlsx'
+        else:
+            template = folder + '/Students/blankPPF.xlsx'
 
         [lname, fname] = self.name.split(',')
-        file = '/' + lname.lower() + fname[0].lower() + '-' + self.netid + '.xlsx'
+        file = self.folder + "/" + lname.lower() + fname[0].lower() + '-' + self.netid + '.xlsx'
 
         file = folder + file
 
-        copyfile(template, file)
+        copy(template, file)
 
         self.filename, self.wb, self.ppf = open_excel_file(file)
 

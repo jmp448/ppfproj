@@ -14,7 +14,7 @@ def main():
         refresh_focus_areas()
 
     # Prompt user for what grad sems they want included in
-    summary_sems_str = input("Whose info would you like included in the summary?\nList in the same form they appear on the transcript, separated by a comma without spaces\nie SP2019,FA2019 or Fall 2018,Spring 2019\n\n")
+    summary_sems_str = input("Whose info would you like included in the summary?\nList in the same form they appear on the transcript, separated by a comma without spaces\nFor example: Fall 2018,Spring 2019\n\n")
     summary_sems = summary_sems_str.split(",")
 
     # In testing mode, will use transcript_test.xlsx and will write to the Students_test

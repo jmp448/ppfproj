@@ -77,7 +77,7 @@ def designate_columns(transcript):
     while curr is not None:
         if curr == 'Academic Term Ldescr' or curr == 'Academic Term Sdescr':
             cols['semester'] = pos[0]
-        elif curr == 'Effdt Primary Name':
+        elif curr == 'Effdt Primary Name' or curr == 'Effdt Preferred Name':
             cols['student name'] = pos[0]
         elif curr == 'Netid':
             cols['netid'] = pos[0]
@@ -198,3 +198,28 @@ def categories_represented(courses):
         if sum(table[c][:]) >= 1:
             tot += 1
     return tot
+
+
+def sdescr2ldescr(s):
+    assert " " in s is False, "Is this really a short description? %s\n" % s
+    year = s[0:4]
+    sem = s[4:]
+
+    if sem == "FA":
+        return "Fall " + year
+    elif sem == "SP":
+        return "Spring " + year
+    else:
+        print("%s is not an expected sdescr (XXXXFA or XXXXSP)" % s)
+
+
+def ldescr2sdescr(s):
+    assert " " in s, "Is this really a long description? %s\n" % s
+    [sem, year] = s.split()
+
+    if sem == "Fall":
+        return year + "FA"
+    elif sem == "Spring":
+        return year + "SP"
+    else:
+        print("%s is not an expected ldescr (Fall XXXX or Spring XXXX)" % s)
