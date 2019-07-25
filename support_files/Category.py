@@ -1,6 +1,3 @@
-from ReqTypes import BasicCourseReq, MultiCourseReq
-
-
 class Category:
 
     def __init__(self, cat_name, reqs, loc, min_creds, curr_creds=0, satisfied=False):

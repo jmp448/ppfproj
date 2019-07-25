@@ -1,8 +1,7 @@
-from define_reqs import create_category_list
-from helper_tools import *
+from support_files.define_reqs import create_category_list
+from support_files.helper_tools import *
 from shutil import copy
-from ReqTypes import BasicCourseReq,  MultiCourseReq, FillinCourseReq
-from web_reader import get_full_libarts_dict
+from support_files.ReqTypes import BasicCourseReq,  MultiCourseReq, FillinCourseReq
 import os
 
 ppf_creds_col = 'K'
@@ -37,6 +36,11 @@ class Student:
             else:
                 self.folder = "/Students/%s" % self.grad
 
+        # If the necessary folder doesn't exist yet, create it
+        parent = os.getcwd()
+        if not os.path.exists(parent + self.folder):
+            os.mkdir(parent+self.folder)
+
         self.requirements = create_category_list()
 
         self.total_creds = 0
@@ -59,7 +63,7 @@ class Student:
 
     def has_ppf(self):
         parent = os.getcwd()
-        os.chdir(self.folder)
+        os.chdir(parent+self.folder)
 
         [lname, fname] = self.name.split(',')
         filename = lname.lower() + fname[0].lower() +\
@@ -79,10 +83,7 @@ class Student:
         Fills in name, netID, student ID, and expected graduation date
         """
         folder = os.getcwd()
-        if self.test:
-            template = folder + '/Students_test/blankPPF.xlsx'
-        else:
-            template = folder + '/Students/blankPPF.xlsx'
+        template = folder + '/blankPPF.xlsx'
 
         [lname, fname] = self.name.split(',')
         file = self.folder + "/" + lname.lower() + fname[0].lower() + '-' + self.netid + '.xlsx'
@@ -350,10 +351,7 @@ class Student:
 
         # Save the updates that have been made
         parent = os.getcwd()
-        if self.test:
-            os.chdir(parent+"/Students_test")
-        else:
-            os.chdir(parent+"/Students")
+        os.chdir(parent+self.folder)
         self.wb.save(self.filename)
         os.chdir(parent)
 
@@ -567,10 +565,7 @@ class Student:
 
         # Save the updates that have been made
         parent = os.getcwd()
-        if self.test:
-            os.chdir(parent + "/Students_test")
-        else:
-            os.chdir(parent + "/Students")
+        os.chdir(parent + self.folder)
         self.wb.save(self.filename)
         os.chdir(parent)
 

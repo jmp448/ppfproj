@@ -1,5 +1,5 @@
-from helper_tools import exceeds, categories_represented
-from web_reader import get_full_libarts_dict
+from support_files.helper_tools import exceeds, categories_represented
+from support_files.web_reader import get_full_libarts_dict
 
 ppf_creds_col = 'K'
 ppf_grade_col = 'I'
@@ -8,6 +8,7 @@ ppf_categories_col = 'H'
 ppf_description_col = 'B'
 
 libart_dict = get_full_libarts_dict()
+
 
 class BasicCourseReq:
 

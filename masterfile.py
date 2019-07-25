@@ -1,6 +1,6 @@
-from helper_tools import *
-from Student import Student
-from web_reader import *
+from support_files.helper_tools import *
+from support_files.Student import Student
+from support_files.web_reader import *
 
 
 def main():
@@ -21,8 +21,8 @@ def main():
     # folder.  Otherwise, will use transcript.xlsx and write to the Students folder
     test = True
     if test:
-        _, _, transcript = open_excel_file("transcript_test.xlsx")
-        # _, _, transcript = open_excel_file("PoppJoshua_UnofficialTranscriptForPPFProject_6_19_18.xlsx")
+        # _, _, transcript = open_excel_file("transcript_test.xlsx")
+        _, _, transcript = open_excel_file("PoppJoshua_UnofficialTranscriptForPPFProject_6_19_18.xlsx")
     else:
         _, _, transcript = open_excel_file("transcript.xlsx")
 

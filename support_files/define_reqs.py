@@ -1,8 +1,7 @@
-from Category import Category
-from ReqTypes import BasicCourseReq,  MultiCourseReq, FillinCourseReq
-from web_reader import get_focus_area_list
-from web_reader import get_full_libarts_dict
-from helper_tools import upload_adv_bio
+from support_files.Category import Category
+from support_files.ReqTypes import BasicCourseReq,  MultiCourseReq, FillinCourseReq
+from support_files.web_reader import get_focus_area_list, get_full_libarts_dict
+from support_files.helper_tools import upload_adv_bio
 
 '''
 Create objects used to store PPF data

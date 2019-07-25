@@ -1,5 +1,5 @@
 from openpyxl import load_workbook
-from Course import Course
+from support_files.Course import Course
 import xlrd
 import numpy as np
 

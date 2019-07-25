@@ -124,7 +124,7 @@ def get_focus_area_list():
     """
 
     parent = os.getcwd()
-    os.chdir(parent + "/website_data")
+    os.chdir(parent + "/support_files/website_data")
 
     fa_list = []
     f = open("focus_area_raw_code.txt", "r")
@@ -136,7 +136,6 @@ def get_focus_area_list():
             course = course.replace("/", " ")
             course = course.split()
             if len(course) > 2:
-                # TODO verify treatment of cross-listing
                 course1 = course[0]+course[1]
                 course2 = course[0]+course[2]
                 fa_list.append(course1)
@@ -157,7 +156,7 @@ def get_full_libarts_dict():
     (value)
     """
     parent = os.getcwd()
-    os.chdir(parent + "/website_data")
+    os.chdir(parent + "/support_files/website_data")
 
     libarts_dict = {}
 
