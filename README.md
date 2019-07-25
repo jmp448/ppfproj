@@ -1,22 +1,5 @@
 ## Program Progress Form Updater for Biological Engineering Major
 
-# Before you run the program...
-Directory:
-In the ppfproj folder, you should see the following Python files, which do the work of the program:
+Instructions for use can be found at the following link:
 
-helper_tools.py
-helper_structs.py
-course_map.py
-read_transcript.py
-
-You should also ensure that in this folder you have the list of courses taken this semester:
-
-transcript.xlsx
-
-And the following folder, which contains all existing student PPFs:
-
-Students
-
-# How to run the program...
-
-# What the program does...
+https://docs.google.com/document/d/1Kkpzor1BxUQBxaVvzJz5Bn-kCEVqtxRTXGclJUnE4t8/edit?usp=sharing
