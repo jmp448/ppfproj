@@ -20,11 +20,14 @@ def main():
     # In testing mode, will use transcript_test.xlsx and will write to the Students_test
     # folder.  Otherwise, will use transcript.xlsx and write to the Students folder
     test = True
+    parent = os.getcwd()
+    os.chdir(parent + "/Transcript")
     if test:
-        # _, _, transcript = open_excel_file("transcript_test.xlsx")
-        _, _, transcript = open_excel_file("PoppJoshua_UnofficialTranscriptForPPFProject_6_19_18.xlsx")
+        _, _, transcript = open_excel_file("test.xlsx")
+        # _, _, transcript = open_excel_file("PoppJoshua_UnofficialTranscriptForPPFProject_6_19_18.xlsx")
     else:
         _, _, transcript = open_excel_file("transcript.xlsx")
+    os.chdir(parent)
 
     cols = designate_columns(transcript)  # Record what is in each column of transcript
     row = '2'  # Begin reading from first non-title row
@@ -33,6 +36,9 @@ def main():
 
     while students_remain:
         curr = Student(transcript, row, cols, test)
+        if curr.grad == "N/A":
+            print("No PPF created for %s, grad term listed as N/A" % curr.name)
+            break
         while student_courses_remain:
             c = read_class_from_transcript(transcript, cols, row)
             curr.course_list.append(c)

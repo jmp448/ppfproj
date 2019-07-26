@@ -25,6 +25,8 @@ class Student:
 
         grad_loc = cols['grad'] + row
         self.grad = transcript[grad_loc].value
+        if self.grad == "N/A":
+            self.grad = "NONE"
         if " " in self.grad:
             if self.test:
                 self.folder = "/Students_test/%s" % ldescr2sdescr(self.grad)

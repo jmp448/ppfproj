@@ -62,7 +62,10 @@ def exceeds(a, threshold='C-'):
         'F': 0.0
     }
 
-    assert grades.keys().__contains__(a), "Cannot compare a non-letter grade to the letter grade threshold"
+    #TODO fix
+    if "*" in a:
+        a = a[:-1]
+    assert grades.keys().__contains__(a), "Cannot compare a non-letter grade (%s) to the letter grade threshold (%s)" % (a, threshold)
     if grades[a] >= grades[threshold]:
         return True
     else:

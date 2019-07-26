@@ -21,8 +21,11 @@ class BasicCourseReq:
         self.satisfied = satisfied
 
     def check_fillby(self, course):
+        no_no_list = ['S', 'U', 'SX', 'UX', 'W', 'INC', 'NGR', 'R', 'F']
+        if no_no_list.__contains__(course.grade):
+            return False
         if self.options.__contains__(course.num):
-            if self.threshold is None:
+            if self.threshold is None or course.grade is None:
                 return True
             elif exceeds(course.grade, self.threshold):
                 return True
@@ -32,11 +35,16 @@ class BasicCourseReq:
     def fillby(self, course, ppf):
         assert self.check_fillby(course), "%s cannot be satisfied by %s" % (self.req_name, course.num)
         self.course = course
-        self.satisfied = True
-        if ppf is not None:
+        if course.grade is None:
             ppf[ppf_creds_col + str(self.position)] = course.creds  # write credits to ppf
-            ppf[ppf_grade_col + str(self.position)] = course.grade  # write grade to ppf
+            ppf[ppf_grade_col + str(self.position)] = course.term  # write term to ppf
             ppf[ppf_course_col + str(self.position)] = course.num  # write course to ppf
+        else:
+            self.satisfied = True
+            if ppf is not None:
+                ppf[ppf_creds_col + str(self.position)] = course.creds  # write credits to ppf
+                ppf[ppf_grade_col + str(self.position)] = course.grade  # write grade to ppf
+                ppf[ppf_course_col + str(self.position)] = course.num  # write course to ppf
 
 
 class MultiCourseReq:
@@ -60,9 +68,23 @@ class MultiCourseReq:
             for c in self.courses:
                 if c.num == course.num:
                     return False
+
         # Special cases
         if override:
             return True
+
+        # Upcoming semester
+        if course.grade is None:
+            return True
+
+        # Liberal arts can be pass fail, other courses cannot
+        if self.libart:
+            no_no_list = ['U', 'UX', 'W', 'INC', 'NGR', 'R', 'F']
+        else:
+            no_no_list = ['S', 'U', 'SX', 'UX', 'W', 'INC', 'NGR', 'R', 'F']
+        if course.grade in no_no_list:
+            return False
+
         # See if this course satisfies the req
         elif self.options.__contains__(course.num):
             return True
@@ -71,40 +93,52 @@ class MultiCourseReq:
 
     def fillby(self, course, ppf, override=False):
         assert self.check_fillby(course, override), "%s cannot be satisfied by %s" % (self.req_name, course.num)
-        if self.courses is None:
-            self.courses = [course]
-        else:
-            self.courses.append(course)
-        self.creds_taken += course.creds
-        if ppf is not None:
-            ppf[ppf_creds_col + str(self.positions[self.next])] = course.creds  # write credits to ppf
-            ppf[ppf_grade_col + str(self.positions[self.next])] = course.grade  # write grade to ppf
-            ppf[ppf_course_col + str(self.positions[self.next])] = course.num  # write course to ppf
-        if self.creds_taken >= self.creds_needed and not self.libart:
-            self.satisfied = True
-        elif self.libart:
-            # Fill in liberal studies courses' extra info (category and description)
-            course.categories = libart_dict[course.num]
-            assert len(course.categories) >= 1, "%s has been listed as a lib art course mistakenly" % course.num
-            cat = ""
-            for l in course.categories:
-                cat += "%s, " % l
-            cat = cat[:-2]
-            ppf[ppf_categories_col + str(self.positions[self.next])] = cat
-            ppf[ppf_description_col + str(self.positions[self.next])] = course.desc
 
-            # Additional criteria for satisfying liberal studies requirement
-            # At least two courses at or above 2000 level
-            test1 = self.over2000s >= 2
-            # Courses from at least 3 categories
-            test2 = categories_represented(self.courses) >= 3
-            # 18 credits
-            test3 = self.creds_taken >= self.creds_needed
-            if test1 and test2 and test3:
+        if len(self.positions) <= self.next:
+            print("ran into a problem with %s, too many courses taken for the number of PPF spots" % self.req_name)
+            return
+
+        if course.grade is None:
+            if ppf is not None:
+                ppf[ppf_creds_col + str(self.positions[self.next])] = course.creds  # write credits to ppf
+                ppf[ppf_grade_col + str(self.positions[self.next])] = course.term  # write term to ppf
+                ppf[ppf_course_col + str(self.positions[self.next])] = course.num  # write course to ppf
+                self.next += 1
+        else:
+            if self.courses is None:
+                self.courses = [course]
+            else:
+                self.courses.append(course)
+            self.creds_taken += course.creds
+            if ppf is not None:
+                ppf[ppf_creds_col + str(self.positions[self.next])] = course.creds  # write credits to ppf
+                ppf[ppf_grade_col + str(self.positions[self.next])] = course.grade  # write grade to ppf
+                ppf[ppf_course_col + str(self.positions[self.next])] = course.num  # write course to ppf
+            if self.creds_taken >= self.creds_needed and not self.libart:
                 self.satisfied = True
-                print("Satisfied lib arts")
-        if not self.satisfied:
-            self.next += 1
+            elif self.libart:
+                # Fill in liberal studies courses' extra info (category and description)
+                course.categories = libart_dict[course.num]
+                assert len(course.categories) >= 1, "%s has been listed as a lib art course mistakenly" % course.num
+                cat = ""
+                for l in course.categories:
+                    cat += "%s, " % l
+                cat = cat[:-2]
+                ppf[ppf_categories_col + str(self.positions[self.next])] = cat
+                ppf[ppf_description_col + str(self.positions[self.next])] = course.desc
+
+                # Additional criteria for satisfying liberal studies requirement
+                # At least two courses at or above 2000 level
+                test1 = self.over2000s >= 2
+                # Courses from at least 3 categories
+                test2 = categories_represented(self.courses) >= 3
+                # 18 credits
+                test3 = self.creds_taken >= self.creds_needed
+                if test1 and test2 and test3:
+                    self.satisfied = True
+                    print("Satisfied lib arts")
+            if not self.satisfied:
+                self.next += 1
 
 
 class FillinCourseReq:
