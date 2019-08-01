@@ -605,4 +605,3 @@ class Student:
         os.chdir(parent + self.folder)
         self.wb.save(self.filename)
         os.chdir(parent)
-

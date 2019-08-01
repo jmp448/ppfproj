@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd24cbf4-981b-4ba1-b319-35767ec554cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blankPPF.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/blankPPF.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/masterfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/masterfile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/ReqTypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/ReqTypes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/support_files/Student.py" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/Student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/define_reqs.py" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/define_reqs.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +14,7 @@
     <session id="1357677588">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -64,7 +59,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/masterfile.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="245">
@@ -100,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/support_files/ReqTypes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="184" column="23" selection-start-line="184" selection-start-column="23" selection-end-line="184" selection-end-column="23" />
+            <state relative-caret-position="196">
+              <caret line="142" column="17" lean-forward="true" selection-start-line="142" selection-start-column="17" selection-end-line="142" selection-end-column="17" />
               <folding>
                 <element signature="e#0#70#0" expanded="true" />
                 <marker date="1564674390148" expanded="true" signature="7918:7919" ph="..." />
@@ -110,15 +105,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/support_files/Student.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="578" column="48" lean-forward="true" selection-start-line="578" selection-start-column="48" selection-end-line="578" selection-end-column="48" />
+            <state relative-caret-position="520">
+              <caret line="607" lean-forward="true" selection-start-line="607" selection-end-line="607" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
-                <marker date="1564675696940" expanded="true" signature="13574:13710" ph="..." />
-                <marker date="1564675696940" expanded="true" signature="22457:23036" ph="..." />
+                <marker date="1564676199441" expanded="true" signature="13574:13710" ph="..." />
+                <marker date="1564676199441" expanded="true" signature="22457:23036" ph="..." />
               </folding>
             </state>
           </provider>
@@ -203,8 +198,8 @@
         <option value="$PROJECT_DIR$/support_files/helper_tools.py" />
         <option value="$PROJECT_DIR$/support_files/ReqTypes.py" />
         <option value="$PROJECT_DIR$/support_files/define_reqs.py" />
-        <option value="$PROJECT_DIR$/support_files/Student.py" />
         <option value="$PROJECT_DIR$/masterfile.py" />
+        <option value="$PROJECT_DIR$/support_files/Student.py" />
       </list>
     </option>
   </component>
@@ -353,7 +348,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32831326" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42627737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42627737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39854014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -482,24 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/support_files/Category.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/support_files/ReqTypes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="184" column="23" selection-start-line="184" selection-start-column="23" selection-end-line="184" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#70#0" expanded="true" />
-            <marker date="1564674390148" expanded="true" signature="7918:7919" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/support_files/define_reqs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -510,22 +487,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/support_files/Student.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="578" column="48" lean-forward="true" selection-start-line="578" selection-start-column="48" selection-end-line="578" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-            <marker date="1564675696940" expanded="true" signature="13574:13710" ph="..." />
-            <marker date="1564675696940" expanded="true" signature="22457:23036" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/masterfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support_files/Category.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support_files/ReqTypes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="142" column="17" lean-forward="true" selection-start-line="142" selection-start-column="17" selection-end-line="142" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+            <marker date="1564674390148" expanded="true" signature="7918:7919" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support_files/Student.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="607" lean-forward="true" selection-start-line="607" selection-end-line="607" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+            <marker date="1564676199441" expanded="true" signature="13574:13710" ph="..." />
+            <marker date="1564676199441" expanded="true" signature="22457:23036" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
