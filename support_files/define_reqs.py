@@ -1,5 +1,5 @@
 from support_files.Category import Category
-from support_files.ReqTypes import BasicCourseReq,  MultiCourseReq, FillinCourseReq
+from support_files.ReqTypes import BasicCourseReq,  MultiCourseReq, ApprovedElectives
 from support_files.web_reader import get_focus_area_list, get_full_libarts_dict
 from support_files.helper_tools import upload_adv_bio
 
@@ -30,15 +30,14 @@ def create_category_list():
     biochem = MultiCourseReq('Biochemistry', creds_needed=4, options=['BIOMG3300', 'BIOMG3330', 'BIOMG3350', 'BIOMG3310',
                                                                       'BIOMG3320'], positions=[30, 31])
     adv_bio_courses = upload_adv_bio()
-    bio = Category('Biological Sciences', [intro_bio, bio_lab, biochem], 'M32', 15)
-    adv_bio = FillinCourseReq('Advanced Biology', options=adv_bio_courses, category=bio, positions=[32, 33])
-    bio.reqs.append(adv_bio)
+    adv_bio = MultiCourseReq('Advanced Biology', creds_needed=3, options=adv_bio_courses, positions=[32, 33])
+    bio = Category('Biological Sciences', [intro_bio, bio_lab, biochem, adv_bio], 'M32', 15)
 
     fws = MultiCourseReq('FWS', creds_needed=6, options=None, positions=[35, 36])
     fws = Category('First-Year Writing Seminar', [fws], 'M36', 6)
 
     libarts_dict = get_full_libarts_dict()
-    libarts_courses = libarts_dict.keys()
+    libarts_courses = list(libarts_dict.keys())
     libarts = MultiCourseReq('Liberal Arts', options=libarts_courses, creds_needed=18,
                              positions=[49, 50, 51, 52, 53, 54, 55], libart=True)
     libarts = Category('Liberal Studies', [libarts], 'M57', 18)
@@ -61,6 +60,8 @@ def create_category_list():
     eng_core = Category('Engineering Requirements', [statics, stats, intro_bee, thermo, eng_dist, fluids, biomat,
                                                      heat_mass, cell_bioeng, bioinst, focus_areas], 'M90', 48)
 
+    approved_electives = ApprovedElectives()
+    approved = Category('Approved Electives', [approved_electives], 'M95', min_creds=6)
 
     # TODO phys ed
 
@@ -68,6 +69,6 @@ def create_category_list():
 
     # TODO lab
 
-    category_list = [math, phys, chem, bio, fws, libarts, cs, eng_core]
+    category_list = [math, phys, chem, bio, fws, libarts, cs, eng_core, approved]
 
     return category_list

@@ -1,5 +1,7 @@
 from support_files.helper_tools import exceeds, categories_represented
 from support_files.web_reader import get_full_libarts_dict
+import re
+from copy import deepcopy
 
 ppf_creds_col = 'K'
 ppf_grade_col = 'I'
@@ -20,17 +22,30 @@ class BasicCourseReq:
         self.course = course
         self.satisfied = satisfied
 
-    def check_fillby(self, course):
+    def check_fillby(self, c):
+        # Check that course hasn't been taken before
+        if self.course is not None:
+            if self.course.num == c.num:
+                return False
+
+        # Check if the course meets the requirement
+        if not self.options.__contains__(c.num):
+            return False
+
+        # Upcoming semester courses will be written in
+        if c.grade is None and self.options.__contains__(c.num):
+            return True
+
+        # Check if the grade meets the threshold
         no_no_list = ['S', 'U', 'SX', 'UX', 'W', 'INC', 'NGR', 'R', 'F']
-        if no_no_list.__contains__(course.grade):
+        if no_no_list.__contains__(c.grade):
             return False
-        if self.options.__contains__(course.num):
-            if self.threshold is None or course.grade is None:
-                return True
-            elif exceeds(course.grade, self.threshold):
-                return True
-        else:
-            return False
+        if self.threshold is not None:
+            if exceeds(c.grade, self.threshold) is False:
+                return False
+
+        # Otherwise, let it fly
+        return True
 
     def fillby(self, course, ppf):
         assert self.check_fillby(course), "%s cannot be satisfied by %s" % (self.req_name, course.num)
@@ -63,21 +78,22 @@ class MultiCourseReq:
         self.libart = libart
 
     def check_fillby(self, course, override=False):
-        # Check that course hasn't been taken
+
+        # Check that course hasn't been taken before
         if self.courses is not None:
             for c in self.courses:
                 if c.num == course.num:
                     return False
 
-        # Special cases
-        if override:
+        # Upcoming semester courses will be written in
+        if course.grade is None and (override or self.options.__contains__(course.num)):
             return True
 
-        # Upcoming semester
-        if course.grade is None:
-            return True
+        # See if this course satisfies the req
+        if not (override or self.options.__contains__(course.num)):
+            return False
 
-        # Liberal arts can be pass fail, other courses cannot
+        # Check that the course meets the grade threshold
         if self.libart:
             no_no_list = ['U', 'UX', 'W', 'INC', 'NGR', 'R', 'F']
         else:
@@ -85,18 +101,35 @@ class MultiCourseReq:
         if course.grade in no_no_list:
             return False
 
-        # See if this course satisfies the req
-        elif self.options.__contains__(course.num):
-            return True
-        else:
-            return False
+        # Make sure the course is necessary
+        if self.courses is not None:
+            if len(self.positions) <= self.next:
+                # Can't take more courses in a category than there are slots
+                return False
+            elif self.libart:  # some stricter reqs to make sure a liberal arts course is necesssary
+                # Over 2000s shouldn't exceed 4
+                assert(len(re.findall(r'\d+', course.num)) == 1), "Error reading course number: %s" % course.num
+                c_num = int(re.findall(r'\d+', course.num)[0])
+                under2000s = 0
+                for c in self.courses:
+                    assert (len(re.findall(r'\d+', c.num)) == 1), "Error reading course number: %s" % course.num
+                    if int(re.findall(r'\d+', c.num)[0]) < 2000:
+                        under2000s += 1
+                if under2000s >= 4 and c_num < 2000:
+                    return False
 
-    def fillby(self, course, ppf, override=False):
+                # Eventually have to cover at least 3 categories
+                curr_courses = deepcopy(self.courses)
+                course.categories = libart_dict[course.num]
+                curr_courses.append(course)
+                if categories_represented(curr_courses) - len(curr_courses) < 3:
+                    return False
+
+        # Otherwise, let it pass
+        return True
+
+    def fillby(self, course, ppf, override=False, include_desc=False):
         assert self.check_fillby(course, override), "%s cannot be satisfied by %s" % (self.req_name, course.num)
-
-        if len(self.positions) <= self.next:
-            print("ran into a problem with %s, too many courses taken for the number of PPF spots" % self.req_name)
-            return
 
         if course.grade is None:
             if ppf is not None:
@@ -114,6 +147,8 @@ class MultiCourseReq:
                 ppf[ppf_creds_col + str(self.positions[self.next])] = course.creds  # write credits to ppf
                 ppf[ppf_grade_col + str(self.positions[self.next])] = course.grade  # write grade to ppf
                 ppf[ppf_course_col + str(self.positions[self.next])] = course.num  # write course to ppf
+            if include_desc:
+                ppf[ppf_description_col + str(self.positions[self.next])] = course.desc
             if self.creds_taken >= self.creds_needed and not self.libart:
                 self.satisfied = True
             elif self.libart:
@@ -123,62 +158,54 @@ class MultiCourseReq:
                 cat = ""
                 for l in course.categories:
                     cat += "%s, " % l
-                cat = cat[:-2]
+                cat = cat[:-2]  # just trimming away the last comma and space
                 ppf[ppf_categories_col + str(self.positions[self.next])] = cat
                 ppf[ppf_description_col + str(self.positions[self.next])] = course.desc
 
                 # Additional criteria for satisfying liberal studies requirement
                 # At least two courses at or above 2000 level
+                assert (len(re.findall(r'\d+', course.num)) == 1), "Error reading course number: %s" % course.num
+                c_num = int(re.findall(r'\d+', course.num)[0])
+                if c_num >= 2000:
+                    self.over2000s += 1
                 test1 = self.over2000s >= 2
+
                 # Courses from at least 3 categories
                 test2 = categories_represented(self.courses) >= 3
+
                 # 18 credits
                 test3 = self.creds_taken >= self.creds_needed
                 if test1 and test2 and test3:
                     self.satisfied = True
-                    print("Satisfied lib arts")
+
             if not self.satisfied:
                 self.next += 1
 
 
-class FillinCourseReq:
-    '''
-    This is used for advanced bio and focus areas, when the number of courses is simply determined by how many credits
-    the student has left to finish a certain category
-    '''
-
-    def __init__(self, req_name, options, category, positions, courses=None, satisfied=False):
-        self.req_name = req_name
-        self.options = options
-        self.category = category
-        self.positions = positions
-        self.courses = courses
-        self.next = 0  # used for indexing & count of completed courses
-        self.satisfied = satisfied
+class ApprovedElectives:
+    def __init__(self):
+        self.courses = None
+        self.creds = 0
+        self.next = 93
 
     def check_fillby(self, course):
-        # See if the course has already been used for this requirement
-        if self.courses is not None:
-            for c in self.courses:
-                if c.num == course.num:
-                    return False
-        # Check to see whether the course satisfies the requirement
-        if self.options.__contains__(course.num):
-            return True
-        else:
+        assert (len(re.findall(r'\d+', course.num)) == 1), "Error reading course number: %s" % course.num
+        c_num = re.findall(r'\d+', course.num)[0][:2]
+        if c_num == "10":
             return False
+        elif self.creds >= 6 or self.next >= 96:
+            return False
+        else:
+            return True
 
     def fillby(self, course, ppf):
-        assert self.check_fillby(course), "%s cannot be satisfied by %s" % (self.req_name, course.num)
+        assert self.check_fillby(course), "%s cannot be used as an approved elective" % course.num
         if self.courses is None:
             self.courses = [course]
         else:
             self.courses.append(course)
-        if ppf is not None:
-            ppf[ppf_creds_col + str(self.positions[self.next])] = course.creds  # write credits to ppf
-            ppf[ppf_grade_col + str(self.positions[self.next])] = course.grade  # write grade to ppf
-            ppf[ppf_course_col + str(self.positions[self.next])] = course.num  # write course to ppf
-        if self.category.curr_creds >= self.category.min_creds:
-            self.satisfied = True
-        else:
+            ppf[ppf_description_col+str(self.next)] = course.desc
+            ppf[ppf_course_col+str(self.next)] = course.num
+            ppf[ppf_grade_col+str(self.next)] = course.grade
+            ppf[ppf_creds_col+str(self.next)] = course.creds
             self.next += 1

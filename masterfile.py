@@ -23,8 +23,8 @@ def main():
     parent = os.getcwd()
     os.chdir(parent + "/Transcript")
     if test:
-        _, _, transcript = open_excel_file("test.xlsx")
-        # _, _, transcript = open_excel_file("PoppJoshua_UnofficialTranscriptForPPFProject_6_19_18.xlsx")
+        # _, _, transcript = open_excel_file("test.xlsx")
+        _, _, transcript = open_excel_file("PoppJoshua_UnofficialTranscriptForPPFProject_6_19_18.xlsx")
     else:
         _, _, transcript = open_excel_file("transcript.xlsx")
     os.chdir(parent)
