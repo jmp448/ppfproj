@@ -201,11 +201,12 @@ def determine_ap_course_equiv(ap_desc, score, course_desc):
 
 def read_class_from_transcript(transcript, cols, row):
 
+    stud_name_loc = cols['student name'] + row
     ap_loc = cols['ap y/n'] + row
     transfer_loc = cols['transfer y/n'] + row
 
     if transcript[transfer_loc].value is not None:
-        #TODO
+        print("%s has a transfer credit" % transcript[stud_name_loc].value)
         return None
 
     if transcript[ap_loc].value is None:
