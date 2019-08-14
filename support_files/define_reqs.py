@@ -10,23 +10,24 @@ Create objects used to store PPF data
 
 def create_category_list():
 
-    calcI = BasicCourseReq('Calc I', threshold="C-", options=['MATH1910'], position=12)
+    calcI = BasicCourseReq('Calc I', threshold="C-", options=['MATH1910', 'APCALC'], position=12)
     calcII = BasicCourseReq('Calc II', threshold="C-", options=['MATH1920'], position=13)
     diffEq = BasicCourseReq('Diff Eq', threshold="C-", options=['MATH2930'], position=14)
     linAlg = BasicCourseReq('Lin Alg', threshold="C-", options=['MATH2940'], position=15)
     math = Category('Math', [calcI, calcII, diffEq, linAlg], 'M15', 16)
 
-    mech = BasicCourseReq('Mechanics', options=['PHYS1112'], position=19)
-    electromag = BasicCourseReq('Electromagnetism', options=['PHYS2213'], position=20)
+    mech = BasicCourseReq('Mechanics', options=['PHYS1112', 'APMECH'], position=19)
+    electromag = BasicCourseReq('Electromagnetism', options=['PHYS2213', 'APELECTRO'], position=20)
     phys = Category('Physics', [mech, electromag], 'M20', 8)
 
-    gen_chem = BasicCourseReq('Gen Chem', options=['CHEM2070', 'CHEM2090'], position=23)
+    gen_chem = BasicCourseReq('Gen Chem', options=['CHEM2070', 'CHEM2090', 'APCHEM'], position=23)
     orgo = BasicCourseReq('Orgo', options=['CHEM1570', 'CHEM3530', 'CHEM3570'], position=24)
     chem = Category('Chemistry', [gen_chem, orgo], 'M24', 7)
 
-    intro_bio = MultiCourseReq('Intro Bio', creds_needed=6, options=['BIOMG1350', 'BIOG1440', 'BIOG1445', 'BIOEE1610', 'BIOSM1610'],
+    intro_bio = MultiCourseReq('Intro Bio', creds_needed=6, options=['BIOMG1350', 'BIOG1440', 'BIOG1445', 'BIOEE1610',
+                                                                     'BIOSM1610', 'APBIO4', 'APBIO5-1', 'APBIO5-2'],
                                positions=[27, 28])
-    bio_lab = BasicCourseReq('Intro Bio Lab', options=['BIOG1500', 'BIOSM1500'], position=29)
+    bio_lab = BasicCourseReq('Intro Bio Lab', options=['BIOG1500', 'BIOSM1500', 'APBIOLAB'], position=29)
     biochem = MultiCourseReq('Biochemistry', creds_needed=4, options=['BIOMG3300', 'BIOMG3330', 'BIOMG3350', 'BIOMG3310',
                                                                       'BIOMG3320'], positions=[30, 31])
     adv_bio_courses = upload_adv_bio()
@@ -42,7 +43,7 @@ def create_category_list():
                              positions=[49, 50, 51, 52, 53, 54, 55], libart=True)
     libarts = Category('Liberal Studies', [libarts], 'M57', 18)
 
-    cs = BasicCourseReq('Computer Science', options=['BEE1510', 'CS1112'], position=65)
+    cs = BasicCourseReq('Computer Science', options=['BEE1510', 'CS1112', 'APCS'], position=65)
     cs = Category('Computer Science', [cs], 'M65', 4)
 
     statics = BasicCourseReq('Statics', options=['ENGRD2020'], position=70)

@@ -41,13 +41,28 @@ def main():
             break
         while student_courses_remain:
             c = read_class_from_transcript(transcript, cols, row)
-            curr.course_list.append(c)
+            if c is not None:
+                if isinstance(c, list):
+                    for course in c:
+                        curr.course_list.append(course)
+                else:
+                    curr.course_list.append(c)
             row = str(int(row) + 1)
             if transcript[cols['student name'] + row].value is None:
                 students_remain = False
                 break
             elif transcript[cols['student name'] + row].value != curr.name:
                 break
+        # Sort student course list so that upcoming courses are processed last
+        i = 0
+        end = len(curr.course_list)
+        while i < end:
+            c = curr.course_list[i]
+            if c.grade is None and not c.ap:
+                curr.course_list.append(curr.course_list.pop(i))
+                end -= 1
+            else:
+                i += 1
         curr.update_ppf()
         if summary_sems.__contains__(curr.grad):
             curr.write_summary()

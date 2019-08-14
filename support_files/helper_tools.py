@@ -2,6 +2,7 @@ from openpyxl import load_workbook
 from support_files.Course import Course
 import xlrd
 import numpy as np
+import os
 
 PPF_COLS = {
     'Course': 'G',
@@ -62,9 +63,6 @@ def exceeds(a, threshold='C-'):
         'F': 0.0
     }
 
-    #TODO fix
-    if "*" in a:
-        a = a[:-1]
     assert grades.keys().__contains__(a), "Cannot compare a non-letter grade (%s) to the letter grade threshold (%s)" % (a, threshold)
     if grades[a] >= grades[threshold]:
         return True
@@ -100,6 +98,14 @@ def designate_columns(transcript):
             cols['grade'] = pos[0]
         elif curr == 'Unt Taken':
             cols['creds'] = pos[0]
+        elif curr == 'AP Test Component Ldescr':
+            cols['ap desc'] = pos[0]
+        elif curr == 'AP Test Sdescr':
+            cols['ap y/n'] = pos[0]
+        elif curr == 'Score':
+            cols['ap score'] = pos[0]
+        elif curr == 'TR School Descr':
+            cols['transfer y/n'] = pos[0]
 
         pos = colhop(pos)
         curr = transcript[pos].value
@@ -130,40 +136,116 @@ def read_class_from_ppf(ppf, row):
 
     c = Course(course, grade, creds)
 
-    # TODO AP classes stored differently
-    # TODO courses taken next semester stored differently
+    if "AP" in grade:
+        c.ap = True
 
     return c
 
 
+def determine_ap_course_equiv(ap_desc, score, course_desc):
+    # AP Biology
+    if ap_desc == "Biology" and score == "4":
+        equiv = Course(num="APBIO4", grade=score, creds=4, desc=course_desc, ap=True, ap_ppf_desc="BIO AP")
+    elif ap_desc == "Biology" and score == "5":
+        equiv = [Course(num="APBIO5-1", grade=score, creds=3, desc=course_desc, ap=True, ap_ppf_desc="BIO AP"),
+                 Course(num="APBIO5-2", grade=score, creds=3, desc=course_desc, ap=True, ap_ppf_desc="BIO AP"),
+                 Course(num="APBIO5-LAB", grade=score, creds=2, desc=course_desc, ap=True, ap_ppf_desc="BIO AP")]
+    # AP Chemistry
+    elif ap_desc == "Chemistry" and score == "5":
+        equiv = Course(num="APCHEM", grade=score, creds=4, desc=course_desc, ap=True, ap_ppf_desc="CHEM AP")
+    # AP Computer Science
+    elif ap_desc == "Computer Science A" and score == "5":
+        equiv = Course(num="APCS", grade=score, creds=4, desc=course_desc, ap=True, ap_ppf_desc="CS AP")
+    # AP Calc BC
+    elif ap_desc == "Mathematics: Calculus BC" and (score == "4" or score == "5"):
+        equiv = Course(num="APCALC", grade=score, creds=4, desc=course_desc, ap=True, ap_ppf_desc="MATH AP")
+    # AP Physics
+    elif ap_desc == "Physics C - Mechanics" and score == "5":
+        equiv = Course(num="APMECH", grade=score, creds=4, desc=course_desc, ap=True, ap_ppf_desc="PHYS AP")
+    elif ap_desc == "Physics C - Electricity & Magt" and score == 5:
+        equiv = Course(num="APELECTRO", grade=score, creds=4, desc=course_desc, ap=True, ap_ppf_desc="PHYS AP")
+
+    # AP English
+    elif ap_desc == "English Language &Composition" and (score == "4" or score == "5"):
+        equiv = Course(num="APENGLANG", grade=score, creds=3, desc=course_desc, ap=True, ap_ppf_desc="ENGL AP")
+    elif ap_desc == "English Literature &Compostn" and (score == "4" or score == "5"):
+        equiv = Course(num="APENGLIT", grade=score, creds=3, desc=course_desc, ap=True, ap_ppf_desc="ENGL AP")
+
+    # AP Languages
+    elif ap_desc == "Spanish Language" and (score == "4" or score == "5"):
+        equiv = Course(num="APSPANLANG", grade=score, creds=3, desc=course_desc, ap=True, ap_ppf_desc="SPAN AP")
+    elif ap_desc == "Spanish Literature" and (score == "4" or score == "5"):
+        equiv = Course(num="APSPANLIT", grade=score, creds=3, desc=course_desc, ap=True, ap_ppf_desc="SPAN AP")
+    elif ap_desc == "French Language" and (score == "4" or score == "5"):
+        equiv = Course(num="APFRENLANG", grade=score, creds=3, desc=course_desc, ap=True, ap_ppf_desc="FREN AP")
+    elif ap_desc == "French Literature" and (score == "4" or score == "5"):
+        equiv = Course(num="APFRENLIT", grade=score, creds=3, desc=course_desc, ap=True, ap_ppf_desc="FREN AP")
+    elif ap_desc == "German Language & Culture" and (score == "4" or score == "5"):
+        equiv = Course(num="APGERMAN", grade=score, creds=3, desc=course_desc, ap=True, ap_ppf_desc="GERM AP")
+    elif ap_desc == "Italian Language & Culture" and (score == "4" or score == "5"):
+        equiv = Course(num="APITALIAN", grade=score, creds=3, desc=course_desc, ap=True, ap_ppf_desc="ITAL AP")
+
+    # Economics & Psychology
+    elif ap_desc == "Economics: Macroeconomics" and (score == "4" or score == "5"):
+        equiv = Course(num="APMACRO", grade=score, creds=3, desc=course_desc, ap=True, ap_ppf_desc="ECON AP")
+    elif ap_desc == "Economics: Microeconomics" and (score == "4" or score == "5"):
+        equiv = Course(num="APMICRO", grade=score, creds=3, desc=course_desc, ap=True, ap_ppf_desc="ECON AP")
+    elif ap_desc == "Psychology" and (score == "4" or score == "5"):
+        equiv = Course(num="APPSYCH", grade=score, creds=3, desc=course_desc, ap=True, ap_ppf_desc="PSYCH AP")
+
+    else:
+        return None
+
+    return equiv
+
+
 def read_class_from_transcript(transcript, cols, row):
 
-    dept_loc = cols['dept'] + row
-    dept = transcript[dept_loc].value
+    ap_loc = cols['ap y/n'] + row
+    transfer_loc = cols['transfer y/n'] + row
 
-    num_loc = cols['num'] + row
-    num = transcript[num_loc].value
+    if transcript[transfer_loc].value is not None:
+        #TODO
+        return None
 
-    course_num = dept + str(num)
+    if transcript[ap_loc].value is None:
 
-    creds_loc = cols['creds'] + row
-    creds = transcript[creds_loc].value
+        dept_loc = cols['dept'] + row
+        dept = transcript[dept_loc].value
 
-    grade_loc = cols['grade'] + row
-    grade = transcript[grade_loc].value
+        num_loc = cols['num'] + row
+        num = transcript[num_loc].value
 
-    desc_loc = cols['desc'] + row
-    desc = transcript[desc_loc].value
+        course_num = dept + str(num)
 
-    term_loc = cols['semester'] + row
-    term = transcript[term_loc].value
+        creds_loc = cols['creds'] + row
+        creds = transcript[creds_loc].value
 
-    c = Course(course_num, grade, creds, term=term, desc=desc)
+        grade_loc = cols['grade'] + row
+        grade = transcript[grade_loc].value
+        if grade is not None and "*" in grade:
+            grade = grade[:-1]
 
-    if c.desc == 'AP':
-        c.grade = 'AP'
-    if c.desc == 'LEC':
-        c.grade = c.term
+        desc_loc = cols['desc'] + row
+        desc = transcript[desc_loc].value
+
+        term_loc = cols['semester'] + row
+        term = transcript[term_loc].value
+
+        c = Course(course_num, grade, creds, term=term, desc=desc)
+
+    else:
+
+        ap_desc_loc = cols['ap desc'] + row
+        ap_desc = transcript[ap_desc_loc].value
+
+        score_loc = cols['ap score'] + row
+        score = str(transcript[score_loc].value)
+
+        course_desc_loc = cols['desc'] + row
+        course_desc = transcript[course_desc_loc].value
+
+        c = determine_ap_course_equiv(ap_desc, score, course_desc)
 
     return c
 
@@ -171,16 +253,21 @@ def read_class_from_transcript(transcript, cols, row):
 def upload_adv_bio():
 
     courses = []
+    parent = os.getcwd()
+    os.chdir(parent+"/support_files")
     wb = xlrd.open_workbook("advanced_bio.xlsx")
     sheet = wb.sheet_by_index(0)
     for i in range(1, sheet.nrows):
         courses.append(sheet.cell_value(i, 0))
+    os.chdir(parent)
     return courses
 
 
 def is_semester(s):
     if s is None:
         return True
+    elif isinstance(s, str) is False:
+        return False
     else:
         return any(c.isdigit() for c in s)
 

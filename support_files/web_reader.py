@@ -1,6 +1,7 @@
 import requests
 import re
 import os
+from support_files.helper_tools import open_excel_file
 
 
 """
@@ -97,8 +98,11 @@ def refresh_libarts_ce():
     ce_code.close()
 
 
-def get_libarts_list(filename):
+def get_category_list(filename):
     """
+    Returns a list of course numbers in the format [AAS1100, SPAN3040, ...] from an HTML file on the liberal studies site
+        (these courses will be from a single category: CA OR HA etc since these are stored on different pages)
+
     This uses the criteria of having two consecutive </td><td> to figure out where the courses are
     """
     course_list = []
@@ -115,11 +119,114 @@ def get_libarts_list(filename):
     return course_list
 
 
+def add_other_yes(dic):
+    parent = os.getcwd()
+    os.chdir(parent + "/support_files")
+    _, _, other_yes = open_excel_file("other_yes.xlsx")
+
+    dept_col = 'A'
+    num_col = 'B'
+    category_col = 'E'
+    notes_col = 'I'
+
+    # Read through the other_yes file
+    row = 7
+    while other_yes[dept_col + str(row)].value is not None:
+        comments = other_yes[notes_col + str(row)].value
+
+        """
+        read the comments for each course list to get all cross-listed courses or former course listings, and eliminate
+        courses with footnotes indicating that they must be petitioned or are no longer accepted
+        """
+        if comments is None:
+            courses = [other_yes[dept_col+str(row)].value + str(other_yes[num_col+str(row)].value)]
+
+        # do not include courses that say they will need to be petitioned
+        elif "petition" in comments or "petitioned" in comments:
+            row += 1
+            continue
+
+        # do not include courses that are only permitted for certain semesters
+        elif "nly permitted if taken" in comments:
+            row += 1
+            continue
+
+        # for crosslisted courses, create separate items for each cross-listing of the course
+        elif comments[:5] == "Also ":
+            if "(" in comments:
+                stop = comments.index("(")
+                comments = comments[5:stop]
+            else:
+                comments = comments[5:]
+            comments = comments.replace(", and ", ", ")  # to avoid ending up with ,, in case of Oxford comma
+            comments = comments.replace(" and ", ", ")
+            comments = comments.replace(" ", "")
+            courses = comments.split(",")
+            courses.append(other_yes[dept_col+str(row)].value + str(other_yes[num_col+str(row)].value))
+
+        # individual case for one tough comment - "Formerly Interior Design Studio I; Also VISST 1101 (crosslisted)"
+        elif comments == "Formerly Interior Design Studio I; Also VISST 1101 (crosslisted)":
+            courses = ['VISST1101', 'DEA1101']
+
+        # for courses formerly listed as something else, create separate listings for each possible listing
+        elif comments[:9] == "Formerly ":
+            comments = comments[9:]
+            comments = comments.replace(" ", "")
+            courses = [comments]
+            courses.append(other_yes[dept_col+str(row)].value + str(other_yes[num_col+str(row)].value))
+
+        # all other comments are ignored (treated same as no comments)
+        else:
+            courses = [other_yes[dept_col + str(row)].value + str(other_yes[num_col + str(row)].value)]
+
+        # Read categories from category column
+        categories = other_yes[category_col + str(row)].value
+        categories = categories.replace("or", ",")
+        categories = categories.replace(" ", "")
+        categories = categories.split(",")
+
+        for c in courses:
+            if dic.keys().__contains__(c):
+                for cat in categories:
+                    if dic[c].__contains__(cat) is False:
+                        dic[c].append(cat)
+            else:
+                dic[c] = [categories[0]]
+                if len(categories) > 1:
+                    for i in range(1, len(categories)):
+                        dic[c].append(categories[i])
+
+        row += 1
+
+    os.chdir(parent)
+
+    return dic
+
+
+def add_ap_courses(dic):
+    dic['APENGLANG'] = ['LA']
+    dic['APENGLIT'] = ['LA']
+    dic['APFRENLANG'] = ['FL']
+    dic['APFRENLIT'] = ['LA']
+    dic['APGERMAN'] = ['FL']
+    dic['APITALIAN'] = ['FL']
+    dic['APMACRO'] = ['SBA']
+    dic['APMICRO'] = ['SBA']
+    dic['APPSYCH'] = ['SBA']
+    dic['APSPANLANG'] = ['FL']
+    dic['APSPANLIT'] = ['LA']
+
+    return dic
+
+
 """ Methods to be called from main program """
 
 
 def get_focus_area_list():
-    """The courses are obtained by looking at the text between any bullet point and any dash
+    """
+    Returns a list of focus area courses in the format [BEE4800, BME3010, ...] from the BE Advised website
+
+    The courses are obtained by looking at the text between any bullet point and any dash
     For courses that are cross listed (ie 4440/6440) the two courses are listed separately
     """
 
@@ -144,7 +251,6 @@ def get_focus_area_list():
                 course1 = course[0] + course[1]
                 fa_list.append(course1)
     f.close()
-    # TODO fix CHEME66XX - will never be used due to X's
 
     os.chdir(parent)
 
@@ -152,47 +258,54 @@ def get_focus_area_list():
 
 
 def get_full_libarts_dict():
-    """This creates a dictionary of every liberal arts course (key) and a list of every category that course can fulfill
+    """
+    This creates a dictionary of every liberal arts course (key) and a list of every category that course can fulfill
     (value)
     """
+
+    """
+    Start off by reading the liberal arts courses from the website (actually, from the website data that's been saved 
+    in the folder /website_data)
+    """
+
     parent = os.getcwd()
     os.chdir(parent + "/support_files/website_data")
 
     libarts_dict = {}
 
-    ca_list = get_libarts_list(ca_file)
+    ca_list = get_category_list(ca_file)
     for c in ca_list:
         libarts_dict[c] = ["CA"]
 
-    ha_list = get_libarts_list(ha_file)
+    ha_list = get_category_list(ha_file)
     for c in ha_list:
         if libarts_dict.keys().__contains__(c):
             libarts_dict[c].append("HA")
         else:
             libarts_dict[c] = ["HA"]
 
-    kcm_list = get_libarts_list(kcm_file)
+    kcm_list = get_category_list(kcm_file)
     for c in kcm_list:
         if libarts_dict.keys().__contains__(c):
             libarts_dict[c].append("KCM")
         else:
             libarts_dict[c] = ["KCM"]
 
-    la_list = get_libarts_list(la_file)
+    la_list = get_category_list(la_file)
     for c in la_list:
         if libarts_dict.keys().__contains__(c):
             libarts_dict[c].append("LA")
         else:
             libarts_dict[c] = ["LA"]
 
-    sba_list = get_libarts_list(sba_file)
+    sba_list = get_category_list(sba_file)
     for c in sba_list:
         if libarts_dict.keys().__contains__(c):
             libarts_dict[c].append("SBA")
         else:
             libarts_dict[c] = ["SBA"]
 
-    ce_list = get_libarts_list(ce_file)
+    ce_list = get_category_list(ce_file)
     for c in ce_list:
         if libarts_dict.keys().__contains__(c):
             libarts_dict[c].append("CE")
@@ -201,15 +314,23 @@ def get_full_libarts_dict():
 
     os.chdir(parent)
 
+    """
+    Now, add in the "other yes" courses and ap courses
+    """
+    libarts_dict = add_other_yes(libarts_dict)
+    libarts_dict = add_ap_courses(libarts_dict)
+
     return libarts_dict
 
 
 def main():
-    fa_list = get_focus_area_list()
-    libart_dict = get_full_libarts_dict()
+    """
+    Just used for debugging some of the methods used here
+    This file is never called by itself, the methods are just called independently within or elsewhere in the program
+    """
 
-    # print(len(fa_list))
-    print(libart_dict["HIST1620"])
+    fa_list = get_focus_area_list()
+    print(fa_list.__contains__("BME5850"))
 
 
 if __name__ == "__main__":
