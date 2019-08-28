@@ -44,9 +44,6 @@ class BasicCourseReq:
         no_no_list = ['S', 'U', 'SX', 'UX', 'W', 'INC', 'NGR', 'F']
         if no_no_list.__contains__(c.grade) and not c.ap:
             return False
-        if self.threshold is not None and not c.ap:
-            if exceeds(c.grade, self.threshold) is False:
-                return False
 
         # Otherwise, let it fly
         return True
@@ -225,15 +222,25 @@ class ApprovedElectives:
         self.min_creds = 6
 
     def check_fillby(self, course):
+
+        failing_grades = ['U', 'UX', 'W', 'INC', 'NGR', 'F']
+
         # cannot use AP courses
-        if course.ap is True:
+        if course.ap:
+            return False
+        # dismiss failed or incompleted courses
+        elif failing_grades.__contains__(course.grade):
             return False
         # cannot use 10XX courses (ie MATH1091)
         assert (len(re.findall(r'\d+', course.num)) == 1), "Error reading course number: %s" % course.num
         c_num = re.findall(r'\d+', course.num)[0][:2]
         if c_num == "10":
             return False
+        # cannot use more than 6 credits or 3 courses
         elif self.creds >= 6 or self.next >= 96:
+            return False
+        # cannot use PE courses
+        elif course.num[:2] == "PE":
             return False
         else:
             return True
@@ -244,8 +251,8 @@ class ApprovedElectives:
             self.courses = [course]
         else:
             self.courses.append(course)
-            ppf[ppf_description_col+str(self.next)] = course.desc
-            ppf[ppf_course_col+str(self.next)] = course.num
-            ppf[ppf_grade_col+str(self.next)] = course.grade
-            ppf[ppf_creds_col+str(self.next)] = course.creds
-            self.next += 1
+        ppf[ppf_description_col+str(self.next)] = course.desc
+        ppf[ppf_course_col+str(self.next)] = course.num
+        ppf[ppf_grade_col+str(self.next)] = course.grade
+        ppf[ppf_creds_col+str(self.next)] = course.creds
+        self.next += 1

@@ -35,19 +35,30 @@ def refresh_focus_areas():
     This creates a text file containing the source code for the BEE focus area course listings found at fa_url
     """
 
+    parent = os.getcwd()
+    os.chdir(parent + "/support_files/website_data")
+
     r = requests.get(fa_url)
     fa_code = open(fa_file, "w")
     fa_code.write(r.text)
     fa_code.close()
 
+    os.chdir(parent)
+
 
 def refresh_libarts_all():
+
+    parent = os.getcwd()
+    os.chdir(parent+"/support_files/website_data")
+
     refresh_libarts_ca()
     refresh_libarts_ce()
     refresh_libarts_ha()
     refresh_libarts_kcm()
     refresh_libarts_sba()
     refresh_libarts_la()
+
+    os.chdir(parent)
 
 
 def refresh_libarts_ca():
@@ -329,8 +340,8 @@ def main():
     This file is never called by itself, the methods are just called independently within or elsewhere in the program
     """
 
-    fa_list = get_focus_area_list()
-    print(fa_list.__contains__("BME5850"))
+    refresh_focus_areas()
+    refresh_libarts_all()
 
 
 if __name__ == "__main__":

@@ -1,7 +1,7 @@
 from support_files.Category import Category
 from support_files.ReqTypes import BasicCourseReq,  MultiCourseReq, ApprovedElectives
 from support_files.web_reader import get_focus_area_list, get_full_libarts_dict
-from support_files.helper_tools import upload_adv_bio
+from support_files.helper_tools import upload_adv_bio, upload_engri
 
 '''
 Create objects used to store PPF data
@@ -48,9 +48,10 @@ def create_category_list():
 
     statics = BasicCourseReq('Statics', options=['ENGRD2020'], position=70)
     stats = BasicCourseReq('Statistics', options=['CEE3040', 'ENGRD2700'], position=71)
-    intro_bee = BasicCourseReq('Intro Engineering', options=['BEE1200'], position=73)
+    engri = upload_engri()
+    intro_eng = BasicCourseReq('Intro Engineering', options=engri, position=73)
     thermo = BasicCourseReq('Thermodynamics', options=['BEE2220', 'ENGRD2210', 'CHEME3130', 'MSE3030'], position=74)
-    eng_dist = BasicCourseReq('Engineering Distribution', options=['BEE2600', 'BEE2510'], position=76)
+    eng_dist = BasicCourseReq('Engineering Distribution', options=['BEE2600', 'BEE2510', 'ENGRD2600', 'ENGRD2510'], position=76)
     fluids = BasicCourseReq('Fluid Mechanics', options=['BEE3310'], position=77)
     biomat = BasicCourseReq('Biomaterials', options=['BEE3400'], position=78)
     heat_mass = BasicCourseReq('Heat and Mass', options=['BEE3500'], position=79)
@@ -58,17 +59,11 @@ def create_category_list():
     bioinst = BasicCourseReq('Bioinstrumentation', options=['BEE4500'], position=81)
     fa_list = get_focus_area_list()
     focus_areas = MultiCourseReq('Focus Areas', options=fa_list, creds_needed=15, positions=[84, 85, 86, 87, 88])
-    eng_core = Category('Engineering Requirements', [statics, stats, intro_bee, thermo, eng_dist, fluids, biomat,
+    eng_core = Category('Engineering Requirements', [statics, stats, intro_eng, thermo, eng_dist, fluids, biomat,
                                                      heat_mass, cell_bioeng, bioinst, focus_areas], 'M90', 48)
 
     approved_electives = ApprovedElectives()
     approved = Category('Approved Electives', [approved_electives], 'M95', min_creds=6)
-
-    # TODO phys ed
-
-    # TODO capstone
-
-    # TODO lab
 
     category_list = [math, phys, chem, bio, fws, libarts, cs, eng_core, approved]
 

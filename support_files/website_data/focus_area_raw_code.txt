@@ -79,8 +79,8 @@ img.emoji {
 <link rel='stylesheet' id='live-stream-style-css'  href='http://beadvised.bee.cornell.edu/wp-content/plugins/live-stream-widget/css/live-stream-style.css?ver=5.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='cornell_base-style-css'  href='http://beadvised.bee.cornell.edu/wp-content/themes/cornell_base/style.css?ver=2013-07-18' type='text/css' media='all' />
 <link rel='stylesheet' id='toc-screen-css'  href='http://beadvised.bee.cornell.edu/wp-content/plugins/table-of-contents-plus/screen.css?ver=2' type='text/css' media='all' />
-<script type='text/javascript' src='http://blogs.cornell.edu/beadvised/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript' src='http://blogs.cornell.edu/beadvised/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://beadvised.bee.cornell.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://beadvised.bee.cornell.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var tocplus = {"visibility_show":"show","visibility_hide":"hide","width":"Auto"};
@@ -482,8 +482,7 @@ img.latex { vertical-align: middle; border: none; }
 •    CHEME 5430 – Bioprocess Engineering</p>
 <h3><span id="Courses_in_Focus_Area_2_Ecological_and_Microbial_Systems" class="toc-anchor"><strong>Courses in <a href="http://beadvised.bee.cornell.edu/focus-area-3/">Focus Area 2</a>: Ecological and Microbial Systems</strong></span></h3>
 <p>•    BEE 4150/6150 – Engineering Ethics and Professional Practice<br />
-•    BEE 4200/6200 – Surface Chemistry of Particles in Natural and Engineered Processes<br />
-•    BEE 4870 –  Sustainable Bioenergy Systems<br />
+•    BEE 4870 –  Sustainable Bioenergy Systems<br />
 •    BEE 5330 – Engineering Professionalism<br />
 •    BEE 6430 – Veterinary Perspectives on Pathogen Control in Animal Manure<br />
 •    BEE 6640 – Sustainable Bioenergy Production in Marginal Lands of New York and the Northeast<br />
@@ -542,13 +541,13 @@ img.latex { vertical-align: middle; border: none; }
 •    CHEME 5440 – Systems Biology in Biotechnology and Medicine (CHEME 7770)</p>
 <h3><span id="Courses_in_Focus_Area_6_Biomaterials" class="toc-anchor"><strong>Courses in <a href="http://beadvised.bee.cornell.edu/focus-area-5/">Focus Area 6</a>: Biomaterials</strong></span></h3>
 <p>•    BEE 4150/6150 – Engineering Ethics and Professional Practice<br />
-•    BEE 4810 – LRFD-Based Engineering of Wood Structures (CEE 4810/CEE 6075)<br />
 •    BEE 5330 – Engineering Professionalism<br />
 •    BME 5390 – Biomedical Materials and Devices for Human Body Repair<br />
 •    BME 5830 – Cell Biomaterial Interactions<br />
 •    BME 5850 – Current Practices in Tissue Engineering<br />
 •    BME 6210 – Engineering Principles for Drug Delivery (CHEME 6310)<br />
 •    CHEME 6400 – Polymeric Materials<br />
+•    MAE 6630 – Immuno-engineering<br />
 •    MSE 4610 – Biomedical Materials and Their Applications<br />
 •    MSE 5210 – Properties of Solid Polymers<br />
 •    MSE 5230 – Physics of Soft Materials<br />
@@ -564,11 +563,9 @@ img.latex { vertical-align: middle; border: none; }
 •    BEE 4350 – Principles of Aquaculture<br />
 •    BEE 4710 – Introduction to Groundwater<br />
 •    BEE 4730 – Watershed Engineering<br />
-•    BEE 4740 – Water and Landscape Engineering Applications (no longer offered as of Spring 2019)<br />
 •    BEE 4750 – Environmental Systems Analysis<br />
 •    BEE 4760 – Solid Waste Engineering<br />
 •    BEE 4800 – Our Changing Atmosphere<br />
-•    BEE 4810 – LRFD-Based Engineering of Wood Structures (CEE 4810/CEE 6075)<br />
 •    BEE 4870 – Sustainable Bioenergy Systems<br />
 •    BEE 4880/6880 – Applied Modeling and Simulation for Renewable Energy Systems<br />
 •    BEE 4890 – Entrepreneurial Management for Engineers<br />

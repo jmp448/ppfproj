@@ -1,1 +1,1 @@
-This file will be used by the program, this is where PPF files will be added
+Student PPFs will appear in this folder.

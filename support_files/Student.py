@@ -4,6 +4,7 @@ from shutil import copy
 from support_files.ReqTypes import *
 import os
 import re
+from datetime import date
 
 ppf_creds_col = 'K'
 ppf_grade_col = 'I'
@@ -15,7 +16,7 @@ ppf_grand_total = 'M98'
 
 
 class Student:
-    def __init__(self, transcript, row, cols, test=False, course_list=None):
+    def __init__(self, transcript, row, cols, course_list=None):
         name_loc = cols['student name'] + row
         self.name = transcript[name_loc].value
 
@@ -25,38 +26,46 @@ class Student:
         studid_loc = cols['student id'] + row
         self.student_id = transcript[studid_loc].value
 
-        self.test = test
+        if cols.keys().__contains__('advisor'):
+            advisor_loc = cols['advisor'] + row
+            self.advisor = transcript[advisor_loc].value
+        else:
+            self.advisor = None
 
         grad_loc = cols['grad'] + row
         self.grad = transcript[grad_loc].value
         if self.grad == "N/A":
             self.grad = "NONE"
         if " " in self.grad:
-            if self.test:
-                self.folder = "/Students_test/%s" % ldescr2sdescr(self.grad)
-            else:
-                self.folder = "/Students/%s" % ldescr2sdescr(self.grad)
+            self.folder = "/Students/%s" % ldescr2sdescr(self.grad)
         else:
-            if self.test:
-                self.folder = "/Students_test/%s" % self.grad
-            else:
-                self.folder = "/Students/%s" % self.grad
+            self.folder = "/Students/%s" % self.grad
 
         # If the necessary folder doesn't exist yet, create it
         parent = os.getcwd()
         if not os.path.exists(parent + self.folder):
             os.mkdir(parent+self.folder)
 
+        # Set student requirements, including special requirements PE, capstone, tech writing, and EHS
         self.requirements = create_category_list()
         self.pe = 0
         self.capstone = False
         self.tech_writing = False
         self.ehs = False
 
+        # Initial preparation for the student summary and Brenda's summary
+        self.has_D = []
+        self.summary_notes = []
+        self.brenda_summary_notes = []
+
+        # Initialize total number of credits the student has taken
         self.total_creds = 0
 
+        # Initialize the placeholder that will be used for indexing the "Courses not needed for graduation"
+        # at the bottom of the PPF
         self.notneeded_next = 111
 
+        # Create course list for the student
         if course_list is None:
             self.course_list = []
         else:
@@ -72,6 +81,9 @@ class Student:
             self.read_ppf()
         else:  # if they don't, create a new one
             self.create_ppf()
+
+        # Update the date edited
+        self.ppf['L5'] = date.today()
 
     def has_ppf(self):
         parent = os.getcwd()
@@ -110,7 +122,8 @@ class Student:
         self.ppf['B5'] = self.name
         self.ppf['B6'] = self.netid
         self.ppf['G6'] = self.student_id
-        # ppf['L6'] = student.advisor
+        if self.advisor is not None:
+            self.ppf['L6'] = self.advisor
         self.ppf['M7'] = self.grad
 
         self.wb.save(filename=self.filename)
@@ -131,7 +144,11 @@ class Student:
         self.read_lib()
         self.read_cs()
         self.read_eng()
+        self.read_pe()
         self.read_approved()
+        self.read_capstone()
+        self.read_tech_writing()
+        self.read_ehs()
         self.read_others()
 
     def read_math(self):
@@ -146,6 +163,10 @@ class Student:
             elif self.ppf[ppf_creds_col + str(req.position)].value is not None:
                 c = read_class_from_ppf(self.ppf, req.position)
                 req.course = c
+                if "D" in c.grade:
+                    self.has_D.append(c.num)
+                    self.brenda_summary_notes.append("(From previously completed PPF): Grade of %s recorded for %s"
+                                                     % (c.grade, c.num))
                 req.satisfied = True
                 if c.ap:
                     req.ap_satisfied = True
@@ -164,6 +185,10 @@ class Student:
             elif self.ppf[ppf_creds_col + str(req.position)].value is not None:
                 c = read_class_from_ppf(self.ppf, req.position)
                 req.course = c
+                if "D" in c.grade:
+                    self.has_D.append(c.num)
+                    self.brenda_summary_notes.append("(From previously completed PPF): Grade of %s recorded for %s"
+                                                     % (c.grade, c.num))
                 req.satisfied = True
                 if c.ap:
                     req.ap_satisfied = True
@@ -182,6 +207,10 @@ class Student:
             elif self.ppf[ppf_creds_col + str(req.position)].value is not None:
                 c = read_class_from_ppf(self.ppf, req.position)
                 req.course = c
+                if "D" in c.grade:
+                    self.has_D.append(c.num)
+                    self.brenda_summary_notes.append("(From previously completed PPF): Grade of %s recorded for %s"
+                                                     % (c.grade, c.num))
                 req.satisfied = True
                 if c.ap:
                     req.ap_satisfied = True
@@ -201,6 +230,10 @@ class Student:
                 elif self.ppf[ppf_creds_col + str(req.position)].value is not None:
                     c = read_class_from_ppf(self.ppf, req.position)
                     req.course = c
+                    if "D" in c.grade:
+                        self.has_D.append(c.num)
+                        self.brenda_summary_notes.append("(From previously completed PPF): Grade of %s recorded for %s"
+                                                         % (c.grade, c.num))
                     req.satisfied = True
                     bio.curr_creds += int(c.creds)
                     self.total_creds += int(c.creds)
@@ -215,6 +248,11 @@ class Student:
                             req.courses = [c]
                         else:
                             req.courses.append(c)
+                        if "D" in c.grade:
+                            self.has_D.append(c.num)
+                            self.brenda_summary_notes.append(
+                                "(From previously completed PPF): Grade of %s recorded for %s"
+                                % (c.grade, c.num))
                         req.creds_taken += int(c.creds)
                         if req.creds_taken >= req.creds_needed:
                             req.satisfied = True
@@ -269,7 +307,7 @@ class Student:
                     else:
                         req.courses.append(c)
                     req.creds_taken += int(c.creds)
-                    assert (len(re.findall(r'\d+', c.num)) == 1), "Error reading course number: %s" % course.num
+                    assert (len(re.findall(r'\d+', c.num)) == 1), "Error reading course number: %s" % c.num
                     c_num = int(re.findall(r'\d+', c.num)[0])
                     if c_num >= 2000:
                         req.over2000s += 1
@@ -295,6 +333,10 @@ class Student:
             elif self.ppf[ppf_creds_col + str(req.position)].value is not None:
                 c = read_class_from_ppf(self.ppf, req.position)
                 req.course = c
+                if "D" in c.grade:
+                    self.has_D.append(c.num)
+                    self.brenda_summary_notes.append("(From previously completed PPF): Grade of %s recorded for %s"
+                                                     % (c.grade, c.num))
                 req.satisfied = True
                 if c.ap:
                     req.ap_satisfied = True
@@ -315,6 +357,10 @@ class Student:
                 elif self.ppf[ppf_creds_col + str(req.position)].value is not None:
                     c = read_class_from_ppf(self.ppf, req.position)
                     req.course = c
+                    if "D" in c.grade:
+                        self.has_D.append(c.num)
+                        self.brenda_summary_notes.append("(From previously completed PPF): Grade of %s recorded for %s"
+                                                         % (c.grade, c.num))
                     req.satisfied = True
                     eng.curr_creds += int(c.creds)
                     self.total_creds += int(c.creds)
@@ -330,6 +376,11 @@ class Student:
                             req.courses = [c]
                         else:
                             req.courses.append(c)
+                        if "D" in c.grade:
+                            self.has_D.append(c.num)
+                            self.brenda_summary_notes.append(
+                                "(From previously completed PPF): Grade of %s recorded for %s"
+                                % (c.grade, c.num))
                         req.creds_taken += int(c.creds)
                         if req.creds_taken >= req.creds_needed:
                             req.satisfied = True
@@ -337,12 +388,6 @@ class Student:
                             req.next += 1
                         eng.curr_creds += int(c.creds)
                         self.total_creds += int(c.creds)
-
-    def read_pe(self):
-        if self.ppf['B104'].value is not None:
-            self.pe += 1
-        if self.ppf['B105'].value is not None:
-            self.pe += 1
 
     def read_approved(self):
         for cat in self.requirements:
@@ -359,6 +404,24 @@ class Student:
             approved.creds += c.creds
             approved.next += 1
 
+    def read_pe(self):
+        if self.ppf['B104'].value is not None:
+            self.pe += 1
+        if self.ppf['B105'].value is not None:
+            self.pe += 1
+
+    def read_capstone(self):
+        if self.ppf['B101'].value is not None:
+            self.capstone = True
+
+    def read_tech_writing(self):
+        if self.ppf['B100'].value is not None:
+            self.tech_writing = True
+
+    def read_ehs(self):
+        if self.ppf['G105'].value is not None:
+            self.ehs = True
+
     def read_others(self):
         while self.ppf[ppf_courses_unneeded_col+str(self.notneeded_next)].value is not None:
             self.notneeded_next += 1
@@ -371,6 +434,16 @@ class Student:
             p += 1
 
         # Update
+
+        # Update capstone, tech writing if necessary
+        # Must be done first before courses are removed from the lists
+        if self.capstone is False:
+            self.update_capstone()
+        if self.tech_writing is False:
+            self.update_tech_writing()
+        if self.ppf['G104'].value is None:
+            self.update_bee1200()
+
         for cat in self.requirements:
             if cat.cat_name == "Math" and cat.satisfied is False:
                 self.update_math()
@@ -389,6 +462,7 @@ class Student:
             if cat.cat_name == "Engineering Requirements" and cat.satisfied is False:
                 self.update_eng()
 
+        # Update phys ed if necessary
         if self.pe < 2:
             self.update_pe()
         self.update_approved_electives()
@@ -414,11 +488,15 @@ class Student:
             if r.satisfied is False or r.ap_satisfied:
                 for c in self.course_list:
                     if r.check_fillby(c):
-                        r.fillby(c, self.ppf)  # save the course and update ppf
                         self.course_list.remove(c)
-                        math.curr_creds += c.creds
-                        self.total_creds += int(c.creds)
-                        break
+                        if c.grade is not None and "D" in c.grade:
+                            self.summary_notes.append("%s retake, received %s" % (c.num, c.grade))
+                            self.brenda_summary_notes.append("%s retake, received %s" % (c.num, c.grade))
+                        else:
+                            r.fillby(c, self.ppf)  # save the course and update ppf
+                            math.curr_creds += c.creds
+                            self.total_creds += int(c.creds)
+                            break
 
         # update the total number of credits taken
         self.ppf[math.loc] = math.curr_creds
@@ -435,11 +513,20 @@ class Student:
         # look through the unsatisfied reqs
         # see if any can be satisfied by a course the student took
         for r in phys.reqs:
-            if r.satisfied is False:
+            if r.satisfied is False or r.ap_satisfied:
                 for c in self.course_list:
                     if r.check_fillby(c):
-                        r.fillby(c, self.ppf)  # save the course
                         self.course_list.remove(c)
+                        if c.grade is not None and "D" in c.grade:
+                            if len(self.has_D) > 0:
+                                self.has_D.append(c.num)
+                                self.brenda_summary_notes.append("Had D in %s, received %s in %s, credit not given"
+                                                                 % (self.has_D[0], c.grade, c.num))
+                                continue
+                            else:
+                                self.has_D.append(c.num)
+
+                        r.fillby(c, self.ppf)  # save the course
                         phys.curr_creds += c.creds
                         self.total_creds += c.creds
                         break
@@ -459,11 +546,19 @@ class Student:
         # look through the unsatisfied reqs
         # see if any can be satisfied by a course the student took
         for r in chem.reqs:
-            if r.satisfied is False:
+            if r.satisfied is False or r.ap_satisfied:
                 for c in self.course_list:
                     if r.check_fillby(c):
-                        r.fillby(c, self.ppf)  # save the course
                         self.course_list.remove(c)
+                        if c.grade is not None and "D" in c.grade:
+                            if len(self.has_D) > 0:
+                                self.has_D.append(c.num)
+                                self.brenda_summary_notes.append("Had D in %s, received %s in %s, credit not given"
+                                                                 % (self.has_D[0], c.grade, c.num))
+                                continue
+                            else:
+                                self.has_D.append(c.num)
+                        r.fillby(c, self.ppf)  # save the course
                         chem.curr_creds += c.creds
                         self.total_creds += c.creds
                         break
@@ -483,13 +578,21 @@ class Student:
         # look through the unsatisfied reqs
         # see if any can be satisfied by a course the student took
         for r in bio.reqs:
-            if r.satisfied is False:
+            if r.satisfied is False or r.ap_satisfied:
                 i = 0
                 while i < len(self.course_list):
                     c = self.course_list[i]
                     if r.check_fillby(c):
-                        r.fillby(c, self.ppf)  # save the course
                         self.course_list.remove(c)
+                        if c.grade is not None and "D" in c.grade:
+                            if len(self.has_D) > 0:
+                                self.has_D.append(c.num)
+                                self.brenda_summary_notes.append("Had D in %s, received %s in %s, credit not given"
+                                                                 % (self.has_D[0], c.grade, c.num))
+                                continue
+                            else:
+                                self.has_D.append(c.num)
+                        r.fillby(c, self.ppf)  # save the course
                         bio.curr_creds += c.creds
                         self.total_creds += c.creds
                         if r.satisfied:
@@ -522,16 +625,20 @@ class Student:
                         if r.courses is not None and r.courses[0].ap:
                             i += 1
                             continue
-                        if c.grade != 5:
+                        if c.grade != '5':
                             i += 1
                             continue
                     if is_fws and r.check_fillby(c, override=True):
-                        r.fillby(c, ppf=self.ppf, override=True, include_desc=True)  # save the course
-                        self.course_list.remove(c)
-                        fws.curr_creds += c.creds
-                        self.total_creds += c.creds
-                        if r.satisfied:
-                            break
+                        no_no_list = ['U', 'UX', 'W', 'INC', 'NGR', 'F']
+                        if c.grade is not None and no_no_list.__contains__(c.grade):
+                            i += 1
+                        else:
+                            r.fillby(c, ppf=self.ppf, override=True, include_desc=True)  # save the course
+                            self.course_list.remove(c)
+                            fws.curr_creds += c.creds
+                            self.total_creds += c.creds
+                            if r.satisfied:
+                                break
                     else:
                         i += 1
 
@@ -577,11 +684,19 @@ class Student:
         # look through the unsatisfied reqs
         # see if any can be satisfied by a course the student took
         for r in cs.reqs:
-            if r.satisfied is False:
+            if r.satisfied is False or r.ap_satisfied:
                 for c in self.course_list:
                     if r.check_fillby(c):
-                        r.fillby(c, self.ppf)  # save the course
                         self.course_list.remove(c)
+                        if c.grade is not None and "D" in c.grade:
+                            if len(self.has_D) > 0:
+                                self.has_D.append(c.num)
+                                self.brenda_summary_notes.append("Had D in %s, received %s in %s, credit not given"
+                                                                 % (self.has_D[0], c.grade, c.num))
+                                continue
+                            else:
+                                self.has_D.append(c.num)
+                        r.fillby(c, self.ppf)  # save the course
                         cs.curr_creds += c.creds
                         self.total_creds += c.creds
                         break
@@ -606,8 +721,16 @@ class Student:
                 while i < len(self.course_list):
                     c = self.course_list[i]
                     if r.check_fillby(c):
-                        r.fillby(c, self.ppf)  # save the course
                         self.course_list.remove(c)
+                        if c.grade is not None and "D" in c.grade:
+                            if len(self.has_D) > 0:
+                                self.has_D.append(c.num)
+                                self.brenda_summary_notes.append("Had D in %s, received %s in %s, credit not given"
+                                                                 % (self.has_D[0], c.grade, c.num))
+                                continue
+                            else:
+                                self.has_D.append(c.num)
+                        r.fillby(c, self.ppf)  # save the course
                         eng.curr_creds += c.creds
                         self.total_creds += c.creds
                         if r.satisfied:
@@ -615,29 +738,10 @@ class Student:
                     else:
                         i += 1
 
-            # Check that BEE 1200 has been satisfied
-            if r.req_name == "Intro Engineering" and r.satisfied:
-                self.ppf['G104'] = "X"
-
         # update the total number of credits taken
         self.ppf[eng.loc] = eng.curr_creds
         if eng.curr_creds >= eng.min_creds:
             eng.satisfied = True
-
-    def update_pe(self):
-        courses_remaining = len(self.course_list)
-        while self.pe < 2 and courses_remaining > 0:
-            for c in self.course_list:
-                courses_remaining -= 1
-                if c.num[:2] == "PE":
-                    if self.pe == 0:
-                        self.ppf['B104'] = c.num
-                        self.pe += 1
-                        self.course_list.remove(c)
-                    else:
-                        self.ppf['B105'] = c.num
-                        self.pe += 1
-                        self.course_list.remove(c)
 
     def update_approved_electives(self):
         for cat in self.requirements:
@@ -645,26 +749,24 @@ class Student:
                 approved = cat.reqs[0]
                 break
 
+        failing_grades = ['U', 'UX', 'W', 'INC', 'NGR', 'F']
+
+        # Send the remainder to the graveyard: Courses not needed for graduation
         for c in self.course_list:
-            # Go through unused courses - if they can satisfy approved, apply it, otherwise put it in unused
-            # dismiss failed or incompleted courses
-            failing_grades = ['U', 'UX', 'W', 'INC', 'NGR', 'F']
-            if failing_grades.__contains__(c.grade):
-                continue
-                # TODO
-            # dismiss ap courses
+            if approved.check_fillby(c):
+                approved.fillby(c, self.ppf)
+                approved.creds += c.creds
+                self.total_creds += c.creds
             elif c.ap:
                 continue
+            elif c.num[:2] == "PE":
+                continue
+            elif failing_grades.__contains__(c.grade):
+                self.brenda_summary_notes.append("Unsatisfactory grade: %s in %s, no credit given" % (c.grade, c.num))
+                continue
             else:
-                if approved.check_fillby(c):
-                    approved.fillby(c, self.ppf)
-                    approved.creds += c.creds
-                    self.total_creds += c.creds
-                elif c.num[:2] == "PE":
-                    continue
-                else:
-                    self.ppf[ppf_courses_unneeded_col+str(self.notneeded_next)] = c.num
-                    self.notneeded_next += 1
+                self.ppf[ppf_courses_unneeded_col+str(self.notneeded_next)] = c.num
+                self.notneeded_next += 1
 
         # update the total number of credits taken, including student grand total
         self.ppf[approved.loc] = approved.creds
@@ -672,24 +774,101 @@ class Student:
             approved.satisfied = True
         self.ppf['M98'] = self.total_creds
 
-    def write_summary(self):
+    def update_pe(self):
+        for c in self.course_list:
+            if c.num[:2] == "PE":
+                if self.pe == 0:
+                    self.ppf['B104'] = "X"
+                    self.pe += 1
+                    self.course_list.remove(c)
+                else:
+                    self.ppf['B105'] = "X"
+                    self.pe += 1
+                    self.course_list.remove(c)
+            if self.pe == 2:
+                break
+
+    def update_capstone(self):
+        # Define eligible capstone design courses, excluding BEE 4500 which is handled below on a special case
+        capstone_courses = ['BEE4350', 'BEE4530', 'BEE4600', 'BEE4730', 'BEE4810', 'BEE4870']
+        no_no_list = ['S', 'U', 'SX', 'UX', 'W', 'INC', 'NGR', 'F']
+        i = 0
+        while i < len(self.course_list):
+            c = self.course_list[i]
+            if capstone_courses.__contains__(c.num) or (c.num == 'BEE4500' and c.creds == "4"):
+                if no_no_list.__contains__(c.grade):
+                    i += 1
+                else:
+                    self.ppf['B101'] = "X"
+                    self.ppf['H101'] = c.num
+                    self.capstone = True
+                    break
+            else:
+                i += 1
+
+    def update_tech_writing(self):
+        # Define eligible technical writing courses
+        writing_courses = ['ENGRC3500', 'ENGRC3020', 'ENGRC3024', 'ENGRC3350', 'ENGRC3340',
+                           'ENGRD2640', 'CHEME4320', 'MAE4272', 'CIS3000',
+                           # 'BEE4890', 'BEE4530', 'BEE4590', 'BEE4730',
+                           'ENGRC4890', 'ENGRC4530',
+                           'COMM3030', 'COMM3020', 'ENGRC3023']
+        no_no_list = ['S', 'U', 'SX', 'UX', 'W', 'INC', 'NGR', 'F']
+        i = 0
+        while i < len(self.course_list):
+            c = self.course_list[i]
+            if writing_courses.__contains__(c.num):
+                if no_no_list.__contains__(c.grade) is False:
+                    self.ppf['B100'] = "X"
+                    self.ppf['H100'] = c.num
+                    self.tech_writing = True
+                    self.course_list.remove(c)
+                    break
+                else:
+                    i += 1
+            else:
+                i += 1
+
+    def update_bee1200(self):
+        no_no_list = ['S', 'U', 'SX', 'UX', 'W', 'INC', 'NGR', 'F']
+        i = 0
+        while i < len(self.course_list):
+            c = self.course_list[i]
+            if c.num == "BEE1200":
+                if no_no_list.__contains__(c.grade) is False:
+                    self.ppf['G104'] = "X"
+                    self.course_list.remove(c)
+                    break
+                else:
+                    i += 1
+            else:
+                i += 1
+
+    def write_summary(self, write_reqs_remaining):
+        row = 111
+        for comment in self.summary_notes:
+            self.ppf['K' + str(row)] = comment
+            row += 1
+
         # PPF Summary
-        self.ppf['K111'] = "The following courses are needed for graduation:"
-        row = 112
-        for cat in self.requirements:
-            for r in cat.reqs:
-                if isinstance(r, BasicCourseReq) and r.satisfied is False:
-                    if len(r.options) == 1:
-                        self.ppf['K'+str(row)] = r.options[0]
+        if write_reqs_remaining:
+            row += 1
+            self.ppf['K' + str(row)] = "The following courses are needed for graduation:"
+            row += 2
+            for cat in self.requirements:
+                for r in cat.reqs:
+                    if isinstance(r, BasicCourseReq) and r.satisfied is False:
+                        if len(r.options) == 1:
+                            self.ppf['K'+str(row)] = r.options[0]
+                            row += 1
+                        elif len(r.options) == 2:
+                            self.ppf['K'+str(row)] = r.options[0] + " or " + r.options[1]
+                            row += 1
+                        else:
+                            self.ppf['K'+str(row)] = r.req_name
+                    elif isinstance(r, MultiCourseReq) and r.satisfied is False:
+                        self.ppf['K'+str(row)] = r.req_name + " (%d more credits)" % (r.creds_needed-r.creds_taken)
                         row += 1
-                    elif len(r.options) == 2:
-                        self.ppf['K'+str(row)] = r.options[0] + " or " + r.options[1]
-                        row += 1
-                    else:
-                        self.ppf['K'+str(row)] = r.req_name
-                elif isinstance(r, MultiCourseReq) and r.satisfied is False:
-                    self.ppf['K'+str(row)] = r.req_name + " (%d more credits)" % (r.creds_needed-r.creds_taken)
-                    row += 1
 
         # Save the updates that have been made
         parent = os.getcwd()

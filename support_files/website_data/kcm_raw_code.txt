@@ -119,40 +119,43 @@
 
 	<div id="navigation">
 
+        
+        
 		<ul>
 
-			<li><a href="index.cfm" >Liberal Studies Policy</a></li>
-
-	
+			<li><label class="navlabel">Approved Categories/Courses:</label></li>
+            
             <li><a href="CA.cfm" >CA</a></li>
 
             <li><a href="HA.cfm" >HA</a></li>
 
             <li><a href="KCM.cfm" class="current">KCM</a></li>
 
-            <li><a href="LA.cfm" >LA</a></li>
+            <li><a href="LA.cfm" >LA/LAD</a></li>
 
             <li><a href="SBA.cfm" >SBA</a></li>
 
 			<li><a href="CE.cfm" >CE</a></li>
 
+		</ul>
+        
+		<ul>
+
+			
+            
+			<li><a href="index.cfm" >Liberal Studies Policy</a></li>
+                        
             <li><a href="policy.cfm" >Petitions</a></li>
-
-
-
+            
             <li><a href="ApprovedLiberalStudies.pdf">Other Yes</a></li>
-
-
-
-          <li><a href="DeniedLiberalStudies.pdf">Other No</a></li>
-
-		  
-
-		  
-
-
+            
+            <li><a href="DeniedLiberalStudies.pdf">Other No</a></li>
 
 		</ul>
+
+			
+
+		
 
 	</div>
 
@@ -183,2597 +186,2729 @@
  
   <tr>
 	<td>AIIS</td><td>2100</td>
-	<td><div id="528642par3">
+	<td><div id="578960par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','528642',528642,'Indigenous Ingenuities as Living Networks',3)">
+	<a href="javascript:loadinfo('handler.cfm','578960',578960,'Indigenous Ingenuities as Living Networks',3)">
 	
 	Indigenous Ingenuities as Living Networks</a></div>
-	<div id="5286423"> </div></td>
+	<div id="5789603"> </div></td>
 	 <td>(CA-AG, D-AG, KCM-AG)</td>
 </tr>
 
   <tr>
 	<td>AIIS</td><td>3330</td>
-	<td><div id="521430par3">
+	<td><div id="572690par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','521430',521430,'Ways of Knowing: Indigenous and Place-Based Ecological Knowledge',3)">
+	<a href="javascript:loadinfo('handler.cfm','572690',572690,'Ways of Knowing: Indigenous and Place-Based Ecological Knowledge',3)">
 	
 	Ways of Knowing: Indigenous and Place-Based Ecological Knowledge</a></div>
-	<div id="5214303"> </div></td>
+	<div id="5726903"> </div></td>
 	 <td>(CA-AG, D-AG, KCM-AG, SBA-AG)</td>
 </tr>
 
   <tr>
-	<td>AMST</td><td>2621</td>
-	<td><div id="531483par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','531483',531483,'Gendering Religion, Science and Technology',3)">
-	
-	Gendering Religion, Science and Technology</a></div>
-	<div id="5314833"> </div></td>
-	 <td>(KCM-AS)</td>
-</tr>
-
-  <tr>
 	<td>AMST</td><td>3121</td>
-	<td><div id="534934par3">
+	<td><div id="581368par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','534934',534934,'Crime and Punishment',3)">
+	<a href="javascript:loadinfo('handler.cfm','581368',581368,'Crime and Punishment',3)">
 	
 	Crime and Punishment</a></div>
-	<div id="5349343"> </div></td>
+	<div id="5813683"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>AMST</td><td>3330</td>
-	<td><div id="521485par3">
+	<td><div id="572736par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','521485',521485,'Ways of Knowing: Indigenous and Place-Based Ecological Knowledge',3)">
+	<a href="javascript:loadinfo('handler.cfm','572736',572736,'Ways of Knowing: Indigenous and Place-Based Ecological Knowledge',3)">
 	
 	Ways of Knowing: Indigenous and Place-Based Ecological Knowledge</a></div>
-	<div id="5214853"> </div></td>
+	<div id="5727363"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>AMST</td><td>3735</td>
-	<td><div id="521491par3">
+	<td><div id="572741par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','521491',521491,'Political Freedom',3)">
+	<a href="javascript:loadinfo('handler.cfm','572741',572741,'Political Freedom',3)">
 	
 	Political Freedom</a></div>
-	<div id="5214913"> </div></td>
+	<div id="5727413"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>AMST</td><td>3785</td>
-	<td><div id="529872par3">
+	<td><div id="579939par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529872',529872,'Civil Disobedience',3)">
+	<a href="javascript:loadinfo('handler.cfm','579939',579939,'Civil Disobedience',3)">
 	
 	Civil Disobedience</a></div>
-	<div id="5298723"> </div></td>
+	<div id="5799393"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>AMST</td><td>4021</td>
-	<td><div id="528430par3">
+	<td><div id="578799par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','528430',528430,'American Conservative Thought',3)">
+	<a href="javascript:loadinfo('handler.cfm','578799',578799,'American Conservative Thought',3)">
 	
 	American Conservative Thought</a></div>
-	<div id="5284303"> </div></td>
+	<div id="5787993"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>AMST</td><td>4220</td>
-	<td><div id="530651par3">
+	<td><div id="580536par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','530651',530651,'Locke and the Philosophies of Dispossession: Indigenous America\'s Interruptions and Resistances',3)">
+	<a href="javascript:loadinfo('handler.cfm','580536',580536,'Locke and the Philosophies of Dispossession: Indigenous America\'s Interruptions and Resistances',3)">
 	
 	Locke and the Philosophies of Dispossession: Indigenous America's Interruptions and Resistances</a></div>
-	<div id="5306513"> </div></td>
+	<div id="5805363"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>AMST</td><td>4655</td>
-	<td><div id="527398par3">
+	<td><div id="577992par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','527398',527398,'Topics in Social and Political Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','577992',577992,'Topics in Social and Political Philosophy',3)">
 	
 	Topics in Social and Political Philosophy</a></div>
-	<div id="5273983"> </div></td>
+	<div id="5779923"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>ANTHR</td><td>4101</td>
-	<td><div id="530340par3">
+	<td><div id="580285par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','530340',530340,'The Entangled Lives of Humans and Animals',3)">
+	<a href="javascript:loadinfo('handler.cfm','580285',580285,'The Entangled Lives of Humans and Animals',3)">
 	
 	The Entangled Lives of Humans and Animals</a></div>
-	<div id="5303403"> </div></td>
+	<div id="5802853"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>ARAB</td><td>4867</td>
-	<td><div id="529666par3">
+	<td><div id="579776par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529666',529666,'In Search of the Original Quran',3)">
+	<a href="javascript:loadinfo('handler.cfm','579776',579776,'In Search of the Original Quran',3)">
 	
 	In Search of the Original Quran</a></div>
-	<div id="5296663"> </div></td>
+	<div id="5797763"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>ARTH</td><td>4438</td>
-	<td><div id="526689par3">
+	<td><div id="577441par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','526689',526689,'Language and Image',3)">
+	<a href="javascript:loadinfo('handler.cfm','577441',577441,'Language and Image',3)">
 	
 	Language and Image</a></div>
-	<div id="5266893"> </div></td>
+	<div id="5774413"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>ASIAN</td><td>2273</td>
-	<td><div id="529279par3">
+	<td><div id="579443par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529279',529279,'Religion and Environmental Studies',3)">
+	<a href="javascript:loadinfo('handler.cfm','579443',579443,'Introduction to Religious Studies: Religion and Ecology',3)">
 	
-	Religion and Environmental Studies</a></div>
-	<div id="5292793"> </div></td>
+	Introduction to Religious Studies: Religion and Ecology</a></div>
+	<div id="5794433"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>ASIAN</td><td>3316</td>
-	<td><div id="529284par3">
+	<td><div id="579447par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529284',529284,'Zen Buddhism: Ecology, Sustainability and Daily Life',3)">
+	<a href="javascript:loadinfo('handler.cfm','579447',579447,'Zen Buddhism: Ecology, Sustainability and Daily Life',3)">
 	
 	Zen Buddhism: Ecology, Sustainability and Daily Life</a></div>
-	<div id="5292843"> </div></td>
+	<div id="5794473"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>ASIAN</td><td>3344</td>
-	<td><div id="521882par3">
+	<td><div id="573116par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','521882',521882,'Introduction to Indian Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','573116',573116,'Introduction to Indian Philosophy',3)">
 	
 	Introduction to Indian Philosophy</a></div>
-	<div id="5218823"> </div></td>
+	<div id="5731163"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>ASIAN</td><td>4430</td>
-	<td><div id="521899par3">
+	<td><div id="573132par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','521899',521899,'Structure of Korean',3)">
+	<a href="javascript:loadinfo('handler.cfm','573132',573132,'Structure of Korean',3)">
 	
 	Structure of Korean</a></div>
-	<div id="5218993"> </div></td>
+	<div id="5731323"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>ASIAN</td><td>4449</td>
-	<td><div id="521901par3">
+	<td><div id="573134par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','521901',521901,'History, Theory, and Methods in the Academic Study of Religion',3)">
+	<a href="javascript:loadinfo('handler.cfm','573134',573134,'History, Theory, and Methods in the Academic Study of Religion',3)">
 	
 	History, Theory, and Methods in the Academic Study of Religion</a></div>
-	<div id="5219013"> </div></td>
+	<div id="5731343"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>ASIAN</td><td>4481</td>
-	<td><div id="521905par3">
+	<td><div id="573138par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','521905',521905,'Translation and Cultural Difference',3)">
+	<a href="javascript:loadinfo('handler.cfm','573138',573138,'Translation and Cultural Difference',3)">
 	
 	Translation and Cultural Difference</a></div>
-	<div id="5219053"> </div></td>
+	<div id="5731383"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>BSOC</td><td>2051</td>
-	<td><div id="522315par3">
+	<td><div id="573517par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','522315',522315,'Ethical Issues in Health and Medicine',3)">
+	<a href="javascript:loadinfo('handler.cfm','573517',573517,'Ethical Issues in Health and Medicine',3)">
 	
 	Ethical Issues in Health and Medicine</a></div>
-	<div id="5223153"> </div></td>
+	<div id="5735173"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>BSOC</td><td>2061</td>
-	<td><div id="522316par3">
+	<td><div id="573518par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','522316',522316,'Ethics and the Environment',3)">
+	<a href="javascript:loadinfo('handler.cfm','573518',573518,'Ethics and the Environment',3)">
 	
 	Ethics and the Environment</a></div>
-	<div id="5223163"> </div></td>
+	<div id="5735183"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>BSOC</td><td>4101</td>
-	<td><div id="530709par3">
+	<td><div id="580586par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','530709',530709,'The Entangled Lives of Humans and Animals',3)">
+	<a href="javascript:loadinfo('handler.cfm','580586',580586,'The Entangled Lives of Humans and Animals',3)">
 	
 	The Entangled Lives of Humans and Animals</a></div>
-	<div id="5307093"> </div></td>
+	<div id="5805863"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>CLASS</td><td>1665</td>
-	<td><div id="527390par3">
+	<td><div id="577985par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','527390',527390,'Introduction to Early History of Political Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','577985',577985,'Introduction to Early History of Political Philosophy',3)">
 	
 	Introduction to Early History of Political Philosophy</a></div>
-	<div id="5273903"> </div></td>
+	<div id="5779853"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>CLASS</td><td>2661</td>
-	<td><div id="522630par3">
+	<td><div id="573825par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','522630',522630,'Ancient Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','573825',573825,'Ancient Philosophy',3)">
 	
 	Ancient Philosophy</a></div>
-	<div id="5226303"> </div></td>
+	<div id="5738253"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>CLASS</td><td>3661</td>
-	<td><div id="528440par3">
+	<td><div id="578802par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','528440',528440,'Hellenistic Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','578802',578802,'Hellenistic Philosophy',3)">
 	
 	Hellenistic Philosophy</a></div>
-	<div id="5284403"> </div></td>
+	<div id="5788023"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>CLASS</td><td>3664</td>
-	<td><div id="522638par3">
+	<td><div id="573830par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','522638',522638,'Aristotle',3)">
+	<a href="javascript:loadinfo('handler.cfm','573830',573830,'Aristotle',3)">
 	
 	Aristotle</a></div>
-	<div id="5226383"> </div></td>
+	<div id="5738303"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>CLASS</td><td>3669</td>
-	<td><div id="522639par3">
+	<td><div id="573831par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','522639',522639,'Plato',3)">
+	<a href="javascript:loadinfo('handler.cfm','573831',573831,'Plato',3)">
 	
 	Plato</a></div>
-	<div id="5226393"> </div></td>
+	<div id="5738313"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>CLASS</td><td>3674</td>
-	<td><div id="528294par3">
+	<td><div id="578705par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','528294',528294,'Introduction to Indian Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','578705',578705,'Introduction to Indian Philosophy',3)">
 	
 	Introduction to Indian Philosophy</a></div>
-	<div id="5282943"> </div></td>
+	<div id="5787053"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>CLASS</td><td>3676</td>
-	<td><div id="529942par3">
+	<td><div id="579990par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529942',529942,'Ancient Political Thought',3)">
+	<a href="javascript:loadinfo('handler.cfm','579990',579990,'Ancient Political Thought',3)">
 	
 	Ancient Political Thought</a></div>
-	<div id="5299423"> </div></td>
+	<div id="5799903"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>CLASS</td><td>4662</td>
-	<td><div id="522643par3">
+	<td><div id="573835par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','522643',522643,'Topics in Ancient Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','573835',573835,'Topics in Ancient Philosophy',3)">
 	
 	Topics in Ancient Philosophy</a></div>
-	<div id="5226433"> </div></td>
+	<div id="5738353"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>COGST</td><td>1101</td>
-	<td><div id="522650par3">
+	<td><div id="573842par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','522650',522650,'Introduction to Cognitive Science',3)">
+	<a href="javascript:loadinfo('handler.cfm','573842',573842,'Introduction to Cognitive Science',3)">
 	
 	Introduction to Cognitive Science</a></div>
-	<div id="5226503"> </div></td>
+	<div id="5738423"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>COGST</td><td>2090</td>
-	<td><div id="529984par3">
+	<td><div id="580008par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529984',529984,'Developmental Psychology',3)">
+	<a href="javascript:loadinfo('handler.cfm','580008',580008,'Developmental Psychology',3)">
 	
 	Developmental Psychology</a></div>
-	<div id="5299843"> </div></td>
+	<div id="5800083"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>COGST</td><td>2150</td>
-	<td><div id="522653par3">
+	<td><div id="573845par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','522653',522653,'Psychology of Language',3)">
+	<a href="javascript:loadinfo('handler.cfm','573845',573845,'Psychology of Language',3)">
 	
 	Psychology of Language</a></div>
-	<div id="5226533"> </div></td>
+	<div id="5738453"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>COGST</td><td>2264</td>
-	<td><div id="529642par3">
+	<td><div id="579756par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529642',529642,'Language, Mind, and Brain',3)">
+	<a href="javascript:loadinfo('handler.cfm','579756',579756,'Language, Mind, and Brain',3)">
 	
 	Language, Mind, and Brain</a></div>
-	<div id="5296423"> </div></td>
+	<div id="5797563"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>COGST</td><td>2621</td>
-	<td><div id="535347par3">
+	<td><div id="581759par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','535347',535347,'Minds and Machines',3)">
+	<a href="javascript:loadinfo('handler.cfm','581759',581759,'Minds and Machines',3)">
 	
 	Minds and Machines</a></div>
-	<div id="5353473"> </div></td>
+	<div id="5817593"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>COGST</td><td>3140</td>
-	<td><div id="522652par3">
+	<td><div id="573844par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','522652',522652,'Computational Psychology',3)">
+	<a href="javascript:loadinfo('handler.cfm','573844',573844,'Computational Psychology',3)">
 	
 	Computational Psychology</a></div>
-	<div id="5226523"> </div></td>
+	<div id="5738443"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>COGST</td><td>3330</td>
+	<td><div id="570640par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','570640',570640,'Problems in Semantics',3)">
+	
+	Problems in Semantics</a></div>
+	<div id="5706403"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>COGST</td><td>3420</td>
-	<td><div id="522656par3">
+	<td><div id="573847par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','522656',522656,'Human Perception: Application to Computer Graphics, Art, and Visual Display',3)">
+	<a href="javascript:loadinfo('handler.cfm','573847',573847,'Human Perception: Application to Computer Graphics, Art, and Visual Display',3)">
 	
 	Human Perception: Application to Computer Graphics, Art, and Visual Display</a></div>
-	<div id="5226563"> </div></td>
+	<div id="5738473"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>COGST</td><td>4120</td>
-	<td><div id="522657par3">
+	<td><div id="573848par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','522657',522657,'Laboratory in Cognition and Perception',3)">
+	<a href="javascript:loadinfo('handler.cfm','573848',573848,'Laboratory in Cognition and Perception',3)">
 	
 	Laboratory in Cognition and Perception</a></div>
-	<div id="5226573"> </div></td>
+	<div id="5738483"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>COGST</td><td>4150</td>
+	<td><div id="582475par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582475',582475,'Culture, Cognition, Humanities',3)">
+	
+	Culture, Cognition, Humanities</a></div>
+	<div id="5824753"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>COGST</td><td>4270</td>
-	<td><div id="522659par3">
+	<td><div id="573850par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','522659',522659,'Evolution of Language',3)">
+	<a href="javascript:loadinfo('handler.cfm','573850',573850,'Evolution of Language',3)">
 	
 	Evolution of Language</a></div>
-	<div id="5226593"> </div></td>
+	<div id="5738503"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>COGST</td><td>4425</td>
-	<td><div id="535345par3">
+	<td><div id="581757par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','535345',535345,'Pragmatics',3)">
+	<a href="javascript:loadinfo('handler.cfm','581757',581757,'Pragmatics',3)">
 	
 	Pragmatics</a></div>
-	<div id="5353453"> </div></td>
+	<div id="5817573"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>COGST</td><td>4438</td>
-	<td><div id="526690par3">
+	<td><div id="577442par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','526690',526690,'Language and Image',3)">
+	<a href="javascript:loadinfo('handler.cfm','577442',577442,'Language and Image',3)">
 	
 	Language and Image</a></div>
-	<div id="5266903"> </div></td>
+	<div id="5774423"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>COGST</td><td>4470</td>
+	<td><div id="582861par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582861',582861,'Psychology of Imagination',3)">
+	
+	Psychology of Imagination</a></div>
+	<div id="5828613"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>3781</td>
+	<td><div id="579483par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579483',579483,'Freud and the Invention of Psychoanalysis',3)">
+	
+	Freud and the Invention of Psychoanalysis</a></div>
+	<div id="5794833"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>COML</td><td>4229</td>
+	<td><div id="582975par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582975',582975,'Culture, Cognition, Humanities',3)">
+	
+	Culture, Cognition, Humanities</a></div>
+	<div id="5829753"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>COML</td><td>4700</td>
-	<td><div id="526443par3">
+	<td><div id="577247par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','526443',526443,'Translation and Cultural Difference',3)">
+	<a href="javascript:loadinfo('handler.cfm','577247',577247,'Translation and Cultural Difference',3)">
 	
 	Translation and Cultural Difference</a></div>
-	<div id="5264433"> </div></td>
+	<div id="5772473"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>COMM</td><td>3080</td>
-	<td><div id="530616par3">
+	<td><div id="580507par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','530616',530616,'Capstone Course in Environmental & Sustainability Communication: From the Lab to the World',3)">
+	<a href="javascript:loadinfo('handler.cfm','580507',580507,'Capstone Course in Environmental & Sustainability Communication: From the Lab to the World',3)">
 	
 	Capstone Course in Environmental & Sustainability Communication: From the Lab to the World</a></div>
-	<div id="5306163"> </div></td>
+	<div id="5805073"> </div></td>
 	 <td>(KCM-AG, SBA-AG)</td>
 </tr>
 
   <tr>
 	<td>COMM</td><td>3110</td>
-	<td><div id="527956par3">
+	<td><div id="578425par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','527956',527956,'Educational Psychology',3)">
+	<a href="javascript:loadinfo('handler.cfm','578425',578425,'Educational Psychology',3)">
 	
 	Educational Psychology</a></div>
-	<div id="5279563"> </div></td>
+	<div id="5784253"> </div></td>
 	 <td>(CA-AG, KCM-AG)</td>
 </tr>
 
   <tr>
 	<td>COMM</td><td>4300</td>
-	<td><div id="527549par3">
+	<td><div id="578117par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','527549',527549,'Ethics in New Media, Technology, and Communication',3)">
+	<a href="javascript:loadinfo('handler.cfm','578117',578117,'Ethics in New Media, Technology, and Communication',3)">
 	
 	Ethics in New Media, Technology, and Communication</a></div>
-	<div id="5275493"> </div></td>
+	<div id="5781173"> </div></td>
 	 <td>(CA-AG, KCM-AG)</td>
 </tr>
 
   <tr>
 	<td>COMM</td><td>4350</td>
-	<td><div id="535389par3">
+	<td><div id="581796par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','535389',535389,'Communicating Leadership and Ethics',3)">
+	<a href="javascript:loadinfo('handler.cfm','581796',581796,'Communicating Leadership and Ethics',3)">
 	
 	Communicating Leadership and Ethics</a></div>
-	<div id="5353893"> </div></td>
+	<div id="5817963"> </div></td>
 	 <td>(KCM-AG, SBA-AG)</td>
 </tr>
 
   <tr>
 	<td>COMM</td><td>6710</td>
-	<td><div id="528645par3">
+	<td><div id="578962par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','528645',528645,'Revolutions of the Mind: Media, Technology and Epistemological Change',3)">
+	<a href="javascript:loadinfo('handler.cfm','578962',578962,'Revolutions of the Mind: Media, Technology and Epistemological Change',3)">
 	
 	Revolutions of the Mind: Media, Technology and Epistemological Change</a></div>
-	<div id="5286453"> </div></td>
+	<div id="5789623"> </div></td>
 	 <td>(KCM-AG)</td>
 </tr>
 
   <tr>
 	<td>CS</td><td>1710</td>
-	<td><div id="522860par3">
+	<td><div id="574012par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','522860',522860,'Introduction to Cognitive Science',3)">
+	<a href="javascript:loadinfo('handler.cfm','574012',574012,'Introduction to Cognitive Science',3)">
 	
 	Introduction to Cognitive Science</a></div>
-	<div id="5228603"> </div></td>
+	<div id="5740123"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>DEA</td><td>2422</td>
-	<td><div id="535225par3">
+	<td><div id="581642par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','535225',535225,'Making Green: Sustainable Product Design Studio',3)">
+	<a href="javascript:loadinfo('handler.cfm','581642',581642,'Making Green: Sustainable Product Design Studio',3)">
 	
 	Making Green: Sustainable Product Design Studio</a></div>
-	<div id="5352253"> </div></td>
+	<div id="5816423"> </div></td>
 	 <td>(KCM-HE; LAD-HE)</td>
 </tr>
 
   <tr>
 	<td>DEA</td><td>3770</td>
-	<td><div id="535226par3">
+	<td><div id="581643par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','535226',535226,'Enabling Design: The Intersection of Age, Ability, and Design',3)">
+	<a href="javascript:loadinfo('handler.cfm','581643',581643,'Enabling Design: The Intersection of Age, Ability, and Design',3)">
 	
 	Enabling Design: The Intersection of Age, Ability, and Design</a></div>
-	<div id="5352263"> </div></td>
+	<div id="5816433"> </div></td>
 	 <td>(D-HE, KCM-HE)</td>
 </tr>
 
   <tr>
 	<td>DEA</td><td>4225</td>
-	<td><div id="552074par3">
+	<td><div id="582094par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','552074',552074,'Cuba Vista',3)">
+	<a href="javascript:loadinfo('handler.cfm','582094',582094,'Cuba Vista',3)">
 	
 	Cuba Vista</a></div>
-	<div id="5520743"> </div></td>
+	<div id="5820943"> </div></td>
 	 <td>(CA-HE, D-HE, HA-HE, KCM-HE, L</td>
 </tr>
 
   <tr>
 	<td>DEA</td><td>6210</td>
-	<td><div id="535303par3">
+	<td><div id="581717par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','535303',535303,'Architectural Robotics',3)">
+	<a href="javascript:loadinfo('handler.cfm','581717',581717,'Architectural Robotics',3)">
 	
 	Architectural Robotics</a></div>
-	<div id="5353033"> </div></td>
+	<div id="5817173"> </div></td>
 	 <td>(HA-HE, D-HE, KCM-HE, LAD-HE, </td>
 </tr>
 
   <tr>
 	<td>DSOC</td><td>1101</td>
-	<td><div id="523060par3">
+	<td><div id="574190par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','523060',523060,'Introduction to Sociology',3)">
+	<a href="javascript:loadinfo('handler.cfm','574190',574190,'Introduction to Sociology',3)">
 	
 	Introduction to Sociology</a></div>
-	<div id="5230603"> </div></td>
+	<div id="5741903"> </div></td>
 	 <td>(D-AG, KCM-AG, SBA-AG)</td>
 </tr>
 
   <tr>
 	<td>DSOC</td><td>3010</td>
-	<td><div id="523068par3">
+	<td><div id="574198par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','523068',523068,'Theories of Society and Development',3)">
+	<a href="javascript:loadinfo('handler.cfm','574198',574198,'Theories of Society and Development',3)">
 	
 	Theories of Society and Development</a></div>
-	<div id="5230683"> </div></td>
+	<div id="5741983"> </div></td>
 	 <td>(KCM-AG, SBA-AG)</td>
 </tr>
 
   <tr>
 	<td>DSOC</td><td>3140</td>
-	<td><div id="519641par3">
+	<td><div id="572079par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','519641',519641,'Spatial Thinking, GIS, and Related Methods',3)">
+	<a href="javascript:loadinfo('handler.cfm','572079',572079,'Spatial Thinking, GIS, and Related Methods',3)">
 	
 	Spatial Thinking, GIS, and Related Methods</a></div>
-	<div id="5196413"> </div></td>
+	<div id="5720793"> </div></td>
 	 <td>(KCM-AG, SBA-AG)</td>
 </tr>
 
   <tr>
 	<td>DSOC</td><td>3400</td>
-	<td><div id="523075par3">
+	<td><div id="574205par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','523075',523075,'Agriculture, Food, Sustainability and Social Justice',3)">
+	<a href="javascript:loadinfo('handler.cfm','574205',574205,'Agriculture, Food, Sustainability and Social Justice',3)">
 	
 	Agriculture, Food, Sustainability and Social Justice</a></div>
-	<div id="5230753"> </div></td>
+	<div id="5742053"> </div></td>
 	 <td>(D-AG, KCM-AG, SBA-AG)</td>
 </tr>
 
   <tr>
 	<td>DSOC</td><td>4700</td>
-	<td><div id="527946par3">
+	<td><div id="578416par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','527946',527946,'Senior Capstone Course',3)">
+	<a href="javascript:loadinfo('handler.cfm','578416',578416,'Senior Capstone Course',3)">
 	
 	Senior Capstone Course</a></div>
-	<div id="5279463"> </div></td>
+	<div id="5784163"> </div></td>
 	 <td>(KCM-AG, SBA-AG)</td>
 </tr>
 
   <tr>
 	<td>DSOC</td><td>7001</td>
-	<td><div id="523092par3">
+	<td><div id="574222par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','523092',523092,'Historical Sociology of Modernity',3)">
+	<a href="javascript:loadinfo('handler.cfm','574222',574222,'Historical Sociology of Modernity',3)">
 	
 	Historical Sociology of Modernity</a></div>
-	<div id="5230923"> </div></td>
+	<div id="5742223"> </div></td>
 	 <td>(HA-AG, KCM-AG)</td>
 </tr>
 
   <tr>
 	<td>EDUC</td><td>2200</td>
-	<td><div id="523354par3">
+	<td><div id="574463par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','523354',523354,'Introduction to Adult Learning: Education Workshop',3)">
+	<a href="javascript:loadinfo('handler.cfm','574463',574463,'Introduction to Adult Learning',3)">
 	
-	Introduction to Adult Learning: Education Workshop</a></div>
-	<div id="5233543"> </div></td>
+	Introduction to Adult Learning</a></div>
+	<div id="5744633"> </div></td>
 	 <td>(D-AG, KCM-AG)</td>
 </tr>
 
   <tr>
 	<td>EDUC</td><td>2210</td>
-	<td><div id="523355par3">
+	<td><div id="574464par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','523355',523355,'Methods and Contexts of Adult and Community Learning: Leading and Teaching with Purpose',3)">
+	<a href="javascript:loadinfo('handler.cfm','574464',574464,'Designing and Facilitating Learning for Development',3)">
 	
-	Methods and Contexts of Adult and Community Learning: Leading and Teaching with Purpose</a></div>
-	<div id="5233553"> </div></td>
+	Designing and Facilitating Learning for Development</a></div>
+	<div id="5744643"> </div></td>
 	 <td>(D-AG, KCM-AG)</td>
 </tr>
 
   <tr>
 	<td>EDUC</td><td>3110</td>
-	<td><div id="523358par3">
+	<td><div id="574467par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','523358',523358,'Educational Psychology',3)">
+	<a href="javascript:loadinfo('handler.cfm','574467',574467,'Educational Psychology',3)">
 	
 	Educational Psychology</a></div>
-	<div id="5233583"> </div></td>
+	<div id="5744673"> </div></td>
 	 <td>(CA-AG, KCM-AG)</td>
 </tr>
 
   <tr>
 	<td>EDUC</td><td>4050</td>
-	<td><div id="521130par3">
+	<td><div id="572428par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','521130',521130,'Perspectives in Collegiate Teaching and Learning',3)">
+	<a href="javascript:loadinfo('handler.cfm','572428',572428,'Perspectives in Collegiate Teaching and Learning',3)">
 	
 	Perspectives in Collegiate Teaching and Learning</a></div>
-	<div id="5211303"> </div></td>
+	<div id="5724283"> </div></td>
 	 <td>(KCM-AG, SBA-AG)</td>
 </tr>
 
   <tr>
 	<td>ENGL</td><td>4020</td>
-	<td><div id="521137par3">
+	<td><div id="572432par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','521137',521137,'Literature as Moral Inquiry',3)">
+	<a href="javascript:loadinfo('handler.cfm','572432',572432,'Literature as Moral Inquiry',3)">
 	
 	Literature as Moral Inquiry</a></div>
-	<div id="5211373"> </div></td>
+	<div id="5724323"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
-	<td>FGSS</td><td>2621</td>
-	<td><div id="531484par3">
+	<td>FGSS</td><td>3651</td>
+	<td><div id="579484par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','531484',531484,'Gendering Religion, Science and Technology',3)">
+	<a href="javascript:loadinfo('handler.cfm','579484',579484,'Freud and the Invention of Psychoanalysis',3)">
 	
-	Gendering Religion, Science and Technology</a></div>
-	<div id="5314843"> </div></td>
+	Freud and the Invention of Psychoanalysis</a></div>
+	<div id="5794843"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>FGSS</td><td>4491</td>
-	<td><div id="528601par3">
+	<td><div id="578931par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','528601',528601,'Feminism and Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','578931',578931,'Feminism and Philosophy',3)">
 	
 	Feminism and Philosophy</a></div>
-	<div id="5286013"> </div></td>
+	<div id="5789313"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>FREN</td><td>3560</td>
+	<td><div id="579482par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579482',579482,'Freud and the Invention of Psychoanalysis',3)">
+	
+	Freud and the Invention of Psychoanalysis</a></div>
+	<div id="5794823"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>FREN</td><td>4540</td>
-	<td><div id="523655par3">
+	<td><div id="574724par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','523655',523655,'Montaigne and Skepticism',3)">
+	<a href="javascript:loadinfo('handler.cfm','574724',574724,'Montaigne and Skepticism',3)">
 	
 	Montaigne and Skepticism</a></div>
-	<div id="5236553"> </div></td>
+	<div id="5747243"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>GERST</td><td>3552</td>
-	<td><div id="530529par3">
+	<td><div id="580439par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','530529',530529,'Marx as Philosopher',3)">
+	<a href="javascript:loadinfo('handler.cfm','580439',580439,'Marx as Philosopher',3)">
 	
 	Marx as Philosopher</a></div>
-	<div id="5305293"> </div></td>
+	<div id="5804393"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>GERST</td><td>3561</td>
+	<td><div id="579513par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579513',579513,'Freud and the Invention of Psychoanalysis',3)">
+	
+	Freud and the Invention of Psychoanalysis</a></div>
+	<div id="5795133"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>GERST</td><td>3580</td>
-	<td><div id="526706par3">
+	<td><div id="577456par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','526706',526706,'Nineteenth Century Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','577456',577456,'Nineteenth Century Philosophy',3)">
 	
 	Nineteenth Century Philosophy</a></div>
-	<div id="5267063"> </div></td>
+	<div id="5774563"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>GERST</td><td>3590</td>
-	<td><div id="527471par3">
+	<td><div id="578047par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','527471',527471,'Kant',3)">
+	<a href="javascript:loadinfo('handler.cfm','578047',578047,'Kant',3)">
 	
 	Kant</a></div>
-	<div id="5274713"> </div></td>
+	<div id="5780473"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>GERST</td><td>4421</td>
-	<td><div id="530165par3">
+	<td><div id="580135par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','530165',530165,'Topics in Modern Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','580135',580135,'Topics in Modern Philosophy',3)">
 	
 	Topics in Modern Philosophy</a></div>
-	<div id="5301653"> </div></td>
+	<div id="5801353"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>GOVT</td><td>2432</td>
-	<td><div id="529421par3">
+	<td><div id="579569par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529421',529421,'Moral Dilemmas in the Law',3)">
+	<a href="javascript:loadinfo('handler.cfm','579569',579569,'Moral Dilemmas in the Law',3)">
 	
 	Moral Dilemmas in the Law</a></div>
-	<div id="5294213"> </div></td>
+	<div id="5795693"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>GOVT</td><td>2605</td>
-	<td><div id="523743par3">
+	<td><div id="574803par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','523743',523743,'Social and Political Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','574803',574803,'Social and Political Philosophy',3)">
 	
 	Social and Political Philosophy</a></div>
-	<div id="5237433"> </div></td>
+	<div id="5748033"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>GOVT</td><td>3052</td>
-	<td><div id="528982par3">
+	<td><div id="579224par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','528982',528982,'Intro to the Structure & System of American Law',3)">
+	<a href="javascript:loadinfo('handler.cfm','579224',579224,'Intro to the Structure & System of American Law',3)">
 	
 	Intro to the Structure & System of American Law</a></div>
-	<div id="5289823"> </div></td>
+	<div id="5792243"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>GOVT</td><td>3121</td>
-	<td><div id="534932par3">
+	<td><div id="581366par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','534932',534932,'Crime and Punishment',3)">
+	<a href="javascript:loadinfo('handler.cfm','581366',581366,'Crime and Punishment',3)">
 	
 	Crime and Punishment</a></div>
-	<div id="5349323"> </div></td>
+	<div id="5813663"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>GOVT</td><td>3294</td>
-	<td><div id="534989par3">
+	<td><div id="581422par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','534989',534989,'Post-Truth Politics',3)">
+	<a href="javascript:loadinfo('handler.cfm','581422',581422,'Post-Truth Politics',3)">
 	
 	Post-Truth Politics</a></div>
-	<div id="5349893"> </div></td>
+	<div id="5814223"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>GOVT</td><td>3625</td>
-	<td><div id="526673par3">
+	<td><div id="577426par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','526673',526673,'Modern Political Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','577426',577426,'Modern Political Philosophy',3)">
 	
 	Modern Political Philosophy</a></div>
-	<div id="5266733"> </div></td>
+	<div id="5774263"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>GOVT</td><td>3626</td>
-	<td><div id="527391par3">
+	<td><div id="577986par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','527391',527391,'Introduction to Early History of Political Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','577986',577986,'Introduction to Early History of Political Philosophy',3)">
 	
 	Introduction to Early History of Political Philosophy</a></div>
-	<div id="5273913"> </div></td>
+	<div id="5779863"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>GOVT</td><td>3735</td>
-	<td><div id="523769par3">
+	<td><div id="574824par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','523769',523769,'Political Freedom',3)">
+	<a href="javascript:loadinfo('handler.cfm','574824',574824,'Political Freedom',3)">
 	
 	Political Freedom</a></div>
-	<div id="5237693"> </div></td>
+	<div id="5748243"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>GOVT</td><td>3736</td>
-	<td><div id="529896par3">
+	<td><div id="579957par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529896',529896,'Ancient Political Thought',3)">
+	<a href="javascript:loadinfo('handler.cfm','579957',579957,'Ancient Political Thought',3)">
 	
 	Ancient Political Thought</a></div>
-	<div id="5298963"> </div></td>
+	<div id="5799573"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>GOVT</td><td>3785</td>
-	<td><div id="529776par3">
+	<td><div id="579870par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529776',529776,'Civil Disobedience',3)">
+	<a href="javascript:loadinfo('handler.cfm','579870',579870,'Civil Disobedience',3)">
 	
 	Civil Disobedience</a></div>
-	<div id="5297763"> </div></td>
+	<div id="5798703"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>GOVT</td><td>4021</td>
-	<td><div id="528415par3">
+	<td><div id="578785par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','528415',528415,'American Conservative Thought',3)">
+	<a href="javascript:loadinfo('handler.cfm','578785',578785,'American Conservative Thought',3)">
 	
 	American Conservative Thought</a></div>
-	<div id="5284153"> </div></td>
+	<div id="5787853"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>GOVT</td><td>4655</td>
-	<td><div id="521232par3">
+	<td><div id="572513par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','521232',521232,'Topics in Social and Political Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','572513',572513,'Topics in Social and Political Philosophy',3)">
 	
 	Topics in Social and Political Philosophy</a></div>
-	<div id="5212323"> </div></td>
+	<div id="5725133"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>GOVT</td><td>4846</td>
-	<td><div id="552177par3">
+	<td><div id="582192par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','552177',552177,'Equality',3)">
+	<a href="javascript:loadinfo('handler.cfm','582192',582192,'Equality',3)">
 	
 	Equality</a></div>
-	<div id="5521773"> </div></td>
+	<div id="5821923"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>GREEK</td><td>4411</td>
-	<td><div id="523835par3">
+	<td><div id="574880par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','523835',523835,'Greek Comparative Grammar',3)">
+	<a href="javascript:loadinfo('handler.cfm','574880',574880,'Greek Comparative Grammar',3)">
 	
 	Greek Comparative Grammar</a></div>
-	<div id="5238353"> </div></td>
+	<div id="5748803"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>GREEK</td><td>4455</td>
-	<td><div id="523836par3">
+	<td><div id="574881par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','523836',523836,'Greek Dialects',3)">
+	<a href="javascript:loadinfo('handler.cfm','574881',574881,'Greek Dialects',3)">
 	
 	Greek Dialects</a></div>
-	<div id="5238363"> </div></td>
+	<div id="5748813"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>HD</td><td>2180</td>
-	<td><div id="523960par3">
+	<td><div id="574988par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','523960',523960,'Human Development: Adulthood and Aging',3)">
+	<a href="javascript:loadinfo('handler.cfm','574988',574988,'Human Development: Adulthood and Aging',3)">
 	
 	Human Development: Adulthood and Aging</a></div>
-	<div id="5239603"> </div></td>
+	<div id="5749883"> </div></td>
 	 <td>(D-HE, KCM-HE, SBA-HE)</td>
 </tr>
 
   <tr>
 	<td>HD</td><td>2200</td>
-	<td><div id="523961par3">
+	<td><div id="574989par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','523961',523961,'The Human Brain and Mind: An Introduction to Cognitive Neuroscience',3)">
+	<a href="javascript:loadinfo('handler.cfm','574989',574989,'The Human Brain and Mind: An Introduction to Cognitive Neuroscience',3)">
 	
 	The Human Brain and Mind: An Introduction to Cognitive Neuroscience</a></div>
-	<div id="5239613"> </div></td>
+	<div id="5749893"> </div></td>
 	 <td>(KCM-HE, PBS-HE, SBA-HE)</td>
 </tr>
 
   <tr>
 	<td>HD</td><td>3110</td>
-	<td><div id="523965par3">
+	<td><div id="574993par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','523965',523965,'Educational Psychology',3)">
+	<a href="javascript:loadinfo('handler.cfm','574993',574993,'Educational Psychology',3)">
 	
 	Educational Psychology</a></div>
-	<div id="5239653"> </div></td>
+	<div id="5749933"> </div></td>
 	 <td>(CA-HE, KCM-HE)</td>
 </tr>
 
   <tr>
 	<td>HD</td><td>3190</td>
-	<td><div id="520108par3">
+	<td><div id="572107par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','520108',520108,'Memory and the Law',3)">
+	<a href="javascript:loadinfo('handler.cfm','572107',572107,'Memory and the Law',3)">
 	
 	Memory and the Law</a></div>
-	<div id="5201083"> </div></td>
+	<div id="5721073"> </div></td>
 	 <td>(KCM-HE, PBS-HE)</td>
 </tr>
 
   <tr>
 	<td>HD</td><td>3250</td>
-	<td><div id="528157par3">
+	<td><div id="578591par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','528157',528157,'Neurochemistry of Human Behavior',3)">
+	<a href="javascript:loadinfo('handler.cfm','578591',578591,'Neurochemistry of Human Behavior',3)">
 	
 	Neurochemistry of Human Behavior</a></div>
-	<div id="5281573"> </div></td>
+	<div id="5785913"> </div></td>
 	 <td>(KCM-HE, PBS-HE)</td>
 </tr>
 
   <tr>
 	<td>HD</td><td>3450</td>
-	<td><div id="529338par3">
+	<td><div id="579492par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529338',529338,'The Nature of Leadership',3)">
+	<a href="javascript:loadinfo('handler.cfm','579492',579492,'The Nature of Leadership',3)">
 	
 	The Nature of Leadership</a></div>
-	<div id="5293383"> </div></td>
+	<div id="5794923"> </div></td>
 	 <td>(KCM-HE)</td>
 </tr>
 
   <tr>
 	<td>HD</td><td>3460</td>
-	<td><div id="523968par3">
+	<td><div id="574996par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','523968',523968,'Serious Fun! The Role of Play Throughout Development',3)">
+	<a href="javascript:loadinfo('handler.cfm','574996',574996,'Serious Fun! The Role of Play Throughout Development',3)">
 	
 	Serious Fun! The Role of Play Throughout Development</a></div>
-	<div id="5239683"> </div></td>
+	<div id="5749963"> </div></td>
 	 <td>(KCM-HE)</td>
 </tr>
 
   <tr>
 	<td>HD</td><td>3660</td>
-	<td><div id="523970par3">
+	<td><div id="574998par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','523970',523970,'Affective and Social Neuroscience',3)">
+	<a href="javascript:loadinfo('handler.cfm','574998',574998,'Affective and Social Neuroscience',3)">
 	
 	Affective and Social Neuroscience</a></div>
-	<div id="5239703"> </div></td>
+	<div id="5749983"> </div></td>
 	 <td>(PBS-HE, KCM-HE, SBA-HE)</td>
 </tr>
 
   <tr>
-	<td>HD</td><td>4280</td>
-	<td><div id="519174par3">
+	<td>HD</td><td>4290</td>
+	<td><div id="582666par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','519174',519174,'Research on Healthy Aging',3)">
+	<a href="javascript:loadinfo('handler.cfm','582666',582666,'Psychology and the Law: Experimental and Correlational Research',3)">
 	
-	Research on Healthy Aging</a></div>
-	<div id="5191743"> </div></td>
-	 <td>(SBA-HE, KCM-HE, D-HE)</td>
-</tr>
-
-  <tr>
-	<td>HD</td><td>4300</td>
-	<td><div id="519543par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','519543',519543,'Concepts and Theories in Childhood',3)">
-	
-	Concepts and Theories in Childhood</a></div>
-	<div id="5195433"> </div></td>
-	 <td>(KCM-HE)</td>
+	Psychology and the Law: Experimental and Correlational Research</a></div>
+	<div id="5826663"> </div></td>
+	 <td>(CA-HE, KCM-HE, SBA-HE)</td>
 </tr>
 
   <tr>
 	<td>HD</td><td>4340</td>
-	<td><div id="518657par3">
+	<td><div id="572028par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','518657',518657,'Current Topics in Cognitive Development',3)">
+	<a href="javascript:loadinfo('handler.cfm','572028',572028,'Current Topics in Cognitive Development',3)">
 	
 	Current Topics in Cognitive Development</a></div>
-	<div id="5186573"> </div></td>
+	<div id="5720283"> </div></td>
 	 <td>(KCM-HE)</td>
 </tr>
 
   <tr>
 	<td>HD</td><td>4440</td>
-	<td><div id="520110par3">
+	<td><div id="572108par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','520110',520110,'The Nature of Human Intelligence',3)">
+	<a href="javascript:loadinfo('handler.cfm','572108',572108,'The Nature of Human Intelligence',3)">
 	
 	The Nature of Human Intelligence</a></div>
-	<div id="5201103"> </div></td>
-	 <td>(KCM-HE)</td>
-</tr>
-
-  <tr>
-	<td>HD</td><td>4450</td>
-	<td><div id="529340par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','529340',529340,'Ethical Challenges in Behavioral and Brain Sciences',3)">
-	
-	Ethical Challenges in Behavioral and Brain Sciences</a></div>
-	<div id="5293403"> </div></td>
+	<div id="5721083"> </div></td>
 	 <td>(KCM-HE)</td>
 </tr>
 
   <tr>
 	<td>HD</td><td>4470</td>
-	<td><div id="552199par3">
+	<td><div id="582213par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','552199',552199,'Psychology of Imagination',3)">
+	<a href="javascript:loadinfo('handler.cfm','582213',582213,'Psychology of Imagination',3)">
 	
 	Psychology of Imagination</a></div>
-	<div id="5521993"> </div></td>
+	<div id="5822133"> </div></td>
 	 <td>(KCM-HE)</td>
 </tr>
 
   <tr>
 	<td>HD</td><td>4540</td>
-	<td><div id="534881par3">
+	<td><div id="581317par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','534881',534881,'Creativity and Its Development',3)">
+	<a href="javascript:loadinfo('handler.cfm','581317',581317,'Creativity and Its Development',3)">
 	
 	Creativity and Its Development</a></div>
-	<div id="5348813"> </div></td>
+	<div id="5813173"> </div></td>
 	 <td>(D-HE, KCM-HE, SBA-HE)</td>
 </tr>
 
   <tr>
 	<td>HD</td><td>4620</td>
-	<td><div id="529337par3">
+	<td><div id="579491par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529337',529337,'Research Seminar: Brain Activity and Cognition Lab',3)">
+	<a href="javascript:loadinfo('handler.cfm','579491',579491,'Research Seminar: Brain Activity and Cognition Lab',3)">
 	
 	Research Seminar: Brain Activity and Cognition Lab</a></div>
-	<div id="5293373"> </div></td>
+	<div id="5794913"> </div></td>
 	 <td>(KCM-HE, PBS-HE)</td>
 </tr>
 
   <tr>
 	<td>HD</td><td>4720</td>
-	<td><div id="528825par3">
+	<td><div id="579112par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','528825',528825,'Current Research in Emotion, Cognition, and Brain',3)">
+	<a href="javascript:loadinfo('handler.cfm','579112',579112,'Current Research in Emotion, Cognition, and Brain',3)">
 	
 	Current Research in Emotion, Cognition, and Brain</a></div>
-	<div id="5288253"> </div></td>
+	<div id="5791123"> </div></td>
 	 <td>(PBS-HE, KCM-HE, SBA-HE)</td>
 </tr>
 
   <tr>
 	<td>HD</td><td>6190</td>
-	<td><div id="535353par3">
+	<td><div id="581764par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','535353',535353,'Memory and the Law',3)">
+	<a href="javascript:loadinfo('handler.cfm','581764',581764,'Memory and the Law',3)">
 	
 	Memory and the Law</a></div>
-	<div id="5353533"> </div></td>
+	<div id="5817643"> </div></td>
 	 <td>(KCM-HE, PBS-HE)</td>
 </tr>
 
   <tr>
 	<td>HD</td><td>6240</td>
-	<td><div id="552185par3">
+	<td><div id="582199par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','552185',552185,'Advanced Topics in Clinical Science',3)">
+	<a href="javascript:loadinfo('handler.cfm','582199',582199,'Advanced Topics in Clinical Science',3)">
 	
 	Advanced Topics in Clinical Science</a></div>
-	<div id="5521853"> </div></td>
+	<div id="5821993"> </div></td>
 	 <td>(D-HE, KCM-HE, SBA-HE)</td>
 </tr>
 
   <tr>
-	<td>HD</td><td>6470</td>
-	<td><div id="520952par3">
+	<td>HD</td><td>6410</td>
+	<td><div id="582669par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','520952',520952,'Psychology of Imagination',3)">
+	<a href="javascript:loadinfo('handler.cfm','582669',582669,'Psychology and Culture of Human-Environment Relationships',3)">
 	
-	Psychology of Imagination</a></div>
-	<div id="5209523"> </div></td>
-	 <td>(KCM-HE, SBA-HE)</td>
-</tr>
-
-  <tr>
-	<td>HD</td><td>6540</td>
-	<td><div id="534887par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','534887',534887,'Creativity and Its Development',3)">
-	
-	Creativity and Its Development</a></div>
-	<div id="5348873"> </div></td>
+	Psychology and Culture of Human-Environment Relationships</a></div>
+	<div id="5826693"> </div></td>
 	 <td>(CA-HE, D-HE, KCM-HE, SBA-HE)</td>
 </tr>
 
   <tr>
-	<td>HE</td><td>4901</td>
-	<td><div id="527019par3">
+	<td>HD</td><td>6470</td>
+	<td><div id="572294par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','527019',527019,'Practicing Health Equity: Theory and Fieldwork in Brooklyn',3)">
+	<a href="javascript:loadinfo('handler.cfm','572294',572294,'Psychology of Imagination',3)">
+	
+	Psychology of Imagination</a></div>
+	<div id="5722943"> </div></td>
+	 <td>(KCM-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>HE</td><td>4901</td>
+	<td><div id="577716par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577716',577716,'Practicing Health Equity: Theory and Fieldwork in Brooklyn',3)">
 	
 	Practicing Health Equity: Theory and Fieldwork in Brooklyn</a></div>
-	<div id="5270193"> </div></td>
+	<div id="5777163"> </div></td>
 	 <td>(CA-HE, D-HE, KCM-HE, SBA-HE)</td>
 </tr>
 
   <tr>
 	<td>INFO</td><td>2750</td>
-	<td><div id="529478par3">
+	<td><div id="579611par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529478',529478,'Ethical Issues in Intelligent Autonomous Systems',3)">
+	<a href="javascript:loadinfo('handler.cfm','579611',579611,'Ethical Issues in Intelligent Autonomous Systems',3)">
 	
 	Ethical Issues in Intelligent Autonomous Systems</a></div>
-	<div id="5294783"> </div></td>
+	<div id="5796113"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>INFO</td><td>3140</td>
-	<td><div id="524305par3">
+	<td><div id="575298par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','524305',524305,'Computational Psychology',3)">
+	<a href="javascript:loadinfo('handler.cfm','575298',575298,'Computational Psychology',3)">
 	
 	Computational Psychology</a></div>
-	<div id="5243053"> </div></td>
+	<div id="5752983"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>INFO</td><td>4310</td>
-	<td><div id="531605par3">
+	<td><div id="581218par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','531605',531605,'Interactive Information Visualization',3)">
+	<a href="javascript:loadinfo('handler.cfm','581218',581218,'Interactive Information Visualization',3)">
 	
 	Interactive Information Visualization</a></div>
-	<div id="5316053"> </div></td>
+	<div id="5812183"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>KOREA</td><td>4430</td>
-	<td><div id="524406par3">
+	<td><div id="575380par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','524406',524406,'Structure of Korean',3)">
+	<a href="javascript:loadinfo('handler.cfm','575380',575380,'Structure of Korean',3)">
 	
 	Structure of Korean</a></div>
-	<div id="5244063"> </div></td>
+	<div id="5753803"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>LATIN</td><td>4452</td>
-	<td><div id="524490par3">
+	<td><div id="575458par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','524490',524490,'Latin Comparative Grammar',3)">
+	<a href="javascript:loadinfo('handler.cfm','575458',575458,'Latin Comparative Grammar',3)">
 	
 	Latin Comparative Grammar</a></div>
-	<div id="5244903"> </div></td>
+	<div id="5754583"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>LEAD</td><td>3100</td>
-	<td><div id="526503par3">
+	<td><div id="577305par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','526503',526503,'Foundations in Leadership: Skills for Professional Success and Life',3)">
+	<a href="javascript:loadinfo('handler.cfm','577305',577305,'Foundations in Leadership: Skills for Professional Success and Life',3)">
 	
 	Foundations in Leadership: Skills for Professional Success and Life</a></div>
-	<div id="5265033"> </div></td>
+	<div id="5773053"> </div></td>
 	 <td>(KCM-AG, SBA-AG)</td>
 </tr>
 
   <tr>
 	<td>LING</td><td>1101</td>
-	<td><div id="524614par3">
+	<td><div id="575563par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','524614',524614,'Introduction to Linguistics',3)">
+	<a href="javascript:loadinfo('handler.cfm','575563',575563,'Introduction to Linguistics',3)">
 	
 	Introduction to Linguistics</a></div>
-	<div id="5246143"> </div></td>
+	<div id="5755633"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>LING</td><td>1170</td>
-	<td><div id="524619par3">
+	<td><div id="575568par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','524619',524619,'Introduction to Cognitive Science',3)">
+	<a href="javascript:loadinfo('handler.cfm','575568',575568,'Introduction to Cognitive Science',3)">
 	
 	Introduction to Cognitive Science</a></div>
-	<div id="5246193"> </div></td>
+	<div id="5755683"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>LING</td><td>2215</td>
-	<td><div id="524620par3">
+	<td><div id="575569par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','524620',524620,'Psychology of Language',3)">
+	<a href="javascript:loadinfo('handler.cfm','575569',575569,'Psychology of Language',3)">
 	
 	Psychology of Language</a></div>
-	<div id="5246203"> </div></td>
+	<div id="5755693"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>LING</td><td>2264</td>
-	<td><div id="529641par3">
+	<td><div id="579755par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529641',529641,'Language, Mind, and Brain',3)">
+	<a href="javascript:loadinfo('handler.cfm','579755',579755,'Language, Mind, and Brain',3)">
 	
 	Language, Mind, and Brain</a></div>
-	<div id="5296413"> </div></td>
+	<div id="5797553"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>LING</td><td>3302</td>
-	<td><div id="524628par3">
+	<td><div id="575577par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','524628',524628,'Introduction to Phonetics and Phonology',3)">
+	<a href="javascript:loadinfo('handler.cfm','575577',575577,'Introduction to Phonetics and Phonology',3)">
 	
 	Introduction to Phonetics and Phonology</a></div>
-	<div id="5246283"> </div></td>
+	<div id="5755773"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>LING</td><td>3303</td>
-	<td><div id="524629par3">
+	<td><div id="575578par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','524629',524629,'Introduction to Syntax and Semantics',3)">
+	<a href="javascript:loadinfo('handler.cfm','575578',575578,'Introduction to Syntax and Semantics',3)">
 	
 	Introduction to Syntax and Semantics</a></div>
-	<div id="5246293"> </div></td>
+	<div id="5755783"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>LING</td><td>3332</td>
-	<td><div id="524635par3">
+	<td><div id="575584par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','524635',524635,'Philosophy of Language',3)">
+	<a href="javascript:loadinfo('handler.cfm','575584',575584,'Philosophy of Language',3)">
 	
 	Philosophy of Language</a></div>
-	<div id="5246353"> </div></td>
+	<div id="5755843"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>LING</td><td>3333</td>
+	<td><div id="570835par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','570835',570835,'Problems in Semantics',3)">
+	
+	Problems in Semantics</a></div>
+	<div id="5708353"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>LING</td><td>4400</td>
-	<td><div id="524638par3">
+	<td><div id="575586par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','524638',524638,'Language Typology',3)">
+	<a href="javascript:loadinfo('handler.cfm','575586',575586,'Language Typology',3)">
 	
 	Language Typology</a></div>
-	<div id="5246383"> </div></td>
+	<div id="5755863"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>LING</td><td>4401</td>
-	<td><div id="524639par3">
+	<td><div id="575587par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','524639',524639,'Phonology I',3)">
+	<a href="javascript:loadinfo('handler.cfm','575587',575587,'Phonology I',3)">
 	
 	Phonology I</a></div>
-	<div id="5246393"> </div></td>
+	<div id="5755873"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>LING</td><td>4403</td>
-	<td><div id="524641par3">
+	<td><div id="575589par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','524641',524641,'Syntax I',3)">
+	<a href="javascript:loadinfo('handler.cfm','575589',575589,'Syntax I',3)">
 	
 	Syntax I</a></div>
-	<div id="5246413"> </div></td>
+	<div id="5755893"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>LING</td><td>4419</td>
-	<td><div id="524645par3">
+	<td><div id="575592par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','524645',524645,'Phonetics I',3)">
+	<a href="javascript:loadinfo('handler.cfm','575592',575592,'Phonetics I',3)">
 	
 	Phonetics I</a></div>
-	<div id="5246453"> </div></td>
+	<div id="5755923"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>LING</td><td>4421</td>
-	<td><div id="524647par3">
+	<td><div id="575594par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','524647',524647,'Semantics I',3)">
+	<a href="javascript:loadinfo('handler.cfm','575594',575594,'Semantics I',3)">
 	
 	Semantics I</a></div>
-	<div id="5246473"> </div></td>
+	<div id="5755943"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>LING</td><td>4423</td>
-	<td><div id="524649par3">
+	<td><div id="575596par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','524649',524649,'Morphology',3)">
+	<a href="javascript:loadinfo('handler.cfm','575596',575596,'Morphology',3)">
 	
 	Morphology</a></div>
-	<div id="5246493"> </div></td>
+	<div id="5755963"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>LING</td><td>4425</td>
-	<td><div id="524651par3">
+	<td><div id="575598par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','524651',524651,'Pragmatics',3)">
+	<a href="javascript:loadinfo('handler.cfm','575598',575598,'Pragmatics',3)">
 	
 	Pragmatics</a></div>
-	<div id="5246513"> </div></td>
-	 <td>(KCM-AS)</td>
-</tr>
-
-  <tr>
-	<td>LING</td><td>4429</td>
-	<td><div id="527764par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','527764',527764,'Grammar Formalisms',3)">
-	
-	Grammar Formalisms</a></div>
-	<div id="5277643"> </div></td>
+	<div id="5755983"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>LING</td><td>4430</td>
-	<td><div id="524653par3">
+	<td><div id="575600par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','524653',524653,'Structure of Korean',3)">
+	<a href="javascript:loadinfo('handler.cfm','575600',575600,'Structure of Korean',3)">
 	
 	Structure of Korean</a></div>
-	<div id="5246533"> </div></td>
+	<div id="5756003"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>LING</td><td>4438</td>
-	<td><div id="526693par3">
+	<td><div id="577445par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','526693',526693,'Language and Image',3)">
+	<a href="javascript:loadinfo('handler.cfm','577445',577445,'Language and Image',3)">
 	
 	Language and Image</a></div>
-	<div id="5266933"> </div></td>
+	<div id="5774453"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>LING</td><td>4440</td>
-	<td><div id="528576par3">
+	<td><div id="578906par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','528576',528576,'Undergraduate Seminar in Linguistics',3)">
+	<a href="javascript:loadinfo('handler.cfm','578906',578906,'Undergraduate Seminar in Linguistics',3)">
 	
 	Undergraduate Seminar in Linguistics</a></div>
-	<div id="5285763"> </div></td>
+	<div id="5789063"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>LING</td><td>4451</td>
-	<td><div id="524655par3">
+	<td><div id="575602par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','524655',524655,'Greek Comparative Grammar',3)">
+	<a href="javascript:loadinfo('handler.cfm','575602',575602,'Greek Comparative Grammar',3)">
 	
 	Greek Comparative Grammar</a></div>
-	<div id="5246553"> </div></td>
-	 <td>(KCM-AS)</td>
-</tr>
-
-  <tr>
-	<td>LING</td><td>4452</td>
-	<td><div id="524656par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','524656',524656,'Latin Comparative Grammar',3)">
-	
-	Latin Comparative Grammar</a></div>
-	<div id="5246563"> </div></td>
+	<div id="5756023"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>LING</td><td>4455</td>
-	<td><div id="524657par3">
+	<td><div id="575604par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','524657',524657,'Greek Dialects',3)">
+	<a href="javascript:loadinfo('handler.cfm','575604',575604,'Greek Dialects',3)">
 	
 	Greek Dialects</a></div>
-	<div id="5246573"> </div></td>
+	<div id="5756043"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>LING</td><td>7452</td>
+	<td><div id="575603par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575603',575603,'Latin Comparative Grammar',3)">
+	
+	Latin Comparative Grammar</a></div>
+	<div id="5756033"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>MEDVL</td><td>3210</td>
-	<td><div id="527506par3">
+	<td><div id="578077par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','527506',527506,'Medieval Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','578077',578077,'Medieval Philosophy',3)">
 	
 	Medieval Philosophy</a></div>
-	<div id="5275063"> </div></td>
+	<div id="5780773"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>MUSIC</td><td>4181</td>
-	<td><div id="525002par3">
+	<td><div id="575934par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525002',525002,'Psychology of Music',3)">
+	<a href="javascript:loadinfo('handler.cfm','575934',575934,'Psychology of Music',3)">
 	
 	Psychology of Music</a></div>
-	<div id="5250023"> </div></td>
+	<div id="5759343"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>NES</td><td>2273</td>
-	<td><div id="530860par3">
+	<td><div id="580686par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','530860',530860,'Introduction to Religious Studies: Religion and Environmental Studies',3)">
+	<a href="javascript:loadinfo('handler.cfm','580686',580686,'Introduction to Religious Studies: Religion and Ecology',3)">
 	
-	Introduction to Religious Studies: Religion and Environmental Studies</a></div>
-	<div id="5308603"> </div></td>
+	Introduction to Religious Studies: Religion and Ecology</a></div>
+	<div id="5806863"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>NTRES</td><td>3320</td>
-	<td><div id="525272par3">
+	<td><div id="576185par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525272',525272,'Introduction to Ethics and Environment',3)">
+	<a href="javascript:loadinfo('handler.cfm','576185',576185,'Introduction to Ethics and Environment',3)">
 	
 	Introduction to Ethics and Environment</a></div>
-	<div id="5252723"> </div></td>
+	<div id="5761853"> </div></td>
 	 <td>(KCM-AG)</td>
 </tr>
 
   <tr>
 	<td>NTRES</td><td>3330</td>
-	<td><div id="525273par3">
+	<td><div id="576186par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525273',525273,'Ways of Knowing: Indigenous and Place-Based Ecological Knowledge',3)">
+	<a href="javascript:loadinfo('handler.cfm','576186',576186,'Ways of Knowing: Indigenous and Place-Based Ecological Knowledge',3)">
 	
 	Ways of Knowing: Indigenous and Place-Based Ecological Knowledge</a></div>
-	<div id="5252733"> </div></td>
+	<div id="5761863"> </div></td>
 	 <td>(CA-AG, D-AG, KCM-AG, SBA-AG)</td>
 </tr>
 
   <tr>
 	<td>NTRES</td><td>4330</td>
-	<td><div id="525282par3">
+	<td><div id="576195par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525282',525282,'Applied Environmental Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','576195',576195,'Applied Environmental Philosophy',3)">
 	
 	Applied Environmental Philosophy</a></div>
-	<div id="5252823"> </div></td>
+	<div id="5761953"> </div></td>
 	 <td>(KCM-AG)</td>
 </tr>
 
   <tr>
 	<td>NTRES</td><td>6330</td>
-	<td><div id="527486par3">
+	<td><div id="578058par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','527486',527486,'Ways of Knowing: Indigenous and Place-Based Ecological Knowledge',3)">
+	<a href="javascript:loadinfo('handler.cfm','578058',578058,'Ways of Knowing: Indigenous and Place-Based Ecological Knowledge',3)">
 	
 	Ways of Knowing: Indigenous and Place-Based Ecological Knowledge</a></div>
-	<div id="5274863"> </div></td>
+	<div id="5780583"> </div></td>
 	 <td>(CA-AG, D-AG, KCM-AG, SBA-AG)</td>
 </tr>
 
   <tr>
 	<td>PADM</td><td>5009</td>
-	<td><div id="552191par3">
+	<td><div id="582205par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','552191',552191,'Career Management for Public Affairs',3)">
+	<a href="javascript:loadinfo('handler.cfm','582205',582205,'Career Management for Public Affairs',3)">
 	
 	Career Management for Public Affairs</a></div>
-	<div id="5521913"> </div></td>
+	<div id="5822053"> </div></td>
 	 <td>(KCM-HE, SBA-HE)</td>
 </tr>
 
   <tr>
 	<td>PADM</td><td>5011</td>
-	<td><div id="552192par3">
+	<td><div id="582206par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','552192',552192,'Perspectives on Public Affairs',3)">
+	<a href="javascript:loadinfo('handler.cfm','582206',582206,'Perspectives on Public Affairs',3)">
 	
 	Perspectives on Public Affairs</a></div>
-	<div id="5521923"> </div></td>
+	<div id="5822063"> </div></td>
 	 <td>(CA-HE, D-HE, HA-HE, KCM-HE, S</td>
 </tr>
 
   <tr>
-	<td>PADM</td><td>5023</td>
-	<td><div id="531594par3">
+	<td>PADM</td><td>5114</td>
+	<td><div id="580461par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','531594',531594,'Policy Writing for Public Affairs',3)">
+	<a href="javascript:loadinfo('handler.cfm','580461',580461,'Systems Leadership',3)">
 	
-	Policy Writing for Public Affairs</a></div>
-	<div id="5315943"> </div></td>
+	Systems Leadership</a></div>
+	<div id="5804613"> </div></td>
 	 <td>(KCM-HE, SBA-HE)</td>
 </tr>
 
   <tr>
-	<td>PADM</td><td>5114</td>
-	<td><div id="530563par3">
+	<td>PADM</td><td>5414</td>
+	<td><div id="582812par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','530563',530563,'Organizational Design, Change, and Leadership',3)">
+	<a href="javascript:loadinfo('handler.cfm','582812',582812,'Project Management',3)">
 	
-	Organizational Design, Change, and Leadership</a></div>
-	<div id="5305633"> </div></td>
+	Project Management</a></div>
+	<div id="5828123"> </div></td>
 	 <td>(KCM-HE, SBA-HE)</td>
 </tr>
 
   <tr>
 	<td>PADM</td><td>5634</td>
-	<td><div id="531546par3">
+	<td><div id="581171par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','531546',531546,'Corruption, Governance, and Development',3)">
+	<a href="javascript:loadinfo('handler.cfm','581171',581171,'Corruption, Governance, and Development',3)">
 	
 	Corruption, Governance, and Development</a></div>
-	<div id="5315463"> </div></td>
+	<div id="5811713"> </div></td>
 	 <td>(CA-HE, HA-HE, KCM-HE, SBA-HE)</td>
 </tr>
 
   <tr>
-	<td>PADM</td><td>5656</td>
-	<td><div id="530667par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','530667',530667,'Institutional Reform in Developing Countries',3)">
-	
-	Institutional Reform in Developing Countries</a></div>
-	<div id="5306673"> </div></td>
-	 <td>(CA-HE, HA-HE, D-HE, KCM-HE, S</td>
-</tr>
-
-  <tr>
 	<td>PADM</td><td>5930</td>
-	<td><div id="552133par3">
+	<td><div id="582152par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','552133',552133,'Writing Professional Reports for Public Affairs',3)">
+	<a href="javascript:loadinfo('handler.cfm','582152',582152,'Writing Professional Reports for Public Affairs',3)">
 	
 	Writing Professional Reports for Public Affairs</a></div>
-	<div id="5521333"> </div></td>
+	<div id="5821523"> </div></td>
 	 <td>(KCM-HE, SBA-HE)</td>
 </tr>
 
   <tr>
-	<td>PHIL</td><td>1100</td>
-	<td><div id="525596par3">
+	<td>PAM</td><td>3410</td>
+	<td><div id="582427par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525596',525596,'Introduction to Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','582427',582427,'Economics of Consumer Protection and the Law',3)">
+	
+	Economics of Consumer Protection and the Law</a></div>
+	<div id="5824273"> </div></td>
+	 <td>(HA-HE, KCM-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PHIL</td><td>1100</td>
+	<td><div id="576501par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576501',576501,'Introduction to Philosophy',3)">
 	
 	Introduction to Philosophy</a></div>
-	<div id="5255963"> </div></td>
+	<div id="5765013"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>1410</td>
-	<td><div id="527389par3">
+	<td><div id="577984par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','527389',527389,'Introduction to Early History of Political Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','577984',577984,'Introduction to Early History of Political Philosophy',3)">
 	
 	Introduction to Early History of Political Philosophy</a></div>
-	<div id="5273893"> </div></td>
+	<div id="5779843"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>1440</td>
-	<td><div id="527392par3">
+	<td><div id="577987par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','527392',527392,'Ethics of Eating',3)">
+	<a href="javascript:loadinfo('handler.cfm','577987',577987,'Ethics of Eating',3)">
 	
 	Ethics of Eating</a></div>
-	<div id="5273923"> </div></td>
+	<div id="5779873"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>1450</td>
-	<td><div id="525597par3">
+	<td><div id="576502par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525597',525597,'Contemporary Moral Issues',3)">
+	<a href="javascript:loadinfo('handler.cfm','576502',576502,'Contemporary Moral Issues',3)">
 	
 	Contemporary Moral Issues</a></div>
-	<div id="5255973"> </div></td>
+	<div id="5765023"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>PHIL</td><td>1650</td>
+	<td><div id="582926par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582926',582926,'Philosophy of Race',3)">
+	
+	Philosophy of Race</a></div>
+	<div id="5829263"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>1910</td>
-	<td><div id="525598par3">
+	<td><div id="576503par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525598',525598,'Introduction to Cognitive Science',3)">
+	<a href="javascript:loadinfo('handler.cfm','576503',576503,'Introduction to Cognitive Science',3)">
 	
 	Introduction to Cognitive Science</a></div>
-	<div id="5255983"> </div></td>
+	<div id="5765033"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>2200</td>
-	<td><div id="525600par3">
+	<td><div id="576505par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525600',525600,'Ancient Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','576505',576505,'Ancient Philosophy',3)">
 	
 	Ancient Philosophy</a></div>
-	<div id="5256003"> </div></td>
+	<div id="5765053"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>2220</td>
-	<td><div id="525601par3">
+	<td><div id="576506par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525601',525601,'Modern Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','576506',576506,'Modern Philosophy',3)">
 	
 	Modern Philosophy</a></div>
-	<div id="5256013"> </div></td>
+	<div id="5765063"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>2240</td>
-	<td><div id="528018par3">
+	<td><div id="578479par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','528018',528018,'Nineteenth and Twentieth Century European Thought',3)">
+	<a href="javascript:loadinfo('handler.cfm','578479',578479,'Nineteenth and Twentieth Century European Thought',3)">
 	
 	Nineteenth and Twentieth Century European Thought</a></div>
-	<div id="5280183"> </div></td>
+	<div id="5784793"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>2300</td>
-	<td><div id="525602par3">
+	<td><div id="576507par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525602',525602,'Puzzles and Paradoxes',3)">
+	<a href="javascript:loadinfo('handler.cfm','576507',576507,'Puzzles and Paradoxes',3)">
 	
 	Puzzles and Paradoxes</a></div>
-	<div id="5256023"> </div></td>
+	<div id="5765073"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>2410</td>
-	<td><div id="525604par3">
+	<td><div id="576509par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525604',525604,'Ethics',3)">
+	<a href="javascript:loadinfo('handler.cfm','576509',576509,'Ethics',3)">
 	
 	Ethics</a></div>
-	<div id="5256043"> </div></td>
+	<div id="5765093"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>2415</td>
-	<td><div id="530328par3">
+	<td><div id="580276par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','530328',530328,'Introduction to Moral Psychology',3)">
+	<a href="javascript:loadinfo('handler.cfm','580276',580276,'Introduction to Moral Psychology',3)">
 	
 	Introduction to Moral Psychology</a></div>
-	<div id="5303283"> </div></td>
+	<div id="5802763"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>2420</td>
-	<td><div id="525605par3">
+	<td><div id="576510par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525605',525605,'Social and Political Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','576510',576510,'Social and Political Philosophy',3)">
 	
 	Social and Political Philosophy</a></div>
-	<div id="5256053"> </div></td>
+	<div id="5765103"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>2430</td>
-	<td><div id="529276par3">
+	<td><div id="579440par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529276',529276,'Moral Dilemmas in the Law',3)">
+	<a href="javascript:loadinfo('handler.cfm','579440',579440,'Moral Dilemmas in the Law',3)">
 	
 	Moral Dilemmas in the Law</a></div>
-	<div id="5292763"> </div></td>
+	<div id="5794403"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>2455</td>
-	<td><div id="529277par3">
+	<td><div id="579441par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529277',529277,'Introduction to Bioethics',3)">
+	<a href="javascript:loadinfo('handler.cfm','579441',579441,'Introduction to Bioethics',3)">
 	
 	Introduction to Bioethics</a></div>
-	<div id="5292773"> </div></td>
-	 <td>(KCM-AS)</td>
-</tr>
-
-  <tr>
-	<td>PHIL</td><td>2460</td>
-	<td><div id="525607par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','525607',525607,'Ethics and the Environment',3)">
-	
-	Ethics and the Environment</a></div>
-	<div id="5256073"> </div></td>
+	<div id="5794413"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>2465</td>
-	<td><div id="531499par3">
+	<td><div id="581126par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','531499',531499,'Philosophy of Applied Jurisprudence',3)">
+	<a href="javascript:loadinfo('handler.cfm','581126',581126,'Philosophy of Applied Jurisprudence',3)">
 	
 	Philosophy of Applied Jurisprudence</a></div>
-	<div id="5314993"> </div></td>
+	<div id="5811263"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>2530</td>
-	<td><div id="525608par3">
+	<td><div id="576512par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525608',525608,'Religion and Reason',3)">
+	<a href="javascript:loadinfo('handler.cfm','576512',576512,'Religion and Reason',3)">
 	
 	Religion and Reason</a></div>
-	<div id="5256083"> </div></td>
+	<div id="5765123"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>2540</td>
-	<td><div id="529025par3">
+	<td><div id="579259par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529025',529025,'Introduction to Indian Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','579259',579259,'Introduction to Indian Philosophy',3)">
 	
 	Introduction to Indian Philosophy</a></div>
-	<div id="5290253"> </div></td>
+	<div id="5792593"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>2610</td>
-	<td><div id="525609par3">
+	<td><div id="576513par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525609',525609,'Knowledge and Reality',3)">
+	<a href="javascript:loadinfo('handler.cfm','576513',576513,'Knowledge and Reality',3)">
 	
 	Knowledge and Reality</a></div>
-	<div id="5256093"> </div></td>
+	<div id="5765133"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>PHIL</td><td>2611</td>
+	<td><div id="582369par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582369',582369,'Knowledge and Belief',3)">
+	
+	Knowledge and Belief</a></div>
+	<div id="5823693"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>2620</td>
-	<td><div id="525610par3">
+	<td><div id="576514par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525610',525610,'Philosophy of Mind',3)">
+	<a href="javascript:loadinfo('handler.cfm','576514',576514,'Philosophy of Mind',3)">
 	
 	Philosophy of Mind</a></div>
-	<div id="5256103"> </div></td>
+	<div id="5765143"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>2621</td>
-	<td><div id="526520par3">
+	<td><div id="577319par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','526520',526520,'Minds and Machines',3)">
+	<a href="javascript:loadinfo('handler.cfm','577319',577319,'Minds and Machines',3)">
 	
 	Minds and Machines</a></div>
-	<div id="5265203"> </div></td>
+	<div id="5773193"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>2640</td>
-	<td><div id="528017par3">
+	<td><div id="578478par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','528017',528017,'Introduction to Metaphysics',3)">
+	<a href="javascript:loadinfo('handler.cfm','578478',578478,'Introduction to Metaphysics',3)">
 	
 	Introduction to Metaphysics</a></div>
-	<div id="5280173"> </div></td>
+	<div id="5784783"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>2810</td>
-	<td><div id="528016par3">
+	<td><div id="578477par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','528016',528016,'Introduction to the Philosophy of Science',3)">
+	<a href="javascript:loadinfo('handler.cfm','578477',578477,'Introduction to the Philosophy of Science',3)">
 	
 	Introduction to the Philosophy of Science</a></div>
-	<div id="5280163"> </div></td>
+	<div id="5784773"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>PHIL</td><td>2960</td>
+	<td><div id="576511par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576511',576511,'Ethics and the Environment',3)">
+	
+	Ethics and the Environment</a></div>
+	<div id="5765113"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3180</td>
-	<td><div id="529634par3">
+	<td><div id="579748par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529634',529634,'Origins of 20th Century Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','579748',579748,'Origins of 20th Century Philosophy',3)">
 	
 	Origins of 20th Century Philosophy</a></div>
-	<div id="5296343"> </div></td>
+	<div id="5797483"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3202</td>
-	<td><div id="525611par3">
+	<td><div id="576515par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525611',525611,'Plato',3)">
+	<a href="javascript:loadinfo('handler.cfm','576515',576515,'Plato',3)">
 	
 	Plato</a></div>
-	<div id="5256113"> </div></td>
+	<div id="5765153"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3203</td>
-	<td><div id="525612par3">
+	<td><div id="576516par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525612',525612,'Aristotle',3)">
+	<a href="javascript:loadinfo('handler.cfm','576516',576516,'Aristotle',3)">
 	
 	Aristotle</a></div>
-	<div id="5256123"> </div></td>
+	<div id="5765163"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3204</td>
-	<td><div id="528441par3">
+	<td><div id="578803par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','528441',528441,'Hellenistic Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','578803',578803,'Hellenistic Philosophy',3)">
 	
 	Hellenistic Philosophy</a></div>
-	<div id="5284413"> </div></td>
+	<div id="5788033"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3210</td>
-	<td><div id="525613par3">
+	<td><div id="576517par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525613',525613,'Medieval Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','576517',576517,'Medieval Philosophy',3)">
 	
 	Medieval Philosophy</a></div>
-	<div id="5256133"> </div></td>
+	<div id="5765173"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3221</td>
-	<td><div id="525614par3">
+	<td><div id="576518par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525614',525614,'Modern Empiricism',3)">
+	<a href="javascript:loadinfo('handler.cfm','576518',576518,'Modern Empiricism',3)">
 	
 	Modern Empiricism</a></div>
-	<div id="5256143"> </div></td>
+	<div id="5765183"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>PHIL</td><td>3222</td>
+	<td><div id="583116par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','583116',583116,'Early Modern Philosophy',3)">
+	
+	Early Modern Philosophy</a></div>
+	<div id="5831163"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3230</td>
-	<td><div id="525615par3">
+	<td><div id="576519par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525615',525615,'Kant',3)">
+	<a href="javascript:loadinfo('handler.cfm','576519',576519,'Kant',3)">
 	
 	Kant</a></div>
-	<div id="5256153"> </div></td>
+	<div id="5765193"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3250</td>
-	<td><div id="526498par3">
+	<td><div id="577300par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','526498',526498,'Nineteenth Century Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','577300',577300,'Nineteenth Century Philosophy',3)">
 	
 	Nineteenth Century Philosophy</a></div>
-	<div id="5264983"> </div></td>
+	<div id="5773003"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3252</td>
-	<td><div id="530123par3">
+	<td><div id="580096par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','530123',530123,'Marx as Philosopher',3)">
+	<a href="javascript:loadinfo('handler.cfm','580096',580096,'Marx as Philosopher',3)">
 	
 	Marx as Philosopher</a></div>
-	<div id="5301233"> </div></td>
+	<div id="5800963"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3320</td>
-	<td><div id="527394par3">
+	<td><div id="577988par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','527394',527394,'Logic for Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','577988',577988,'Logic for Philosophy',3)">
 	
 	Logic for Philosophy</a></div>
-	<div id="5273943"> </div></td>
+	<div id="5779883"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3403</td>
-	<td><div id="528615par3">
+	<td><div id="578943par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','528615',528615,'Aristotle\'s Ethical Theory',3)">
+	<a href="javascript:loadinfo('handler.cfm','578943',578943,'Aristotle\'s Ethical Theory',3)">
 	
 	Aristotle's Ethical Theory</a></div>
-	<div id="5286153"> </div></td>
+	<div id="5789433"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3410</td>
-	<td><div id="525618par3">
+	<td><div id="576522par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525618',525618,'Ethical Theory',3)">
+	<a href="javascript:loadinfo('handler.cfm','576522',576522,'Ethical Theory',3)">
 	
 	Ethical Theory</a></div>
-	<div id="5256183"> </div></td>
+	<div id="5765223"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3441</td>
-	<td><div id="526522par3">
+	<td><div id="577321par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','526522',526522,'History of Ethics: Modern',3)">
+	<a href="javascript:loadinfo('handler.cfm','577321',577321,'History of Ethics: Modern',3)">
 	
 	History of Ethics: Modern</a></div>
-	<div id="5265223"> </div></td>
+	<div id="5773213"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3460</td>
-	<td><div id="526523par3">
+	<td><div id="577322par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','526523',526523,'Modern Political Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','577322',577322,'Modern Political Philosophy',3)">
 	
 	Modern Political Philosophy</a></div>
-	<div id="5265233"> </div></td>
+	<div id="5773223"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3480</td>
-	<td><div id="527040par3">
+	<td><div id="577731par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','527040',527040,'Philosophy of Law',3)">
+	<a href="javascript:loadinfo('handler.cfm','577731',577731,'Philosophy of Law',3)">
 	
 	Philosophy of Law</a></div>
-	<div id="5270403"> </div></td>
+	<div id="5777313"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>PHIL</td><td>3610</td>
+	<td><div id="583120par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','583120',583120,'Epistemology',3)">
+	
+	Epistemology</a></div>
+	<div id="5831203"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3621</td>
-	<td><div id="529879par3">
+	<td><div id="579942par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529879',529879,'Philosophy of Mind',3)">
+	<a href="javascript:loadinfo('handler.cfm','579942',579942,'Philosophy of Mind',3)">
 	
 	Philosophy of Mind</a></div>
-	<div id="5298793"> </div></td>
+	<div id="5799423"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3640</td>
-	<td><div id="527395par3">
+	<td><div id="577989par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','527395',527395,'Metaphysics',3)">
+	<a href="javascript:loadinfo('handler.cfm','577989',577989,'Metaphysics',3)">
 	
 	Metaphysics</a></div>
-	<div id="5273953"> </div></td>
+	<div id="5779893"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>PHIL</td><td>3700</td>
+	<td><div id="570874par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','570874',570874,'Problems in Semantics',3)">
+	
+	Problems in Semantics</a></div>
+	<div id="5708743"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3710</td>
-	<td><div id="525620par3">
+	<td><div id="576523par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525620',525620,'Philosophy of Language',3)">
+	<a href="javascript:loadinfo('handler.cfm','576523',576523,'Philosophy of Language',3)">
 	
 	Philosophy of Language</a></div>
-	<div id="5256203"> </div></td>
+	<div id="5765233"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3810</td>
-	<td><div id="525621par3">
+	<td><div id="576524par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525621',525621,'Philosophy of Science',3)">
+	<a href="javascript:loadinfo('handler.cfm','576524',576524,'Philosophy of Science',3)">
 	
 	Philosophy of Science</a></div>
-	<div id="5256213"> </div></td>
+	<div id="5765243"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3970</td>
-	<td><div id="526691par3">
+	<td><div id="577443par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','526691',526691,'Language and Image',3)">
+	<a href="javascript:loadinfo('handler.cfm','577443',577443,'Language and Image',3)">
 	
 	Language and Image</a></div>
-	<div id="5266913"> </div></td>
+	<div id="5774433"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>3972</td>
-	<td><div id="528940par3">
+	<td><div id="579194par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','528940',528940,'Animal Rights',3)">
+	<a href="javascript:loadinfo('handler.cfm','579194',579194,'Animal Rights',3)">
 	
 	Animal Rights</a></div>
-	<div id="5289403"> </div></td>
+	<div id="5791943"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>4200</td>
-	<td><div id="525624par3">
+	<td><div id="576527par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525624',525624,'Topics in Ancient Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','576527',576527,'Topics in Ancient Philosophy',3)">
 	
 	Topics in Ancient Philosophy</a></div>
-	<div id="5256243"> </div></td>
+	<div id="5765273"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>4220</td>
-	<td><div id="530124par3">
+	<td><div id="580097par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','530124',530124,'Topics in Modern Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','580097',580097,'Topics in Modern Philosophy',3)">
 	
 	Topics in Modern Philosophy</a></div>
-	<div id="5301243"> </div></td>
+	<div id="5800973"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>4261</td>
-	<td><div id="526537par3">
+	<td><div id="577334par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','526537',526537,'Topics in 20th C. Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','577334',577334,'Topics in 20th C. Philosophy',3)">
 	
 	Topics in 20th C. Philosophy</a></div>
-	<div id="5265373"> </div></td>
+	<div id="5773343"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>4410</td>
-	<td><div id="528015par3">
+	<td><div id="578476par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','528015',528015,'Topics in Ethics and Value Theory',3)">
+	<a href="javascript:loadinfo('handler.cfm','578476',578476,'Topics in Ethics and Value Theory',3)">
 	
 	Topics in Ethics and Value Theory</a></div>
-	<div id="5280153"> </div></td>
+	<div id="5784763"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>4470</td>
-	<td><div id="521258par3">
+	<td><div id="572532par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','521258',521258,'Topics in Social and Political Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','572532',572532,'Topics in Social and Political Philosophy',3)">
 	
 	Topics in Social and Political Philosophy</a></div>
-	<div id="5212583"> </div></td>
+	<div id="5725323"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>4490</td>
-	<td><div id="528599par3">
+	<td><div id="578929par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','528599',528599,'Feminism and Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','578929',578929,'Feminism and Philosophy',3)">
 	
 	Feminism and Philosophy</a></div>
-	<div id="5285993"> </div></td>
+	<div id="5789293"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>4610</td>
-	<td><div id="525628par3">
+	<td><div id="576531par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525628',525628,'Topics in Epistemology',3)">
+	<a href="javascript:loadinfo('handler.cfm','576531',576531,'Topics in Epistemology',3)">
 	
 	Topics in Epistemology</a></div>
-	<div id="5256283"> </div></td>
+	<div id="5765313"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>4620</td>
-	<td><div id="526538par3">
+	<td><div id="577335par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','526538',526538,'Topics in Philosophy of Mind',3)">
+	<a href="javascript:loadinfo('handler.cfm','577335',577335,'Topics in Philosophy of Mind',3)">
 	
 	Topics in Philosophy of Mind</a></div>
-	<div id="5265383"> </div></td>
+	<div id="5773353"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>4640</td>
-	<td><div id="525629par3">
+	<td><div id="576532par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525629',525629,'Topics in Metaphysics',3)">
+	<a href="javascript:loadinfo('handler.cfm','576532',576532,'Topics in Metaphysics',3)">
 	
 	Topics in Metaphysics</a></div>
-	<div id="5256293"> </div></td>
+	<div id="5765323"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>4720</td>
-	<td><div id="525630par3">
+	<td><div id="576533par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525630',525630,'Pragmatics',3)">
+	<a href="javascript:loadinfo('handler.cfm','576533',576533,'Pragmatics',3)">
 	
 	Pragmatics</a></div>
-	<div id="5256303"> </div></td>
+	<div id="5765333"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>4730</td>
-	<td><div id="531170par3">
+	<td><div id="580866par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','531170',531170,'Semantics I',3)">
+	<a href="javascript:loadinfo('handler.cfm','580866',580866,'Semantics I',3)">
 	
 	Semantics I</a></div>
-	<div id="5311703"> </div></td>
+	<div id="5808663"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PHIL</td><td>4941</td>
-	<td><div id="530652par3">
+	<td><div id="580537par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','530652',530652,'Locke and the Philosophies of Dispossession: Indigenous America\'s Interruptions and Resistances',3)">
+	<a href="javascript:loadinfo('handler.cfm','580537',580537,'Locke and the Philosophies of Dispossession: Indigenous America\'s Interruptions and Resistances',3)">
 	
 	Locke and the Philosophies of Dispossession: Indigenous America's Interruptions and Resistances</a></div>
-	<div id="5306523"> </div></td>
+	<div id="5805373"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PSYCH</td><td>1102</td>
-	<td><div id="525757par3">
+	<td><div id="576643par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525757',525757,'Introduction to Cognitive Science',3)">
+	<a href="javascript:loadinfo('handler.cfm','576643',576643,'Introduction to Cognitive Science',3)">
 	
 	Introduction to Cognitive Science</a></div>
-	<div id="5257573"> </div></td>
-	 <td>(KCM-AS)</td>
-</tr>
-
-  <tr>
-	<td>PSYCH</td><td>2050</td>
-	<td><div id="525760par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','525760',525760,'Perception',3)">
-	
-	Perception</a></div>
-	<div id="5257603"> </div></td>
+	<div id="5766433"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PSYCH</td><td>2090</td>
-	<td><div id="525761par3">
+	<td><div id="576647par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525761',525761,'Developmental Psychology',3)">
+	<a href="javascript:loadinfo('handler.cfm','576647',576647,'Developmental Psychology',3)">
 	
 	Developmental Psychology</a></div>
-	<div id="5257613"> </div></td>
+	<div id="5766473"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PSYCH</td><td>2150</td>
-	<td><div id="525763par3">
+	<td><div id="576649par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525763',525763,'Psychology of Language',3)">
+	<a href="javascript:loadinfo('handler.cfm','576649',576649,'Psychology of Language',3)">
 	
 	Psychology of Language</a></div>
-	<div id="5257633"> </div></td>
+	<div id="5766493"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PSYCH</td><td>2940</td>
-	<td><div id="552164par3">
+	<td><div id="582183par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','552164',552164,'Better Decisions for Life, Love and Money',3)">
+	<a href="javascript:loadinfo('handler.cfm','582183',582183,'Better Decisions for Life, Love and Money',3)">
 	
 	Better Decisions for Life, Love and Money</a></div>
-	<div id="5521643"> </div></td>
+	<div id="5821833"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PSYCH</td><td>3140</td>
-	<td><div id="525762par3">
+	<td><div id="576648par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525762',525762,'Computational Psychology',3)">
+	<a href="javascript:loadinfo('handler.cfm','576648',576648,'Computational Psychology',3)">
 	
 	Computational Psychology</a></div>
-	<div id="5257623"> </div></td>
+	<div id="5766483"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PSYCH</td><td>3160</td>
-	<td><div id="525771par3">
+	<td><div id="576656par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525771',525771,'Auditory Perception: The Music Lab',3)">
+	<a href="javascript:loadinfo('handler.cfm','576656',576656,'Auditory Perception: The Music Lab',3)">
 	
 	Auditory Perception: The Music Lab</a></div>
-	<div id="5257713"> </div></td>
+	<div id="5766563"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PSYCH</td><td>3200</td>
-	<td><div id="534935par3">
+	<td><div id="581369par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','534935',534935,'Psychology and Cinema',3)">
+	<a href="javascript:loadinfo('handler.cfm','581369',581369,'Psychology and Cinema',3)">
 	
 	Psychology and Cinema</a></div>
-	<div id="5349353"> </div></td>
+	<div id="5813693"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PSYCH</td><td>3420</td>
-	<td><div id="525780par3">
+	<td><div id="576665par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525780',525780,'Human Perception: Application to Computer Graphics, Art, and Visual Display',3)">
+	<a href="javascript:loadinfo('handler.cfm','576665',576665,'Human Perception: Application to Computer Graphics, Art, and Visual Display',3)">
 	
 	Human Perception: Application to Computer Graphics, Art, and Visual Display</a></div>
-	<div id="5257803"> </div></td>
+	<div id="5766653"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PSYCH</td><td>3820</td>
-	<td><div id="530562par3">
+	<td><div id="580460par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','530562',530562,'Prejudice and Stereotyping',3)">
+	<a href="javascript:loadinfo('handler.cfm','580460',580460,'Prejudice and Stereotyping',3)">
 	
 	Prejudice and Stereotyping</a></div>
-	<div id="5305623"> </div></td>
+	<div id="5804603"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PSYCH</td><td>4120</td>
-	<td><div id="525784par3">
+	<td><div id="576669par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525784',525784,'Laboratory in Cognition and Perception',3)">
+	<a href="javascript:loadinfo('handler.cfm','576669',576669,'Laboratory in Cognition and Perception',3)">
 	
 	Laboratory in Cognition and Perception</a></div>
-	<div id="5257843"> </div></td>
+	<div id="5766693"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>4150</td>
+	<td><div id="582476par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582476',582476,'Culture, Cognition, Humanities',3)">
+	
+	Culture, Cognition, Humanities</a></div>
+	<div id="5824763"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PSYCH</td><td>4180</td>
-	<td><div id="525785par3">
+	<td><div id="576670par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525785',525785,'Psychology of Music',3)">
+	<a href="javascript:loadinfo('handler.cfm','576670',576670,'Psychology of Music',3)">
 	
 	Psychology of Music</a></div>
-	<div id="5257853"> </div></td>
+	<div id="5766703"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PSYCH</td><td>4270</td>
-	<td><div id="525788par3">
+	<td><div id="576673par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525788',525788,'Evolution of Language',3)">
+	<a href="javascript:loadinfo('handler.cfm','576673',576673,'Evolution of Language',3)">
 	
 	Evolution of Language</a></div>
-	<div id="5257883"> </div></td>
+	<div id="5766733"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>4420</td>
+	<td><div id="582449par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582449',582449,'Psych & Ethics of Tech 21st Century',3)">
+	
+	Psych & Ethics of Tech 21st Century</a></div>
+	<div id="5824493"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>PSYCH</td><td>4470</td>
+	<td><div id="582860par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582860',582860,'Psychology of Imagination',3)">
+	
+	Psychology of Imagination</a></div>
+	<div id="5828603"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>PSYCH</td><td>4830</td>
-	<td><div id="520866par3">
+	<td><div id="572227par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','520866',520866,'Social Neuroscience',3)">
+	<a href="javascript:loadinfo('handler.cfm','572227',572227,'Social Neuroscience',3)">
 	
 	Social Neuroscience</a></div>
-	<div id="5208663"> </div></td>
+	<div id="5722273"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>RELST</td><td>2273</td>
-	<td><div id="529278par3">
+	<td><div id="579442par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529278',529278,'Religion and Environmental Studies',3)">
+	<a href="javascript:loadinfo('handler.cfm','579442',579442,'Introduction to Religious Studies: Religion and Ecology',3)">
 	
-	Religion and Environmental Studies</a></div>
-	<div id="5292783"> </div></td>
+	Introduction to Religious Studies: Religion and Ecology</a></div>
+	<div id="5794423"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>RELST</td><td>2630</td>
-	<td><div id="525831par3">
+	<td><div id="576712par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525831',525831,'Religion and Reason',3)">
+	<a href="javascript:loadinfo('handler.cfm','576712',576712,'Religion and Reason',3)">
 	
 	Religion and Reason</a></div>
-	<div id="5258313"> </div></td>
+	<div id="5767123"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>RELST</td><td>3150</td>
-	<td><div id="525836par3">
+	<td><div id="576716par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525836',525836,'Medieval Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','576716',576716,'Medieval Philosophy',3)">
 	
 	Medieval Philosophy</a></div>
-	<div id="5258363"> </div></td>
+	<div id="5767163"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>RELST</td><td>3344</td>
-	<td><div id="526447par3">
+	<td><div id="577251par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','526447',526447,'Introduction to Indian Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','577251',577251,'Introduction to Indian Philosophy',3)">
 	
 	Introduction to Indian Philosophy</a></div>
-	<div id="5264473"> </div></td>
+	<div id="5772513"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>RELST</td><td>3416</td>
-	<td><div id="529285par3">
+	<td><div id="579448par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529285',529285,'Zen Buddhism: Ecology, Sustainability and Daily Life',3)">
+	<a href="javascript:loadinfo('handler.cfm','579448',579448,'Zen Buddhism: Ecology, Sustainability and Daily Life',3)">
 	
 	Zen Buddhism: Ecology, Sustainability and Daily Life</a></div>
-	<div id="5292853"> </div></td>
+	<div id="5794483"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>RELST</td><td>4449</td>
-	<td><div id="525844par3">
+	<td><div id="576720par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525844',525844,'History, Theory, and Methods in the Academic Study of Religion',3)">
+	<a href="javascript:loadinfo('handler.cfm','576720',576720,'History, Theory, and Methods in the Academic Study of Religion',3)">
 	
 	History, Theory, and Methods in the Academic Study of Religion</a></div>
-	<div id="5258443"> </div></td>
+	<div id="5767203"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>ROMS</td><td>3560</td>
+	<td><div id="579485par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579485',579485,'Freud and the Invention of Psychoanalysis',3)">
+	
+	Freud and the Invention of Psychoanalysis</a></div>
+	<div id="5794853"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>SOC</td><td>4430</td>
-	<td><div id="527537par3">
+	<td><div id="578106par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','527537',527537,'Topics in Social and Political Philosophy',3)">
+	<a href="javascript:loadinfo('handler.cfm','578106',578106,'Topics in Social and Political Philosophy',3)">
 	
 	Topics in Social and Political Philosophy</a></div>
-	<div id="5275373"> </div></td>
+	<div id="5781063"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>STS</td><td>2051</td>
-	<td><div id="525988par3">
+	<td><div id="576854par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525988',525988,'Ethical Issues in Health and Medicine',3)">
+	<a href="javascript:loadinfo('handler.cfm','576854',576854,'Ethical Issues in Health and Medicine',3)">
 	
 	Ethical Issues in Health and Medicine</a></div>
-	<div id="5259883"> </div></td>
+	<div id="5768543"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>STS</td><td>2061</td>
-	<td><div id="525989par3">
+	<td><div id="576855par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','525989',525989,'Ethics and the Environment',3)">
+	<a href="javascript:loadinfo('handler.cfm','576855',576855,'Ethics and the Environment',3)">
 	
 	Ethics and the Environment</a></div>
-	<div id="5259893"> </div></td>
+	<div id="5768553"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>STS</td><td>2451</td>
-	<td><div id="529632par3">
+	<td><div id="579746par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529632',529632,'Introduction to Bioethics',3)">
+	<a href="javascript:loadinfo('handler.cfm','579746',579746,'Introduction to Bioethics',3)">
 	
 	Introduction to Bioethics</a></div>
-	<div id="5296323"> </div></td>
-	 <td>(KCM-AS)</td>
-</tr>
-
-  <tr>
-	<td>STS</td><td>2621</td>
-	<td><div id="531482par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','531482',531482,'Gendering Religion, Science and Technology',3)">
-	
-	Gendering Religion, Science and Technology</a></div>
-	<div id="5314823"> </div></td>
+	<div id="5797463"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>STS</td><td>2751</td>
-	<td><div id="529282par3">
+	<td><div id="579446par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529282',529282,'Ethical Issues in Intelligent Autonomous Systems',3)">
+	<a href="javascript:loadinfo('handler.cfm','579446',579446,'Ethical Issues in Intelligent Autonomous Systems',3)">
 	
 	Ethical Issues in Intelligent Autonomous Systems</a></div>
-	<div id="5292823"> </div></td>
+	<div id="5794463"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>STS</td><td>2831</td>
-	<td><div id="528103par3">
+	<td><div id="578544par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','528103',528103,'Introduction to the Philosophy of Science',3)">
+	<a href="javascript:loadinfo('handler.cfm','578544',578544,'Introduction to the Philosophy of Science',3)">
 	
 	Introduction to the Philosophy of Science</a></div>
-	<div id="5281033"> </div></td>
+	<div id="5785443"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>STS</td><td>3601</td>
-	<td><div id="526003par3">
+	<td><div id="576868par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','526003',526003,'Ethical Issues in Engineering Practice',3)">
+	<a href="javascript:loadinfo('handler.cfm','576868',576868,'Ethical Issues in Engineering Practice',3)">
 	
 	Ethical Issues in Engineering Practice</a></div>
-	<div id="5260033"> </div></td>
+	<div id="5768683"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>3651</td>
+	<td><div id="579486par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','579486',579486,'Freud and the Invention of Psychoanalysis',3)">
+	
+	Freud and the Invention of Psychoanalysis</a></div>
+	<div id="5794863"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>STS</td><td>3811</td>
-	<td><div id="526004par3">
+	<td><div id="576869par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','526004',526004,'Philosophy of Science',3)">
+	<a href="javascript:loadinfo('handler.cfm','576869',576869,'Philosophy of Science',3)">
 	
 	Philosophy of Science</a></div>
-	<div id="5260043"> </div></td>
+	<div id="5768693"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>STS</td><td>4101</td>
-	<td><div id="530190par3">
+	<td><div id="580154par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','530190',530190,'The Entangled Lives of Humans and Animals',3)">
+	<a href="javascript:loadinfo('handler.cfm','580154',580154,'The Entangled Lives of Humans and Animals',3)">
 	
 	The Entangled Lives of Humans and Animals</a></div>
-	<div id="5301903"> </div></td>
+	<div id="5801543"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>VISST</td><td>3342</td>
-	<td><div id="526219par3">
+	<td><div id="577042par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','526219',526219,'Human Perception: Application to Computer Graphics, Art, and Visual Display',3)">
+	<a href="javascript:loadinfo('handler.cfm','577042',577042,'Human Perception: Application to Computer Graphics, Art, and Visual Display',3)">
 	
 	Human Perception: Application to Computer Graphics, Art, and Visual Display</a></div>
-	<div id="5262193"> </div></td>
+	<div id="5770423"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
   <tr>
 	<td>VISST</td><td>4438</td>
-	<td><div id="526692par3">
+	<td><div id="577444par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','526692',526692,'Language and Image',3)">
+	<a href="javascript:loadinfo('handler.cfm','577444',577444,'Language and Image',3)">
 	
 	Language and Image</a></div>
-	<div id="5266923"> </div></td>
+	<div id="5774443"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 

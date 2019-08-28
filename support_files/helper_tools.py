@@ -105,7 +105,7 @@ def designate_columns(transcript):
         elif curr == 'Score':
             cols['ap score'] = pos[0]
         elif curr == 'TR School Descr':
-            cols['transfer y/n'] = pos[0]
+            cols['transfer'] = pos[0]
 
         pos = colhop(pos)
         curr = transcript[pos].value
@@ -149,7 +149,7 @@ def determine_ap_course_equiv(ap_desc, score, course_desc):
     elif ap_desc == "Biology" and score == "5":
         equiv = [Course(num="APBIO5-1", grade=score, creds=3, desc=course_desc, ap=True, ap_ppf_desc="BIO AP"),
                  Course(num="APBIO5-2", grade=score, creds=3, desc=course_desc, ap=True, ap_ppf_desc="BIO AP"),
-                 Course(num="APBIO5-LAB", grade=score, creds=2, desc=course_desc, ap=True, ap_ppf_desc="BIO AP")]
+                 Course(num="APBIOLAB", grade=score, creds=2, desc=course_desc, ap=True, ap_ppf_desc="BIO AP")]
     # AP Chemistry
     elif ap_desc == "Chemistry" and score == "5":
         equiv = Course(num="APCHEM", grade=score, creds=4, desc=course_desc, ap=True, ap_ppf_desc="CHEM AP")
@@ -162,7 +162,7 @@ def determine_ap_course_equiv(ap_desc, score, course_desc):
     # AP Physics
     elif ap_desc == "Physics C - Mechanics" and score == "5":
         equiv = Course(num="APMECH", grade=score, creds=4, desc=course_desc, ap=True, ap_ppf_desc="PHYS AP")
-    elif ap_desc == "Physics C - Electricity & Magt" and score == 5:
+    elif ap_desc == "Physics C - Electricity & Magt" and score == "5":
         equiv = Course(num="APELECTRO", grade=score, creds=4, desc=course_desc, ap=True, ap_ppf_desc="PHYS AP")
 
     # AP English
@@ -201,13 +201,11 @@ def determine_ap_course_equiv(ap_desc, score, course_desc):
 
 def read_class_from_transcript(transcript, cols, row):
 
-    stud_name_loc = cols['student name'] + row
     ap_loc = cols['ap y/n'] + row
-    transfer_loc = cols['transfer y/n'] + row
+    transfer_loc = cols['transfer'] + row
 
     if transcript[transfer_loc].value is not None:
-        print("%s has a transfer credit" % transcript[stud_name_loc].value)
-        return None
+        return transcript[transfer_loc].value
 
     if transcript[ap_loc].value is None:
 
@@ -257,6 +255,19 @@ def upload_adv_bio():
     parent = os.getcwd()
     os.chdir(parent+"/support_files")
     wb = xlrd.open_workbook("advanced_bio.xlsx")
+    sheet = wb.sheet_by_index(0)
+    for i in range(1, sheet.nrows):
+        courses.append(sheet.cell_value(i, 0))
+    os.chdir(parent)
+    return courses
+
+
+def upload_engri():
+
+    courses = []
+    parent = os.getcwd()
+    os.chdir(parent+"/support_files")
+    wb = xlrd.open_workbook("engri_courses.xlsx")
     sheet = wb.sheet_by_index(0)
     for i in range(1, sheet.nrows):
         courses.append(sheet.cell_value(i, 0))

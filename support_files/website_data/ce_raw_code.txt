@@ -119,40 +119,43 @@
 
 	<div id="navigation">
 
+        
+        
 		<ul>
 
-			<li><a href="index.cfm" >Liberal Studies Policy</a></li>
-
-	
+			<li><label class="navlabel">Approved Categories/Courses:</label></li>
+            
             <li><a href="CA.cfm" >CA</a></li>
 
             <li><a href="HA.cfm" >HA</a></li>
 
             <li><a href="KCM.cfm" >KCM</a></li>
 
-            <li><a href="LA.cfm" >LA</a></li>
+            <li><a href="LA.cfm" >LA/LAD</a></li>
 
             <li><a href="SBA.cfm" >SBA</a></li>
 
 			<li><a href="CE.cfm" class="current">CE</a></li>
 
+		</ul>
+        
+		<ul>
+
+			
+            
+			<li><a href="index.cfm" >Liberal Studies Policy</a></li>
+                        
             <li><a href="policy.cfm" >Petitions</a></li>
-
-
-
+            
             <li><a href="ApprovedLiberalStudies.pdf">Other Yes</a></li>
-
-
-
-          <li><a href="DeniedLiberalStudies.pdf">Other No</a></li>
-
-		  
-
-		  
-
-
+            
+            <li><a href="DeniedLiberalStudies.pdf">Other No</a></li>
 
 		</ul>
+
+			
+
+		
 
 	</div>
 
@@ -183,45 +186,34 @@
  
   <tr>
 	<td>ENGRC</td><td>2250</td>
-	<td><div id="529728par3">
+	<td><div id="579829par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','529728',529728,'Communication for Mechanical Engineering Design and Innovation',3)">
+	<a href="javascript:loadinfo('handler.cfm','579829',579829,'Communication for Mechanical Engineering Design and Innovation',3)">
 	
 	Communication for Mechanical Engineering Design and Innovation</a></div>
-	<div id="5297283"> </div></td>
+	<div id="5798293"> </div></td>
 	 <td>(CE-EN)</td>
 </tr>
 
   <tr>
 	<td>ENGRC</td><td>3350</td>
-	<td><div id="523461par3">
+	<td><div id="574548par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','523461',523461,'Communications for Engineering Managers',3)">
+	<a href="javascript:loadinfo('handler.cfm','574548',574548,'Communications for Engineering Managers',3)">
 	
 	Communications for Engineering Managers</a></div>
-	<div id="5234613"> </div></td>
+	<div id="5745483"> </div></td>
 	 <td>(CE-EN)</td>
 </tr>
 
   <tr>
 	<td>ENGRC</td><td>3500</td>
-	<td><div id="523462par3">
+	<td><div id="574549par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','523462',523462,'Engineering Communications',3)">
+	<a href="javascript:loadinfo('handler.cfm','574549',574549,'Engineering Communications',3)">
 	
 	Engineering Communications</a></div>
-	<div id="5234623"> </div></td>
-	 <td>(CE-EN)</td>
-</tr>
-
-  <tr>
-	<td>ENGRG</td><td>6780</td>
-	<td><div id="523493par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','523493',523493,'Teaching Seminar',3)">
-	
-	Teaching Seminar</a></div>
-	<div id="5234933"> </div></td>
+	<div id="5745493"> </div></td>
 	 <td>(CE-EN)</td>
 </tr>
 
