@@ -1,4 +1,4 @@
-from support_files.helper_tools import exceeds, categories_represented
+from support_files.helper_tools import exceeds, categories_represented, upload_courses_from_file
 from support_files.web_reader import get_full_libarts_dict
 import re
 from copy import deepcopy
@@ -143,6 +143,13 @@ class MultiCourseReq:
             if len(curr_courses) - categories_represented(curr_courses) > 3:
                 return False
 
+        # If the course is research, TA, etc, make sure another course hasn't been taken that prevents this one's use
+        research_etc = upload_courses_from_file("research_ta_etc.xlsx")
+        if research_etc.__contains__(course.num) and self.courses is not None:
+            for c in self.courses:
+                if research_etc.__contains__(c.num):
+                    return False
+
         # Otherwise, let it pass
         return True
 
@@ -159,7 +166,6 @@ class MultiCourseReq:
                 ppf[ppf_creds_col + str(self.positions[self.next])] = course.creds  # write credits to ppf
                 ppf[ppf_grade_col + str(self.positions[self.next])] = course.term  # write term to ppf
                 ppf[ppf_course_col + str(self.positions[self.next])] = course.num  # write course to ppf
-
 
         elif course.ap:
             self.creds_taken += course.creds

@@ -1,7 +1,7 @@
 from support_files.Category import Category
 from support_files.ReqTypes import BasicCourseReq,  MultiCourseReq, ApprovedElectives
 from support_files.web_reader import get_focus_area_list, get_full_libarts_dict
-from support_files.helper_tools import upload_adv_bio, upload_engri
+from support_files.helper_tools import upload_courses_from_file
 
 '''
 Create objects used to store PPF data
@@ -30,7 +30,7 @@ def create_category_list():
     bio_lab = BasicCourseReq('Intro Bio Lab', options=['BIOG1500', 'BIOSM1500', 'APBIOLAB'], position=29)
     biochem = MultiCourseReq('Biochemistry', creds_needed=4, options=['BIOMG3300', 'BIOMG3330', 'BIOMG3350', 'BIOMG3310',
                                                                       'BIOMG3320'], positions=[30, 31])
-    adv_bio_courses = upload_adv_bio()
+    adv_bio_courses = upload_courses_from_file("advanced_bio.xlsx")
     adv_bio = MultiCourseReq('Advanced Biology', creds_needed=3, options=adv_bio_courses, positions=[32, 33])
     bio = Category('Biological Sciences', [intro_bio, bio_lab, biochem, adv_bio], 'M32', 15)
 
@@ -48,7 +48,7 @@ def create_category_list():
 
     statics = BasicCourseReq('Statics', options=['ENGRD2020'], position=70)
     stats = BasicCourseReq('Statistics', options=['CEE3040', 'ENGRD2700'], position=71)
-    engri = upload_engri()
+    engri = upload_courses_from_file("engri_courses.xlsx")
     intro_eng = BasicCourseReq('Intro Engineering', options=engri, position=73)
     thermo = BasicCourseReq('Thermodynamics', options=['BEE2220', 'ENGRD2210', 'CHEME3130', 'MSE3030'], position=74)
     eng_dist = BasicCourseReq('Engineering Distribution', options=['BEE2600', 'BEE2510', 'ENGRD2600', 'ENGRD2510'], position=76)

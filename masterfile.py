@@ -20,7 +20,8 @@ def main():
     # Will use transcript.xlsx and write to the Students folder
     parent = os.getcwd()
     os.chdir(parent + "/Transcript")
-    _, _, transcript = open_excel_file("transcript.xlsx")
+    # _, _, transcript = open_excel_file("transcript.xlsx")
+    _, _, transcript = open_excel_file("test.xlsx")
     os.chdir(parent)
 
     cols = designate_columns(transcript)  # Record what is in each column of transcript

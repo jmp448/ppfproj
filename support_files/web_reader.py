@@ -1,7 +1,7 @@
 import requests
 import re
 import os
-from support_files.helper_tools import open_excel_file
+from support_files.helper_tools import open_excel_file, upload_courses_from_file
 
 
 """
@@ -264,6 +264,10 @@ def get_focus_area_list():
     f.close()
 
     os.chdir(parent)
+
+    research_etc = upload_courses_from_file("research_ta_etc.xlsx")
+    for c in research_etc:
+        fa_list.append(c)
 
     return fa_list
 

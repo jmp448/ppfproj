@@ -3,23 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="cd24cbf4-981b-4ba1-b319-35767ec554cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Students/ReadMe.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Students_test/~$poppj-jmp448.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transcript/~$test.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blankPPF.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/blankPPF.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Students/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/Students/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/masterfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/masterfile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/support_files/ReqTypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/ReqTypes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/Student.py" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/Student.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/support_files/define_reqs.py" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/define_reqs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/support_files/helper_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/helper_tools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/support_files/web_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/web_reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/website_data/ca_raw_code.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/website_data/ce_raw_code.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/website_data/focus_area_raw_code.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/website_data/ha_raw_code.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/website_data/kcm_raw_code.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/website_data/la_raw_code.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/website_data/sba_raw_code.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,18 +24,19 @@
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="4" />
+          <entry key="md" value="5" />
           <entry key="py" value="57" />
           <entry key="readTranscript" value="1" />
           <entry key="txt" value="10" />
@@ -54,7 +44,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="4" />
+          <entry key="Markdown" value="5" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="Python" value="57" />
         </counts>
@@ -62,26 +52,38 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="md" value="303" />
-          <entry key="py" value="55360" />
+          <entry key="md" value="350" />
+          <entry key="py" value="55806" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="303" />
+          <entry key="Markdown" value="350" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="55360" />
+          <entry key="Python" value="55806" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/masterfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="43" column="85" lean-forward="true" selection-start-line="43" selection-start-column="85" selection-end-line="43" selection-end-column="85" />
+            <state relative-caret-position="-286">
+              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Students/ReadMe.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="12" selection-start-column="12" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -89,13 +91,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/support_files/helper_tools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-48">
-              <caret line="207" column="45" lean-forward="true" selection-start-line="207" selection-start-column="45" selection-end-line="207" selection-end-column="45" />
+            <state relative-caret-position="-4">
+              <caret line="115" column="9" selection-start-line="115" selection-start-column="4" selection-end-line="115" selection-end-column="9" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
-                <marker date="1566960266472" expanded="true" signature="3494:3499" ph="..." />
-                <marker date="1566960266472" expanded="true" signature="3494:7227" ph="..." />
-                <marker date="1566960266472" expanded="true" signature="9176:9179" ph="..." />
+                <marker date="1566960904455" expanded="true" signature="3494:3499" ph="..." />
+                <marker date="1566960904455" expanded="true" signature="3494:7227" ph="..." />
+                <marker date="1566960904455" expanded="true" signature="8875:8876" ph="..." />
+                <marker date="1566960904455" expanded="true" signature="8877:8878" ph="..." />
               </folding>
             </state>
           </provider>
@@ -104,12 +107,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/support_files/web_reader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="344" selection-start-line="344" selection-end-line="344" />
+            <state relative-caret-position="35">
+              <caret line="262" column="39" selection-start-line="262" selection-start-column="39" selection-end-line="262" selection-end-column="39" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1566329328747" expanded="true" signature="3253:6940" ph="..." />
-                <marker date="1566329328747" expanded="true" signature="6594:6940" ph="..." />
+                <marker date="1566962203957" expanded="true" signature="3279:6966" ph="..." />
+                <marker date="1566962203957" expanded="true" signature="6620:6966" ph="..." />
               </folding>
             </state>
           </provider>
@@ -118,11 +121,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/support_files/ReqTypes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="204" column="16" selection-start-line="204" selection-start-column="12" selection-end-line="204" selection-end-column="16" />
+            <state relative-caret-position="188">
+              <caret line="150" column="32" lean-forward="true" selection-start-line="150" selection-start-column="32" selection-end-line="150" selection-end-column="32" />
               <folding>
-                <element signature="e#0#70#0" expanded="true" />
-                <marker date="1566957295669" expanded="true" signature="9120:9121" ph="..." />
+                <element signature="e#0#96#0" expanded="true" />
+                <marker date="1566962321693" expanded="true" signature="9536:9537" ph="..." />
               </folding>
             </state>
           </provider>
@@ -131,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/support_files/Student.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="588" column="56" lean-forward="true" selection-start-line="588" selection-start-column="56" selection-end-line="588" selection-end-column="56" />
+            <state relative-caret-position="4">
+              <caret line="717" column="26" selection-start-line="717" selection-start-column="26" selection-end-line="717" selection-end-column="26" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
                 <marker date="1566958633545" expanded="true" signature="16608:16613" ph="..." />
@@ -146,7 +149,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/support_files/Course.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="315">
               <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
             </state>
           </provider>
@@ -155,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/support_files/define_reqs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="29" column="86" selection-start-line="29" selection-start-column="86" selection-end-line="29" selection-end-column="86" />
+            <state relative-caret-position="112">
+              <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -208,12 +211,12 @@
       <find>upload</find>
       <find>has_D</find>
       <find>bee</find>
-      <find>technical</find>
       <find>no_no</find>
       <find>test</find>
       <find>update</find>
       <find>ap</find>
       <find>read</find>
+      <find>open_</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -243,14 +246,14 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Transcript/ReadMe.md" />
         <option value="$PROJECT_DIR$/Students_test/ReadMe.md" />
-        <option value="$PROJECT_DIR$/Students/ReadMe.md" />
         <option value="$PROJECT_DIR$/support_files/Course.py" />
-        <option value="$PROJECT_DIR$/support_files/web_reader.py" />
-        <option value="$PROJECT_DIR$/support_files/ReqTypes.py" />
         <option value="$PROJECT_DIR$/support_files/Student.py" />
-        <option value="$PROJECT_DIR$/masterfile.py" />
         <option value="$PROJECT_DIR$/support_files/define_reqs.py" />
         <option value="$PROJECT_DIR$/support_files/helper_tools.py" />
+        <option value="$PROJECT_DIR$/masterfile.py" />
+        <option value="$PROJECT_DIR$/support_files/web_reader.py" />
+        <option value="$PROJECT_DIR$/support_files/ReqTypes.py" />
+        <option value="$PROJECT_DIR$/Students/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -265,6 +268,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,13 +279,17 @@
             <path>
               <item name="ppfproj" type="b2602c69:ProjectViewProjectNode" />
               <item name="ppfproj" type="462c0819:PsiDirectoryNode" />
-              <item name="support_files" type="462c0819:PsiDirectoryNode" />
+              <item name="Students" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ppfproj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ppfproj" type="462c0819:PsiDirectoryNode" />
+              <item name="Transcript" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,6 +298,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Students" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -384,19 +393,19 @@
     <frame x="31" y="23" width="1249" height="759" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22618061" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22949462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32831326" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49627176" weight="0.4377811" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49710023" weight="0.39730135" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49461475" visible="true" weight="0.4377811" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49627176" weight="0.39730135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3270073" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5037283" side_tool="true" visible="true" weight="0.4377811" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5053853" side_tool="true" visible="true" weight="0.4377811" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -410,13 +419,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/support_files/ReqTypes.py</url>
-          <line>225</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -472,16 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Students/ReadMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="76" selection-start-column="76" selection-end-column="76" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Students_test/ReadMe.md" />
     <entry file="file://$PROJECT_DIR$/Transcript/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -498,9 +490,12 @@
         <state relative-caret-position="-2786" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ca_raw_code.txt">
+    <entry file="file://$PROJECT_DIR$/ca_raw_code.txt" />
+    <entry file="file://$PROJECT_DIR$/support_files/Course.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2" />
+        <state relative-caret-position="315">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/support_files/Category.py">
@@ -510,43 +505,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/support_files/web_reader.py">
+    <entry file="file://$PROJECT_DIR$/support_files/helper_tools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="344" selection-start-line="344" selection-end-line="344" />
+        <state relative-caret-position="-4">
+          <caret line="115" column="9" selection-start-line="115" selection-start-column="4" selection-end-line="115" selection-end-column="9" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1566329328747" expanded="true" signature="3253:6940" ph="..." />
-            <marker date="1566329328747" expanded="true" signature="6594:6940" ph="..." />
+            <element signature="e#0#34#0" expanded="true" />
+            <marker date="1566960904455" expanded="true" signature="3494:3499" ph="..." />
+            <marker date="1566960904455" expanded="true" signature="3494:7227" ph="..." />
+            <marker date="1566960904455" expanded="true" signature="8875:8876" ph="..." />
+            <marker date="1566960904455" expanded="true" signature="8877:8878" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/support_files/define_reqs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="29" column="86" selection-start-line="29" selection-start-column="86" selection-end-line="29" selection-end-column="86" />
+        <state relative-caret-position="112">
+          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/support_files/ReqTypes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="204" column="16" selection-start-line="204" selection-start-column="12" selection-end-line="204" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#70#0" expanded="true" />
-            <marker date="1566957295669" expanded="true" signature="9120:9121" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/support_files/Student.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="588" column="56" lean-forward="true" selection-start-line="588" selection-start-column="56" selection-end-line="588" selection-end-column="56" />
+        <state relative-caret-position="4">
+          <caret line="717" column="26" selection-start-line="717" selection-start-column="26" selection-end-line="717" selection-end-column="26" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
             <marker date="1566958633545" expanded="true" signature="16608:16613" ph="..." />
@@ -556,30 +542,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/support_files/Course.py">
+    <entry file="file://$PROJECT_DIR$/support_files/ReqTypes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="188">
+          <caret line="150" column="32" lean-forward="true" selection-start-line="150" selection-start-column="32" selection-end-line="150" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#96#0" expanded="true" />
+            <marker date="1566962321693" expanded="true" signature="9536:9537" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/support_files/helper_tools.py">
+    <entry file="file://$PROJECT_DIR$/support_files/web_reader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="207" column="45" lean-forward="true" selection-start-line="207" selection-start-column="45" selection-end-line="207" selection-end-column="45" />
+        <state relative-caret-position="35">
+          <caret line="262" column="39" selection-start-line="262" selection-start-column="39" selection-end-line="262" selection-end-column="39" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
-            <marker date="1566960266472" expanded="true" signature="3494:3499" ph="..." />
-            <marker date="1566960266472" expanded="true" signature="3494:7227" ph="..." />
-            <marker date="1566960266472" expanded="true" signature="9176:9179" ph="..." />
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1566962203957" expanded="true" signature="3279:6966" ph="..." />
+            <marker date="1566962203957" expanded="true" signature="6620:6966" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/masterfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="43" column="85" lean-forward="true" selection-start-line="43" selection-start-column="85" selection-end-line="43" selection-end-column="85" />
+        <state relative-caret-position="-286">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Students/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="12" selection-start-column="12" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
