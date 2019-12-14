@@ -1,18 +1,25 @@
-<!DOCTYPE HTML><html><head><script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head><script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
 <script type="text/javascript" src="/CFIDE/scripts/masks.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Liberal Studies Category: CA</title> <script src="/liberalstudies/js/ls_course_ajax.js"></script>
 
-<link rel="stylesheet" type="text/css" href="/app_header/appheader_main.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Liberal Studies Category: CA</title> <script src = "js/ls_course_ajax.js"></script> 
+
+<link rel="stylesheet" type="text/css" href="appheader_main.css" />
 
 
 
-<link rel="stylesheet" type="text/css" href="/app_header/appheader_mobile.css" />
+<link rel="stylesheet" type="text/css" href="appheader_mobile.css" />
 
 
 
 <!--[if lt IE 9]>
 
-<link rel="stylesheet" href="/app_header/appheader_IE.css" type="text/css" media="screen, projection"><![endif]-->
+<link rel="stylesheet" href="appheader_IE.css" type="text/css" media="screen, projection"><![endif]-->
 
 <script type="text/javascript">
 <!--
@@ -44,10 +51,12 @@
     }
 //-->
 </script>
-</head> <body style="margin: 0px 0px 0px 0px;"> 
+</head>
 
 
 
+
+<body>
 
 
 <!-- The following div contains the Cornell University logo with unit signature -->
@@ -59,118 +68,113 @@
 <div id="cu-identity">
 
 
-
 	<div id="cu-logo">
 
+		<img src="images/stilllogo_3.jpg" alt="Cornell University" width="260" height="75" border="0" usemap="#linksmap"/>
 
+        <map name="linksmap">
 
-		<img src="/app_header/images/stilllogo_3.jpg" alt="Cornell University" width="260" height="75" border="0" usemap="#linksmap"/></a>
+        <area shape="rect" coords="50,22,175,40" href="http://www.cornell.edu/" alt="Cornell University">
 
-				<map name="linksmap">
+        <area shape="rect" coords="55,41,200,60" href="http://www.engineering.cornell.edu/" alt="College of Engineering">
 
-				<area shape="rect" coords="50,22,175,40" href="http://www.cornell.edu/" alt="Cornell University">
+        <area shape="circle" coords="28,36,23" href="http://www.cornell.edu/" alt="Cornell University">
 
-				<area shape="rect" coords="55,41,200,60" href="http://www.engineering.cornell.edu/" alt="College of Engineering">
-
-					<area shape="circle" coords="28,36,23" href="http://www.cornell.edu/" alt="Cornell University">
-
-				</map>
+        </map>
 
   	</div>
 
 
+	
+    
+        <div id="search_form">
+    
+            
+            <form name="CFForm_1" id="CFForm_1" action="search.cfm" method="post" onsubmit="return _CF_checkCFForm_1(this)">
+    
+                <label for="search_query" id="search_text">Basic Keyword Search:</label>
+    
+                <input name="q" type="text" maxlength="256"  size="20"  id="search_query"  /> <input name="enter" type="submit" value="go" id="search_submit"  /> </form>
 
-	<div id="search_form">
+    
+        </div>
 
-	<form name="CFForm_1" id="CFForm_1" action="https://apps.engineering.cornell.edu/liberalstudies/search.cfm" method="post" onsubmit="return _CF_checkCFForm_1(this)">
-
-				<label id="search_text">SEARCH:</label>
-
-		<input name="q" type="text" maxlength="256"  size="20"  id="search_query"  /> <input name="enter" type="submit" value="go" id="search_submit"  /> </form>
-
-
-	</div>
 
 </div>
-
-
-
-
-
-	
-
-
-
-	<!-- The header div contains the main identity and main navigation for the site -->
-
-<div id="header">
-
-	<!--
-
-		The navigation div contains the site's main navigation. These
-
-		links will be displayed in a horizontal, gray navigation bar
-
-		under the unit signature banner.
-
-	-->
-
-	
-
-	<div id="navigation">
-
-        
-        
-		<ul>
-
-			<li><label class="navlabel">Approved Categories/Courses:</label></li>
-            
-            <li><a href="CA.cfm" class="current">CA</a></li>
-
-            <li><a href="HA.cfm" >HA</a></li>
-
-            <li><a href="KCM.cfm" >KCM</a></li>
-
-            <li><a href="LA.cfm" >LA/LAD</a></li>
-
-            <li><a href="SBA.cfm" >SBA</a></li>
-
-			<li><a href="CE.cfm" >CE</a></li>
-
-		</ul>
-        
-		<ul>
-
-			
-            
-			<li><a href="index.cfm" >Liberal Studies Policy</a></li>
-                        
-            <li><a href="policy.cfm" >Petitions</a></li>
-            
-            <li><a href="ApprovedLiberalStudies.pdf">Other Yes</a></li>
-            
-            <li><a href="DeniedLiberalStudies.pdf">Other No</a></li>
-
-		</ul>
-
-			
+    
 
 		
-
-	</div>
-
-
-
-  </div>
-
-  <div id="identity">
-
-  Liberal Studies Category: CA
-
-  </div>
-
-
-
+    
+    
+        <!-- The header div contains the main identity and main navigation for the site -->
+    
+        <div id="header">
+        
+            <!--
+        
+                The navigation div contains the site's main navigation. These
+        
+                links will be displayed in a horizontal, gray navigation bar
+        
+                under the unit signature banner.
+        
+            -->
+        
+            
+        
+            <div id="navigation">
+        
+                
+                
+                <ul>
+        
+                    <li><h1 class="navlabel">Approved Categories/Courses:</h1></li>
+                    
+                    <li><a href="CA.cfm" class="current">CA</a></li>
+        
+                    <li><a href="HA.cfm" >HA</a></li>
+        
+                    <li><a href="KCM.cfm" >KCM</a></li>
+        
+                    <li><a href="LA.cfm" >LA/LAD</a></li>
+        
+                    <li><a href="SBA.cfm" >SBA</a></li>
+        
+                    <li><a href="CE.cfm" >CE</a></li>
+        
+                </ul>
+                
+                <ul>
+        
+                    
+                    
+                    <li><a href="index.cfm" >Liberal Studies Policy</a></li>
+                                
+                    <li><a href="policy.cfm" >Petitions</a></li>
+                    
+                    <li><a href="ApprovedLiberalStudies.pdf">Other Yes</a></li>
+                    
+                    <li><a href="DeniedLiberalStudies.pdf">Other No</a></li>
+        
+                </ul>
+        
+                    
+        
+                
+        
+            </div>        
+        
+        </div>
+    
+    
+        <div id="identity">
+        
+        	Liberal Studies Category: CA
+        
+        </div>
+    
+    
+    
 
 
 </div>
@@ -317,6 +321,17 @@
 </tr>
 
   <tr>
+	<td>AIIS</td><td>2910</td>
+	<td><div id="616055par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','616055',616055,'Indigeneity as Rights: Haudenosaunee Rights Advocacy',3)">
+	
+	Indigeneity as Rights: Haudenosaunee Rights Advocacy</a></div>
+	<div id="6160553"> </div></td>
+	 <td>(CA-AG, HA-AG)</td>
+</tr>
+
+  <tr>
 	<td>AIIS</td><td>3330</td>
 	<td><div id="572690par3">
 	
@@ -347,6 +362,17 @@
 	Critical Approaches to American Indian and Indigenous Studies: Intellectual History</a></div>
 	<div id="5726923"> </div></td>
 	 <td>(CA-AG, HA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AIIS</td><td>4625</td>
+	<td><div id="572217par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572217',572217,'Contemporary Native American Fiction',3)">
+	
+	Contemporary Native American Fiction</a></div>
+	<div id="5722173"> </div></td>
+	 <td>(CA-AG, LA-AG)</td>
 </tr>
 
   <tr>
@@ -984,6 +1010,17 @@
 	
 	Anthropology of Law and Politics</a></div>
 	<div id="5799213"> </div></td>
+	 <td>(CA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ANTHR</td><td>2465</td>
+	<td><div id="571605par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','571605',571605,'Global Heritage',3)">
+	
+	Global Heritage</a></div>
+	<div id="5716053"> </div></td>
 	 <td>(CA-AS)</td>
 </tr>
 
@@ -1626,6 +1663,17 @@
 </tr>
 
   <tr>
+	<td>ARAB</td><td>3206</td>
+	<td><div id="572197par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572197',572197,'Intensive Arabic II',3)">
+	
+	Intensive Arabic II</a></div>
+	<div id="5721973"> </div></td>
+	 <td>(CA-AS)</td>
+</tr>
+
+  <tr>
 	<td>ARAB</td><td>4203</td>
 	<td><div id="579345par3">
 	
@@ -1644,6 +1692,28 @@
 	
 	Egyptomania: Imagining Egypt in the Greco-Roman World</a></div>
 	<div id="5709703"> </div></td>
+	 <td>(CA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>2465</td>
+	<td><div id="571604par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','571604',571604,'Global Heritage',3)">
+	
+	Global Heritage</a></div>
+	<div id="5716043"> </div></td>
+	 <td>(CA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>2522</td>
+	<td><div id="571475par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','571475',571475,'Drinking through the Ages: Intoxicating Beverages in Near Eastern and World History',3)">
+	
+	Drinking through the Ages: Intoxicating Beverages in Near Eastern and World History</a></div>
+	<div id="5714753"> </div></td>
 	 <td>(CA-AS)</td>
 </tr>
 
@@ -3056,6 +3126,17 @@
 </tr>
 
   <tr>
+	<td>ASIAN</td><td>4420</td>
+	<td><div id="582740par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582740',582740,'Cultures of Disability in Japan',3)">
+	
+	Cultures of Disability in Japan</a></div>
+	<div id="5827403"> </div></td>
+	 <td>(CA-AS)</td>
+</tr>
+
+  <tr>
 	<td>ASIAN</td><td>4423</td>
 	<td><div id="579396par3">
 	
@@ -3606,6 +3687,17 @@
 </tr>
 
   <tr>
+	<td>BSOC</td><td>4390</td>
+	<td><div id="599539par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','599539',599539,'Primate Conservation: Cross-cultural Perspectives on Wilderness Preservation and Animal-Human',3)">
+	
+	Primate Conservation: Cross-cultural Perspectives on Wilderness Preservation and Animal-Human</a></div>
+	<div id="5995393"> </div></td>
+	 <td>(CA-AS)</td>
+</tr>
+
+  <tr>
 	<td>BSOC</td><td>4650</td>
 	<td><div id="581848par3">
 	
@@ -3741,9 +3833,9 @@
 	<td>CAPS</td><td>4030</td>
 	<td><div id="573579par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','573579',573579,'Issues in China and Asia-Pacific Studies',3)">
+	<a href="javascript:loadinfo('handler.cfm','573579',573579,'Making Sense of China: The Capstone Seminar',3)">
 	
-	Issues in China and Asia-Pacific Studies</a></div>
+	Making Sense of China: The Capstone Seminar</a></div>
 	<div id="5735793"> </div></td>
 	 <td>(CA-AS)</td>
 </tr>
@@ -3778,6 +3870,17 @@
 	
 	The Greek Experience</a></div>
 	<div id="5738203"> </div></td>
+	 <td>(CA-AS)</td>
+</tr>
+
+  <tr>
+	<td>CLASS</td><td>2630</td>
+	<td><div id="571476par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','571476',571476,'Drinking through the Ages: Intoxicating Beverages in Near Eastern and World History',3)">
+	
+	Drinking through the Ages: Intoxicating Beverages in Near Eastern and World History</a></div>
+	<div id="5714763"> </div></td>
 	 <td>(CA-AS)</td>
 </tr>
 
@@ -3932,6 +4035,17 @@
 	
 	Medieval Cosmologies: Text, Image, and Music</a></div>
 	<div id="5783173"> </div></td>
+	 <td>(CA-AS)</td>
+</tr>
+
+  <tr>
+	<td>COGST</td><td>1212</td>
+	<td><div id="616006par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','616006',616006,'Music on the Brain',3)">
+	
+	Music on the Brain</a></div>
+	<div id="6160063"> </div></td>
 	 <td>(CA-AS)</td>
 </tr>
 
@@ -4244,6 +4358,17 @@
 </tr>
 
   <tr>
+	<td>COML</td><td>4902</td>
+	<td><div id="582785par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582785',582785,'Environmental Humanities: Theories and Methods',3)">
+	
+	Environmental Humanities: Theories and Methods</a></div>
+	<div id="5827853"> </div></td>
+	 <td>(CA-AS)</td>
+</tr>
+
+  <tr>
 	<td>COML</td><td>4944</td>
 	<td><div id="570251par3">
 	
@@ -4328,7 +4453,7 @@
 	
 	Crossing Cultures Through Film</a></div>
 	<div id="5820293"> </div></td>
-	 <td>(CA-AG) (D-AG)</td>
+	 <td>(CA-AG, D-AG)</td>
 </tr>
 
   <tr>
@@ -4339,7 +4464,18 @@
 	
 	Intercultural Communication</a></div>
 	<div id="5810553"> </div></td>
-	 <td>(CA-AG)</td>
+	 <td>(CA-AG, D-AG)</td>
+</tr>
+
+  <tr>
+	<td>COMM</td><td>3800</td>
+	<td><div id="615976par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','615976',615976,'Television in the Digital Age',3)">
+	
+	Television in the Digital Age</a></div>
+	<div id="6159763"> </div></td>
+	 <td>(CA-AG, HA-AG)</td>
 </tr>
 
   <tr>
@@ -4395,6 +4531,17 @@
 	Cuba Vista</a></div>
 	<div id="5820943"> </div></td>
 	 <td>(CA-HE, D-HE, HA-HE, KCM-HE, L</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>1300</td>
+	<td><div id="582659par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582659',582659,'Just Food: Exploring the Modern Food System',3)">
+	
+	Just Food: Exploring the Modern Food System</a></div>
+	<div id="5826593"> </div></td>
+	 <td>(CA-AG, SBA-AG )</td>
 </tr>
 
   <tr>
@@ -5124,6 +5271,17 @@
 </tr>
 
   <tr>
+	<td>FREN</td><td>3660</td>
+	<td><div id="615964par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','615964',615964,'Looking Back: The Poetics of Remembrance in the Francophone Imaginary',3)">
+	
+	Looking Back: The Poetics of Remembrance in the Francophone Imaginary</a></div>
+	<div id="6159643"> </div></td>
+	 <td>(CA-AS)</td>
+</tr>
+
+  <tr>
 	<td>FREN</td><td>3720</td>
 	<td><div id="582128par3">
 	
@@ -5142,6 +5300,17 @@
 	
 	What is a People? The Social Contract and its Discontents</a></div>
 	<div id="5714633"> </div></td>
+	 <td>(CA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FREN</td><td>4030</td>
+	<td><div id="632466par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','632466',632466,'Multidirectional Maghreb',3)">
+	
+	Multidirectional Maghreb</a></div>
+	<div id="6324663"> </div></td>
 	 <td>(CA-AS)</td>
 </tr>
 
@@ -5641,6 +5810,17 @@
 </tr>
 
   <tr>
+	<td>GOVT</td><td>4037</td>
+	<td><div id="615963par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','615963',615963,'Making Sense of China: The Capstone Seminar',3)">
+	
+	Making Sense of China: The Capstone Seminar</a></div>
+	<div id="6159633"> </div></td>
+	 <td>(CA-AS)</td>
+</tr>
+
+  <tr>
 	<td>GOVT</td><td>4051</td>
 	<td><div id="569915par3">
 	
@@ -6070,6 +6250,17 @@
 </tr>
 
   <tr>
+	<td>JWST</td><td>2522</td>
+	<td><div id="571458par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','571458',571458,'Drinking through the Ages: Intoxicating Beverages in Near Eastern and World History',3)">
+	
+	Drinking through the Ages: Intoxicating Beverages in Near Eastern and World History</a></div>
+	<div id="5714583"> </div></td>
+	 <td>(CA-AS)</td>
+</tr>
+
+  <tr>
 	<td>JWST</td><td>2523</td>
 	<td><div id="582296par3">
 	
@@ -6309,17 +6500,6 @@
 	Designing Archaeological Exhibits</a></div>
 	<div id="5772633"> </div></td>
 	 <td>(CA-AG, HA-AG)</td>
-</tr>
-
-  <tr>
-	<td>LA</td><td>4830</td>
-	<td><div id="575400par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','575400',575400,'Seminar in Landscape Studies',3)">
-	
-	Seminar in Landscape Studies</a></div>
-	<div id="5754003"> </div></td>
-	 <td>(CA-AG, LA-AG)</td>
 </tr>
 
   <tr>
@@ -7203,6 +7383,17 @@
 </tr>
 
   <tr>
+	<td>NES</td><td>2522</td>
+	<td><div id="571457par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','571457',571457,'Drinking through the Ages: Intoxicating Beverages in Near Eastern and World History',3)">
+	
+	Drinking through the Ages: Intoxicating Beverages in Near Eastern and World History</a></div>
+	<div id="5714573"> </div></td>
+	 <td>(CA-AS)</td>
+</tr>
+
+  <tr>
 	<td>NES</td><td>2523</td>
 	<td><div id="582288par3">
 	
@@ -7221,6 +7412,17 @@
 	
 	Magic and Witchcraft in the Greco-Roman World</a></div>
 	<div id="5780223"> </div></td>
+	 <td>(CA-AS)</td>
+</tr>
+
+  <tr>
+	<td>NES</td><td>2565</td>
+	<td><div id="571603par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','571603',571603,'Global Heritage',3)">
+	
+	Global Heritage</a></div>
+	<div id="5716033"> </div></td>
 	 <td>(CA-AS)</td>
 </tr>
 
@@ -7654,6 +7856,17 @@
 </tr>
 
   <tr>
+	<td>PAM</td><td>4160</td>
+	<td><div id="570132par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','570132',570132,'The Ethnography of Poverty and Inequality',3)">
+	
+	The Ethnography of Poverty and Inequality</a></div>
+	<div id="5701323"> </div></td>
+	 <td>(CA-HE, D-HE, KCM-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
 	<td>PERSN</td><td>1322</td>
 	<td><div id="576065par3">
 	
@@ -7684,17 +7897,6 @@
 	Coffee, Cloves, and Chocolate: Plant Explorers and Thieves</a></div>
 	<div id="5786023"> </div></td>
 	 <td>(CA-AG, HA-AG)</td>
-</tr>
-
-  <tr>
-	<td>PLSCI</td><td>1300</td>
-	<td><div id="582658par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','582658',582658,'Just Food: Exploring the Modern Food System',3)">
-	
-	Just Food: Exploring the Modern Food System</a></div>
-	<div id="5826583"> </div></td>
-	 <td>(CA-AG, SBA-AG)</td>
 </tr>
 
   <tr>
@@ -7943,9 +8145,9 @@
 	<td>PORT</td><td>3920</td>
 	<td><div id="582697par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','582697',582697,'Brazilian Literature and Film',3)">
+	<a href="javascript:loadinfo('handler.cfm','582697',582697,'Women\'s Writing in Brazil and Argentina',3)">
 	
-	Brazilian Literature and Film</a></div>
+	Women's Writing in Brazil and Argentina</a></div>
 	<div id="5826973"> </div></td>
 	 <td>(CA-AS)</td>
 </tr>
@@ -8259,6 +8461,17 @@
 </tr>
 
   <tr>
+	<td>RUSSL</td><td>2150</td>
+	<td><div id="583024par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','583024',583024,'Russian Culture, History, and Politics through Film',3)">
+	
+	Russian Culture, History, and Politics through Film</a></div>
+	<div id="5830243"> </div></td>
+	 <td>(CA-AS)</td>
+</tr>
+
+  <tr>
 	<td>RUSSL</td><td>2500</td>
 	<td><div id="581744par3">
 	
@@ -8416,9 +8629,9 @@
 	<td>SPAN</td><td>3920</td>
 	<td><div id="582696par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','582696',582696,'Brazilian Literature and Film',3)">
+	<a href="javascript:loadinfo('handler.cfm','582696',582696,'Women\'s Writing in Brazil and Argentina',3)">
 	
-	Brazilian Literature and Film</a></div>
+	Women's Writing in Brazil and Argentina</a></div>
 	<div id="5826963"> </div></td>
 	 <td>(CA-AS)</td>
 </tr>
@@ -8475,6 +8688,17 @@
 	
 	Jose Marti: Modernity and Myth</a></div>
 	<div id="5830373"> </div></td>
+	 <td>(CA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SPAN</td><td>4895</td>
+	<td><div id="615937par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','615937',615937,'Cyborgs, Animals, and Monsters',3)">
+	
+	Cyborgs, Animals, and Monsters</a></div>
+	<div id="6159373"> </div></td>
 	 <td>(CA-AS)</td>
 </tr>
 
@@ -8647,9 +8871,9 @@
 	<td>STS</td><td>4312</td>
 	<td><div id="582686par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','582686',582686,'Sythesizing Pop: Electronics and the Musical Imagination',3)">
+	<a href="javascript:loadinfo('handler.cfm','582686',582686,'Synthesizing Pop: Electronics and the Musical Imagination',3)">
 	
-	Sythesizing Pop: Electronics and the Musical Imagination</a></div>
+	Synthesizing Pop: Electronics and the Musical Imagination</a></div>
 	<div id="5826863"> </div></td>
 	 <td>(CA-AS)</td>
 </tr>
@@ -8750,6 +8974,17 @@
 	
 	What was Film?</a></div>
 	<div id="5801993"> </div></td>
+	 <td>(CA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>4902</td>
+	<td><div id="583022par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','583022',583022,'Environmental Humanities: Theories and Methods',3)">
+	
+	Environmental Humanities: Theories and Methods</a></div>
+	<div id="5830223"> </div></td>
 	 <td>(CA-AS)</td>
 </tr>
 
@@ -9163,6 +9398,15 @@
 </table>
 
 <br>
-</div></div></div>
-</body>
+
+</div></div></div>
+
+&nbsp;
+    <br />
+    <div id="content-footer" align="center">If you have a disability and are having trouble accessing information on this website or need materials in an alternate format, Contact <a href="mailto:web-accessibility@cornell.edu" target="_top" class="linkcss">web-accessibility@cornell.edu</a> for assistance.
+    </div>
+    <br />
+
+</body>
+
 </html>

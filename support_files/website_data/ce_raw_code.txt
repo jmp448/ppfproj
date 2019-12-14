@@ -1,18 +1,25 @@
-<!DOCTYPE HTML><html><head><script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head><script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
 <script type="text/javascript" src="/CFIDE/scripts/masks.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Liberal Studies Category: CE</title> <script src="/liberalstudies/js/ls_course_ajax.js"></script>
 
-<link rel="stylesheet" type="text/css" href="/app_header/appheader_main.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Liberal Studies Category: CE</title> <script src = "js/ls_course_ajax.js"></script> 
+
+<link rel="stylesheet" type="text/css" href="appheader_main.css" />
 
 
 
-<link rel="stylesheet" type="text/css" href="/app_header/appheader_mobile.css" />
+<link rel="stylesheet" type="text/css" href="appheader_mobile.css" />
 
 
 
 <!--[if lt IE 9]>
 
-<link rel="stylesheet" href="/app_header/appheader_IE.css" type="text/css" media="screen, projection"><![endif]-->
+<link rel="stylesheet" href="appheader_IE.css" type="text/css" media="screen, projection"><![endif]-->
 
 <script type="text/javascript">
 <!--
@@ -44,10 +51,12 @@
     }
 //-->
 </script>
-</head> <body style="margin: 0px 0px 0px 0px;"> 
+</head>
 
 
 
+
+<body>
 
 
 <!-- The following div contains the Cornell University logo with unit signature -->
@@ -59,118 +68,113 @@
 <div id="cu-identity">
 
 
-
 	<div id="cu-logo">
 
+		<img src="images/stilllogo_3.jpg" alt="Cornell University" width="260" height="75" border="0" usemap="#linksmap"/>
 
+        <map name="linksmap">
 
-		<img src="/app_header/images/stilllogo_3.jpg" alt="Cornell University" width="260" height="75" border="0" usemap="#linksmap"/></a>
+        <area shape="rect" coords="50,22,175,40" href="http://www.cornell.edu/" alt="Cornell University">
 
-				<map name="linksmap">
+        <area shape="rect" coords="55,41,200,60" href="http://www.engineering.cornell.edu/" alt="College of Engineering">
 
-				<area shape="rect" coords="50,22,175,40" href="http://www.cornell.edu/" alt="Cornell University">
+        <area shape="circle" coords="28,36,23" href="http://www.cornell.edu/" alt="Cornell University">
 
-				<area shape="rect" coords="55,41,200,60" href="http://www.engineering.cornell.edu/" alt="College of Engineering">
-
-					<area shape="circle" coords="28,36,23" href="http://www.cornell.edu/" alt="Cornell University">
-
-				</map>
+        </map>
 
   	</div>
 
 
+	
+    
+        <div id="search_form">
+    
+            
+            <form name="CFForm_1" id="CFForm_1" action="search.cfm" method="post" onsubmit="return _CF_checkCFForm_1(this)">
+    
+                <label for="search_query" id="search_text">Basic Keyword Search:</label>
+    
+                <input name="q" type="text" maxlength="256"  size="20"  id="search_query"  /> <input name="enter" type="submit" value="go" id="search_submit"  /> </form>
 
-	<div id="search_form">
+    
+        </div>
 
-	<form name="CFForm_1" id="CFForm_1" action="https://apps.engineering.cornell.edu/liberalstudies/search.cfm" method="post" onsubmit="return _CF_checkCFForm_1(this)">
-
-				<label id="search_text">SEARCH:</label>
-
-		<input name="q" type="text" maxlength="256"  size="20"  id="search_query"  /> <input name="enter" type="submit" value="go" id="search_submit"  /> </form>
-
-
-	</div>
 
 </div>
-
-
-
-
-
-	
-
-
-
-	<!-- The header div contains the main identity and main navigation for the site -->
-
-<div id="header">
-
-	<!--
-
-		The navigation div contains the site's main navigation. These
-
-		links will be displayed in a horizontal, gray navigation bar
-
-		under the unit signature banner.
-
-	-->
-
-	
-
-	<div id="navigation">
-
-        
-        
-		<ul>
-
-			<li><label class="navlabel">Approved Categories/Courses:</label></li>
-            
-            <li><a href="CA.cfm" >CA</a></li>
-
-            <li><a href="HA.cfm" >HA</a></li>
-
-            <li><a href="KCM.cfm" >KCM</a></li>
-
-            <li><a href="LA.cfm" >LA/LAD</a></li>
-
-            <li><a href="SBA.cfm" >SBA</a></li>
-
-			<li><a href="CE.cfm" class="current">CE</a></li>
-
-		</ul>
-        
-		<ul>
-
-			
-            
-			<li><a href="index.cfm" >Liberal Studies Policy</a></li>
-                        
-            <li><a href="policy.cfm" >Petitions</a></li>
-            
-            <li><a href="ApprovedLiberalStudies.pdf">Other Yes</a></li>
-            
-            <li><a href="DeniedLiberalStudies.pdf">Other No</a></li>
-
-		</ul>
-
-			
+    
 
 		
-
-	</div>
-
-
-
-  </div>
-
-  <div id="identity">
-
-  Liberal Studies Category: CE
-
-  </div>
-
-
-
+    
+    
+        <!-- The header div contains the main identity and main navigation for the site -->
+    
+        <div id="header">
+        
+            <!--
+        
+                The navigation div contains the site's main navigation. These
+        
+                links will be displayed in a horizontal, gray navigation bar
+        
+                under the unit signature banner.
+        
+            -->
+        
+            
+        
+            <div id="navigation">
+        
+                
+                
+                <ul>
+        
+                    <li><h1 class="navlabel">Approved Categories/Courses:</h1></li>
+                    
+                    <li><a href="CA.cfm" >CA</a></li>
+        
+                    <li><a href="HA.cfm" >HA</a></li>
+        
+                    <li><a href="KCM.cfm" >KCM</a></li>
+        
+                    <li><a href="LA.cfm" >LA/LAD</a></li>
+        
+                    <li><a href="SBA.cfm" >SBA</a></li>
+        
+                    <li><a href="CE.cfm" class="current">CE</a></li>
+        
+                </ul>
+                
+                <ul>
+        
+                    
+                    
+                    <li><a href="index.cfm" >Liberal Studies Policy</a></li>
+                                
+                    <li><a href="policy.cfm" >Petitions</a></li>
+                    
+                    <li><a href="ApprovedLiberalStudies.pdf">Other Yes</a></li>
+                    
+                    <li><a href="DeniedLiberalStudies.pdf">Other No</a></li>
+        
+                </ul>
+        
+                    
+        
+                
+        
+            </div>        
+        
+        </div>
+    
+    
+        <div id="identity">
+        
+        	Liberal Studies Category: CE
+        
+        </div>
+    
+    
+    
 
 
 </div>
@@ -220,6 +224,15 @@
 </table>
 
 <br>
-</div></div></div>
-</body>
+
+</div></div></div>
+
+&nbsp;
+    <br />
+    <div id="content-footer" align="center">If you have a disability and are having trouble accessing information on this website or need materials in an alternate format, Contact <a href="mailto:web-accessibility@cornell.edu" target="_top" class="linkcss">web-accessibility@cornell.edu</a> for assistance.
+    </div>
+    <br />
+
+</body>
+
 </html>

@@ -1,18 +1,25 @@
-<!DOCTYPE HTML><html><head><script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head><script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
 <script type="text/javascript" src="/CFIDE/scripts/masks.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Liberal Studies Category: LA/LAD</title> <script src="/liberalstudies/js/ls_course_ajax.js"></script>
 
-<link rel="stylesheet" type="text/css" href="/app_header/appheader_main.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Liberal Studies Category: LA/LAD</title> <script src = "js/ls_course_ajax.js"></script> 
+
+<link rel="stylesheet" type="text/css" href="appheader_main.css" />
 
 
 
-<link rel="stylesheet" type="text/css" href="/app_header/appheader_mobile.css" />
+<link rel="stylesheet" type="text/css" href="appheader_mobile.css" />
 
 
 
 <!--[if lt IE 9]>
 
-<link rel="stylesheet" href="/app_header/appheader_IE.css" type="text/css" media="screen, projection"><![endif]-->
+<link rel="stylesheet" href="appheader_IE.css" type="text/css" media="screen, projection"><![endif]-->
 
 <script type="text/javascript">
 <!--
@@ -44,10 +51,12 @@
     }
 //-->
 </script>
-</head> <body style="margin: 0px 0px 0px 0px;"> 
+</head>
 
 
 
+
+<body>
 
 
 <!-- The following div contains the Cornell University logo with unit signature -->
@@ -59,118 +68,113 @@
 <div id="cu-identity">
 
 
-
 	<div id="cu-logo">
 
+		<img src="images/stilllogo_3.jpg" alt="Cornell University" width="260" height="75" border="0" usemap="#linksmap"/>
 
+        <map name="linksmap">
 
-		<img src="/app_header/images/stilllogo_3.jpg" alt="Cornell University" width="260" height="75" border="0" usemap="#linksmap"/></a>
+        <area shape="rect" coords="50,22,175,40" href="http://www.cornell.edu/" alt="Cornell University">
 
-				<map name="linksmap">
+        <area shape="rect" coords="55,41,200,60" href="http://www.engineering.cornell.edu/" alt="College of Engineering">
 
-				<area shape="rect" coords="50,22,175,40" href="http://www.cornell.edu/" alt="Cornell University">
+        <area shape="circle" coords="28,36,23" href="http://www.cornell.edu/" alt="Cornell University">
 
-				<area shape="rect" coords="55,41,200,60" href="http://www.engineering.cornell.edu/" alt="College of Engineering">
-
-					<area shape="circle" coords="28,36,23" href="http://www.cornell.edu/" alt="Cornell University">
-
-				</map>
+        </map>
 
   	</div>
 
 
+	
+    
+        <div id="search_form">
+    
+            
+            <form name="CFForm_1" id="CFForm_1" action="search.cfm" method="post" onsubmit="return _CF_checkCFForm_1(this)">
+    
+                <label for="search_query" id="search_text">Basic Keyword Search:</label>
+    
+                <input name="q" type="text" maxlength="256"  size="20"  id="search_query"  /> <input name="enter" type="submit" value="go" id="search_submit"  /> </form>
 
-	<div id="search_form">
+    
+        </div>
 
-	<form name="CFForm_1" id="CFForm_1" action="https://apps.engineering.cornell.edu/liberalstudies/search.cfm" method="post" onsubmit="return _CF_checkCFForm_1(this)">
-
-				<label id="search_text">SEARCH:</label>
-
-		<input name="q" type="text" maxlength="256"  size="20"  id="search_query"  /> <input name="enter" type="submit" value="go" id="search_submit"  /> </form>
-
-
-	</div>
 
 </div>
-
-
-
-
-
-	
-
-
-
-	<!-- The header div contains the main identity and main navigation for the site -->
-
-<div id="header">
-
-	<!--
-
-		The navigation div contains the site's main navigation. These
-
-		links will be displayed in a horizontal, gray navigation bar
-
-		under the unit signature banner.
-
-	-->
-
-	
-
-	<div id="navigation">
-
-        
-        
-		<ul>
-
-			<li><label class="navlabel">Approved Categories/Courses:</label></li>
-            
-            <li><a href="CA.cfm" >CA</a></li>
-
-            <li><a href="HA.cfm" >HA</a></li>
-
-            <li><a href="KCM.cfm" >KCM</a></li>
-
-            <li><a href="LA.cfm" class="current">LA/LAD</a></li>
-
-            <li><a href="SBA.cfm" >SBA</a></li>
-
-			<li><a href="CE.cfm" >CE</a></li>
-
-		</ul>
-        
-		<ul>
-
-			
-            
-			<li><a href="index.cfm" >Liberal Studies Policy</a></li>
-                        
-            <li><a href="policy.cfm" >Petitions</a></li>
-            
-            <li><a href="ApprovedLiberalStudies.pdf">Other Yes</a></li>
-            
-            <li><a href="DeniedLiberalStudies.pdf">Other No</a></li>
-
-		</ul>
-
-			
+    
 
 		
-
-	</div>
-
-
-
-  </div>
-
-  <div id="identity">
-
-  Liberal Studies Category: LA/LAD
-
-  </div>
-
-
-
+    
+    
+        <!-- The header div contains the main identity and main navigation for the site -->
+    
+        <div id="header">
+        
+            <!--
+        
+                The navigation div contains the site's main navigation. These
+        
+                links will be displayed in a horizontal, gray navigation bar
+        
+                under the unit signature banner.
+        
+            -->
+        
+            
+        
+            <div id="navigation">
+        
+                
+                
+                <ul>
+        
+                    <li><h1 class="navlabel">Approved Categories/Courses:</h1></li>
+                    
+                    <li><a href="CA.cfm" >CA</a></li>
+        
+                    <li><a href="HA.cfm" >HA</a></li>
+        
+                    <li><a href="KCM.cfm" >KCM</a></li>
+        
+                    <li><a href="LA.cfm" class="current">LA/LAD</a></li>
+        
+                    <li><a href="SBA.cfm" >SBA</a></li>
+        
+                    <li><a href="CE.cfm" >CE</a></li>
+        
+                </ul>
+                
+                <ul>
+        
+                    
+                    
+                    <li><a href="index.cfm" >Liberal Studies Policy</a></li>
+                                
+                    <li><a href="policy.cfm" >Petitions</a></li>
+                    
+                    <li><a href="ApprovedLiberalStudies.pdf">Other Yes</a></li>
+                    
+                    <li><a href="DeniedLiberalStudies.pdf">Other No</a></li>
+        
+                </ul>
+        
+                    
+        
+                
+        
+            </div>        
+        
+        </div>
+    
+    
+        <div id="identity">
+        
+        	Liberal Studies Category: LA/LAD
+        
+        </div>
+    
+    
+    
 
 
 </div>
@@ -237,6 +241,28 @@
 	Introduction to Native American Literature</a></div>
 	<div id="5724913"> </div></td>
 	 <td>(CA-AG, D-AG, LA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AIIS</td><td>3560</td>
+	<td><div id="578377par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','578377',578377,'Thinking from a Different Place: Indigenous Philosophies',3)">
+	
+	Thinking from a Different Place: Indigenous Philosophies</a></div>
+	<div id="5783773"> </div></td>
+	 <td>(D-AG, LA-AG)</td>
+</tr>
+
+  <tr>
+	<td>AIIS</td><td>4625</td>
+	<td><div id="572217par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572217',572217,'Contemporary Native American Fiction',3)">
+	
+	Contemporary Native American Fiction</a></div>
+	<div id="5722173"> </div></td>
+	 <td>(CA-AG, LA-AG)</td>
 </tr>
 
   <tr>
@@ -485,9 +511,9 @@
 	<td>AMST</td><td>3717</td>
 	<td><div id="582970par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','582970',582970,'Sitcom Jews: Ethnic Representation on Television and On Stage',3)">
+	<a href="javascript:loadinfo('handler.cfm','582970',582970,'Sitcom Jews: Ethnic Representation on Television and on Stage',3)">
 	
-	Sitcom Jews: Ethnic Representation on Television and On Stage</a></div>
+	Sitcom Jews: Ethnic Representation on Television and on Stage</a></div>
 	<div id="5829703"> </div></td>
 	 <td>(LA-AS)</td>
 </tr>
@@ -573,9 +599,9 @@
 	<td>AMST</td><td>4470</td>
 	<td><div id="582233par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','582233',582233,'Data Bodies: Latinx Art and Politics',3)">
+	<a href="javascript:loadinfo('handler.cfm','582233',582233,'Data Bodies: Art and Politics in the Digital Age',3)">
 	
-	Data Bodies: Latinx Art and Politics</a></div>
+	Data Bodies: Art and Politics in the Digital Age</a></div>
 	<div id="5822333"> </div></td>
 	 <td>(LA-AS)</td>
 </tr>
@@ -621,6 +647,17 @@
 	
 	Traffic: Drugs, Bodies, Books</a></div>
 	<div id="5720473"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>4627</td>
+	<td><div id="572219par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572219',572219,'Contemporary Native American Fiction',3)">
+	
+	Contemporary Native American Fiction</a></div>
+	<div id="5722193"> </div></td>
 	 <td>(LA-AS)</td>
 </tr>
 
@@ -2000,17 +2037,6 @@
 </tr>
 
   <tr>
-	<td>COML</td><td>2290</td>
-	<td><div id="581213par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','581213',581213,'Introduction to Lesbian, Gay, Bisexual, and Transgender Studies',3)">
-	
-	Introduction to Lesbian, Gay, Bisexual, and Transgender Studies</a></div>
-	<div id="5812133"> </div></td>
-	 <td>(LA-AS)</td>
-</tr>
-
-  <tr>
 	<td>COML</td><td>2293</td>
 	<td><div id="578305par3">
 	
@@ -2535,7 +2561,7 @@
 	
 	Making Green: Sustainable Product Design Studio</a></div>
 	<div id="5816423"> </div></td>
-	 <td>(KCM-HE; LAD-HE)</td>
+	 <td>(KCM-HE, LAD-HE)</td>
 </tr>
 
   <tr>
@@ -2624,6 +2650,28 @@
 	Design UX with Technology Studio</a></div>
 	<div id="5741613"> </div></td>
 	 <td>(LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>3306</td>
+	<td><div id="632458par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','632458',632458,'Generative Design Studio',3)">
+	
+	Generative Design Studio</a></div>
+	<div id="6324583"> </div></td>
+	 <td>(LAD-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>3308</td>
+	<td><div id="632460par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','632460',632460,'Positive Design Studio',3)">
+	
+	Positive Design Studio</a></div>
+	<div id="6324603"> </div></td>
+	 <td>(KCM-HE, LAD-HE)</td>
 </tr>
 
   <tr>
@@ -2789,6 +2837,17 @@
 	Architectural Robotics</a></div>
 	<div id="5817173"> </div></td>
 	 <td>(HA-HE, D-HE, KCM-HE, LAD-HE, </td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>6406</td>
+	<td><div id="632459par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','632459',632459,'Generative Design Studio',3)">
+	
+	Generative Design Studio</a></div>
+	<div id="6324593"> </div></td>
+	 <td>(LAD-HE, SBA-HE)</td>
 </tr>
 
   <tr>
@@ -3118,6 +3177,17 @@
 	
 	Comic Books and Graphic Novels</a></div>
 	<div id="5806333"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>2795</td>
+	<td><div id="599520par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','599520',599520,'Narrative and Healing',3)">
+	
+	Narrative and Healing</a></div>
+	<div id="5995203"> </div></td>
 	 <td>(LA-AS)</td>
 </tr>
 
@@ -3565,9 +3635,9 @@
 	<td>ENGL</td><td>3741</td>
 	<td><div id="582237par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','582237',582237,'Media, Design, and Community Engagement',3)">
+	<a href="javascript:loadinfo('handler.cfm','582237',582237,'Design Thinking, Media, and Community',3)">
 	
-	Media, Design, and Community Engagement</a></div>
+	Design Thinking, Media, and Community</a></div>
 	<div id="5822373"> </div></td>
 	 <td>(LA-AS)</td>
 </tr>
@@ -3771,6 +3841,17 @@
 </tr>
 
   <tr>
+	<td>ENGL</td><td>4210</td>
+	<td><div id="570725par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','570725',570725,'Shakespeare in (Con)text',3)">
+	
+	Shakespeare in (Con)text</a></div>
+	<div id="5707253"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
 	<td>ENGL</td><td>4270</td>
 	<td><div id="574528par3">
 	
@@ -3932,6 +4013,17 @@
 	
 	The American Short Story</a></div>
 	<div id="5724343"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ENGL</td><td>4625</td>
+	<td><div id="572214par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','572214',572214,'Contemporary Native American Fiction',3)">
+	
+	Contemporary Native American Fiction</a></div>
+	<div id="5722143"> </div></td>
 	 <td>(LA-AS)</td>
 </tr>
 
@@ -4394,6 +4486,17 @@
 	
 	Introduction to French and Francophone Film</a></div>
 	<div id="5793363"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>FREN</td><td>2600</td>
+	<td><div id="615933par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','615933',615933,'Legends of Enlightenment',3)">
+	
+	Legends of Enlightenment</a></div>
+	<div id="6159333"> </div></td>
 	 <td>(LA-AS)</td>
 </tr>
 
@@ -5072,9 +5175,9 @@
 	<td>JWST</td><td>3104</td>
 	<td><div id="580386par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','580386',580386,'Advanced Hebrew Through Language, Media and Literature',3)">
+	<a href="javascript:loadinfo('handler.cfm','580386',580386,'Advanced Hebrew through Language, Media and Literature',3)">
 	
-	Advanced Hebrew Through Language, Media and Literature</a></div>
+	Advanced Hebrew through Language, Media and Literature</a></div>
 	<div id="5803863"> </div></td>
 	 <td>(LA-AS)</td>
 </tr>
@@ -5105,9 +5208,9 @@
 	<td>JWST</td><td>3711</td>
 	<td><div id="581259par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','581259',581259,'Sitcom Jews: Ethnic Representation On Television and On Stage',3)">
+	<a href="javascript:loadinfo('handler.cfm','581259',581259,'Sitcom Jews: Ethnic Representation on Television and on Stage',3)">
 	
-	Sitcom Jews: Ethnic Representation On Television and On Stage</a></div>
+	Sitcom Jews: Ethnic Representation on Television and on Stage</a></div>
 	<div id="5812593"> </div></td>
 	 <td>(LA-AS)</td>
 </tr>
@@ -5154,17 +5257,6 @@
 	Middle Korean</a></div>
 	<div id="5753833"> </div></td>
 	 <td>(LA-AS)</td>
-</tr>
-
-  <tr>
-	<td>LA</td><td>4830</td>
-	<td><div id="575400par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','575400',575400,'Seminar in Landscape Studies',3)">
-	
-	Seminar in Landscape Studies</a></div>
-	<div id="5754003"> </div></td>
-	 <td>(CA-AG, LA-AG)</td>
 </tr>
 
   <tr>
@@ -5479,9 +5571,9 @@
 	<td>LSP</td><td>4470</td>
 	<td><div id="582234par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','582234',582234,'Data Bodies: Latinx Art and Politics',3)">
+	<a href="javascript:loadinfo('handler.cfm','582234',582234,'Data Bodies: Art and Politics in the Digital Age',3)">
 	
-	Data Bodies: Latinx Art and Politics</a></div>
+	Data Bodies: Art and Politics in the Digital Age</a></div>
 	<div id="5822343"> </div></td>
 	 <td>(LA-AS)</td>
 </tr>
@@ -5960,6 +6052,17 @@
 </tr>
 
   <tr>
+	<td>MUSIC</td><td>3314</td>
+	<td><div id="582706par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582706',582706,'Resistance, Reform, and Revolt: Sound and Music in Early Modern England',3)">
+	
+	Resistance, Reform, and Revolt: Sound and Music in Early Modern England</a></div>
+	<div id="5827063"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
 	<td>MUSIC</td><td>3431</td>
 	<td><div id="575916par3">
 	
@@ -5967,6 +6070,17 @@
 	
 	Sound Design</a></div>
 	<div id="5759163"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>4102</td>
+	<td><div id="575929par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','575929',575929,'Topics in Music Analysis',3)">
+	
+	Topics in Music Analysis</a></div>
+	<div id="5759293"> </div></td>
 	 <td>(LA-AS)</td>
 </tr>
 
@@ -6111,17 +6225,6 @@
 	Aesthetics</a></div>
 	<div id="5773243"> </div></td>
 	 <td>(LA-AS)</td>
-</tr>
-
-  <tr>
-	<td>PLHRT</td><td>2010</td>
-	<td><div id="575106par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','575106',575106,'The Art of Horticulture',3)">
-	
-	The Art of Horticulture</a></div>
-	<div id="5751063"> </div></td>
-	 <td>(LA-AG)</td>
 </tr>
 
   <tr>
@@ -6433,6 +6536,17 @@
 </tr>
 
   <tr>
+	<td>PMA</td><td>3532</td>
+	<td><div id="615940par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','615940',615940,'Screenwriting in Los Angeles',3)">
+	
+	Screenwriting in Los Angeles</a></div>
+	<div id="6159403"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
 	<td>PMA</td><td>3533</td>
 	<td><div id="571576par3">
 	
@@ -6510,6 +6624,17 @@
 </tr>
 
   <tr>
+	<td>PMA</td><td>3650</td>
+	<td><div id="576963par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576963',576963,'Automated Lighting and Control Systems',3)">
+	
+	Automated Lighting and Control Systems</a></div>
+	<div id="5769633"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
 	<td>PMA</td><td>3660</td>
 	<td><div id="576964par3">
 	
@@ -6546,9 +6671,9 @@
 	<td>PMA</td><td>3711</td>
 	<td><div id="581541par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','581541',581541,'Sitcom Jews: Ethnic Representation On Television and On Stage',3)">
+	<a href="javascript:loadinfo('handler.cfm','581541',581541,'Sitcom Jews: Ethnic Representation on Television and on Stage',3)">
 	
-	Sitcom Jews: Ethnic Representation On Television and On Stage</a></div>
+	Sitcom Jews: Ethnic Representation on Television and on Stage</a></div>
 	<div id="5815413"> </div></td>
 	 <td>(LA-AS)</td>
 </tr>
@@ -6675,6 +6800,17 @@
 </tr>
 
   <tr>
+	<td>PMA</td><td>3865</td>
+	<td><div id="570928par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','570928',570928,'On the Fringe - New Plays in Development',3)">
+	
+	On the Fringe - New Plays in Development</a></div>
+	<div id="5709283"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
 	<td>PMA</td><td>3880</td>
 	<td><div id="576968par3">
 	
@@ -6785,6 +6921,17 @@
 </tr>
 
   <tr>
+	<td>PMA</td><td>4620</td>
+	<td><div id="576970par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576970',576970,'Lighting Design Studio II',3)">
+	
+	Lighting Design Studio II</a></div>
+	<div id="5769703"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
 	<td>PMA</td><td>4670</td>
 	<td><div id="570936par3">
 	
@@ -6792,6 +6939,17 @@
 	
 	Shakespeare's Hamlet: The Seminar</a></div>
 	<div id="5709363"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>PMA</td><td>4675</td>
+	<td><div id="570935par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','570935',570935,'Shakespeare in (Con)text',3)">
+	
+	Shakespeare in (Con)text</a></div>
+	<div id="5709353"> </div></td>
 	 <td>(LA-AS)</td>
 </tr>
 
@@ -6858,6 +7016,17 @@
 	
 	Introduction to Quranic Arabic</a></div>
 	<div id="5767083"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>RELST</td><td>2279</td>
+	<td><div id="615945par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','615945',615945,'Chinese Mythology',3)">
+	
+	Chinese Mythology</a></div>
+	<div id="6159453"> </div></td>
 	 <td>(LA-AS)</td>
 </tr>
 
@@ -7162,9 +7331,9 @@
 	<td>STS</td><td>4470</td>
 	<td><div id="582232par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','582232',582232,'Data Bodies: Latinx Art and Politics',3)">
+	<a href="javascript:loadinfo('handler.cfm','582232',582232,'Data Bodies: Art and Politics in the Digital Age',3)">
 	
-	Data Bodies: Latinx Art and Politics</a></div>
+	Data Bodies: Art and Politics in the Digital Age</a></div>
 	<div id="5822323"> </div></td>
 	 <td>(LA-AS)</td>
 </tr>
@@ -7232,6 +7401,17 @@
 	
 	Beginning Dance Composition</a></div>
 	<div id="5770363"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>2701</td>
+	<td><div id="616015par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','616015',616015,'Forbidden Sex: Arabian Nights',3)">
+	
+	Forbidden Sex: Arabian Nights</a></div>
+	<div id="6160153"> </div></td>
 	 <td>(LA-AS)</td>
 </tr>
 
@@ -7467,6 +7647,28 @@
 </tr>
 
   <tr>
+	<td>VISST</td><td>4546</td>
+	<td><div id="570952par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','570952',570952,'Shakespeare in (Con)text',3)">
+	
+	Shakespeare in (Con)text</a></div>
+	<div id="5709523"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>VISST</td><td>4563</td>
+	<td><div id="577058par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','577058',577058,'Lighting Design Studio II',3)">
+	
+	Lighting Design Studio II</a></div>
+	<div id="5770583"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
 	<td>VISST</td><td>4696</td>
 	<td><div id="578121par3">
 	
@@ -7513,6 +7715,15 @@
 </table>
 
 <br>
-</div></div></div>
-</body>
+
+</div></div></div>
+
+&nbsp;
+    <br />
+    <div id="content-footer" align="center">If you have a disability and are having trouble accessing information on this website or need materials in an alternate format, Contact <a href="mailto:web-accessibility@cornell.edu" target="_top" class="linkcss">web-accessibility@cornell.edu</a> for assistance.
+    </div>
+    <br />
+
+</body>
+
 </html>

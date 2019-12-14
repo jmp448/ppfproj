@@ -1,18 +1,25 @@
-<!DOCTYPE HTML><html><head><script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head><script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
 <script type="text/javascript" src="/CFIDE/scripts/masks.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Liberal Studies Category: SBA</title> <script src="/liberalstudies/js/ls_course_ajax.js"></script>
 
-<link rel="stylesheet" type="text/css" href="/app_header/appheader_main.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Liberal Studies Category: SBA</title> <script src = "js/ls_course_ajax.js"></script> 
+
+<link rel="stylesheet" type="text/css" href="appheader_main.css" />
 
 
 
-<link rel="stylesheet" type="text/css" href="/app_header/appheader_mobile.css" />
+<link rel="stylesheet" type="text/css" href="appheader_mobile.css" />
 
 
 
 <!--[if lt IE 9]>
 
-<link rel="stylesheet" href="/app_header/appheader_IE.css" type="text/css" media="screen, projection"><![endif]-->
+<link rel="stylesheet" href="appheader_IE.css" type="text/css" media="screen, projection"><![endif]-->
 
 <script type="text/javascript">
 <!--
@@ -44,10 +51,12 @@
     }
 //-->
 </script>
-</head> <body style="margin: 0px 0px 0px 0px;"> 
+</head>
 
 
 
+
+<body>
 
 
 <!-- The following div contains the Cornell University logo with unit signature -->
@@ -59,118 +68,113 @@
 <div id="cu-identity">
 
 
-
 	<div id="cu-logo">
 
+		<img src="images/stilllogo_3.jpg" alt="Cornell University" width="260" height="75" border="0" usemap="#linksmap"/>
 
+        <map name="linksmap">
 
-		<img src="/app_header/images/stilllogo_3.jpg" alt="Cornell University" width="260" height="75" border="0" usemap="#linksmap"/></a>
+        <area shape="rect" coords="50,22,175,40" href="http://www.cornell.edu/" alt="Cornell University">
 
-				<map name="linksmap">
+        <area shape="rect" coords="55,41,200,60" href="http://www.engineering.cornell.edu/" alt="College of Engineering">
 
-				<area shape="rect" coords="50,22,175,40" href="http://www.cornell.edu/" alt="Cornell University">
+        <area shape="circle" coords="28,36,23" href="http://www.cornell.edu/" alt="Cornell University">
 
-				<area shape="rect" coords="55,41,200,60" href="http://www.engineering.cornell.edu/" alt="College of Engineering">
-
-					<area shape="circle" coords="28,36,23" href="http://www.cornell.edu/" alt="Cornell University">
-
-				</map>
+        </map>
 
   	</div>
 
 
+	
+    
+        <div id="search_form">
+    
+            
+            <form name="CFForm_1" id="CFForm_1" action="search.cfm" method="post" onsubmit="return _CF_checkCFForm_1(this)">
+    
+                <label for="search_query" id="search_text">Basic Keyword Search:</label>
+    
+                <input name="q" type="text" maxlength="256"  size="20"  id="search_query"  /> <input name="enter" type="submit" value="go" id="search_submit"  /> </form>
 
-	<div id="search_form">
+    
+        </div>
 
-	<form name="CFForm_1" id="CFForm_1" action="https://apps.engineering.cornell.edu/liberalstudies/search.cfm" method="post" onsubmit="return _CF_checkCFForm_1(this)">
-
-				<label id="search_text">SEARCH:</label>
-
-		<input name="q" type="text" maxlength="256"  size="20"  id="search_query"  /> <input name="enter" type="submit" value="go" id="search_submit"  /> </form>
-
-
-	</div>
 
 </div>
-
-
-
-
-
-	
-
-
-
-	<!-- The header div contains the main identity and main navigation for the site -->
-
-<div id="header">
-
-	<!--
-
-		The navigation div contains the site's main navigation. These
-
-		links will be displayed in a horizontal, gray navigation bar
-
-		under the unit signature banner.
-
-	-->
-
-	
-
-	<div id="navigation">
-
-        
-        
-		<ul>
-
-			<li><label class="navlabel">Approved Categories/Courses:</label></li>
-            
-            <li><a href="CA.cfm" >CA</a></li>
-
-            <li><a href="HA.cfm" >HA</a></li>
-
-            <li><a href="KCM.cfm" >KCM</a></li>
-
-            <li><a href="LA.cfm" >LA/LAD</a></li>
-
-            <li><a href="SBA.cfm" class="current">SBA</a></li>
-
-			<li><a href="CE.cfm" >CE</a></li>
-
-		</ul>
-        
-		<ul>
-
-			
-            
-			<li><a href="index.cfm" >Liberal Studies Policy</a></li>
-                        
-            <li><a href="policy.cfm" >Petitions</a></li>
-            
-            <li><a href="ApprovedLiberalStudies.pdf">Other Yes</a></li>
-            
-            <li><a href="DeniedLiberalStudies.pdf">Other No</a></li>
-
-		</ul>
-
-			
+    
 
 		
-
-	</div>
-
-
-
-  </div>
-
-  <div id="identity">
-
-  Liberal Studies Category: SBA
-
-  </div>
-
-
-
+    
+    
+        <!-- The header div contains the main identity and main navigation for the site -->
+    
+        <div id="header">
+        
+            <!--
+        
+                The navigation div contains the site's main navigation. These
+        
+                links will be displayed in a horizontal, gray navigation bar
+        
+                under the unit signature banner.
+        
+            -->
+        
+            
+        
+            <div id="navigation">
+        
+                
+                
+                <ul>
+        
+                    <li><h1 class="navlabel">Approved Categories/Courses:</h1></li>
+                    
+                    <li><a href="CA.cfm" >CA</a></li>
+        
+                    <li><a href="HA.cfm" >HA</a></li>
+        
+                    <li><a href="KCM.cfm" >KCM</a></li>
+        
+                    <li><a href="LA.cfm" >LA/LAD</a></li>
+        
+                    <li><a href="SBA.cfm" class="current">SBA</a></li>
+        
+                    <li><a href="CE.cfm" >CE</a></li>
+        
+                </ul>
+                
+                <ul>
+        
+                    
+                    
+                    <li><a href="index.cfm" >Liberal Studies Policy</a></li>
+                                
+                    <li><a href="policy.cfm" >Petitions</a></li>
+                    
+                    <li><a href="ApprovedLiberalStudies.pdf">Other Yes</a></li>
+                    
+                    <li><a href="DeniedLiberalStudies.pdf">Other No</a></li>
+        
+                </ul>
+        
+                    
+        
+                
+        
+            </div>        
+        
+        </div>
+    
+    
+        <div id="identity">
+        
+        	Liberal Studies Category: SBA
+        
+        </div>
+    
+    
+    
 
 
 </div>
@@ -232,9 +236,9 @@
 	<td>AEM</td><td>2050</td>
 	<td><div id="579151par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','579151',579151,'Introduction to Agricultural and Development Finance',3)">
+	<a href="javascript:loadinfo('handler.cfm','579151',579151,'Introduction to Agricultural Finance',3)">
 	
-	Introduction to Agricultural and Development Finance</a></div>
+	Introduction to Agricultural Finance</a></div>
 	<div id="5791513"> </div></td>
 	 <td>(SBA-AG)</td>
 </tr>
@@ -324,7 +328,7 @@
 	
 	Economics of Food and Malnutrition</a></div>
 	<div id="5799843"> </div></td>
-	 <td>(SBA-HE)</td>
+	 <td>(D-AG, SBA-HE)</td>
 </tr>
 
   <tr>
@@ -368,7 +372,7 @@
 	
 	Economics of Food and Malnutrition</a></div>
 	<div id="5799853"> </div></td>
-	 <td>(SBA-HE)</td>
+	 <td>(D-AG, SBA-HE)</td>
 </tr>
 
   <tr>
@@ -555,6 +559,17 @@
 	
 	American Political Campaigns</a></div>
 	<div id="5779793"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3112</td>
+	<td><div id="615928par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','615928',615928,'Congress and the Legislative Process',3)">
+	
+	Congress and the Legislative Process</a></div>
+	<div id="6159283"> </div></td>
 	 <td>(SBA-AS)</td>
 </tr>
 
@@ -962,6 +977,17 @@
 	
 	China-Africa Relations</a></div>
 	<div id="5721733"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ASRC</td><td>3353</td>
+	<td><div id="599542par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','599542',599542,'African Politics',3)">
+	
+	African Politics</a></div>
+	<div id="5995423"> </div></td>
 	 <td>(SBA-AS)</td>
 </tr>
 
@@ -1417,6 +1443,17 @@
 </tr>
 
   <tr>
+	<td>COMM</td><td>4800</td>
+	<td><div id="615958par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','615958',615958,'Behavioral Science Interventions',3)">
+	
+	Behavioral Science Interventions</a></div>
+	<div id="6159583"> </div></td>
+	 <td>(KCM-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
 	<td>COMM</td><td>4860</td>
 	<td><div id="573904par3">
 	
@@ -1494,6 +1531,17 @@
 </tr>
 
   <tr>
+	<td>DEA</td><td>3306</td>
+	<td><div id="632458par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','632458',632458,'Generative Design Studio',3)">
+	
+	Generative Design Studio</a></div>
+	<div id="6324583"> </div></td>
+	 <td>(LAD-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
 	<td>DEA</td><td>3590</td>
 	<td><div id="574175par3">
 	
@@ -1538,6 +1586,17 @@
 </tr>
 
   <tr>
+	<td>DEA</td><td>6406</td>
+	<td><div id="632459par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','632459',632459,'Generative Design Studio',3)">
+	
+	Generative Design Studio</a></div>
+	<div id="6324593"> </div></td>
+	 <td>(LAD-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
 	<td>DEA</td><td>6500</td>
 	<td><div id="574183par3">
 	
@@ -1579,6 +1638,17 @@
 	Introduction to Sociology</a></div>
 	<div id="5741903"> </div></td>
 	 <td>(D-AG, KCM-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>1300</td>
+	<td><div id="582659par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582659',582659,'Just Food: Exploring the Modern Food System',3)">
+	
+	Just Food: Exploring the Modern Food System</a></div>
+	<div id="5826593"> </div></td>
+	 <td>(CA-AG, SBA-AG )</td>
 </tr>
 
   <tr>
@@ -1711,17 +1781,6 @@
 	Education, Inequality, and Development</a></div>
 	<div id="5741993"> </div></td>
 	 <td>(D-AG, SBA-AG)</td>
-</tr>
-
-  <tr>
-	<td>DSOC</td><td>3060</td>
-	<td><div id="574200par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','574200',574200,'Farmworkers: Contemporary Issues and Their Implications',3)">
-	
-	Farmworkers: Contemporary Issues and Their Implications</a></div>
-	<div id="5742003"> </div></td>
-	 <td>(SBA-AG)</td>
 </tr>
 
   <tr>
@@ -2784,9 +2843,9 @@
 	<td>GOVT</td><td>2897</td>
 	<td><div id="578776par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','578776',578776,'Human Rights at War',3)">
+	<a href="javascript:loadinfo('handler.cfm','578776',578776,'WIM: Human Rights at War',3)">
 	
-	Human Rights at War</a></div>
+	WIM: Human Rights at War</a></div>
 	<div id="5787763"> </div></td>
 	 <td>(SBA-AS)</td>
 </tr>
@@ -3151,6 +3210,17 @@
 	
 	Introductory Probability and Applied Statistics</a></div>
 	<div id="5787783"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>GOVT</td><td>4022</td>
+	<td><div id="599521par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','599521',599521,'Politics, Media and Popular Culture',3)">
+	
+	Politics, Media and Popular Culture</a></div>
+	<div id="5995213"> </div></td>
 	 <td>(SBA-AS)</td>
 </tr>
 
@@ -3793,6 +3863,17 @@
 </tr>
 
   <tr>
+	<td>INFO</td><td>4800</td>
+	<td><div id="615960par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','615960',615960,'Behavioral Science Interventions',3)">
+	
+	Behavioral Science Interventions</a></div>
+	<div id="6159603"> </div></td>
+	 <td>(KCM-AG, SBA-AG, SBA-AS)</td>
+</tr>
+
+  <tr>
 	<td>JWST</td><td>2271</td>
 	<td><div id="575352par3">
 	
@@ -3818,9 +3899,9 @@
 	<td>JWST</td><td>4365</td>
 	<td><div id="582881par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','582881',582881,'Ethnonational Communities & Conflicts',3)">
+	<a href="javascript:loadinfo('handler.cfm','582881',582881,'Ethnonational Communities and Conflicts',3)">
 	
-	Ethnonational Communities & Conflicts</a></div>
+	Ethnonational Communities and Conflicts</a></div>
 	<div id="5828813"> </div></td>
 	 <td>(SBA-AS)</td>
 </tr>
@@ -3947,6 +4028,17 @@
 </tr>
 
   <tr>
+	<td>LSP</td><td>2810</td>
+	<td><div id="582925par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582925',582925,'Migration: Histories, Controversies, and Perspectives',3)">
+	
+	Migration: Histories, Controversies, and Perspectives</a></div>
+	<div id="5829253"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
 	<td>LSP</td><td>3065</td>
 	<td><div id="577975par3">
 	
@@ -4016,9 +4108,9 @@
 	<td>NES</td><td>4365</td>
 	<td><div id="582883par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','582883',582883,'Ethnonational Communities & Conflicts',3)">
+	<a href="javascript:loadinfo('handler.cfm','582883',582883,'Ethnonational Communities and Conflicts',3)">
 	
-	Ethnonational Communities & Conflicts</a></div>
+	Ethnonational Communities and Conflicts</a></div>
 	<div id="5828833"> </div></td>
 	 <td>(SBA-AS)</td>
 </tr>
@@ -4064,7 +4156,7 @@
 	
 	Economics of Food and Malnutrition</a></div>
 	<div id="5797513"> </div></td>
-	 <td>(SBA-HE)</td>
+	 <td>(D-AG, SBA-HE)</td>
 </tr>
 
   <tr>
@@ -4086,7 +4178,7 @@
 	
 	Economics of Food and Malnutrition</a></div>
 	<div id="5797523"> </div></td>
-	 <td>(SBA-HE)</td>
+	 <td>(D-AG, SBA-HE)</td>
 </tr>
 
   <tr>
@@ -4335,9 +4427,9 @@
 	<td>PAM</td><td>1300</td>
 	<td><div id="583093par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','583093',583093,'Foundations for Healthy Living',3)">
+	<a href="javascript:loadinfo('handler.cfm','583093',583093,'Foundations for Healthy Living (LWYL)',3)">
 	
-	Foundations for Healthy Living</a></div>
+	Foundations for Healthy Living (LWYL)</a></div>
 	<div id="5830933"> </div></td>
 	 <td>(PBS-HE, SBA-HE)</td>
 </tr>
@@ -4607,6 +4699,17 @@
 </tr>
 
   <tr>
+	<td>PAM</td><td>3600</td>
+	<td><div id="616044par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','616044',616044,'Reducing Crime Through Public Policy',3)">
+	
+	Reducing Crime Through Public Policy</a></div>
+	<div id="6160443"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
 	<td>PAM</td><td>3670</td>
 	<td><div id="579812par3">
 	
@@ -4662,6 +4765,17 @@
 </tr>
 
   <tr>
+	<td>PAM</td><td>4160</td>
+	<td><div id="570132par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','570132',570132,'The Ethnography of Poverty and Inequality',3)">
+	
+	The Ethnography of Poverty and Inequality</a></div>
+	<div id="5701323"> </div></td>
+	 <td>(CA-HE, D-HE, KCM-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
 	<td>PAM</td><td>4280</td>
 	<td><div id="577391par3">
 	
@@ -4669,6 +4783,17 @@
 	
 	The Economics of Risky Health Behaviors</a></div>
 	<div id="5773913"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>4600</td>
+	<td><div id="616020par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','616020',616020,'International Perspectives on Population Policy',3)">
+	
+	International Perspectives on Population Policy</a></div>
+	<div id="6160203"> </div></td>
 	 <td>(SBA-HE)</td>
 </tr>
 
@@ -4692,6 +4817,17 @@
 	Nonprofits and Public Policy</a></div>
 	<div id="5827583"> </div></td>
 	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>5540</td>
+	<td><div id="576334par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','576334',576334,'Health Law for Managers',3)">
+	
+	Health Law for Managers</a></div>
+	<div id="5763343"> </div></td>
+	 <td> (SBA-HE)</td>
 </tr>
 
   <tr>
@@ -4747,17 +4883,6 @@
 	Urban Ecosystems</a></div>
 	<div id="5781433"> </div></td>
 	 <td>(HA-AG, SBA-AG)</td>
-</tr>
-
-  <tr>
-	<td>PLSCI</td><td>1300</td>
-	<td><div id="582658par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','582658',582658,'Just Food: Exploring the Modern Food System',3)">
-	
-	Just Food: Exploring the Modern Food System</a></div>
-	<div id="5826583"> </div></td>
-	 <td>(CA-AG, SBA-AG)</td>
 </tr>
 
   <tr>
@@ -5157,6 +5282,17 @@
 </tr>
 
   <tr>
+	<td>SOC</td><td>2810</td>
+	<td><div id="582929par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582929',582929,'Migration: Histories, Controversies, and Perspectives',3)">
+	
+	Migration: Histories, Controversies, and Perspectives</a></div>
+	<div id="5829293"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
 	<td>SOC</td><td>2840</td>
 	<td><div id="578771par3">
 	
@@ -5410,6 +5546,17 @@
 </tr>
 
   <tr>
+	<td>SOC</td><td>4320</td>
+	<td><div id="616028par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','616028',616028,'Culture Wars in the Age of Tribal Politics',3)">
+	
+	Culture Wars in the Age of Tribal Politics</a></div>
+	<div id="6160283"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
 	<td>SOC</td><td>4330</td>
 	<td><div id="578343par3">
 	
@@ -5610,6 +5757,15 @@
 </table>
 
 <br>
-</div></div></div>
-</body>
+
+</div></div></div>
+
+&nbsp;
+    <br />
+    <div id="content-footer" align="center">If you have a disability and are having trouble accessing information on this website or need materials in an alternate format, Contact <a href="mailto:web-accessibility@cornell.edu" target="_top" class="linkcss">web-accessibility@cornell.edu</a> for assistance.
+    </div>
+    <br />
+
+</body>
+
 </html>

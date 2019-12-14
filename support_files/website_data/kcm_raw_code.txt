@@ -1,18 +1,25 @@
-<!DOCTYPE HTML><html><head><script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head><script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
 <script type="text/javascript" src="/CFIDE/scripts/masks.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Liberal Studies Category: KCM</title> <script src="/liberalstudies/js/ls_course_ajax.js"></script>
 
-<link rel="stylesheet" type="text/css" href="/app_header/appheader_main.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Liberal Studies Category: KCM</title> <script src = "js/ls_course_ajax.js"></script> 
+
+<link rel="stylesheet" type="text/css" href="appheader_main.css" />
 
 
 
-<link rel="stylesheet" type="text/css" href="/app_header/appheader_mobile.css" />
+<link rel="stylesheet" type="text/css" href="appheader_mobile.css" />
 
 
 
 <!--[if lt IE 9]>
 
-<link rel="stylesheet" href="/app_header/appheader_IE.css" type="text/css" media="screen, projection"><![endif]-->
+<link rel="stylesheet" href="appheader_IE.css" type="text/css" media="screen, projection"><![endif]-->
 
 <script type="text/javascript">
 <!--
@@ -44,10 +51,12 @@
     }
 //-->
 </script>
-</head> <body style="margin: 0px 0px 0px 0px;"> 
+</head>
 
 
 
+
+<body>
 
 
 <!-- The following div contains the Cornell University logo with unit signature -->
@@ -59,118 +68,113 @@
 <div id="cu-identity">
 
 
-
 	<div id="cu-logo">
 
+		<img src="images/stilllogo_3.jpg" alt="Cornell University" width="260" height="75" border="0" usemap="#linksmap"/>
 
+        <map name="linksmap">
 
-		<img src="/app_header/images/stilllogo_3.jpg" alt="Cornell University" width="260" height="75" border="0" usemap="#linksmap"/></a>
+        <area shape="rect" coords="50,22,175,40" href="http://www.cornell.edu/" alt="Cornell University">
 
-				<map name="linksmap">
+        <area shape="rect" coords="55,41,200,60" href="http://www.engineering.cornell.edu/" alt="College of Engineering">
 
-				<area shape="rect" coords="50,22,175,40" href="http://www.cornell.edu/" alt="Cornell University">
+        <area shape="circle" coords="28,36,23" href="http://www.cornell.edu/" alt="Cornell University">
 
-				<area shape="rect" coords="55,41,200,60" href="http://www.engineering.cornell.edu/" alt="College of Engineering">
-
-					<area shape="circle" coords="28,36,23" href="http://www.cornell.edu/" alt="Cornell University">
-
-				</map>
+        </map>
 
   	</div>
 
 
+	
+    
+        <div id="search_form">
+    
+            
+            <form name="CFForm_1" id="CFForm_1" action="search.cfm" method="post" onsubmit="return _CF_checkCFForm_1(this)">
+    
+                <label for="search_query" id="search_text">Basic Keyword Search:</label>
+    
+                <input name="q" type="text" maxlength="256"  size="20"  id="search_query"  /> <input name="enter" type="submit" value="go" id="search_submit"  /> </form>
 
-	<div id="search_form">
+    
+        </div>
 
-	<form name="CFForm_1" id="CFForm_1" action="https://apps.engineering.cornell.edu/liberalstudies/search.cfm" method="post" onsubmit="return _CF_checkCFForm_1(this)">
-
-				<label id="search_text">SEARCH:</label>
-
-		<input name="q" type="text" maxlength="256"  size="20"  id="search_query"  /> <input name="enter" type="submit" value="go" id="search_submit"  /> </form>
-
-
-	</div>
 
 </div>
-
-
-
-
-
-	
-
-
-
-	<!-- The header div contains the main identity and main navigation for the site -->
-
-<div id="header">
-
-	<!--
-
-		The navigation div contains the site's main navigation. These
-
-		links will be displayed in a horizontal, gray navigation bar
-
-		under the unit signature banner.
-
-	-->
-
-	
-
-	<div id="navigation">
-
-        
-        
-		<ul>
-
-			<li><label class="navlabel">Approved Categories/Courses:</label></li>
-            
-            <li><a href="CA.cfm" >CA</a></li>
-
-            <li><a href="HA.cfm" >HA</a></li>
-
-            <li><a href="KCM.cfm" class="current">KCM</a></li>
-
-            <li><a href="LA.cfm" >LA/LAD</a></li>
-
-            <li><a href="SBA.cfm" >SBA</a></li>
-
-			<li><a href="CE.cfm" >CE</a></li>
-
-		</ul>
-        
-		<ul>
-
-			
-            
-			<li><a href="index.cfm" >Liberal Studies Policy</a></li>
-                        
-            <li><a href="policy.cfm" >Petitions</a></li>
-            
-            <li><a href="ApprovedLiberalStudies.pdf">Other Yes</a></li>
-            
-            <li><a href="DeniedLiberalStudies.pdf">Other No</a></li>
-
-		</ul>
-
-			
+    
 
 		
-
-	</div>
-
-
-
-  </div>
-
-  <div id="identity">
-
-  Liberal Studies Category: KCM
-
-  </div>
-
-
-
+    
+    
+        <!-- The header div contains the main identity and main navigation for the site -->
+    
+        <div id="header">
+        
+            <!--
+        
+                The navigation div contains the site's main navigation. These
+        
+                links will be displayed in a horizontal, gray navigation bar
+        
+                under the unit signature banner.
+        
+            -->
+        
+            
+        
+            <div id="navigation">
+        
+                
+                
+                <ul>
+        
+                    <li><h1 class="navlabel">Approved Categories/Courses:</h1></li>
+                    
+                    <li><a href="CA.cfm" >CA</a></li>
+        
+                    <li><a href="HA.cfm" >HA</a></li>
+        
+                    <li><a href="KCM.cfm" class="current">KCM</a></li>
+        
+                    <li><a href="LA.cfm" >LA/LAD</a></li>
+        
+                    <li><a href="SBA.cfm" >SBA</a></li>
+        
+                    <li><a href="CE.cfm" >CE</a></li>
+        
+                </ul>
+                
+                <ul>
+        
+                    
+                    
+                    <li><a href="index.cfm" >Liberal Studies Policy</a></li>
+                                
+                    <li><a href="policy.cfm" >Petitions</a></li>
+                    
+                    <li><a href="ApprovedLiberalStudies.pdf">Other Yes</a></li>
+                    
+                    <li><a href="DeniedLiberalStudies.pdf">Other No</a></li>
+        
+                </ul>
+        
+                    
+        
+                
+        
+            </div>        
+        
+        </div>
+    
+    
+        <div id="identity">
+        
+        	Liberal Studies Category: KCM
+        
+        </div>
+    
+    
+    
 
 
 </div>
@@ -735,6 +739,17 @@
 </tr>
 
   <tr>
+	<td>COMM</td><td>4800</td>
+	<td><div id="615958par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','615958',615958,'Behavioral Science Interventions',3)">
+	
+	Behavioral Science Interventions</a></div>
+	<div id="6159583"> </div></td>
+	 <td>(KCM-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
 	<td>COMM</td><td>6710</td>
 	<td><div id="578962par3">
 	
@@ -764,7 +779,18 @@
 	
 	Making Green: Sustainable Product Design Studio</a></div>
 	<div id="5816423"> </div></td>
-	 <td>(KCM-HE; LAD-HE)</td>
+	 <td>(KCM-HE, LAD-HE)</td>
+</tr>
+
+  <tr>
+	<td>DEA</td><td>3308</td>
+	<td><div id="632460par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','632460',632460,'Positive Design Studio',3)">
+	
+	Positive Design Studio</a></div>
+	<div id="6324603"> </div></td>
+	 <td>(KCM-HE, LAD-HE)</td>
 </tr>
 
   <tr>
@@ -809,6 +835,17 @@
 	Introduction to Sociology</a></div>
 	<div id="5741903"> </div></td>
 	 <td>(D-AG, KCM-AG, SBA-AG)</td>
+</tr>
+
+  <tr>
+	<td>DSOC</td><td>2210</td>
+	<td><div id="582910par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582910',582910,'Designing and Facilitating Learning for Development',3)">
+	
+	Designing and Facilitating Learning for Development</a></div>
+	<div id="5829103"> </div></td>
+	 <td>(D-AG, KCM-AG)</td>
 </tr>
 
   <tr>
@@ -1409,9 +1446,9 @@
 	<td>INFO</td><td>2750</td>
 	<td><div id="579611par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','579611',579611,'Ethical Issues in Intelligent Autonomous Systems',3)">
+	<a href="javascript:loadinfo('handler.cfm','579611',579611,'Robot Ethics',3)">
 	
-	Ethical Issues in Intelligent Autonomous Systems</a></div>
+	Robot Ethics</a></div>
 	<div id="5796113"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
@@ -1436,6 +1473,17 @@
 	Interactive Information Visualization</a></div>
 	<div id="5812183"> </div></td>
 	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>INFO</td><td>4800</td>
+	<td><div id="615960par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','615960',615960,'Behavioral Science Interventions',3)">
+	
+	Behavioral Science Interventions</a></div>
+	<div id="6159603"> </div></td>
+	 <td>(KCM-AG, SBA-AG, SBA-AS)</td>
 </tr>
 
   <tr>
@@ -1534,6 +1582,17 @@
 	
 	Introduction to Syntax and Semantics</a></div>
 	<div id="5755783"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
+	<td>LING</td><td>3324</td>
+	<td><div id="599535par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','599535',599535,'Cayuga Language and Culture',3)">
+	
+	Cayuga Language and Culture</a></div>
+	<div id="5995353"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
 
@@ -1854,6 +1913,17 @@
 	Economics of Consumer Protection and the Law</a></div>
 	<div id="5824273"> </div></td>
 	 <td>(HA-HE, KCM-HE, SBA-HE)</td>
+</tr>
+
+  <tr>
+	<td>PAM</td><td>4160</td>
+	<td><div id="570132par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','570132',570132,'The Ethnography of Poverty and Inequality',3)">
+	
+	The Ethnography of Poverty and Inequality</a></div>
+	<div id="5701323"> </div></td>
+	 <td>(CA-HE, D-HE, KCM-HE, SBA-HE)</td>
 </tr>
 
   <tr>
@@ -2828,9 +2898,9 @@
 	<td>STS</td><td>2751</td>
 	<td><div id="579446par3">
 	
-	<a href="javascript:loadinfo('handler.cfm','579446',579446,'Ethical Issues in Intelligent Autonomous Systems',3)">
+	<a href="javascript:loadinfo('handler.cfm','579446',579446,'Robot Ethics',3)">
 	
-	Ethical Issues in Intelligent Autonomous Systems</a></div>
+	Robot Ethics</a></div>
 	<div id="5794463"> </div></td>
 	 <td>(KCM-AS)</td>
 </tr>
@@ -2915,6 +2985,15 @@
 </table>
 
 <br>
-</div></div></div>
-</body>
+
+</div></div></div>
+
+&nbsp;
+    <br />
+    <div id="content-footer" align="center">If you have a disability and are having trouble accessing information on this website or need materials in an alternate format, Contact <a href="mailto:web-accessibility@cornell.edu" target="_top" class="linkcss">web-accessibility@cornell.edu</a> for assistance.
+    </div>
+    <br />
+
+</body>
+
 </html>
