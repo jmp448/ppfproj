@@ -27,3 +27,5 @@ For more detailed instructions on how to run, go to this [link](https://docs.goo
 1.  The first thing 
 
 ### What doesn't it do?
+- Foreign language requirements
+- Transfer requirements
