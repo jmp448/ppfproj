@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd24cbf4-981b-4ba1-b319-35767ec554cb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blankPPF.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/blankPPF.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/masterfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/masterfile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/ReqTypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/ReqTypes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/Student.py" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/Student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/advanced_bio.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/advanced_bio.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/define_reqs.py" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/define_reqs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/helper_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/helper_tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/web_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/web_reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/website_data/ca_raw_code.txt" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/website_data/ca_raw_code.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/website_data/ce_raw_code.txt" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/website_data/ce_raw_code.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/website_data/focus_area_raw_code.txt" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/website_data/focus_area_raw_code.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/website_data/ha_raw_code.txt" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/website_data/ha_raw_code.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/website_data/kcm_raw_code.txt" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/website_data/kcm_raw_code.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/website_data/la_raw_code.txt" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/website_data/la_raw_code.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_files/website_data/sba_raw_code.txt" beforeDir="false" afterPath="$PROJECT_DIR$/support_files/website_data/sba_raw_code.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,24 +32,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="3" />
           <entry key="md" value="5" />
           <entry key="py" value="58" />
           <entry key="readTranscript" value="1" />
-          <entry key="txt" value="18" />
+          <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="5" />
-          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="PLAIN_TEXT" value="23" />
           <entry key="Python" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="gitignore" value="24" />
+          <entry key="gitignore" value="66" />
           <entry key="md" value="350" />
           <entry key="py" value="56278" />
         </counts>
@@ -71,7 +57,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="350" />
-          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="PLAIN_TEXT" value="73" />
           <entry key="Python" value="56278" />
         </counts>
       </usages-collector>
@@ -135,31 +121,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Students/summary.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6261" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/support_files/website_data/ca_raw_code.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-29441" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/support_files/website_data/ce_raw_code.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2498" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/support_files/Student.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="97">
-              <caret line="108" column="27" lean-forward="true" selection-start-line="108" selection-start-column="27" selection-end-line="108" selection-end-column="27" />
+              <caret line="108" column="27" selection-start-line="108" selection-start-column="27" selection-end-line="108" selection-end-column="27" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
                 <marker date="1576601538509" expanded="true" signature="16334:16339" ph="..." />
@@ -171,22 +136,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/support_files/Course.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/support_files/define_reqs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="52">
               <caret line="23" column="124" selection-start-line="23" selection-start-column="124" selection-end-line="23" selection-end-column="124" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Students/summary.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -229,9 +199,9 @@
       <find>parent</find>
       <find>create_categ</find>
       <find>upload_</find>
-      <find>.xlsx</find>
       <find>get_category</find>
       <find>B5</find>
+      <find>.xlsx</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -263,7 +233,6 @@
         <option value="$PROJECT_DIR$/Students_test/ReadMe.md" />
         <option value="$PROJECT_DIR$/support_files/Course.py" />
         <option value="$PROJECT_DIR$/Students/ReadMe.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/support_files/helper_tools.py" />
         <option value="$PROJECT_DIR$/support_files/web_reader.py" />
         <option value="$PROJECT_DIR$/masterfile.py" />
@@ -271,6 +240,7 @@
         <option value="$PROJECT_DIR$/support_files/ReqTypes.py" />
         <option value="$PROJECT_DIR$/support_files/Student.py" />
         <option value="$PROJECT_DIR$/support_files/define_reqs.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -296,12 +266,6 @@
               <item name="ppfproj" type="b2602c69:ProjectViewProjectNode" />
               <item name="ppfproj" type="462c0819:PsiDirectoryNode" />
               <item name="Students" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ppfproj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ppfproj" type="462c0819:PsiDirectoryNode" />
-              <item name="Students" type="462c0819:PsiDirectoryNode" />
-              <item name="2019FA" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ppfproj" type="b2602c69:ProjectViewProjectNode" />
@@ -559,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/support_files/website_data/ca_raw_code.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29441" />
@@ -609,15 +566,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Students/summary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6261" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/support_files/Student.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
-          <caret line="108" column="27" lean-forward="true" selection-start-line="108" selection-start-column="27" selection-end-line="108" selection-end-column="27" />
+          <caret line="108" column="27" selection-start-line="108" selection-start-column="27" selection-end-line="108" selection-end-column="27" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
             <marker date="1576601538509" expanded="true" signature="16334:16339" ph="..." />
@@ -629,11 +581,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/support_files/define_reqs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="52">
           <caret line="23" column="124" selection-start-line="23" selection-start-column="124" selection-end-line="23" selection-end-column="124" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Students/summary.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
