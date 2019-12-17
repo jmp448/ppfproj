@@ -730,6 +730,7 @@ class Student:
             eng.satisfied = True
 
     def update_approved_electives(self):
+        ppf_courses_unneeded_col = 'C'
         for cat in self.requirements:
             if cat.cat_name == "Approved Electives":
                 approved = cat.reqs[0]
@@ -747,12 +748,23 @@ class Student:
                 continue
             elif c.num[:2] == "PE":
                 continue
+            elif c.desc.__contains__("Cooperative Wrkshp"):
+                continue
+            elif c.creds <= 0:
+                continue
             elif failing_grades.__contains__(c.grade):
                 self.brenda_summary_notes.append("Unsatisfactory grade: %s in %s, no credit given" % (c.grade, c.num))
                 continue
             else:
                 self.ppf[ppf_courses_unneeded_col+str(self.notneeded_next)] = c.num
-                self.notneeded_next += 1
+                if self.notneeded_next == 115:
+                    self.notneeded_next = 111
+                    if ppf_courses_unneeded_col == 'C':
+                        ppf_courses_unneeded_col = 'E'
+                    elif ppf_courses_unneeded_col == 'E':
+                        ppf_courses_unneeded_col = 'G'
+                else:
+                    self.notneeded_next += 1
 
         # update the total number of credits taken, including student grand total
         self.ppf[approved.loc] = approved.creds
@@ -796,7 +808,7 @@ class Student:
         # Define eligible technical writing courses
         writing_courses = ['ENGRC3500', 'ENGRC3020', 'ENGRC3024', 'ENGRC3350', 'ENGRC3340',
                            'ENGRD2640', 'CHEME4320', 'MAE4272', 'CIS3000',
-                           # 'BEE4890', 'BEE4530', 'BEE4590', 'BEE4730',
+                           'BEE4730',
                            'ENGRC4890', 'ENGRC4530',
                            'COMM3030', 'COMM3020', 'ENGRC3023']
         no_no_list = ['S', 'U', 'SX', 'UX', 'W', 'INC', 'NGR', 'F']
@@ -820,7 +832,7 @@ class Student:
         i = 0
         while i < len(self.course_list):
             c = self.course_list[i]
-            if c.num == "BEE1200":
+            if c.num == "BEE1200" or c.num == "ENGRG1050":
                 if no_no_list.__contains__(c.grade) is False:
                     self.ppf['G104'] = "X"
                     self.course_list.remove(c)

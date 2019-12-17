@@ -17,7 +17,7 @@ def create_category_list():
     math = Category('Math', [calcI, calcII, diffEq, linAlg], 'M15', 16)
 
     mech = BasicCourseReq('Mechanics', options=['PHYS1112', 'APMECH'], position=19)
-    electromag = BasicCourseReq('Electromagnetism', options=['PHYS2213', 'APELECTRO'], position=20)
+    electromag = BasicCourseReq('Electromagnetism', options=['PHYS2213', 'PHYS2208', 'APELECTRO'], position=20)
     phys = Category('Physics', [mech, electromag], 'M20', 8)
 
     gen_chem = BasicCourseReq('Gen Chem', options=['CHEM2070', 'CHEM2090', 'CHEM2150', 'APCHEM'], position=23)

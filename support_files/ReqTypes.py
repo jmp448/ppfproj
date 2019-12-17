@@ -224,7 +224,7 @@ class ApprovedElectives:
         self.courses = None
         self.creds = 0
         self.next = 93
-        self.loc = 'M95'
+        self.loc = 'M96'
         self.min_creds = 6
 
     def check_fillby(self, course):
@@ -243,7 +243,7 @@ class ApprovedElectives:
         if c_num == "10":
             return False
         # cannot use more than 6 credits or 3 courses
-        elif self.creds >= 6 or self.next >= 96:
+        elif self.creds >= 6 or self.next >= 97:
             return False
         # cannot use PE courses
         elif course.num[:2] == "PE":

@@ -18,8 +18,7 @@ def main():
     summary_sems = summary_sems_str.split(",")
 
     # Will use transcript.xlsx and write to the Students folder
-    # _, _, transcript = open_excel_file("transcript.xlsx")
-    _, _, transcript = open_excel_file("./Transcript/test.xlsx")
+    _, _, transcript = open_excel_file("./Transcript/transcript.xlsx")
 
     cols = designate_columns(transcript)  # Record what is in each column of transcript
     row = '2'  # Begin reading from first non-title row
@@ -34,7 +33,7 @@ def main():
         brenda_summary.write("\n%s\n" % curr.name)
         if curr.grad == "N/A":
             print("No PPF created for %s, grad term listed as N/A" % curr.name)
-            break
+            continue
         while student_courses_remain:
             c = read_class_from_transcript(transcript, cols, row)
             if c is not None:
