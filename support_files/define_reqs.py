@@ -20,8 +20,8 @@ def create_category_list():
     electromag = BasicCourseReq('Electromagnetism', options=['PHYS2213', 'APELECTRO'], position=20)
     phys = Category('Physics', [mech, electromag], 'M20', 8)
 
-    gen_chem = BasicCourseReq('Gen Chem', options=['CHEM2070', 'CHEM2090', 'APCHEM'], position=23)
-    orgo = BasicCourseReq('Orgo', options=['CHEM1570', 'CHEM3530', 'CHEM3570'], position=24)
+    gen_chem = BasicCourseReq('Gen Chem', options=['CHEM2070', 'CHEM2090', 'CHEM2150', 'APCHEM'], position=23)
+    orgo = BasicCourseReq('Orgo', options=['CHEM1570', 'CHEM3530', 'CHEM3570', 'CHEM3590', 'CHEM3600', 'CHEM3890', 'CHEM3900'], position=24)
     chem = Category('Chemistry', [gen_chem, orgo], 'M24', 7)
 
     intro_bio = MultiCourseReq('Intro Bio', creds_needed=6, options=['BIOMG1350', 'BIOG1440', 'BIOG1445', 'BIOEE1610',
@@ -30,7 +30,7 @@ def create_category_list():
     bio_lab = BasicCourseReq('Intro Bio Lab', options=['BIOG1500', 'BIOSM1500', 'APBIOLAB'], position=29)
     biochem = MultiCourseReq('Biochemistry', creds_needed=4, options=['BIOMG3300', 'BIOMG3330', 'BIOMG3350', 'BIOMG3310',
                                                                       'BIOMG3320'], positions=[30, 31])
-    adv_bio_courses = upload_courses_from_file("advanced_bio.xlsx")
+    adv_bio_courses = upload_courses_from_file("./support_files/advanced_bio.xlsx")
     adv_bio = MultiCourseReq('Advanced Biology', creds_needed=3, options=adv_bio_courses, positions=[32, 33])
     bio = Category('Biological Sciences', [intro_bio, bio_lab, biochem, adv_bio], 'M32', 15)
 
@@ -43,12 +43,12 @@ def create_category_list():
                              positions=[49, 50, 51, 52, 53, 54, 55], libart=True)
     libarts = Category('Liberal Studies', [libarts], 'M57', 18)
 
-    cs = BasicCourseReq('Computer Science', options=['BEE1510', 'CS1112', 'APCS'], position=65)
+    cs = BasicCourseReq('Computer Science', options=['BEE1510', 'CS1110', 'CS1112', 'APCS'], position=65)
     cs = Category('Computer Science', [cs], 'M65', 4)
 
     statics = BasicCourseReq('Statics', options=['ENGRD2020'], position=70)
     stats = BasicCourseReq('Statistics', options=['CEE3040', 'ENGRD2700'], position=71)
-    engri = upload_courses_from_file("engri_courses.xlsx")
+    engri = upload_courses_from_file("./support_files/engri_courses.xlsx")
     intro_eng = BasicCourseReq('Intro Engineering', options=engri, position=73)
     thermo = BasicCourseReq('Thermodynamics', options=['BEE2220', 'ENGRD2210', 'CHEME3130', 'MSE3030'], position=74)
     eng_dist = BasicCourseReq('Engineering Distribution', options=['BEE2600', 'BEE2510', 'ENGRD2600', 'ENGRD2510'], position=76)

@@ -354,17 +354,6 @@
 </tr>
 
   <tr>
-	<td>AEM</td><td>4640</td>
-	<td><div id="572607par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','572607',572607,'Economics of Agricultural Development',3)">
-	
-	Economics of Agricultural Development</a></div>
-	<div id="5726073"> </div></td>
-	 <td>(D-AG, SBA-AG)</td>
-</tr>
-
-  <tr>
 	<td>AEM</td><td>6485</td>
 	<td><div id="579985par3">
 	
@@ -827,6 +816,17 @@
 </tr>
 
   <tr>
+	<td>ANTHR</td><td>4260</td>
+	<td><div id="582546par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582546',582546,'Analyzing the Archaeological Record: The White Springs Site',3)">
+	
+	Analyzing the Archaeological Record: The White Springs Site</a></div>
+	<div id="5825463"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
 	<td>ANTHR</td><td>4403</td>
 	<td><div id="572849par3">
 	
@@ -889,6 +889,17 @@
 	
 	Gender and Age in Archaeology</a></div>
 	<div id="5729873"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>ARKEO</td><td>4260</td>
+	<td><div id="582549par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582549',582549,'Analyzing the Archaeological Record: The White Springs Site',3)">
+	
+	Analyzing the Archaeological Record: The White Springs Site</a></div>
+	<div id="5825493"> </div></td>
 	 <td>(SBA-AS)</td>
 </tr>
 
@@ -4831,6 +4842,17 @@
 </tr>
 
   <tr>
+	<td>PAM</td><td>5580</td>
+	<td><div id="632472par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','632472',632472,'The Healthcare Industry from a Consulting Perspective',3)">
+	
+	The Healthcare Industry from a Consulting Perspective</a></div>
+	<div id="6324723"> </div></td>
+	 <td>(SBA-HE)</td>
+</tr>
+
+  <tr>
 	<td>PAM</td><td>5850</td>
 	<td><div id="582426par3">
 	
@@ -5696,6 +5718,17 @@
 	
 	Science in the American Polity, 1960 to Now</a></div>
 	<div id="5724503"> </div></td>
+	 <td>(SBA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>4040</td>
+	<td><div id="616043par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','616043',616043,'Due Process Clinic',3)">
+	
+	Due Process Clinic</a></div>
+	<div id="6160433"> </div></td>
 	 <td>(SBA-AS)</td>
 </tr>
 

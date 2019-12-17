@@ -172,11 +172,11 @@ div#toc_container {
 		a.async = 1;
 		a.src = g;
 		m.parentNode.insertBefore( a, m )
-	} )( window, document, 'script', '//www.google-analytics.com/analytics.js', 'beehive_ga' );
+	} )( window, document, 'script', '//www.google-analytics.com/analytics.js', 'gaplusu' );
 
 	function beehive_ga_track() {
-		beehive_ga( 'create', 'UA-1215061-35', 'auto' ); // Create network tracking.
-		beehive_ga( 'send', 'pageview' ); // Send pageview.
+		gaplusu( 'create', 'UA-1215061-35', 'auto' ); // Create network tracking.
+		gaplusu( 'send', 'pageview' ); // Send pageview.
 	}
 
 	beehive_ga_track(); // Load tracking.

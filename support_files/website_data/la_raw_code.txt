@@ -706,6 +706,17 @@
 </tr>
 
   <tr>
+	<td>ANTHR</td><td>4401</td>
+	<td><div id="583098par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','583098',583098,'Advanced Documentary Production',3)">
+	
+	Advanced Documentary Production</a></div>
+	<div id="5830983"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
 	<td>ARAB</td><td>2204</td>
 	<td><div id="576074par3">
 	
@@ -3896,6 +3907,17 @@
 </tr>
 
   <tr>
+	<td>ENGL</td><td>4425</td>
+	<td><div id="582713par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582713',582713,'Victorian Evolutions',3)">
+	
+	Victorian Evolutions</a></div>
+	<div id="5827133"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
 	<td>ENGL</td><td>4430</td>
 	<td><div id="572335par3">
 	
@@ -5392,17 +5414,6 @@
 </tr>
 
   <tr>
-	<td>LATIN</td><td>4223</td>
-	<td><div id="575457par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','575457',575457,'Topics in Medieval Latin Literature',3)">
-	
-	Topics in Medieval Latin Literature</a></div>
-	<div id="5754573"> </div></td>
-	 <td>(LA-AS)</td>
-</tr>
-
-  <tr>
 	<td>LGBT</td><td>2290</td>
 	<td><div id="581212par3">
 	
@@ -5718,17 +5729,6 @@
 	
 	Piers Plowman</a></div>
 	<div id="5803273"> </div></td>
-	 <td>(LA-AS)</td>
-</tr>
-
-  <tr>
-	<td>MEDVL</td><td>4201</td>
-	<td><div id="575820par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','575820',575820,'Topics in Medieval Latin Literature',3)">
-	
-	Topics in Medieval Latin Literature</a></div>
-	<div id="5758203"> </div></td>
 	 <td>(LA-AS)</td>
 </tr>
 
@@ -7236,6 +7236,17 @@
 	
 	Iberian Modern Political Cultures</a></div>
 	<div id="5800953"> </div></td>
+	 <td>(LA-AS)</td>
+</tr>
+
+  <tr>
+	<td>SPAN</td><td>3325</td>
+	<td><div id="615936par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','615936',615936,'Politics and Fiction in Latin America',3)">
+	
+	Politics and Fiction in Latin America</a></div>
+	<div id="6159363"> </div></td>
 	 <td>(LA-AS)</td>
 </tr>
 

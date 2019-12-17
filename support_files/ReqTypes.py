@@ -144,7 +144,7 @@ class MultiCourseReq:
                 return False
 
         # If the course is research, TA, etc, make sure another course hasn't been taken that prevents this one's use
-        research_etc = upload_courses_from_file("research_ta_etc.xlsx")
+        research_etc = upload_courses_from_file("./support_files/research_ta_etc.xlsx")
         if research_etc.__contains__(course.num) and self.courses is not None:
             for c in self.courses:
                 if research_etc.__contains__(c.num):

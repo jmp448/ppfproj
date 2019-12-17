@@ -189,17 +189,6 @@
 <tr><th><b>Department</b></th><th><b>Course Number</b></th><th><b>Title</b></th><th><b>Distribution</b></th></tr>
  
   <tr>
-	<td>ENGRC</td><td>2250</td>
-	<td><div id="579829par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','579829',579829,'Communication for Mechanical Engineering Design and Innovation',3)">
-	
-	Communication for Mechanical Engineering Design and Innovation</a></div>
-	<div id="5798293"> </div></td>
-	 <td>(CE-EN)</td>
-</tr>
-
-  <tr>
 	<td>ENGRC</td><td>3350</td>
 	<td><div id="574548par3">
 	

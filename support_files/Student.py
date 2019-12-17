@@ -37,14 +37,13 @@ class Student:
         if self.grad == "N/A":
             self.grad = "NONE"
         if " " in self.grad:
-            self.folder = "/Students/%s" % ldescr2sdescr(self.grad)
+            self.folder = "./Students/%s/" % ldescr2sdescr(self.grad)
         else:
-            self.folder = "/Students/%s" % self.grad
+            self.folder = "./Students/%s/" % self.grad
 
         # If the necessary folder doesn't exist yet, create it
-        parent = os.getcwd()
-        if not os.path.exists(parent + self.folder):
-            os.mkdir(parent+self.folder)
+        if not os.path.exists(self.folder):
+            os.mkdir(self.folder)
 
         # Set student requirements, including special requirements PE, capstone, tech writing, and EHS
         self.requirements = create_category_list()
@@ -72,12 +71,9 @@ class Student:
             self.course_list = course_list
 
         # Check to see if student has a ppf
-        parent = os.getcwd()
         has_ppf, filename = self.has_ppf()
         if has_ppf:  # if they do have a PPF, read it
-            os.chdir(parent + self.folder)
             self.filename, self.wb, self.ppf = open_excel_file(filename)
-            os.chdir(parent)
             self.read_ppf()
         else:  # if they don't, create a new one
             self.create_ppf()
@@ -86,18 +82,13 @@ class Student:
         self.ppf['L5'] = date.today()
 
     def has_ppf(self):
-        parent = os.getcwd()
-        os.chdir(parent+self.folder)
-
         [lname, fname] = self.name.split(',')
-        filename = lname.lower() + fname[0].lower() +\
+        filename = "./Students/" + self.folder + lname.lower() + fname[0].lower() +\
                    '-' + self.netid + '.xlsx'
 
         if os.path.isfile(filename):
-            os.chdir(parent)
             return True, filename
         else:
-            os.chdir(parent)
             return False, filename
 
     def create_ppf(self):
@@ -106,13 +97,10 @@ class Student:
 
         Fills in name, netID, student ID, and expected graduation date
         """
-        folder = os.getcwd()
-        template = folder + '/blankPPF.xlsx'
+        template = './blankPPF.xlsx'
 
         [lname, fname] = self.name.split(',')
-        file = self.folder + "/" + lname.lower() + fname[0].lower() + '-' + self.netid + '.xlsx'
-
-        file = folder + file
+        file = self.folder + lname.lower() + fname[0].lower() + '-' + self.netid + '.xlsx'
 
         copy(template, file)
 
@@ -120,6 +108,7 @@ class Student:
 
         # Fill student info
         self.ppf['B5'] = self.name
+        self.ppf['J62'] = self.name
         self.ppf['B6'] = self.netid
         self.ppf['G6'] = self.student_id
         if self.advisor is not None:
@@ -469,10 +458,7 @@ class Student:
         self.ppf[ppf_grand_total] = self.total_creds
 
         # Save the updates that have been made
-        parent = os.getcwd()
-        os.chdir(parent+self.folder)
         self.wb.save(self.filename)
-        os.chdir(parent)
 
     def update_math(self):
 
@@ -871,7 +857,4 @@ class Student:
                         row += 1
 
         # Save the updates that have been made
-        parent = os.getcwd()
-        os.chdir(parent + self.folder)
         self.wb.save(self.filename)
-        os.chdir(parent)

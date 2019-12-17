@@ -251,13 +251,10 @@ def read_class_from_transcript(transcript, cols, row):
 
 def upload_courses_from_file(filename):
     courses = []
-    parent = os.getcwd()
-    os.chdir(parent + "/support_files")
     wb = xlrd.open_workbook(filename)
     sheet = wb.sheet_by_index(0)
     for i in range(1, sheet.nrows):
         courses.append(sheet.cell_value(i, 0))
-    os.chdir(parent)
     return courses
 
 

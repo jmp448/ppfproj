@@ -695,6 +695,17 @@
 </tr>
 
   <tr>
+	<td>AMST</td><td>2722</td>
+	<td><div id="615971par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','615971',615971,'History of Mental Health and Mental Illness in the United States',3)">
+	
+	History of Mental Health and Mental Illness in the United States</a></div>
+	<div id="6159713"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
 	<td>AMST</td><td>2726</td>
 	<td><div id="580685par3">
 	
@@ -757,6 +768,17 @@
 	
 	Race and Revolution in the Americas: 1776-1900</a></div>
 	<div id="5773333"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>AMST</td><td>3072</td>
+	<td><div id="632457par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','632457',632457,'The U.S. Constitution: Crisis, Change and Legitimacy',3)">
+	
+	The U.S. Constitution: Crisis, Change and Legitimacy</a></div>
+	<div id="6324573"> </div></td>
 	 <td>(HA-AS)</td>
 </tr>
 
@@ -3775,6 +3797,17 @@
 </tr>
 
   <tr>
+	<td>GOVT</td><td>3072</td>
+	<td><div id="615929par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','615929',615929,'The U.S. Constitution: Crisis, Change and Legitimacy',3)">
+	
+	The U.S. Constitution: Crisis, Change and Legitimacy</a></div>
+	<div id="6159293"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
 	<td>GOVT</td><td>3281</td>
 	<td><div id="574814par3">
 	
@@ -4446,6 +4479,17 @@
 </tr>
 
   <tr>
+	<td>HIST</td><td>2285</td>
+	<td><div id="615965par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','615965',615965,'Fascism in the Twentieth Century: History and Theory',3)">
+	
+	Fascism in the Twentieth Century: History and Theory</a></div>
+	<div id="6159653"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
 	<td>HIST</td><td>2296</td>
 	<td><div id="582298par3">
 	
@@ -4475,6 +4519,17 @@
 	
 	Introduction to Military History</a></div>
 	<div id="5724393"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2335</td>
+	<td><div id="615966par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','615966',615966,'Making Public Queer History',3)">
+	
+	Making Public Queer History</a></div>
+	<div id="6159663"> </div></td>
 	 <td>(HA-AS)</td>
 </tr>
 
@@ -4849,6 +4904,17 @@
 	
 	Introduction to the History of Medicine</a></div>
 	<div id="5777923"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>2721</td>
+	<td><div id="615970par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','615970',615970,'History of Mental Health and Mental Illness in the United States',3)">
+	
+	History of Mental Health and Mental Illness in the United States</a></div>
+	<div id="6159703"> </div></td>
 	 <td>(HA-AS)</td>
 </tr>
 
@@ -5564,6 +5630,17 @@
 	
 	Nationalism(s) in the Arab World</a></div>
 	<div id="5710683"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>HIST</td><td>4672</td>
+	<td><div id="615973par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','615973',615973,'Europe in Flames: World War II and its Aftermath',3)">
+	
+	Europe in Flames: World War II and its Aftermath</a></div>
+	<div id="6159733"> </div></td>
 	 <td>(HA-AS)</td>
 </tr>
 
@@ -6444,6 +6521,17 @@
 	
 	History of Western Music II</a></div>
 	<div id="5759073"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>3122</td>
+	<td><div id="582857par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582857',582857,'Conducting',3)">
+	
+	Conducting</a></div>
+	<div id="5828573"> </div></td>
 	 <td>(HA-AS)</td>
 </tr>
 
@@ -7467,6 +7555,17 @@
 	
 	Medicine and Healing in China</a></div>
 	<div id="5788063"> </div></td>
+	 <td>(HA-AS)</td>
+</tr>
+
+  <tr>
+	<td>STS</td><td>2721</td>
+	<td><div id="616026par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','616026',616026,'History of Mental Health and Mental Illness in the United States',3)">
+	
+	History of Mental Health and Mental Illness in the United States</a></div>
+	<div id="6160263"> </div></td>
 	 <td>(HA-AS)</td>
 </tr>
 

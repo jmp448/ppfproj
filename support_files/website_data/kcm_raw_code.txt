@@ -2631,6 +2631,17 @@
 </tr>
 
   <tr>
+	<td>PSYCH</td><td>2415</td>
+	<td><div id="582820par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582820',582820,'Introduction to Moral Psychology',3)">
+	
+	Introduction to Moral Psychology</a></div>
+	<div id="5828203"> </div></td>
+	 <td>(KCM-AS)</td>
+</tr>
+
+  <tr>
 	<td>PSYCH</td><td>2940</td>
 	<td><div id="582183par3">
 	

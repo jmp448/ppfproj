@@ -16,13 +16,13 @@ la_url = 'https://apps.engineering.cornell.edu/liberalstudies/LA.cfm'
 sba_url = 'https://apps.engineering.cornell.edu/liberalstudies/SBA.cfm'
 ce_url = 'https://apps.engineering.cornell.edu/liberalstudies/CE.cfm'
 
-fa_file = "focus_area_raw_code.txt"
-ca_file = "ca_raw_code.txt"
-ha_file = "ha_raw_code.txt"
-kcm_file = "kcm_raw_code.txt"
-la_file = "la_raw_code.txt"
-sba_file = "sba_raw_code.txt"
-ce_file = "ce_raw_code.txt"
+fa_file = "./support_files/website_data/focus_area_raw_code.txt"
+ca_file = "./support_files/website_data/ca_raw_code.txt"
+ha_file = "./support_files/website_data/ha_raw_code.txt"
+kcm_file = "./support_files/website_data/kcm_raw_code.txt"
+la_file = "./support_files/website_data/la_raw_code.txt"
+sba_file = "./support_files/website_data/sba_raw_code.txt"
+ce_file = "./support_files/website_data/ce_raw_code.txt"
 
 libarts_files = [ca_file, ha_file, kcm_file, la_file, sba_file, ce_file]
 
@@ -35,21 +35,13 @@ def refresh_focus_areas():
     This creates a text file containing the source code for the BEE focus area course listings found at fa_url
     """
 
-    parent = os.getcwd()
-    os.chdir(parent + "/support_files/website_data")
-
     r = requests.get(fa_url)
     fa_code = open(fa_file, "w")
     fa_code.write(r.text)
     fa_code.close()
 
-    os.chdir(parent)
-
 
 def refresh_libarts_all():
-
-    parent = os.getcwd()
-    os.chdir(parent+"/support_files/website_data")
 
     refresh_libarts_ca()
     refresh_libarts_ce()
@@ -57,8 +49,6 @@ def refresh_libarts_all():
     refresh_libarts_kcm()
     refresh_libarts_sba()
     refresh_libarts_la()
-
-    os.chdir(parent)
 
 
 def refresh_libarts_ca():
@@ -72,7 +62,7 @@ def refresh_libarts_ca():
 def refresh_libarts_ha():
 
     r = requests.get(ha_url)
-    ha_code = open("ha_raw_code.txt", "w")
+    ha_code = open(ha_file, "w")
     ha_code.write(r.text)
     ha_code.close()
 
@@ -131,9 +121,7 @@ def get_category_list(filename):
 
 
 def add_other_yes(dic):
-    parent = os.getcwd()
-    os.chdir(parent + "/support_files")
-    _, _, other_yes = open_excel_file("other_yes.xlsx")
+    _, _, other_yes = open_excel_file("./support_files/other_yes.xlsx")
 
     dept_col = 'A'
     num_col = 'B'
@@ -209,8 +197,6 @@ def add_other_yes(dic):
 
         row += 1
 
-    os.chdir(parent)
-
     return dic
 
 
@@ -241,11 +227,8 @@ def get_focus_area_list():
     For courses that are cross listed (ie 4440/6440) the two courses are listed separately
     """
 
-    parent = os.getcwd()
-    os.chdir(parent + "/support_files/website_data")
-
     fa_list = []
-    f = open("focus_area_raw_code.txt", "r")
+    f = open("./support_files/website_data/focus_area_raw_code.txt", "r")
     for l in f:
         if "•" in l:
             course = re.search("•(.*)–", l)
@@ -263,9 +246,7 @@ def get_focus_area_list():
                 fa_list.append(course1)
     f.close()
 
-    os.chdir(parent)
-
-    research_etc = upload_courses_from_file("research_ta_etc.xlsx")
+    research_etc = upload_courses_from_file("./support_files/research_ta_etc.xlsx")
     for c in research_etc:
         fa_list.append(c)
 
@@ -282,9 +263,6 @@ def get_full_libarts_dict():
     Start off by reading the liberal arts courses from the website (actually, from the website data that's been saved 
     in the folder /website_data)
     """
-
-    parent = os.getcwd()
-    os.chdir(parent + "/support_files/website_data")
 
     libarts_dict = {}
 
@@ -326,8 +304,6 @@ def get_full_libarts_dict():
             libarts_dict[c].append("CE")
         else:
             libarts_dict[c] = ["CE"]
-
-    os.chdir(parent)
 
     """
     Now, add in the "other yes" courses and ap courses

@@ -4314,6 +4314,17 @@
 </tr>
 
   <tr>
+	<td>COML</td><td>4353</td>
+	<td><div id="616024par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','616024',616024,'Race and Critical Theory',3)">
+	
+	Race and Critical Theory</a></div>
+	<div id="6160243"> </div></td>
+	 <td>(CA-AS)</td>
+</tr>
+
+  <tr>
 	<td>COML</td><td>4429</td>
 	<td><div id="581042par3">
 	
@@ -6470,17 +6481,6 @@
 </tr>
 
   <tr>
-	<td>LA</td><td>3140</td>
-	<td><div id="578965par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','578965',578965,'Water and the City in Latin America',3)">
-	
-	Water and the City in Latin America</a></div>
-	<div id="5789653"> </div></td>
-	 <td>(CA-AG, D-AG)</td>
-</tr>
-
-  <tr>
 	<td>LA</td><td>3600</td>
 	<td><div id="575394par3">
 	
@@ -6511,17 +6511,6 @@
 	Designing Archaeological Exhibits</a></div>
 	<div id="5772643"> </div></td>
 	 <td>(CA-AG, HA-AG)</td>
-</tr>
-
-  <tr>
-	<td>LA</td><td>6140</td>
-	<td><div id="580126par3">
-	
-	<a href="javascript:loadinfo('handler.cfm','580126',580126,'Water and the City in Latin America',3)">
-	
-	Water and the City in Latin America</a></div>
-	<div id="5801263"> </div></td>
-	 <td>(CA-AG, D-AG)</td>
 </tr>
 
   <tr>
@@ -7170,6 +7159,17 @@
 	
 	African Music</a></div>
 	<div id="5786153"> </div></td>
+	 <td>(CA-AS)</td>
+</tr>
+
+  <tr>
+	<td>MUSIC</td><td>1350</td>
+	<td><div id="582703par3">
+	
+	<a href="javascript:loadinfo('handler.cfm','582703',582703,'Music of the Arab World',3)">
+	
+	Music of the Arab World</a></div>
+	<div id="5827033"> </div></td>
 	 <td>(CA-AS)</td>
 </tr>
 

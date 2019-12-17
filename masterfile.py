@@ -18,11 +18,8 @@ def main():
     summary_sems = summary_sems_str.split(",")
 
     # Will use transcript.xlsx and write to the Students folder
-    parent = os.getcwd()
-    os.chdir(parent + "/Transcript")
     # _, _, transcript = open_excel_file("transcript.xlsx")
-    _, _, transcript = open_excel_file("test.xlsx")
-    os.chdir(parent)
+    _, _, transcript = open_excel_file("./Transcript/test.xlsx")
 
     cols = designate_columns(transcript)  # Record what is in each column of transcript
     row = '2'  # Begin reading from first non-title row
@@ -30,7 +27,7 @@ def main():
     student_courses_remain = True
 
     # Create summary file for Brenda
-    brenda_summary = open("summary.txt", "w+")
+    brenda_summary = open("./Students/summary.txt", "w+")
 
     while students_remain:
         curr = Student(transcript, row, cols)
