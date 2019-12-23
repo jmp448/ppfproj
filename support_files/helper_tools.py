@@ -136,6 +136,10 @@ def read_class_from_ppf(ppf, row):
 
     c = Course(course, grade, creds)
 
+    if grade is None:
+        print(course)
+        print(ppf)
+        print(row)
     if "AP" in grade:
         c.ap = True
 

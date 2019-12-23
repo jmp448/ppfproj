@@ -77,7 +77,7 @@ class BasicCourseReq:
 class MultiCourseReq:
 
     def __init__(self, req_name, options, creds_needed, positions, creds_taken=0, courses=None, satisfied=False,
-                 over2000s=0, libart=False):
+                 ap_satisfied=False, over2000s=0, libart=False):
         self.req_name = req_name
         self.options = options
         self.positions = positions
@@ -86,6 +86,7 @@ class MultiCourseReq:
         self.creds_taken = creds_taken
         self.next = 0  # used for indexing & count of completed courses
         self.satisfied = satisfied
+        self.ap_satisfied = ap_satisfied
         self.over2000s = over2000s
         self.libart = libart
 
@@ -99,8 +100,9 @@ class MultiCourseReq:
 
         # Check that there's room for the course
         if self.courses is not None:
-            if len(self.positions) <= self.next:
-                # Can't take more courses in a category than there are slots
+            if len(self.positions) <= self.next and not self.ap_satisfied:
+                return False
+            elif self.ap_satisfied and course.ap:
                 return False
 
         # Upcoming semester courses will be written in
@@ -158,8 +160,13 @@ class MultiCourseReq:
 
         if self.courses is None:
             self.courses = [course]
-        else:
+        elif not self.ap_satisfied:
             self.courses.append(course)
+        else:
+            for c in range(len(self.courses)):
+                if self.courses[c].ap:
+                    self.courses[c] = course
+                    self.next = c
 
         if course.grade is None and not course.ap:
             if ppf is not None:
@@ -186,6 +193,10 @@ class MultiCourseReq:
 
         if self.creds_taken >= self.creds_needed and not self.libart:
             self.satisfied = True
+            for c in self.courses:
+                if c.ap:
+                    self.ap_satisfied = True
+                    break
 
         elif self.libart:
             # Fill in liberal studies courses' extra info (category and description)
@@ -257,8 +268,13 @@ class ApprovedElectives:
             self.courses = [course]
         else:
             self.courses.append(course)
-        ppf[ppf_description_col+str(self.next)] = course.desc
-        ppf[ppf_course_col+str(self.next)] = course.num
-        ppf[ppf_grade_col+str(self.next)] = course.grade
-        ppf[ppf_creds_col+str(self.next)] = course.creds
+        if course.grade is None:
+            ppf[ppf_creds_col + str(self.next)] = course.creds  # write credits to ppf
+            ppf[ppf_grade_col + str(self.next)] = course.term  # write term to ppf
+            ppf[ppf_course_col + str(self.next)] = course.num  # write course to ppf
+        else:
+            ppf[ppf_description_col+str(self.next)] = course.desc
+            ppf[ppf_course_col+str(self.next)] = course.num
+            ppf[ppf_grade_col+str(self.next)] = course.grade
+            ppf[ppf_creds_col+str(self.next)] = course.creds
         self.next += 1

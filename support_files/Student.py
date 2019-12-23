@@ -83,9 +83,8 @@ class Student:
 
     def has_ppf(self):
         [lname, fname] = self.name.split(',')
-        filename = "./Students/" + self.folder + lname.lower() + fname[0].lower() +\
+        filename = self.folder + lname.lower() + fname[0].lower() +\
                    '-' + self.netid + '.xlsx'
-
         if os.path.isfile(filename):
             return True, filename
         else:
@@ -224,6 +223,8 @@ class Student:
                         self.brenda_summary_notes.append("(From previously completed PPF): Grade of %s recorded for %s"
                                                          % (c.grade, c.num))
                     req.satisfied = True
+                    if c.ap:
+                        req.ap_satisfied = True
                     bio.curr_creds += int(c.creds)
                     self.total_creds += int(c.creds)
             elif isinstance(req, MultiCourseReq):
@@ -245,6 +246,10 @@ class Student:
                         req.creds_taken += int(c.creds)
                         if req.creds_taken >= req.creds_needed:
                             req.satisfied = True
+                            req.ap_satisfied = False
+                            for c in req.courses:
+                                if c.ap:
+                                    req.ap_satisfied = True
                         else:
                             req.next += 1
                         bio.curr_creds += int(c.creds)
@@ -296,10 +301,11 @@ class Student:
                     else:
                         req.courses.append(c)
                     req.creds_taken += int(c.creds)
-                    assert (len(re.findall(r'\d+', c.num)) == 1), "Error reading course number: %s" % c.num
-                    c_num = int(re.findall(r'\d+', c.num)[0])
-                    if c_num >= 2000:
-                        req.over2000s += 1
+                    if not c.ap:
+                        assert (len(re.findall(r'\d+', c.num)) == 1), "Error reading course number: %s" % c.num
+                        c_num = int(re.findall(r'\d+', c.num)[0])
+                        if c_num >= 2000:
+                            req.over2000s += 1
                     test1 = req.creds_taken >= req.creds_needed
                     test2 = req.over2000s >= 1
                     test3 = categories_represented(req.courses) >= 3

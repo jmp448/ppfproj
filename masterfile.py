@@ -5,6 +5,11 @@ from support_files.web_reader import *
 
 def main():
 
+    # Make sure the transcript file is in place
+    print("Current directory: %s\n" % os.getcwd())
+    print("Contents of current directory: %s\n" % os.listdir("."))
+    print("Contents of Transcript folder: %s\n" % os.listdir("./Transcript"))
+
     # Ask user if they want to refresh liberal arts and focus area courses
     refresh_lib = input("Would you like to refresh the liberal arts course listings from online?  Yes or No\n")
     if refresh_lib == "Yes":
