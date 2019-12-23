@@ -14,7 +14,7 @@ In order to make sure the program will run properly, ensure the following files 
     - `research_ta_etc.xlsx` - a list of courses like research and TA credit from which you can get up to 4 credits of focus area credits, and from there 
     
 ##### What's in the files?
-- `transcript.xlsx` should have the following columns, with column names written *exactly* as shown below in bold:
+- `transcript.xlsx` should have the following columns, with column names written *exactly* as shown below in bold.  The program can handle multiple sheets of transcripts in a single excel file, or all transcripts on a single sheet, it doesn't matter.  Column names:
     - **Effdt Preferred Name** (student name in the format *last,first middle* ie *Popp,Joshua Michael*)
     - **Netid** (student net ID)
     - **Employee Id** (student ID)

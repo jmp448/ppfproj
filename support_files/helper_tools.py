@@ -113,6 +113,22 @@ def designate_columns(transcript):
     return cols
 
 
+def open_transcript_file(filename):
+
+    wb = load_workbook(filename=filename, data_only=True)
+    first_transcript = None
+    num_transcripts = 0
+    for i in range(len(wb.sheetnames)):
+        wb.active = i
+        f = wb.active
+        if f['A1'].value == 'Effdt Preferred Name':
+            if first_transcript is None:
+                first_transcript = i
+            num_transcripts += 1
+
+    return wb, first_transcript, num_transcripts
+
+
 def open_excel_file(filename):
 
     wb = load_workbook(filename=filename, data_only=True)
